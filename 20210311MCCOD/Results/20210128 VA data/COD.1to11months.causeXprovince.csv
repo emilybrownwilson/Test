@@ -1,0 +1,54 @@
+"province","InsilicoVA","n","freq"
+"Cabo Delgado","diarrhea",6,0.122
+"Cabo Delgado","hiv",2,0.041
+"Cabo Delgado","malaria",7,0.143
+"Cabo Delgado","other",1,0.02
+"Cabo Delgado","other_infections",17,0.347
+"Cabo Delgado","pneumonia",15,0.306
+"Cabo Delgado","severe_malnutrition",1,0.02
+"Gaza","diarrhea",1,0.2
+"Gaza","malaria",1,0.2
+"Gaza","other_infections",1,0.2
+"Gaza","pneumonia",2,0.4
+"Inhambane","hiv",1,0.143
+"Inhambane","malaria",1,0.143
+"Inhambane","other",3,0.429
+"Inhambane","other_infections",1,0.143
+"Inhambane","pneumonia",1,0.143
+"Manica","diarrhea",14,0.275
+"Manica","hiv",1,0.02
+"Manica","malaria",8,0.157
+"Manica","other",2,0.039
+"Manica","other_infections",14,0.275
+"Manica","pneumonia",12,0.235
+"Maputo Cidade","diarrhea",2,1
+"Maputo Provincia","pneumonia",1,1
+"Nampula","diarrhea",7,0.412
+"Nampula","malaria",3,0.176
+"Nampula","other",1,0.059
+"Nampula","other_infections",3,0.176
+"Nampula","pneumonia",3,0.176
+"Niassa","diarrhea",1,0.143
+"Niassa","malaria",1,0.143
+"Niassa","other",1,0.143
+"Niassa","other_infections",4,0.571
+"Sofala","diarrhea",4,0.25
+"Sofala","hiv",1,0.062
+"Sofala","malaria",3,0.188
+"Sofala","other",1,0.062
+"Sofala","other_infections",2,0.125
+"Sofala","pneumonia",4,0.25
+"Sofala","severe_malnutrition",1,0.062
+"Tete","diarrhea",10,0.204
+"Tete","malaria",7,0.143
+"Tete","other",3,0.061
+"Tete","other_infections",15,0.306
+"Tete","pneumonia",13,0.265
+"Tete","severe_malnutrition",1,0.02
+"Zambezia","diarrhea",16,0.232
+"Zambezia","hiv",3,0.043
+"Zambezia","malaria",9,0.13
+"Zambezia","other",4,0.058
+"Zambezia","other_infections",18,0.261
+"Zambezia","pneumonia",16,0.232
+"Zambezia","severe_malnutrition",3,0.043

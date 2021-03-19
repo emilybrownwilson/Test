@@ -1,0 +1,24 @@
+{
+    "id": "BBDC97D6",
+    "path": "~/Desktop/COMSA Analysis/Raw to CalibratedVA input pipeline/For/20210311MCCOD/6b. multi_eava_comsa.R",
+    "project_path": "6b. multi_eava_comsa.R",
+    "type": "r_source",
+    "hash": "3385889402",
+    "contents": "",
+    "dirty": false,
+    "created": 1615575026564.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "cursorPosition": "0,0",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1615576382,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1615576382982,
+    "read_only": false,
+    "read_only_alternatives": []
+}

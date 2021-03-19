@@ -1,0 +1,24 @@
+{
+    "id": "2F719F11",
+    "path": "~/Desktop/COMSA Analysis/Raw to CalibratedVA input pipeline/For/20210208Ivalda/9. get 5to14 15to49 and 50plus V2.R",
+    "project_path": "9. get 5to14 15to49 and 50plus V2.R",
+    "type": "r_source",
+    "hash": "579690107",
+    "contents": "",
+    "dirty": false,
+    "created": 1612810917895.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "cursorPosition": "332,0",
+        "scrollLine": "300"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1613081216,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1613081216125,
+    "read_only": false,
+    "read_only_alternatives": []
+}

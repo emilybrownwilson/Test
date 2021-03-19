@@ -1,0 +1,1075 @@
+"ID","InterVA_sm_cause","InsilicoVA_sm_cause","EAVA_sm_cause","sex","province","age_in_days","InterVA","InsilicoVA","EAVA","ageInDays","ageInMonths","ageInYears","age_group","age_child_unit","age_child_months","age_child_years"
+11,"HIV/AIDS related death","Diarrhoeal diseases","AIDS","male","Sofala",845,"hiv","diarrhea","hiv",845,3,2,"","",NA,NA
+30,"Other and unspecified infect dis","Acute resp infect incl pneumonia","Pneumonia","female","Sofala",35,"other_infections","pneumonia","pneumonia",35,1,0,"","",NA,NA
+34,"Meningitis and encephalitis","Acute resp infect incl pneumonia","Pneumonia","female","Sofala",49,"other_infections","pneumonia","pneumonia",49,1,0,"","",NA,NA
+40,"Malaria","Malaria","Other infections","male","Sofala",977,"malaria","malaria","other_infections",977,8,2,"","",NA,NA
+42,"Acute resp infect incl pneumonia","Other and unspecified infect dis","Pneumonia","female","Cabo Delgado",493,"pneumonia","other_infections","pneumonia",493,4,1,"","",NA,NA
+44,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Cabo Delgado",1556,"diarrhea","diarrhea","diarrhea",1556,3,4,"","",NA,NA
+47,"Meningitis and encephalitis","Meningitis and encephalitis","Meningitis/Encephalitis","male","Cabo Delgado",930,"other_infections","other_infections","other_infections",930,6,2,"","",NA,NA
+48,"Meningitis and encephalitis","Accid fall","Injury","male","Nampula",285,"other_infections","other","other",285,9,0,"","",NA,NA
+50,"Malaria","Malaria","Pneumonia","female","Nampula",397,"malaria","malaria","pneumonia",397,1,1,"","",NA,NA
+51,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Nampula",1117,"diarrhea","diarrhea","diarrhea",1117,0,3,"","",NA,NA
+56,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Diarrhea/Dysentery","female","Tete",459,"pneumonia","pneumonia","diarrhea",459,3,1,"","",NA,NA
+60,"Malaria","Malaria","Pneumonia","male","Cabo Delgado",846,"malaria","malaria","pneumonia",846,3,2,"","",NA,NA
+66,"Other and unspecified infect dis","Other and unspecified infect dis","Meningitis/Encephalitis","male","Tete",819,"other_infections","other_infections","other_infections",819,2,2,"","",NA,NA
+75,"Meningitis and encephalitis","Diarrhoeal diseases","Intrapartum","female","Zambezia",30,"other_infections","diarrhea","other",30,0,0,"","",NA,NA
+78,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","female","Zambezia",654,"pneumonia","pneumonia","pneumonia",654,9,1,"","",NA,NA
+79,"Meningitis and encephalitis","Meningitis and encephalitis","Meningitis/Encephalitis","female","Zambezia",196,"other_infections","other_infections","other_infections",196,6,0,"","",NA,NA
+80,"Meningitis and encephalitis","Diarrhoeal diseases","Meningitis/Encephalitis","female","Zambezia",172,"other_infections","diarrhea","other_infections",172,5,0,"","",NA,NA
+82,"Diarrhoeal diseases","Other and unspecified infect dis","Unspecified","male","Zambezia",32,"diarrhea","other_infections","undecided",32,1,0,"","",NA,NA
+84,"Diarrhoeal diseases","Diarrhoeal diseases","Unspecified","male","Zambezia",184,"diarrhea","diarrhea","undecided",184,6,0,"","",NA,NA
+88,"Acute cardiac disease","Malaria","Unspecified","male","Zambezia",1525,"other","malaria","undecided",1525,2,4,"","",NA,NA
+92,"Malaria","Malaria","Unspecified","male","Zambezia",1623,"malaria","malaria","undecided",1623,5,4,"","",NA,NA
+93,"HIV/AIDS related death","Assault","Injury","female","Zambezia",1621,"hiv","other","other",1621,5,4,"","",NA,NA
+94,"Other and unspecified infect dis","Acute resp infect incl pneumonia","Pneumonia","male","Zambezia",107,"other_infections","pneumonia","pneumonia",107,3,0,"","",NA,NA
+95,"Sickle cell with crisis","Pertussis","Unspecified","female","Zambezia",91,"other","other_infections","undecided",91,2,0,"","",NA,NA
+99,"Diarrhoeal diseases","Diarrhoeal diseases","Unspecified","female","Tete",457,"diarrhea","diarrhea","undecided",457,3,1,"","",NA,NA
+100,"Other and unspecified infect dis","Other and unspecified infect dis","Diarrhea/Dysentery","female","Tete",427,"other_infections","other_infections","diarrhea",427,2,1,"","",NA,NA
+106,"Other and unspecified infect dis","Other and unspecified infect dis","Meningitis/Encephalitis","female","Nampula",364.8,"other_infections","other_infections","other_infections",NA,NA,NA,"child","months",12,NA
+108,"Malaria","Malaria","Other infections","female","Cabo Delgado",579,"malaria","malaria","other_infections",579,7,1,"","",NA,NA
+119,"Malaria","Malaria","Pneumonia","male","Cabo Delgado",1095.75,"malaria","malaria","pneumonia",NA,NA,NA,"child","years",NA,3
+126,"Diarrhoeal diseases","Acute resp infect incl pneumonia","Malaria","female","Tete",323,"diarrhea","pneumonia","malaria",323,10,0,"","",NA,NA
+128,"Diarrhoeal diseases","Malaria","Diarrhea/Dysentery","female","Cabo Delgado",980,"diarrhea","malaria","diarrhea",980,8,2,"","",NA,NA
+140,"Meningitis and encephalitis","Stroke","Meningitis/Encephalitis","female","Cabo Delgado",146,"other_infections","other","other_infections",146,4,0,"","",NA,NA
+142,"Tetanus","Acute resp infect incl pneumonia","Malformation","male","Cabo Delgado",44,"other_infections","pneumonia","other",44,1,0,"","",NA,NA
+145,"Stroke","Other and unspecified infect dis","Meningitis/Encephalitis","male","Cabo Delgado",815,"other","other_infections","other_infections",815,2,2,"","",NA,NA
+146,"Stroke","Other and unspecified infect dis","Measles","female","Nampula",742,"other","other_infections","other_infections",742,0,2,"","",NA,NA
+147,"Stroke","Stroke","Other infections","female","Nampula",1476,"other","other","other_infections",1476,0,4,"","",NA,NA
+161,"Severe malnutrition","Severe malnutrition","Malnutrition","female","Cabo Delgado",460,"severe_malnutrition","severe_malnutrition","severe_malnutrition",460,3,1,"","",NA,NA
+165,"Diarrhoeal diseases","Diarrhoeal diseases","Meningitis/Encephalitis","male","Cabo Delgado",389,"diarrhea","diarrhea","other_infections",389,0,1,"","",NA,NA
+175,"Meningitis and encephalitis","Acute resp infect incl pneumonia","Other infections","female","Tete",185,"other_infections","pneumonia","other_infections",185,6,0,"","",NA,NA
+177,"Malaria","Malaria","Other infections","female","Tete",711,"malaria","malaria","other_infections",711,11,1,"","",NA,NA
+178,"Sickle cell with crisis","Acute resp infect incl pneumonia","Pneumonia","male","Tete",167,"other","pneumonia","pneumonia",167,5,0,"","",NA,NA
+180,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Zambezia",386,"diarrhea","diarrhea","diarrhea",386,0,1,"","",NA,NA
+181,"Diarrhoeal diseases","Malaria","Diarrhea/Dysentery","female","Tete",392,"diarrhea","malaria","diarrhea",392,0,1,"","",NA,NA
+182,"Malaria","Malaria","Pneumonia","female","Tete",1120,"malaria","malaria","pneumonia",1120,0,3,"","",NA,NA
+183,"Sickle cell with crisis","Other and unspecified infect dis","Pneumonia","male","Zambezia",147,"other","other_infections","pneumonia",147,4,0,"","",NA,NA
+185,"Diarrhoeal diseases","Diarrhoeal diseases","Malnutrition","female","Zambezia",729,"diarrhea","diarrhea","severe_malnutrition",729,11,1,"","",NA,NA
+187,"HIV/AIDS related death","Diarrhoeal diseases","Diarrhea/Dysentery","female","Sofala",973,"hiv","diarrhea","diarrhea",973,7,2,"","",NA,NA
+194,"Other and unspecified infect dis","Other and unspecified infect dis","Pneumonia","female","Sofala",730.5,"other_infections","other_infections","pneumonia",NA,NA,NA,"child","years",NA,2
+197,"Diarrhoeal diseases","Diarrhoeal diseases","Meningitis/Encephalitis","male","Nampula",202,"diarrhea","diarrhea","other_infections",202,6,0,"","",NA,NA
+200,"Diarrhoeal diseases","Diarrhoeal diseases","Meningitis/Encephalitis","male","Cabo Delgado",353,"diarrhea","diarrhea","other_infections",353,11,0,"","",NA,NA
+201,"Sickle cell with crisis","Malaria","Pneumonia","male","Cabo Delgado",934,"other","malaria","pneumonia",934,6,2,"","",NA,NA
+205,"Diarrhoeal diseases","Diarrhoeal diseases","Intrapartum","male","Nampula",66,"diarrhea","diarrhea","other",66,2,0,"","",NA,NA
+206,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","female","Nampula",1373,"diarrhea","diarrhea","diarrhea",1373,9,3,"","",NA,NA
+215,"Sickle cell with crisis","Acute resp infect incl pneumonia","Unspecified","female","Tete",77,"other","pneumonia","undecided",77,2,0,"","",NA,NA
+216,"Malaria","Malaria","Pneumonia","male","Tete",840,"malaria","malaria","pneumonia",840,3,2,"","",NA,NA
+223,"Diarrhoeal diseases","Malaria","Pneumonia","female","Cabo Delgado",284,"diarrhea","malaria","pneumonia",284,9,0,"","",NA,NA
+236,"Sickle cell with crisis","Acute resp infect incl pneumonia","Pneumonia","male","Nampula",63,"other","pneumonia","pneumonia",63,2,0,"","",NA,NA
+237,"Other and unspecified infect dis","Acute resp infect incl pneumonia","Meningitis/Encephalitis","female","Nampula",182,"other_infections","pneumonia","other_infections",182,5,0,"","",NA,NA
+242,"Meningitis and encephalitis","Dengue fever","Other infections","female","Cabo Delgado",1028,"other_infections","other_infections","other_infections",1028,9,2,"","",NA,NA
+243,"Severe malnutrition","Meningitis and encephalitis","Meningitis/Encephalitis","male","Nampula",70,"severe_malnutrition","other_infections","other_infections",70,2,0,"","",NA,NA
+245,"Diarrhoeal diseases","Diarrhoeal diseases","Unspecified","male","Tete",531,"diarrhea","diarrhea","undecided",531,5,1,"","",NA,NA
+248,"Malaria","Malaria","Pneumonia","male","Nampula",402,"malaria","malaria","pneumonia",402,1,1,"","",NA,NA
+253,"Other and unspecified infect dis","Other and unspecified infect dis","Malnutrition","female","Sofala",937,"other_infections","other_infections","severe_malnutrition",937,6,2,"","",NA,NA
+254,"Meningitis and encephalitis","Meningitis and encephalitis","Unspecified","male","Sofala",31,"other_infections","other_infections","undecided",31,1,0,"","",NA,NA
+257,"Meningitis and encephalitis","Meningitis and encephalitis","Other infections","female","Sofala",30,"other_infections","other_infections","other_infections",30,0,0,"","",NA,NA
+260,"Other and unspecified infect dis","Other and unspecified infect dis","Intrapartum","female","Sofala",61,"other_infections","other_infections","other",61,2,0,"","",NA,NA
+272,"Malaria","Malaria","Meningitis/Encephalitis","male","Tete",427,"malaria","malaria","other_infections",427,2,1,"","",NA,NA
+273,"Other and unspecified infect dis","Acute resp infect incl pneumonia","Pneumonia","female","Tete",117,"other_infections","pneumonia","pneumonia",117,3,0,"","",NA,NA
+279,"Epilepsy","Congenital malformation","Unspecified","male","Tete",555,"other","other","undecided",555,6,1,"","",NA,NA
+286,"Assault","Assault","Injury","male","Tete",1094,"other","other","other",1094,11,2,"","",NA,NA
+287,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","female","Tete",1142,"pneumonia","pneumonia","pneumonia",1142,1,3,"","",NA,NA
+290,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","female","Tete",794,"pneumonia","pneumonia","pneumonia",794,2,2,"","",NA,NA
+294,"Diarrhoeal diseases","Diarrhoeal diseases","Malnutrition","female","Tete",548,"diarrhea","diarrhea","severe_malnutrition",548,6,1,"","",NA,NA
+301,"Diarrhoeal diseases","Meningitis and encephalitis","Meningitis/Encephalitis","male","Tete",291,"diarrhea","other_infections","other_infections",291,9,0,"","",NA,NA
+304,"Meningitis and encephalitis","Meningitis and encephalitis","Other infections","male","Nampula",902,"other_infections","other_infections","other_infections",902,5,2,"","",NA,NA
+305,"Renal failure","HIV/AIDS related death","Malnutrition","male","Nampula",850,"other","hiv","severe_malnutrition",850,3,2,"","",NA,NA
+308,"Diarrhoeal diseases","Diarrhoeal diseases","Pneumonia","male","Nampula",193,"diarrhea","diarrhea","pneumonia",193,6,0,"","",NA,NA
+318,"Undetermined","Other and unspecified infect dis","Unspecified","male","Zambezia",419,"other","other_infections","undecided",419,1,1,"","",NA,NA
+322,"Other and unspecified infect dis","Other and unspecified infect dis","Pneumonia","male","Zambezia",686,"other_infections","other_infections","pneumonia",686,10,1,"","",NA,NA
+323,"Diarrhoeal diseases","Diarrhoeal diseases","Pneumonia","female","Zambezia",1491,"diarrhea","diarrhea","pneumonia",1491,0,4,"","",NA,NA
+325,"Other and unspecified infect dis","Other and unspecified infect dis","Malnutrition","male","Zambezia",1065,"other_infections","other_infections","severe_malnutrition",1065,11,2,"","",NA,NA
+327,"Diarrhoeal diseases","Diarrhoeal diseases","AIDS","female","Zambezia",122,"diarrhea","diarrhea","hiv",122,4,0,"","",NA,NA
+329,"Diarrhoeal diseases","Diarrhoeal diseases","Malnutrition","female","Zambezia",727,"diarrhea","diarrhea","severe_malnutrition",727,11,1,"","",NA,NA
+333,"Meningitis and encephalitis","Meningitis and encephalitis","Meningitis/Encephalitis","female","Sofala",212,"other_infections","other_infections","other_infections",212,6,0,"","",NA,NA
+341,"Malaria","Other and unspecified infect dis","Meningitis/Encephalitis","male","Zambezia",597,"malaria","other_infections","other_infections",597,7,1,"","",NA,NA
+342,"Other and unspecified infect dis","Acute resp infect incl pneumonia","Malformation","female","Zambezia",121.6,"other_infections","pneumonia","other",NA,NA,NA,"child","months",4,NA
+343,"Malaria","Malaria","Other infections","male","Zambezia",656,"malaria","malaria","other_infections",656,9,1,"","",NA,NA
+349,"Epilepsy","Epilepsy","Malnutrition","male","Zambezia",44,"other","other","severe_malnutrition",44,1,0,"","",NA,NA
+354,"Meningitis and encephalitis","Acute resp infect incl pneumonia","Meningitis/Encephalitis","female","Tete",89,"other_infections","pneumonia","other_infections",89,2,0,"","",NA,NA
+356,"Malaria","Malaria","Meningitis/Encephalitis","female","Tete",1113,"malaria","malaria","other_infections",1113,0,3,"","",NA,NA
+361,"Other and unspecified infect dis","Contact with venomous plant/animal","Injury","male","Tete",1051,"other_infections","other","other",1051,10,2,"","",NA,NA
+370,"Diarrhoeal diseases","Diarrhoeal diseases","AIDS","male","Zambezia",1459,"diarrhea","diarrhea","hiv",1459,11,3,"","",NA,NA
+377,"Meningitis and encephalitis","Acute resp infect incl pneumonia","Unspecified","female","Tete",194,"other_infections","pneumonia","undecided",194,6,0,"","",NA,NA
+380,"Malaria","Malaria","Pneumonia","male","Tete",1569,"malaria","malaria","pneumonia",1569,3,4,"","",NA,NA
+389,"Sickle cell with crisis","Acute resp infect incl pneumonia","Other infections","female","Zambezia",111,"other","pneumonia","other_infections",111,3,0,"","",NA,NA
+390,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Malnutrition","female","Zambezia",535,"pneumonia","pneumonia","severe_malnutrition",535,5,1,"","",NA,NA
+393,"Other and unspecified infect dis","Other and unspecified infect dis","Meningitis/Encephalitis","female","Zambezia",518,"other_infections","other_infections","other_infections",518,5,1,"","",NA,NA
+396,"Diarrhoeal diseases","Meningitis and encephalitis","Diarrhea/Dysentery","female","Zambezia",1131,"diarrhea","other_infections","diarrhea",1131,1,3,"","",NA,NA
+401,"Meningitis and encephalitis","Meningitis and encephalitis","Meningitis/Encephalitis","male","Zambezia",948,"other_infections","other_infections","other_infections",948,7,2,"","",NA,NA
+411,"Sickle cell with crisis","Acute resp infect incl pneumonia","Other infections","male","Zambezia",182,"other","pneumonia","other_infections",182,5,0,"","",NA,NA
+412,"Severe malnutrition","HIV/AIDS related death","AIDS","male","Zambezia",41,"severe_malnutrition","hiv","hiv",41,1,0,"","",NA,NA
+421,"Diarrhoeal diseases","Other and unspecified infect dis","Pneumonia","female","Zambezia",450,"diarrhea","other_infections","pneumonia",450,2,1,"","",NA,NA
+422,"Meningitis and encephalitis","Meningitis and encephalitis","Unspecified","female","Zambezia",40,"other_infections","other_infections","undecided",40,1,0,"","",NA,NA
+425,"Meningitis and encephalitis","Meningitis and encephalitis","Unspecified","female","Zambezia",31,"other_infections","other_infections","undecided",31,1,0,"","",NA,NA
+426,"Malaria","Malaria","Pneumonia","female","Zambezia",635,"malaria","malaria","pneumonia",635,8,1,"","",NA,NA
+432,"Diarrhoeal diseases","Diarrhoeal diseases","Meningitis/Encephalitis","male","Zambezia",1374,"diarrhea","diarrhea","other_infections",1374,9,3,"","",NA,NA
+433,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Other infections","male","Zambezia",1436,"pneumonia","pneumonia","other_infections",1436,11,3,"","",NA,NA
+434,"Other and unspecified infect dis","Other and unspecified infect dis","Other infections","female","Zambezia",1602,"other_infections","other_infections","other_infections",1602,4,4,"","",NA,NA
+435,"Liver cirrhosis","Other and unspecified infect dis","Malnutrition","male","Zambezia",1459,"other","other_infections","severe_malnutrition",1459,11,3,"","",NA,NA
+436,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","female","Zambezia",1126,"diarrhea","diarrhea","diarrhea",1126,0,3,"","",NA,NA
+438,"HIV/AIDS related death","HIV/AIDS related death","AIDS","female","Zambezia",365.25,"hiv","hiv","hiv",NA,NA,NA,"child","years",NA,1
+440,"HIV/AIDS related death","HIV/AIDS related death","AIDS","male","Zambezia",365.25,"hiv","hiv","hiv",NA,NA,NA,"child","years",NA,1
+451,"Malaria","Malaria","Other infections","male","Zambezia",1061,"malaria","malaria","other_infections",1061,10,2,"","",NA,NA
+457,"Malaria","Malaria","Other infections","male","Cabo Delgado",365.25,"malaria","malaria","other_infections",NA,NA,NA,"child","years",NA,1
+458,"Diarrhoeal diseases","Other and unspecified infect dis","Unspecified","male","Cabo Delgado",504,"diarrhea","other_infections","undecided",504,4,1,"","",NA,NA
+460,"Meningitis and encephalitis","Malaria","Other infections","male","Cabo Delgado",160,"other_infections","malaria","other_infections",160,5,0,"","",NA,NA
+464,"Other and unspecified infect dis","Other and unspecified infect dis","Pneumonia","female","Cabo Delgado",1095.75,"other_infections","other_infections","pneumonia",NA,NA,NA,"child","years",NA,3
+470,"Other and unspecified infect dis","Acute resp infect incl pneumonia","AIDS","female","Zambezia",200,"other_infections","pneumonia","hiv",200,6,0,"","",NA,NA
+472,"Meningitis and encephalitis","Acute resp infect incl pneumonia","Pneumonia","female","Zambezia",64,"other_infections","pneumonia","pneumonia",64,2,0,"","",NA,NA
+482,"Other and unspecified infect dis","Acute resp infect incl pneumonia","Malaria","female","Cabo Delgado",327,"other_infections","pneumonia","malaria",327,10,0,"","",NA,NA
+492,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Malnutrition","male","Cabo Delgado",374,"pneumonia","pneumonia","severe_malnutrition",374,0,1,"","",NA,NA
+500,"Meningitis and encephalitis","Malaria","Malformation","male","Cabo Delgado",281,"other_infections","malaria","other",281,9,0,"","",NA,NA
+501,"Malaria","Malaria","Meningitis/Encephalitis","male","Zambezia",943,"malaria","malaria","other_infections",943,6,2,"","",NA,NA
+502,"Meningitis and encephalitis","Meningitis and encephalitis","Pneumonia","female","Zambezia",143,"other_infections","other_infections","pneumonia",143,4,0,"","",NA,NA
+507,"Malaria","Malaria","Unspecified","male","Zambezia",661,"malaria","malaria","undecided",661,9,1,"","",NA,NA
+525,"Other and unspecified infect dis","Acute resp infect incl pneumonia","Pneumonia","female","Tete",51,"other_infections","pneumonia","pneumonia",51,1,0,"","",NA,NA
+539,"Diarrhoeal diseases","Malaria","AIDS","female","Zambezia",177,"diarrhea","malaria","hiv",177,5,0,"","",NA,NA
+540,"Meningitis and encephalitis","Meningitis and encephalitis","Other infections","male","Tete",568,"other_infections","other_infections","other_infections",568,6,1,"","",NA,NA
+542,"Undetermined","Acute resp infect incl pneumonia","Unspecified","female","Tete",952,"other_infections","pneumonia","undecided",952,7,2,"","",NA,NA
+543,"Diabetes mellitus","Diabetes mellitus","Other infections","male","Cabo Delgado",1295,"other","other","other_infections",1295,6,3,"","",NA,NA
+551,"Epilepsy","Diarrhoeal diseases","Unspecified","male","Zambezia",120,"other","diarrhea","undecided",120,3,0,"","",NA,NA
+569,"Meningitis and encephalitis","Acute resp infect incl pneumonia","Meningitis/Encephalitis","male","Sofala",134,"other_infections","pneumonia","other_infections",134,4,0,"","",NA,NA
+574,"Diarrhoeal diseases","Pertussis","Pneumonia","female","Zambezia",60.8,"diarrhea","other_infections","pneumonia",NA,NA,NA,"child","months",2,NA
+575,"Tetanus","Tetanus","Unspecified","female","Zambezia",246,"other_infections","other_infections","undecided",246,8,0,"","",NA,NA
+584,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","male","Tete",896,"pneumonia","pneumonia","pneumonia",896,5,2,"","",NA,NA
+590,"Sepsis (non-obstetric)","Other and unspecified infect dis","Pneumonia","male","Zambezia",730.5,"other_infections","other_infections","pneumonia",NA,NA,NA,"child","years",NA,2
+594,"Other and unspecified infect dis","Pertussis","Pneumonia","male","Zambezia",334.4,"other_infections","other_infections","pneumonia",NA,NA,NA,"child","months",11,NA
+596,"Diarrhoeal diseases","Acute abdomen","Unspecified","male","Zambezia",774,"diarrhea","other","undecided",774,1,2,"","",NA,NA
+599,"Malaria","Malaria","Pneumonia","male","Zambezia",1164,"malaria","malaria","pneumonia",1164,2,3,"","",NA,NA
+605,"Diarrhoeal diseases","Diarrhoeal diseases","Unspecified","female","Zambezia",741,"diarrhea","diarrhea","undecided",741,0,2,"","",NA,NA
+618,"HIV/AIDS related death","Malaria","AIDS","male","Tete",690,"hiv","malaria","hiv",690,10,1,"","",NA,NA
+624,"Malaria","Malaria","Other infections","male","Tete",381,"malaria","malaria","other_infections",381,0,1,"","",NA,NA
+630,"Severe anaemia","Pertussis","Pneumonia","male","Cabo Delgado",473,"other","other_infections","pneumonia",473,3,1,"","",NA,NA
+634,"Diabetes mellitus","Malaria","Unspecified","male","Cabo Delgado",1144,"other","malaria","undecided",1144,1,3,"","",NA,NA
+636,"Meningitis and encephalitis","Meningitis and encephalitis","Meningitis/Encephalitis","female","Cabo Delgado",1058,"other_infections","other_infections","other_infections",1058,10,2,"","",NA,NA
+648,"Diarrhoeal diseases","Diarrhoeal diseases","Pneumonia","male","Zambezia",91.2,"diarrhea","diarrhea","pneumonia",NA,NA,NA,"child","months",3,NA
+654,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","female","Zambezia",182.4,"diarrhea","diarrhea","diarrhea",NA,NA,NA,"child","months",6,NA
+658,"Sickle cell with crisis","HIV/AIDS related death","Intrapartum","female","Zambezia",233,"other","hiv","other",233,7,0,"","",NA,NA
+666,"Other and unspecified infect dis","Acute resp infect incl pneumonia","Meningitis/Encephalitis","male","Zambezia",363,"other_infections","pneumonia","other_infections",363,11,0,"","",NA,NA
+672,"Diarrhoeal diseases","Malaria","Unspecified","male","Sofala",396,"diarrhea","malaria","undecided",396,1,1,"","",NA,NA
+681,"HIV/AIDS related death","Other and unspecified infect dis","Other infections","female","Zambezia",1191,"hiv","other_infections","other_infections",1191,3,3,"","",NA,NA
+684,"Diarrhoeal diseases","Diarrhoeal diseases","Pneumonia","female","Zambezia",97,"diarrhea","diarrhea","pneumonia",97,3,0,"","",NA,NA
+685,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Zambezia",365.25,"diarrhea","diarrhea","diarrhea",NA,NA,NA,"child","years",NA,1
+687,"HIV/AIDS related death","HIV/AIDS related death","Pneumonia","male","Zambezia",369,"hiv","hiv","pneumonia",369,0,1,"","",NA,NA
+728,"Dengue fever","Dengue fever","Other infections","male","Cabo Delgado",365.25,"other_infections","other_infections","other_infections",NA,NA,NA,"child","years",NA,1
+731,"Meningitis and encephalitis","Meningitis and encephalitis","Meningitis/Encephalitis","female","Cabo Delgado",144,"other_infections","other_infections","other_infections",144,4,0,"","",NA,NA
+737,"Other and unspecified infect dis","Other and unspecified infect dis","Pneumonia","female","Cabo Delgado",1237,"other_infections","other_infections","pneumonia",1237,4,3,"","",NA,NA
+746,"Meningitis and encephalitis","Meningitis and encephalitis","Diarrhea/Dysentery","female","Cabo Delgado",287,"other_infections","other_infections","diarrhea",287,9,0,"","",NA,NA
+756,"Diarrhoeal diseases","Diarrhoeal diseases","Meningitis/Encephalitis","male","Nampula",38,"diarrhea","diarrhea","other_infections",38,1,0,"","",NA,NA
+761,"Severe malnutrition","Severe malnutrition","Diarrhea/Dysentery","male","Cabo Delgado",61,"severe_malnutrition","severe_malnutrition","diarrhea",61,2,0,"","",NA,NA
+767,"Malaria","Meningitis and encephalitis","Meningitis/Encephalitis","female","Cabo Delgado",1546,"malaria","other_infections","other_infections",1546,2,4,"","",NA,NA
+769,"Malaria","Malaria","Diarrhea/Dysentery","female","Cabo Delgado",1568,"malaria","malaria","diarrhea",1568,3,4,"","",NA,NA
+783,"Other and unspecified infect dis","Other and unspecified infect dis","Meningitis/Encephalitis","female","Nampula",347,"other_infections","other_infections","other_infections",347,11,0,"","",NA,NA
+792,"HIV/AIDS related death","Other and unspecified infect dis","Meningitis/Encephalitis","male","Tete",1155,"hiv","other_infections","other_infections",1155,1,3,"","",NA,NA
+804,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","male","Tete",682,"pneumonia","pneumonia","pneumonia",682,10,1,"","",NA,NA
+831,"Meningitis and encephalitis","Acute resp infect incl pneumonia","Malaria","male","Cabo Delgado",150,"other_infections","pneumonia","malaria",150,4,0,"","",NA,NA
+845,"Diarrhoeal diseases","Acute resp infect incl pneumonia","Pneumonia","male","Zambezia",243.2,"diarrhea","pneumonia","pneumonia",NA,NA,NA,"child","months",8,NA
+847,"Diarrhoeal diseases","Malaria","Malaria","female","Zambezia",91.2,"diarrhea","malaria","malaria",NA,NA,NA,"child","months",3,NA
+853,"HIV/AIDS related death","HIV/AIDS related death","Diarrhea/Dysentery","male","Zambezia",1461,"hiv","hiv","diarrhea",NA,NA,NA,"child","years",NA,4
+857,"Diarrhoeal diseases","Diarrhoeal diseases","Intrapartum","male","Nampula",113,"diarrhea","diarrhea","other",113,3,0,"","",NA,NA
+859,"Epilepsy","Stroke","Unspecified","female","Cabo Delgado",472,"other","other","undecided",472,3,1,"","",NA,NA
+862,"Malaria","Malaria","Diarrhea/Dysentery","female","Cabo Delgado",450,"malaria","malaria","diarrhea",450,2,1,"","",NA,NA
+865,"Tetanus","Diarrhoeal diseases","Intrapartum","female","Sofala",152,"other_infections","diarrhea","other",NA,NA,NA,"child","months",5,NA
+866,"Other and unspecified infect dis","Other and unspecified infect dis","Diarrhea/Dysentery","female","Sofala",182.4,"other_infections","other_infections","diarrhea",NA,NA,NA,"child","months",6,NA
+871,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Cabo Delgado",524,"diarrhea","diarrhea","diarrhea",524,5,1,"","",NA,NA
+878,"Other and unspecified infect dis","Other and unspecified infect dis","Pneumonia","male","Zambezia",213,"other_infections","other_infections","pneumonia",213,7,0,"","",NA,NA
+879,"Meningitis and encephalitis","Dengue fever","Other infections","female","Cabo Delgado",1464,"other_infections","other_infections","other_infections",1464,0,4,"","",NA,NA
+888,"Diarrhoeal diseases","Acute resp infect incl pneumonia","Unspecified","female","Cabo Delgado",214,"diarrhea","pneumonia","undecided",214,7,0,"","",NA,NA
+889,"Meningitis and encephalitis","Dengue fever","Other infections","male","Cabo Delgado",937,"other_infections","other_infections","other_infections",937,6,2,"","",NA,NA
+891,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","female","Cabo Delgado",330,"diarrhea","diarrhea","diarrhea",330,10,0,"","",NA,NA
+899,"Other and unspecified infect dis","Malaria","Pneumonia","female","Cabo Delgado",196,"other_infections","malaria","pneumonia",196,6,0,"","",NA,NA
+916,"Meningitis and encephalitis","Meningitis and encephalitis","Meningitis/Encephalitis","male","Zambezia",151,"other_infections","other_infections","other_infections",151,4,0,"","",NA,NA
+921,"Diarrhoeal diseases","Diarrhoeal diseases","Unspecified","male","Zambezia",725,"diarrhea","diarrhea","undecided",725,11,1,"","",NA,NA
+930,"Malaria","Malaria","Pneumonia","male","Zambezia",840,"malaria","malaria","pneumonia",840,3,2,"","",NA,NA
+936,"Diarrhoeal diseases","Diarrhoeal diseases","Meningitis/Encephalitis","male","Cabo Delgado",730.5,"diarrhea","diarrhea","other_infections",NA,NA,NA,"child","years",NA,2
+938,"Malaria","Malaria","Malnutrition","female","Zambezia",789,"malaria","malaria","severe_malnutrition",789,1,2,"","",NA,NA
+939,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","female","Zambezia",1445,"pneumonia","pneumonia","pneumonia",1445,11,3,"","",NA,NA
+941,"Meningitis and encephalitis","Meningitis and encephalitis","Unspecified","male","Cabo Delgado",116,"other_infections","other_infections","undecided",116,3,0,"","",NA,NA
+963,"Diarrhoeal diseases","Acute resp infect incl pneumonia","Meningitis/Encephalitis","female","Tete",32,"diarrhea","pneumonia","other_infections",32,1,0,"","",NA,NA
+970,"Meningitis and encephalitis","Diarrhoeal diseases","Pneumonia","male","Cabo Delgado",77,"other_infections","other_infections","pneumonia",77,2,0,"","",NA,NA
+971,"Diarrhoeal diseases","Diarrhoeal diseases","Intrapartum","female","Tete",181,"diarrhea","diarrhea","other",181,5,0,"","",NA,NA
+972,"Sickle cell with crisis","Acute resp infect incl pneumonia","Pneumonia","female","Tete",181,"other","pneumonia","pneumonia",181,5,0,"","",NA,NA
+974,"Diarrhoeal diseases","Diarrhoeal diseases","Unspecified","male","Tete",822,"diarrhea","diarrhea","undecided",822,3,2,"","",NA,NA
+976,"Meningitis and encephalitis","Meningitis and encephalitis","Unspecified","male","Tete",259,"other_infections","other_infections","undecided",259,8,0,"","",NA,NA
+980,"Tetanus","Other and unspecified infect dis","Pneumonia","female","Zambezia",265,"other_infections","other_infections","pneumonia",265,8,0,"","",NA,NA
+987,"Diarrhoeal diseases","Diarrhoeal diseases","AIDS","male","Tete",472,"diarrhea","diarrhea","hiv",472,3,1,"","",NA,NA
+1004,"Meningitis and encephalitis","Malaria","Intrapartum","female","Tete",256,"other_infections","malaria","other",256,8,0,"","",NA,NA
+1010,"Malaria","Malaria","Pneumonia","male","Nampula",432,"malaria","malaria","pneumonia",432,2,1,"","",NA,NA
+1017,"Diarrhoeal diseases","Diarrhoeal diseases","Intrapartum","male","Tete",32,"diarrhea","diarrhea","other",32,1,0,"","",NA,NA
+1022,"Meningitis and encephalitis","Meningitis and encephalitis","Malformation","female","Cabo Delgado",28,"other_infections","other_infections","other",28,0,0,"","",NA,NA
+1036,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Tete",115,"diarrhea","diarrhea","diarrhea",115,3,0,"","",NA,NA
+1039,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Diarrhea/Dysentery","male","Tete",531,"pneumonia","pneumonia","diarrhea",531,5,1,"","",NA,NA
+1049,"Diarrhoeal diseases","Diarrhoeal diseases","Malnutrition","male","Zambezia",413,"diarrhea","diarrhea","severe_malnutrition",413,1,1,"","",NA,NA
+1051,"Meningitis and encephalitis","Meningitis and encephalitis","Meningitis/Encephalitis","male","Zambezia",212.8,"other_infections","other_infections","other_infections",NA,NA,NA,"child","months",7,NA
+1057,"Other and unspecified infect dis","Other and unspecified cardiac dis","Other infections","male","Cabo Delgado",32,"other_infections","other","other_infections",32,1,0,"","",NA,NA
+1062,"Meningitis and encephalitis","Acute resp infect incl pneumonia","Malformation","male","Cabo Delgado",137,"other_infections","pneumonia","other",137,4,0,"","",NA,NA
+1070,"Meningitis and encephalitis","Acute resp infect incl pneumonia","Malaria","male","Cabo Delgado",119,"other_infections","pneumonia","malaria",119,3,0,"","",NA,NA
+1083,"Diarrhoeal diseases","Diarrhoeal diseases","Unspecified","male","Nampula",121.6,"diarrhea","diarrhea","undecided",NA,NA,NA,"child","months",4,NA
+1087,"Other and unspecified infect dis","Other and unspecified infect dis","Intrapartum","male","Nampula",100,"other_infections","other_infections","other",100,3,0,"","",NA,NA
+1099,"Meningitis and encephalitis","Meningitis and encephalitis","Meningitis/Encephalitis","female","Tete",267,"other_infections","other_infections","other_infections",267,8,0,"","",NA,NA
+1100,"Severe malnutrition","Other and unspecified infect dis","Unspecified","male","Tete",899,"severe_malnutrition","other_infections","undecided",899,5,2,"","",NA,NA
+1134,"HIV/AIDS related death","Malaria","Other infections","male","Cabo Delgado",516,"hiv","malaria","other_infections",516,4,1,"","",NA,NA
+1146,"Diarrhoeal diseases","Other and unspecified infect dis","Meningitis/Encephalitis","female","Nampula",730.5,"diarrhea","other_infections","other_infections",NA,NA,NA,"child","years",NA,2
+1151,"Tetanus","Tetanus","Meningitis/Encephalitis","male","Zambezia",248,"other_infections","other_infections","other_infections",248,8,0,"","",NA,NA
+1156,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Zambezia",311,"diarrhea","diarrhea","diarrhea",311,10,0,"","",NA,NA
+1161,"Epilepsy","Epilepsy","Unspecified","female","Zambezia",865,"other","other","undecided",865,4,2,"","",NA,NA
+1181,"Diarrhoeal diseases","Diarrhoeal diseases","Other infections","male","Cabo Delgado",291,"diarrhea","diarrhea","other_infections",291,9,0,"","",NA,NA
+1184,"Diarrhoeal diseases","Diarrhoeal diseases","Malnutrition","female","Cabo Delgado",32,"diarrhea","diarrhea","severe_malnutrition",32,1,0,"","",NA,NA
+1195,"Meningitis and encephalitis","Other and unspecified infect dis","Pneumonia","male","Cabo Delgado",155,"other_infections","other_infections","pneumonia",155,5,0,"","",NA,NA
+1199,"Meningitis and encephalitis","Meningitis and encephalitis","Meningitis/Encephalitis","female","Cabo Delgado",791,"other_infections","other_infections","other_infections",791,1,2,"","",NA,NA
+1202,"Stroke","Stroke","Unspecified","female","Cabo Delgado",730.5,"other","other","undecided",NA,NA,NA,"child","years",NA,2
+1207,"HIV/AIDS related death","Other and unspecified infect dis","AIDS","female","Zambezia",752,"hiv","other_infections","hiv",752,0,2,"","",NA,NA
+1208,"Malaria","Malaria","Pneumonia","male","Zambezia",694,"malaria","malaria","pneumonia",694,10,1,"","",NA,NA
+1209,"Malaria","Malaria","Other infections","female","Zambezia",487,"malaria","malaria","other_infections",487,4,1,"","",NA,NA
+1218,"Diarrhoeal diseases","Malaria","Unspecified","female","Zambezia",32,"diarrhea","malaria","undecided",32,1,0,"","",NA,NA
+1234,"Meningitis and encephalitis","Accid fall","Injury","female","Cabo Delgado",1410,"other_infections","other","other",1410,10,3,"","",NA,NA
+1235,"Other and unspecified infect dis","Other and unspecified infect dis","Malaria","male","Tete",59,"other_infections","other_infections","malaria",59,1,0,"","",NA,NA
+1237,"Diarrhoeal diseases","Other and unspecified infect dis","Pneumonia","male","Tete",196,"diarrhea","other_infections","pneumonia",196,6,0,"","",NA,NA
+1250,"Meningitis and encephalitis","Meningitis and encephalitis","Meningitis/Encephalitis","male","Tete",34,"other_infections","other_infections","other_infections",34,1,0,"","",NA,NA
+1259,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Meningitis/Encephalitis","female","Sofala",579,"pneumonia","pneumonia","other_infections",579,7,1,"","",NA,NA
+1261,"Malaria","Other and unspecified infect dis","Other infections","male","Zambezia",643,"malaria","other_infections","other_infections",643,9,1,"","",NA,NA
+1263,"Accid expos to smoke fire & flame","Accid expos to smoke fire & flame","Injury","male","Zambezia",1136,"other","other","other",1136,1,3,"","",NA,NA
+1264,"Meningitis and encephalitis","Meningitis and encephalitis","Unspecified","female","Zambezia",93,"other_infections","other_infections","undecided",93,3,0,"","",NA,NA
+1265,"Diarrhoeal diseases","Diarrhoeal diseases","AIDS","male","Zambezia",76,"diarrhea","diarrhea","hiv",76,2,0,"","",NA,NA
+1275,"Diarrhoeal diseases","Diarrhoeal diseases","Pneumonia","male","Nampula",336,"diarrhea","diarrhea","pneumonia",336,11,0,"","",NA,NA
+1279,"Diarrhoeal diseases","Malaria","Diarrhea/Dysentery","male","Cabo Delgado",365.25,"diarrhea","malaria","diarrhea",NA,NA,NA,"child","years",NA,1
+1284,"Malaria","Malaria","Diarrhea/Dysentery","male","Nampula",714,"malaria","malaria","diarrhea",714,11,1,"","",NA,NA
+1289,"Malaria","Malaria","Unspecified","female","Zambezia",657,"other","malaria","undecided",657,9,1,"","",NA,NA
+1290,"Epilepsy","Malaria","Unspecified","male","Zambezia",206,"other","malaria","undecided",206,6,0,"","",NA,NA
+1300,"Diarrhoeal diseases","Acute resp infect incl pneumonia","Diarrhea/Dysentery","male","Zambezia",206,"diarrhea","pneumonia","diarrhea",206,6,0,"","",NA,NA
+1301,"Meningitis and encephalitis","Malaria","Pneumonia","female","Zambezia",126,"other_infections","malaria","pneumonia",126,4,0,"","",NA,NA
+1302,"Diarrhoeal diseases","Diarrhoeal diseases","Unspecified","female","Zambezia",34,"diarrhea","diarrhea","undecided",34,1,0,"","",NA,NA
+1313,"Diarrhoeal diseases","Diarrhoeal diseases","Unspecified","male","Zambezia",212,"diarrhea","diarrhea","undecided",212,6,0,"","",NA,NA
+1331,"Severe malnutrition","Acute resp infect incl pneumonia","Diarrhea/Dysentery","male","Sofala",105,"severe_malnutrition","pneumonia","diarrhea",105,3,0,"","",NA,NA
+1335,"Meningitis and encephalitis","Meningitis and encephalitis","Unspecified","male","Tete",123,"other_infections","other_infections","undecided",123,4,0,"","",NA,NA
+1343,"Diarrhoeal diseases","Acute resp infect incl pneumonia","Unspecified","male","Tete",295,"diarrhea","pneumonia","undecided",295,9,0,"","",NA,NA
+1344,"Sickle cell with crisis","Sickle cell with crisis","Unspecified","male","Tete",611,"other","other","undecided",611,8,1,"","",NA,NA
+1357,"Diarrhoeal diseases","Diarrhoeal diseases","Unspecified","male","Nampula",168,"diarrhea","diarrhea","undecided",168,5,0,"","",NA,NA
+1364,"HIV/AIDS related death","Other and unspecified infect dis","Pneumonia","male","Inhambane",377,"hiv","other_infections","pneumonia",377,0,1,"","",NA,NA
+1365,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Inhambane",726,"diarrhea","diarrhea","diarrhea",726,11,1,"","",NA,NA
+1380,"Diarrhoeal diseases","Pertussis","Diarrhea/Dysentery","female","Maputo Provincia",563,"diarrhea","other_infections","diarrhea",563,6,1,"","",NA,NA
+1399,"Diarrhoeal diseases","Malaria","Diarrhea/Dysentery","female","Manica",829,"diarrhea","malaria","diarrhea",829,3,2,"","",NA,NA
+1421,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Unspecified","male","Inhambane",334,"pneumonia","pneumonia","undecided",334,10,0,"","",NA,NA
+1429,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","male","Inhambane",910,"pneumonia","pneumonia","pneumonia",910,5,2,"","",NA,NA
+1452,"Diarrhoeal diseases","Diarrhoeal diseases","Pneumonia","female","Maputo Cidade",1223,"diarrhea","diarrhea","pneumonia",1223,4,3,"","",NA,NA
+1479,"Other and unspecified infect dis","Other and unspecified infect dis","Diarrhea/Dysentery","male","Inhambane",752,"other_infections","other_infections","diarrhea",752,0,2,"","",NA,NA
+1488,"Pulmonary tuberculosis","HIV/AIDS related death","Meningitis/Encephalitis","male","Inhambane",759,"other_infections","hiv","other_infections",759,0,2,"","",NA,NA
+1491,"Meningitis and encephalitis","Meningitis and encephalitis","Other infections","female","Gaza",229,"other_infections","other_infections","other_infections",229,7,0,"","",NA,NA
+1518,"Severe malnutrition","Severe malnutrition","Other infections","male","Gaza",144,"severe_malnutrition","severe_malnutrition","other_infections",144,4,0,"","",NA,NA
+1528,"Other and unspecified infect dis","Acute resp infect incl pneumonia","Pneumonia","female","Zambezia",68,"other_infections","pneumonia","pneumonia",68,2,0,"","",NA,NA
+1536,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Gaza",519,"diarrhea","diarrhea","diarrhea",519,5,1,"","",NA,NA
+1538,"Other and unspecified infect dis","Acute resp infect incl pneumonia","Malaria","female","Inhambane",101,"other_infections","pneumonia","malaria",101,3,0,"","",NA,NA
+1547,"Undetermined","Accid drowning and submersion","Injury","male","Zambezia",237,"other","other","other",237,7,0,"","",NA,NA
+1551,"Diarrhoeal diseases","Diarrhoeal diseases","Other infections","female","Zambezia",476,"diarrhea","diarrhea","other_infections",476,3,1,"","",NA,NA
+1567,"HIV/AIDS related death","Other and unspecified infect dis","Malnutrition","male","Zambezia",209,"hiv","other_infections","severe_malnutrition",209,6,0,"","",NA,NA
+1573,"Meningitis and encephalitis","Meningitis and encephalitis","Meningitis/Encephalitis","female","Zambezia",244,"other_infections","other_infections","other_infections",244,8,0,"","",NA,NA
+1575,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Zambezia",979,"diarrhea","diarrhea","diarrhea",979,8,2,"","",NA,NA
+1581,"Other and unspecified infect dis","Other and unspecified infect dis","Meningitis/Encephalitis","male","Inhambane",335,"other_infections","other_infections","other_infections",335,11,0,"","",NA,NA
+1584,"Diarrhoeal diseases","Diarrhoeal diseases","Pneumonia","male","Zambezia",369,"diarrhea","diarrhea","pneumonia",369,0,1,"","",NA,NA
+1591,"Meningitis and encephalitis","Acute resp infect incl pneumonia","Pneumonia","female","Zambezia",82,"other_infections","pneumonia","pneumonia",82,2,0,"","",NA,NA
+1592,"Malaria","Malaria","Pneumonia","female","Zambezia",457,"malaria","malaria","pneumonia",457,3,1,"","",NA,NA
+1593,"Meningitis and encephalitis","Acute resp infect incl pneumonia","Meningitis/Encephalitis","female","Zambezia",239,"other_infections","pneumonia","other_infections",239,7,0,"","",NA,NA
+1594,"Meningitis and encephalitis","Diarrhoeal diseases","Malaria","female","Zambezia",65,"other_infections","diarrhea","malaria",65,2,0,"","",NA,NA
+1611,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Unspecified","female","Zambezia",892,"pneumonia","pneumonia","undecided",892,5,2,"","",NA,NA
+1623,"Diarrhoeal diseases","HIV/AIDS related death","AIDS","female","Zambezia",152,"diarrhea","hiv","hiv",NA,NA,NA,"child","months",5,NA
+1628,"Undetermined","Malaria","Meningitis/Encephalitis","male","Zambezia",379,"other","malaria","other_infections",379,0,1,"","",NA,NA
+1636,"Road traffic accident","Road traffic accident","Injury","female","Gaza",337,"other","other","other",337,11,0,"","",NA,NA
+1644,"Diarrhoeal diseases","Malaria","Other infections","female","Zambezia",273.6,"diarrhea","malaria","other_infections",NA,NA,NA,"child","months",9,NA
+1651,"HIV/AIDS related death","Other and unspecified infect dis","Pneumonia","male","Cabo Delgado",795,"hiv","other_infections","pneumonia",795,2,2,"","",NA,NA
+1657,"Sepsis (non-obstetric)","Other and unspecified infect dis","Other infections","male","Zambezia",1114,"other_infections","other_infections","other_infections",1114,0,3,"","",NA,NA
+1658,"Meningitis and encephalitis","Meningitis and encephalitis","Meningitis/Encephalitis","female","Zambezia",31,"other_infections","other_infections","other_infections",31,1,0,"","",NA,NA
+1682,"Pertussis","Pertussis","Other infections","female","Manica",967,"other_infections","other_infections","other_infections",967,7,2,"","",NA,NA
+1686,"Diarrhoeal diseases","Diarrhoeal diseases","Malaria","male","Tete",212,"diarrhea","diarrhea","malaria",212,6,0,"","",NA,NA
+1688,"Acute resp infect incl pneumonia","Malaria","Pneumonia","female","Tete",250,"pneumonia","malaria","pneumonia",250,8,0,"","",NA,NA
+1693,"Diarrhoeal diseases","Diarrhoeal diseases","Meningitis/Encephalitis","female","Tete",1312,"diarrhea","diarrhea","other_infections",1312,7,3,"","",NA,NA
+1694,"Diarrhoeal diseases","Severe malnutrition","Malnutrition","male","Tete",146,"diarrhea","severe_malnutrition","severe_malnutrition",146,4,0,"","",NA,NA
+1702,"Diarrhoeal diseases","Diarrhoeal diseases","Meningitis/Encephalitis","male","Tete",364,"diarrhea","diarrhea","other_infections",364,11,0,"","",NA,NA
+1705,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","female","Tete",372,"pneumonia","pneumonia","pneumonia",372,0,1,"","",NA,NA
+1706,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","male","Tete",1097,"pneumonia","pneumonia","pneumonia",1097,0,3,"","",NA,NA
+1717,"Epilepsy","Epilepsy","Unspecified","female","Nampula",1113,"other","other","undecided",1113,0,3,"","",NA,NA
+1718,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Nampula",1325,"diarrhea","diarrhea","diarrhea",1325,7,3,"","",NA,NA
+1724,"HIV/AIDS related death","Severe malnutrition","Meningitis/Encephalitis","male","Nampula",732,"hiv","severe_malnutrition","other_infections",732,0,2,"","",NA,NA
+1729,"HIV/AIDS related death","Malaria","Other infections","male","Manica",473,"hiv","malaria","other_infections",473,3,1,"","",NA,NA
+1731,"Accid expos to smoke fire & flame","Accid expos to smoke fire & flame","Injury","female","Tete",1228,"other","other","other",1228,4,3,"","",NA,NA
+1733,"Acute resp infect incl pneumonia","Malaria","Pneumonia","male","Tete",422,"pneumonia","malaria","pneumonia",422,1,1,"","",NA,NA
+1734,"Diarrhoeal diseases","Meningitis and encephalitis","Meningitis/Encephalitis","female","Tete",179,"diarrhea","other_infections","other_infections",179,5,0,"","",NA,NA
+1737,"HIV/AIDS related death","HIV/AIDS related death","Other infections","female","Tete",606,"hiv","hiv","other_infections",606,7,1,"","",NA,NA
+1745,"HIV/AIDS related death","HIV/AIDS related death","Malnutrition","male","Tete",420,"hiv","hiv","severe_malnutrition",420,1,1,"","",NA,NA
+1748,"Diarrhoeal diseases","Diarrhoeal diseases","Pneumonia","female","Tete",838,"diarrhea","diarrhea","pneumonia",838,3,2,"","",NA,NA
+1749,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","female","Tete",314,"pneumonia","pneumonia","pneumonia",314,10,0,"","",NA,NA
+1750,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","female","Tete",33,"pneumonia","pneumonia","pneumonia",33,1,0,"","",NA,NA
+1752,"Accid expos to smoke fire & flame","Accid expos to smoke fire & flame","Injury","male","Tete",1375,"other","other","other",1375,9,3,"","",NA,NA
+1755,"Renal failure","Acute abdomen","Unspecified","female","Tete",463,"other","other","undecided",463,3,1,"","",NA,NA
+1761,"Diarrhoeal diseases","Diarrhoeal diseases","Unspecified","female","Cabo Delgado",154,"diarrhea","diarrhea","undecided",154,5,0,"","",NA,NA
+1764,"Liver cirrhosis","Acute abdomen","Unspecified","male","Cabo Delgado",76,"other","other","undecided",76,2,0,"","",NA,NA
+1773,"Road traffic accident","Road traffic accident","Injury","female","Cabo Delgado",1656,"other","other","other",1656,6,4,"","",NA,NA
+1780,"Severe malnutrition","Severe malnutrition","Malnutrition","male","Nampula",388,"severe_malnutrition","severe_malnutrition","severe_malnutrition",388,0,1,"","",NA,NA
+1782,"Malaria","Malaria","Other infections","female","Cabo Delgado",790,"malaria","malaria","other_infections",790,1,2,"","",NA,NA
+1784,"Severe malnutrition","Severe malnutrition","Meningitis/Encephalitis","female","Cabo Delgado",89,"severe_malnutrition","severe_malnutrition","other_infections",89,2,0,"","",NA,NA
+1785,"Renal failure","Malaria","Pneumonia","female","Tete",379,"other","malaria","pneumonia",379,0,1,"","",NA,NA
+1790,"Accid drowning and submersion","Accid drowning and submersion","Injury","male","Inhambane",386,"other","other","other",386,0,1,"","",NA,NA
+1805,"Sickle cell with crisis","Acute resp infect incl pneumonia","Other infections","female","Cabo Delgado",41,"other","pneumonia","other_infections",41,1,0,"","",NA,NA
+1810,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Cabo Delgado",348,"diarrhea","diarrhea","diarrhea",348,11,0,"","",NA,NA
+1827,"Liver cirrhosis","Diarrhoeal diseases","Other infections","male","Zambezia",1111,"other","diarrhea","other_infections",1111,0,3,"","",NA,NA
+1832,"Pertussis","Pertussis","Pneumonia","female","Zambezia",747,"other_infections","other_infections","pneumonia",747,0,2,"","",NA,NA
+1850,"Meningitis and encephalitis","Diarrhoeal diseases","Diarrhea/Dysentery","male","Nampula",306,"other_infections","diarrhea","diarrhea",306,10,0,"","",NA,NA
+1853,"Diarrhoeal diseases","Diarrhoeal diseases","Malnutrition","male","Zambezia",388,"diarrhea","diarrhea","severe_malnutrition",388,0,1,"","",NA,NA
+1855,"Malaria","Malaria","Other infections","male","Zambezia",409,"malaria","malaria","other_infections",409,1,1,"","",NA,NA
+1869,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Zambezia",1362,"diarrhea","diarrhea","diarrhea",1362,8,3,"","",NA,NA
+1870,"Malaria","Meningitis and encephalitis","Unspecified","male","Cabo Delgado",182.4,"malaria","other_infections","undecided",NA,NA,NA,"child","months",6,NA
+1882,"Severe malnutrition","Severe malnutrition","Diarrhea/Dysentery","male","Tete",743,"severe_malnutrition","severe_malnutrition","diarrhea",743,0,2,"","",NA,NA
+1886,"Undetermined","Acute resp infect incl pneumonia","Diarrhea/Dysentery","male","Gaza",176,"other","pneumonia","diarrhea",176,5,0,"","",NA,NA
+1892,"Diarrhoeal diseases","Severe malnutrition","AIDS","female","Inhambane",423,"diarrhea","severe_malnutrition","hiv",423,1,1,"","",NA,NA
+1902,"Diarrhoeal diseases","Other and unspecified infect dis","Diarrhea/Dysentery","male","Inhambane",1040,"diarrhea","other_infections","diarrhea",1040,10,2,"","",NA,NA
+1926,"Severe malnutrition","Severe malnutrition","Pneumonia","female","Cabo Delgado",1122,"severe_malnutrition","severe_malnutrition","pneumonia",1122,0,3,"","",NA,NA
+1927,"Malaria","Malaria","Malnutrition","female","Cabo Delgado",664,"malaria","malaria","severe_malnutrition",664,9,1,"","",NA,NA
+1929,"Undetermined","Severe malnutrition","Measles","female","Niassa",152,"other","severe_malnutrition","other_infections",NA,NA,NA,"child","months",5,NA
+1931,"Malaria","Meningitis and encephalitis","Meningitis/Encephalitis","male","Cabo Delgado",739,"malaria","other_infections","other_infections",739,0,2,"","",NA,NA
+1932,"Malaria","Malaria","Malaria","female","Cabo Delgado",191,"malaria","malaria","malaria",191,6,0,"","",NA,NA
+1933,"Diarrhoeal diseases","Other and unspecified infect dis","Diarrhea/Dysentery","male","Cabo Delgado",1461,"diarrhea","other_infections","diarrhea",NA,NA,NA,"child","years",NA,4
+1939,"Severe malnutrition","Severe malnutrition","Measles","female","Manica",182.4,"severe_malnutrition","severe_malnutrition","other_infections",NA,NA,NA,"child","months",6,NA
+1959,"Diarrhoeal diseases","Diarrhoeal diseases","Pneumonia","male","Manica",92,"diarrhea","diarrhea","pneumonia",92,3,0,"","",NA,NA
+1966,"Diarrhoeal diseases","Diarrhoeal diseases","Pneumonia","male","Cabo Delgado",341,"diarrhea","diarrhea","pneumonia",341,11,0,"","",NA,NA
+1971,"Other and unspecified cardiac dis","Acute resp infect incl pneumonia","Other infections","male","Cabo Delgado",243,"other","pneumonia","other_infections",243,7,0,"","",NA,NA
+1973,"Other and unspecified infect dis","Meningitis and encephalitis","Meningitis/Encephalitis","male","Cabo Delgado",130,"other_infections","other_infections","other_infections",130,4,0,"","",NA,NA
+1974,"Dengue fever","Dengue fever","Other infections","male","Cabo Delgado",730.5,"other_infections","other_infections","other_infections",NA,NA,NA,"child","years",NA,2
+1982,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","female","Cabo Delgado",751,"diarrhea","diarrhea","diarrhea",751,0,2,"","",NA,NA
+1987,"Stroke","Stroke","Meningitis/Encephalitis","female","Nampula",797,"other","other","other_infections",797,2,2,"","",NA,NA
+1995,"Undetermined","Diarrhoeal diseases","Diarrhea/Dysentery","female","Nampula",245,"other","diarrhea","diarrhea",245,8,0,"","",NA,NA
+2002,"Congenital malformation","Congenital malformation","Unspecified","female","Maputo Provincia",126,"other","other","undecided",126,4,0,"","",NA,NA
+2004,"Malaria","Malaria","Malaria","female","Tete",475,"malaria","malaria","malaria",475,3,1,"","",NA,NA
+2005,"Meningitis and encephalitis","Malaria","Preterm","male","Tete",32,"other_infections","malaria","other",32,1,0,"","",NA,NA
+2006,"Other and unspecified infect dis","Meningitis and encephalitis","Meningitis/Encephalitis","male","Tete",349,"other_infections","other_infections","other_infections",349,11,0,"","",NA,NA
+2007,"Other and unspecified infect dis","Acute resp infect incl pneumonia","Pneumonia","male","Tete",153,"other_infections","pneumonia","pneumonia",153,5,0,"","",NA,NA
+2019,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","female","Zambezia",376,"pneumonia","pneumonia","pneumonia",376,0,1,"","",NA,NA
+2023,"Dengue fever","Dengue fever","Other infections","male","Tete",813,"other_infections","other_infections","other_infections",813,2,2,"","",NA,NA
+2028,"Diarrhoeal diseases","Severe malnutrition","Diarrhea/Dysentery","male","Cabo Delgado",470,"diarrhea","severe_malnutrition","diarrhea",470,3,1,"","",NA,NA
+2030,"Other and unspecified infect dis","Acute resp infect incl pneumonia","Pneumonia","female","Cabo Delgado",42,"other_infections","pneumonia","pneumonia",42,1,0,"","",NA,NA
+2036,"Sepsis (non-obstetric)","Dengue fever","Other infections","male","Zambezia",95,"other_infections","other_infections","other_infections",95,3,0,"","",NA,NA
+2054,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","female","Tete",28,"pneumonia","pneumonia","pneumonia",28,0,0,"","",NA,NA
+2055,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","female","Zambezia",140,"diarrhea","diarrhea","diarrhea",140,4,0,"","",NA,NA
+2063,"HIV/AIDS related death","Other and unspecified infect dis","Other infections","male","Zambezia",515,"hiv","other_infections","other_infections",515,4,1,"","",NA,NA
+2069,"Exposure to force of nature","Exposure to force of nature","Injury","female","Zambezia",1345,"other","other","other",1345,8,3,"","",NA,NA
+2072,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Zambezia",460,"diarrhea","diarrhea","diarrhea",460,3,1,"","",NA,NA
+2073,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Zambezia",365.25,"diarrhea","diarrhea","diarrhea",NA,NA,NA,"child","years",NA,1
+2094,"Sickle cell with crisis","Acute resp infect incl pneumonia","Pneumonia","male","Sofala",242,"other","pneumonia","pneumonia",242,7,0,"","",NA,NA
+2121,"HIV/AIDS related death","Severe malnutrition","Pneumonia","male","Inhambane",574,"hiv","severe_malnutrition","pneumonia",574,6,1,"","",NA,NA
+2142,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","female","Tete",374,"diarrhea","diarrhea","diarrhea",374,0,1,"","",NA,NA
+2148,"Road traffic accident","Accid expos to smoke fire & flame","Pneumonia","female","Tete",1532,"other","other","pneumonia",1532,2,4,"","",NA,NA
+2164,"Malaria","Acute resp infect incl pneumonia","Unspecified","male","Gaza",609,"malaria","pneumonia","undecided",609,8,1,"","",NA,NA
+2170,"HIV/AIDS related death","Other and unspecified infect dis","Measles","female","Nampula",1004,"hiv","other_infections","other_infections",1004,8,2,"","",NA,NA
+2172,"Undetermined","Diarrhoeal diseases","Meningitis/Encephalitis","male","Nampula",230,"other","diarrhea","other_infections",230,7,0,"","",NA,NA
+2173,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Unspecified","female","Nampula",113,"pneumonia","pneumonia","undecided",113,3,0,"","",NA,NA
+2185,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Gaza",1495,"diarrhea","diarrhea","diarrhea",1495,1,4,"","",NA,NA
+2190,"Tetanus","Meningitis and encephalitis","Unspecified","female","Tete",385,"other_infections","other_infections","undecided",385,0,1,"","",NA,NA
+2191,"Diarrhoeal diseases","Other and unspecified infect dis","Diarrhea/Dysentery","female","Tete",584,"other_infections","other_infections","diarrhea",584,7,1,"","",NA,NA
+2192,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","female","Tete",1022,"pneumonia","pneumonia","pneumonia",1022,9,2,"","",NA,NA
+2203,"Malaria","Malaria","Unspecified","male","Tete",1310,"malaria","malaria","undecided",1310,7,3,"","",NA,NA
+2209,"Undetermined","Acute resp infect incl pneumonia","Pneumonia","male","Tete",36,"other","pneumonia","pneumonia",36,1,0,"","",NA,NA
+2213,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","female","Tete",795,"diarrhea","diarrhea","diarrhea",795,2,2,"","",NA,NA
+2214,"Liver cirrhosis","Liver cirrhosis","Pneumonia","female","Tete",1479,"other","other","pneumonia",1479,0,4,"","",NA,NA
+2217,"Meningitis and encephalitis","Meningitis and encephalitis","Meningitis/Encephalitis","female","Tete",119,"other_infections","other_infections","other_infections",119,3,0,"","",NA,NA
+2219,"Other and unspecified infect dis","Other and unspecified infect dis","Pneumonia","female","Tete",463,"other_infections","other_infections","pneumonia",463,3,1,"","",NA,NA
+2224,"Malaria","Malaria","Malaria","male","Tete",500,"malaria","malaria","malaria",500,4,1,"","",NA,NA
+2232,"Other and unspecified infect dis","Other and unspecified infect dis","Meningitis/Encephalitis","female","Zambezia",1089,"other_infections","other_infections","other_infections",1089,11,2,"","",NA,NA
+2233,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","female","Manica",444,"pneumonia","pneumonia","pneumonia",444,2,1,"","",NA,NA
+2234,"HIV/AIDS related death","Acute resp infect incl pneumonia","Measles","male","Manica",408,"hiv","pneumonia","other_infections",408,1,1,"","",NA,NA
+2237,"HIV/AIDS related death","Acute resp infect incl pneumonia","Pneumonia","female","Zambezia",657,"hiv","pneumonia","pneumonia",657,9,1,"","",NA,NA
+2255,"Diarrhoeal diseases","Diarrhoeal diseases","Meningitis/Encephalitis","female","Tete",157,"diarrhea","diarrhea","other_infections",157,5,0,"","",NA,NA
+2274,"HIV/AIDS related death","HIV/AIDS related death","Pneumonia","female","Inhambane",1095.75,"hiv","hiv","pneumonia",NA,NA,NA,"child","years",NA,3
+2284,"Meningitis and encephalitis","Other and unspecified infect dis","Malaria","female","Manica",35,"other_infections","other_infections","malaria",35,1,0,"","",NA,NA
+2300,"Malaria","Malaria","Pneumonia","male","Zambezia",1012,"malaria","malaria","pneumonia",1012,9,2,"","",NA,NA
+2302,"Diarrhoeal diseases","Acute resp infect incl pneumonia","Unspecified","female","Zambezia",363,"diarrhea","pneumonia","undecided",363,11,0,"","",NA,NA
+2308,"Meningitis and encephalitis","Meningitis and encephalitis","Meningitis/Encephalitis","male","Tete",883,"other_infections","other_infections","other_infections",883,5,2,"","",NA,NA
+2313,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","female","Nampula",280,"diarrhea","diarrhea","diarrhea",280,9,0,"","",NA,NA
+2320,"Other and unspecified infect dis","Malaria","Meningitis/Encephalitis","male","Cabo Delgado",327,"other_infections","malaria","other_infections",327,10,0,"","",NA,NA
+2322,"Malaria","Malaria","Other infections","female","Cabo Delgado",843,"malaria","malaria","other_infections",843,3,2,"","",NA,NA
+2326,"Diarrhoeal diseases","Malaria","Other infections","female","Zambezia",724,"diarrhea","malaria","other_infections",724,11,1,"","",NA,NA
+2331,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Diarrhea/Dysentery","female","Cabo Delgado",579,"pneumonia","pneumonia","diarrhea",579,7,1,"","",NA,NA
+2336,"Diarrhoeal diseases","Other and unspecified infect dis","Other infections","female","Zambezia",188,"diarrhea","other_infections","other_infections",188,6,0,"","",NA,NA
+2338,"Diarrhoeal diseases","Diarrhoeal diseases","Pneumonia","male","Zambezia",85,"diarrhea","diarrhea","pneumonia",85,2,0,"","",NA,NA
+2354,"Undetermined","Meningitis and encephalitis","Pneumonia","male","Nampula",64,"other","other_infections","pneumonia",64,2,0,"","",NA,NA
+2355,"Undetermined","Acute resp infect incl pneumonia","Malaria","female","Nampula",90,"other","pneumonia","malaria",90,2,0,"","",NA,NA
+2360,"Undetermined","Diarrhoeal diseases","Meningitis/Encephalitis","female","Nampula",270,"other","diarrhea","other_infections",270,8,0,"","",NA,NA
+2361,"Diarrhoeal diseases","Diarrhoeal diseases","Meningitis/Encephalitis","female","Nampula",59,"diarrhea","diarrhea","other_infections",59,1,0,"","",NA,NA
+2364,"HIV/AIDS related death","Severe malnutrition","Diarrhea/Dysentery","male","Nampula",365.25,"hiv","severe_malnutrition","diarrhea",NA,NA,NA,"child","years",NA,1
+2367,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Nampula",365.25,"diarrhea","diarrhea","diarrhea",NA,NA,NA,"child","years",NA,1
+2368,"Acute resp infect incl pneumonia","Other and unspecified infect dis","Malaria","male","Nampula",91.2,"pneumonia","other_infections","malaria",NA,NA,NA,"child","months",3,NA
+2373,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","female","Manica",1272,"diarrhea","diarrhea","diarrhea",1272,5,3,"","",NA,NA
+2374,"Malaria","Malaria","Unspecified","female","Manica",1393,"malaria","malaria","undecided",1393,9,3,"","",NA,NA
+2375,"Malaria","Malaria","Other infections","male","Zambezia",375,"malaria","malaria","other_infections",375,0,1,"","",NA,NA
+2380,"Diarrhoeal diseases","Other and unspecified infect dis","Pneumonia","female","Zambezia",194,"diarrhea","other_infections","pneumonia",194,6,0,"","",NA,NA
+2393,"Road traffic accident","Road traffic accident","Injury","male","Maputo Provincia",905,"other","other","other",905,5,2,"","",NA,NA
+2395,"Malaria","Malaria","Diarrhea/Dysentery","male","Zambezia",1106,"malaria","malaria","diarrhea",1106,0,3,"","",NA,NA
+2431,"Liver cirrhosis","Malaria","Malnutrition","male","Tete",1368,"other","malaria","severe_malnutrition",1368,8,3,"","",NA,NA
+2432,"Accid drowning and submersion","Accid drowning and submersion","Injury","female","Tete",306,"other","other","other",306,10,0,"","",NA,NA
+2434,"Meningitis and encephalitis","Other and unspecified infect dis","Meningitis/Encephalitis","female","Tete",209,"other_infections","other_infections","other_infections",209,6,0,"","",NA,NA
+2441,"Malaria","Malaria","Other infections","female","Maputo Provincia",45,"malaria","malaria","other_infections",45,1,0,"","",NA,NA
+2455,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Tete",471,"diarrhea","diarrhea","diarrhea",471,3,1,"","",NA,NA
+2456,"Diabetes mellitus","Stroke","Unspecified","male","Tete",822,"other","other","undecided",822,3,2,"","",NA,NA
+2457,"Diarrhoeal diseases","Diarrhoeal diseases","AIDS","male","Tete",592,"diarrhea","diarrhea","hiv",592,7,1,"","",NA,NA
+2460,"Malaria","Malaria","Malaria","male","Tete",62,"malaria","malaria","malaria",62,2,0,"","",NA,NA
+2462,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Tete",665,"diarrhea","diarrhea","diarrhea",665,9,1,"","",NA,NA
+2466,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Tete",37,"diarrhea","diarrhea","diarrhea",37,1,0,"","",NA,NA
+2474,"Other and unspecified infect dis","Acute resp infect incl pneumonia","Meningitis/Encephalitis","male","Tete",193,"other_infections","pneumonia","other_infections",193,6,0,"","",NA,NA
+2477,"Diarrhoeal diseases","Diarrhoeal diseases","Meningitis/Encephalitis","female","Tete",137,"diarrhea","diarrhea","other_infections",137,4,0,"","",NA,NA
+2484,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Diarrhea/Dysentery","male","Maputo Provincia",1077,"pneumonia","pneumonia","diarrhea",1077,11,2,"","",NA,NA
+2485,"Undetermined","Accid fall","Injury","female","Zambezia",307,"other","other","other",307,10,0,"","",NA,NA
+2493,"Sepsis (non-obstetric)","Other and unspecified infect dis","Other infections","female","Tete",1273,"other_infections","other_infections","other_infections",1273,5,3,"","",NA,NA
+2496,"Malaria","Malaria","Pneumonia","male","Tete",552,"malaria","malaria","pneumonia",552,6,1,"","",NA,NA
+2497,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","male","Tete",161,"pneumonia","pneumonia","pneumonia",161,5,0,"","",NA,NA
+2500,"Malaria","Malaria","Other infections","female","Tete",447,"malaria","malaria","other_infections",447,2,1,"","",NA,NA
+2501,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Tete",388,"diarrhea","diarrhea","diarrhea",388,0,1,"","",NA,NA
+2506,"Malaria","Malaria","Unspecified","male","Tete",1782,"malaria","malaria","undecided",1782,10,4,"","",NA,NA
+2507,"Diarrhoeal diseases","Acute resp infect incl pneumonia","Preterm","male","Manica",114,"diarrhea","pneumonia","other",114,3,0,"","",NA,NA
+2515,"Sickle cell with crisis","Malaria","Malaria","female","Zambezia",230,"other","malaria","malaria",230,7,0,"","",NA,NA
+2518,"Diarrhoeal diseases","Diarrhoeal diseases","Unspecified","female","Manica",542,"diarrhea","diarrhea","undecided",542,5,1,"","",NA,NA
+2537,"HIV/AIDS related death","HIV/AIDS related death","AIDS","male","Inhambane",361,"hiv","hiv","hiv",361,11,0,"","",NA,NA
+2549,"Diarrhoeal diseases","Severe malnutrition","Malnutrition","male","Niassa",212.8,"diarrhea","severe_malnutrition","severe_malnutrition",NA,NA,NA,"child","months",7,NA
+2553,"Accid expos to smoke fire & flame","Accid expos to smoke fire & flame","Injury","male","Niassa",1095.75,"other","other","other",NA,NA,NA,"child","years",NA,3
+2558,"Diarrhoeal diseases","Diarrhoeal diseases","Other infections","female","Niassa",579,"diarrhea","diarrhea","other_infections",579,7,1,"","",NA,NA
+2562,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Measles","female","Cabo Delgado",487,"pneumonia","pneumonia","other_infections",487,4,1,"","",NA,NA
+2569,"Diarrhoeal diseases","Acute resp infect incl pneumonia","Pneumonia","male","Manica",241,"diarrhea","pneumonia","pneumonia",241,7,0,"","",NA,NA
+2572,"Malaria","Malaria","Diarrhea/Dysentery","male","Zambezia",1199,"malaria","malaria","diarrhea",1199,3,3,"","",NA,NA
+2577,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","female","Manica",456,"diarrhea","diarrhea","diarrhea",456,2,1,"","",NA,NA
+2581,"Meningitis and encephalitis","Acute resp infect incl pneumonia","Pneumonia","female","Cabo Delgado",74,"other_infections","pneumonia","pneumonia",74,2,0,"","",NA,NA
+2582,"HIV/AIDS related death","Severe malnutrition","Meningitis/Encephalitis","male","Cabo Delgado",743,"hiv","severe_malnutrition","other_infections",743,0,2,"","",NA,NA
+2583,"Diarrhoeal diseases","Diarrhoeal diseases","Pneumonia","male","Cabo Delgado",1453,"diarrhea","diarrhea","pneumonia",1453,11,3,"","",NA,NA
+2590,"Diarrhoeal diseases","Diarrhoeal diseases","Malnutrition","female","Manica",485,"diarrhea","diarrhea","severe_malnutrition",485,3,1,"","",NA,NA
+2592,"HIV/AIDS related death","HIV/AIDS related death","AIDS","female","Manica",824,"hiv","hiv","hiv",824,3,2,"","",NA,NA
+2595,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Manica",799,"diarrhea","diarrhea","diarrhea",799,2,2,"","",NA,NA
+2634,"Other and unspecified infect dis","Acute resp infect incl pneumonia","Pneumonia","female","Zambezia",243.2,"other_infections","pneumonia","pneumonia",NA,NA,NA,"child","months",8,NA
+2637,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Zambezia",1276,"diarrhea","diarrhea","diarrhea",1276,5,3,"","",NA,NA
+2639,"Diarrhoeal diseases","Diarrhoeal diseases","Pneumonia","female","Zambezia",270,"diarrhea","diarrhea","pneumonia",270,8,0,"","",NA,NA
+2643,"Diarrhoeal diseases","Diarrhoeal diseases","Malnutrition","male","Zambezia",125,"diarrhea","diarrhea","severe_malnutrition",125,4,0,"","",NA,NA
+2658,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","female","Zambezia",1218,"diarrhea","diarrhea","diarrhea",1218,4,3,"","",NA,NA
+2660,"HIV/AIDS related death","HIV/AIDS related death","AIDS","male","Zambezia",750,"hiv","hiv","hiv",750,0,2,"","",NA,NA
+2662,"Severe malnutrition","Severe malnutrition","Pneumonia","male","Zambezia",639,"severe_malnutrition","severe_malnutrition","pneumonia",639,9,1,"","",NA,NA
+2665,"Malaria","Malaria","Diarrhea/Dysentery","male","Zambezia",757,"malaria","malaria","diarrhea",757,0,2,"","",NA,NA
+2669,"Renal failure","Acute resp infect incl pneumonia","Unspecified","male","Cabo Delgado",60.8,"other","pneumonia","undecided",NA,NA,NA,"child","months",2,NA
+2673,"Accid drowning and submersion","Accid drowning and submersion","Injury","female","Zambezia",334,"other","other","other",334,10,0,"","",NA,NA
+2693,"Meningitis and encephalitis","Meningitis and encephalitis","AIDS","female","Sofala",281,"other_infections","other_infections","hiv",281,9,0,"","",NA,NA
+2700,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","female","Tete",309,"diarrhea","diarrhea","diarrhea",309,10,0,"","",NA,NA
+2702,"Stroke","Stroke","Diarrhea/Dysentery","male","Inhambane",742,"other","other","diarrhea",742,0,2,"","",NA,NA
+2707,"Acute resp infect incl pneumonia","Other and unspecified infect dis","Pneumonia","female","Tete",185,"pneumonia","other_infections","pneumonia",185,6,0,"","",NA,NA
+2708,"Measles","Severe malnutrition","Meningitis/Encephalitis","male","Tete",812,"other_infections","severe_malnutrition","other_infections",812,2,2,"","",NA,NA
+2711,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Tete",1185,"diarrhea","diarrhea","diarrhea",1185,2,3,"","",NA,NA
+2717,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","male","Inhambane",1095.75,"pneumonia","pneumonia","pneumonia",NA,NA,NA,"child","years",NA,3
+2720,"Diarrhoeal diseases","Malaria","Other infections","male","Tete",298,"diarrhea","malaria","other_infections",298,9,0,"","",NA,NA
+2731,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Manica",647,"diarrhea","diarrhea","diarrhea",647,9,1,"","",NA,NA
+2733,"Renal failure","Acute resp infect incl pneumonia","Pneumonia","male","Tete",333,"other","pneumonia","pneumonia",333,10,0,"","",NA,NA
+2737,"HIV/AIDS related death","Diarrhoeal diseases","Other infections","male","Zambezia",601,"hiv","diarrhea","other_infections",601,7,1,"","",NA,NA
+2738,"Undetermined","Diarrhoeal diseases","Diarrhea/Dysentery","male","Zambezia",328,"other","diarrhea","diarrhea",328,10,0,"","",NA,NA
+2742,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","female","Niassa",218,"diarrhea","diarrhea","diarrhea",218,7,0,"","",NA,NA
+2745,"Diarrhoeal diseases","Malaria","Malaria","male","Zambezia",176,"diarrhea","other_infections","malaria",176,5,0,"","",NA,NA
+2748,"HIV/AIDS related death","Severe malnutrition","Malnutrition","female","Zambezia",1141,"hiv","severe_malnutrition","severe_malnutrition",1141,1,3,"","",NA,NA
+2750,"Diarrhoeal diseases","Other and unspecified infect dis","Other infections","female","Cabo Delgado",243.2,"diarrhea","other_infections","other_infections",NA,NA,NA,"child","months",8,NA
+2751,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Malnutrition","female","Cabo Delgado",1203,"pneumonia","pneumonia","severe_malnutrition",1203,3,3,"","",NA,NA
+2753,"HIV/AIDS related death","Acute abdomen","Pneumonia","female","Zambezia",541,"hiv","other","pneumonia",541,5,1,"","",NA,NA
+2758,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","female","Zambezia",426,"diarrhea","diarrhea","diarrhea",426,1,1,"","",NA,NA
+2760,"Diarrhoeal diseases","Other and unspecified infect dis","Diarrhea/Dysentery","female","Zambezia",82,"diarrhea","other_infections","diarrhea",82,2,0,"","",NA,NA
+2767,"Severe malnutrition","Sickle cell with crisis","Other infections","female","Zambezia",1377,"severe_malnutrition","other","other_infections",1377,9,3,"","",NA,NA
+2768,"Malaria","Malaria","Other infections","male","Zambezia",514,"malaria","malaria","other_infections",514,4,1,"","",NA,NA
+2769,"Meningitis and encephalitis","Meningitis and encephalitis","Unspecified","female","Zambezia",294,"other_infections","other_infections","undecided",294,9,0,"","",NA,NA
+2770,"Diarrhoeal diseases","Congenital malformation","Unspecified","female","Zambezia",287,"diarrhea","other","undecided",287,9,0,"","",NA,NA
+2774,"Other and unspecified infect dis","Malaria","Pneumonia","male","Zambezia",182,"other_infections","malaria","pneumonia",182,5,0,"","",NA,NA
+2775,"HIV/AIDS related death","Acute resp infect incl pneumonia","Pneumonia","female","Zambezia",438,"hiv","pneumonia","pneumonia",438,2,1,"","",NA,NA
+2778,"Dengue fever","Dengue fever","Other infections","male","Zambezia",1749,"other_infections","other_infections","other_infections",1749,9,4,"","",NA,NA
+2780,"Accid expos to smoke fire & flame","Accid expos to smoke fire & flame","Injury","female","Tete",615,"other","other","other",615,8,1,"","",NA,NA
+2783,"Diarrhoeal diseases","Malaria","Malaria","female","Cabo Delgado",260,"diarrhea","malaria","malaria",260,8,0,"","",NA,NA
+2784,"Meningitis and encephalitis","Meningitis and encephalitis","Meningitis/Encephalitis","female","Tete",327,"other_infections","other_infections","other_infections",327,10,0,"","",NA,NA
+2787,"Other and unspecified infect dis","Other and unspecified infect dis","Malaria","male","Tete",1131,"other_infections","other_infections","malaria",1131,1,3,"","",NA,NA
+2801,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","female","Tete",513,"diarrhea","diarrhea","diarrhea",513,4,1,"","",NA,NA
+2807,"HIV/AIDS related death","Malaria","Other infections","male","Nampula",826,"hiv","malaria","other_infections",826,3,2,"","",NA,NA
+2808,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Zambezia",408,"diarrhea","diarrhea","diarrhea",408,1,1,"","",NA,NA
+2817,"Diarrhoeal diseases","Diarrhoeal diseases","Malnutrition","male","Sofala",1529,"diarrhea","diarrhea","severe_malnutrition",1529,2,4,"","",NA,NA
+2818,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","AIDS","male","Tete",116,"pneumonia","pneumonia","hiv",116,3,0,"","",NA,NA
+2819,"Undetermined","Severe malnutrition","Diarrhea/Dysentery","female","Sofala",47,"other","severe_malnutrition","diarrhea",47,1,0,"","",NA,NA
+2821,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","male","Zambezia",111,"pneumonia","pneumonia","pneumonia",111,3,0,"","",NA,NA
+2822,"Congenital malformation","Acute resp infect incl pneumonia","Malaria","female","Zambezia",92,"other","pneumonia","malaria",92,3,0,"","",NA,NA
+2826,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","male","Tete",212,"pneumonia","pneumonia","pneumonia",212,6,0,"","",NA,NA
+2827,"Malaria","Malaria","Other infections","male","Sofala",1095.75,"malaria","malaria","other_infections",NA,NA,NA,"child","years",NA,3
+2829,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","male","Sofala",454,"pneumonia","pneumonia","pneumonia",454,2,1,"","",NA,NA
+2831,"Meningitis and encephalitis","HIV/AIDS related death","AIDS","male","Sofala",281,"other_infections","hiv","hiv",281,9,0,"","",NA,NA
+2858,"Meningitis and encephalitis","Acute resp infect incl pneumonia","Meningitis/Encephalitis","female","Cabo Delgado",288,"other_infections","pneumonia","other_infections",288,9,0,"","",NA,NA
+2872,"Undetermined","HIV/AIDS related death","Measles","male","Cabo Delgado",319,"other","hiv","other_infections",319,10,0,"","",NA,NA
+2874,"Undetermined","Diarrhoeal diseases","Measles","male","Cabo Delgado",195,"other","diarrhea","other_infections",195,6,0,"","",NA,NA
+2894,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Cabo Delgado",154,"diarrhea","diarrhea","diarrhea",154,5,0,"","",NA,NA
+2895,"Assault","Assault","Injury","male","Cabo Delgado",1332,"other","other","other",1332,7,3,"","",NA,NA
+2917,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","female","Tete",465,"diarrhea","diarrhea","diarrhea",465,3,1,"","",NA,NA
+2928,"Other and unspecified infect dis","Other and unspecified infect dis","Meningitis/Encephalitis","female","Cabo Delgado",1506,"other_infections","other_infections","other_infections",1506,1,4,"","",NA,NA
+2929,"Diarrhoeal diseases","Malaria","Unspecified","male","Cabo Delgado",319,"diarrhea","malaria","undecided",319,10,0,"","",NA,NA
+2931,"Undetermined","Meningitis and encephalitis","Meningitis/Encephalitis","female","Cabo Delgado",243,"other","other_infections","other_infections",243,7,0,"","",NA,NA
+2939,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","female","Cabo Delgado",464,"diarrhea","diarrhea","diarrhea",464,3,1,"","",NA,NA
+2941,"Meningitis and encephalitis","Acute resp infect incl pneumonia","Unspecified","female","Cabo Delgado",63,"other_infections","pneumonia","undecided",63,2,0,"","",NA,NA
+2943,"HIV/AIDS related death","Severe malnutrition","Diarrhea/Dysentery","female","Cabo Delgado",1100,"hiv","severe_malnutrition","diarrhea",1100,0,3,"","",NA,NA
+2945,"Malaria","Malaria","Diarrhea/Dysentery","male","Cabo Delgado",861,"malaria","malaria","diarrhea",861,4,2,"","",NA,NA
+2946,"Diarrhoeal diseases","Diarrhoeal diseases","Unspecified","female","Cabo Delgado",1378,"diarrhea","diarrhea","undecided",1378,9,3,"","",NA,NA
+2961,"HIV/AIDS related death","Acute resp infect incl pneumonia","Pneumonia","female","Niassa",400,"hiv","pneumonia","pneumonia",400,1,1,"","",NA,NA
+2963,"Malaria","Malaria","Unspecified","male","Zambezia",97,"malaria","malaria","undecided",97,3,0,"","",NA,NA
+2964,"Other and unspecified infect dis","Tetanus","Pneumonia","male","Zambezia",966,"other_infections","other_infections","pneumonia",966,7,2,"","",NA,NA
+2965,"Other and unspecified infect dis","Other and unspecified infect dis","Pneumonia","female","Zambezia",371,"other_infections","other_infections","pneumonia",371,0,1,"","",NA,NA
+2973,"Other and unspecified infect dis","Acute resp infect incl pneumonia","Pneumonia","female","Zambezia",28,"other_infections","pneumonia","pneumonia",28,0,0,"","",NA,NA
+2976,"Undetermined","HIV/AIDS related death","AIDS","female","Manica",151,"other","hiv","hiv",151,4,0,"","",NA,NA
+2980,"Undetermined","Road traffic accident","Injury","male","Nampula",870,"other","other","other",870,4,2,"","",NA,NA
+2986,"Undetermined","Diarrhoeal diseases","Other infections","female","Manica",33,"other","diarrhea","other_infections",33,1,0,"","",NA,NA
+2988,"Stroke","Malaria","Meningitis/Encephalitis","male","Sofala",1067,"other","malaria","other_infections",1067,11,2,"","",NA,NA
+2996,"Accid drowning and submersion","Accid drowning and submersion","Injury","male","Zambezia",1461,"other","other","other",NA,NA,NA,"child","years",NA,4
+2997,"Other and unspecified infect dis","Acute resp infect incl pneumonia","Meningitis/Encephalitis","male","Zambezia",152,"other","pneumonia","other_infections",152,5,0,"","",NA,NA
+3008,"Accid drowning and submersion","Accid drowning and submersion","Injury","female","Zambezia",876,"other","other","other",876,4,2,"","",NA,NA
+3009,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","female","Zambezia",139,"diarrhea","diarrhea","diarrhea",139,4,0,"","",NA,NA
+3013,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","male","Niassa",369,"pneumonia","pneumonia","pneumonia",369,0,1,"","",NA,NA
+3016,"Severe malnutrition","Severe malnutrition","Diarrhea/Dysentery","female","Tete",572,"severe_malnutrition","severe_malnutrition","diarrhea",572,6,1,"","",NA,NA
+3018,"Assault","Assault","Injury","female","Niassa",147,"other","other","other",147,4,0,"","",NA,NA
+3020,"Congenital malformation","Malaria","Unspecified","male","Niassa",182.4,"other","malaria","undecided",NA,NA,NA,"child","months",6,NA
+3021,"Severe malnutrition","Severe malnutrition","Malnutrition","male","Niassa",60.8,"severe_malnutrition","severe_malnutrition","severe_malnutrition",NA,NA,NA,"child","months",2,NA
+3045,"Undetermined","Acute resp infect incl pneumonia","Unspecified","female","Zambezia",89,"other","pneumonia","undecided",89,2,0,"","",NA,NA
+3056,"Undetermined","Acute resp infect incl pneumonia","Other infections","male","Zambezia",94,"other","pneumonia","other_infections",94,3,0,"","",NA,NA
+3066,"HIV/AIDS related death","HIV/AIDS related death","AIDS","female","Zambezia",523,"hiv","hiv","hiv",523,5,1,"","",NA,NA
+3069,"Diarrhoeal diseases","Other and unspecified infect dis","Diarrhea/Dysentery","female","Zambezia",254,"diarrhea","other_infections","diarrhea",254,8,0,"","",NA,NA
+3075,"Diarrhoeal diseases","Diarrhoeal diseases","Meningitis/Encephalitis","male","Zambezia",158,"diarrhea","diarrhea","other_infections",158,5,0,"","",NA,NA
+3081,"Severe malnutrition","Severe malnutrition","Diarrhea/Dysentery","female","Maputo Provincia",469,"severe_malnutrition","severe_malnutrition","diarrhea",469,3,1,"","",NA,NA
+3097,"Malaria","Malaria","Pneumonia","female","Manica",669,"malaria","malaria","pneumonia",669,9,1,"","",NA,NA
+3104,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Meningitis/Encephalitis","female","Manica",325,"pneumonia","pneumonia","other_infections",325,10,0,"","",NA,NA
+3114,"Diarrhoeal diseases","Haemorrhagic fever (non-dengue)","Unspecified","female","Cabo Delgado",97,"diarrhea","other_infections","undecided",97,3,0,"","",NA,NA
+3126,"Diarrhoeal diseases","Acute abdomen","Unspecified","female","Gaza",1243,"diarrhea","other","undecided",1243,4,3,"","",NA,NA
+3127,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","female","Cabo Delgado",994,"pneumonia","pneumonia","pneumonia",994,8,2,"","",NA,NA
+3130,"Undetermined","Meningitis and encephalitis","Meningitis/Encephalitis","male","Cabo Delgado",266,"other","other_infections","other_infections",266,8,0,"","",NA,NA
+3139,"Other and unspecified infect dis","Other and unspecified infect dis","Other infections","male","Cabo Delgado",903,"other_infections","other_infections","other_infections",903,5,2,"","",NA,NA
+3173,"Diarrhoeal diseases","Diarrhoeal diseases","Pneumonia","male","Tete",184,"diarrhea","diarrhea","pneumonia",184,6,0,"","",NA,NA
+3178,"Meningitis and encephalitis","Malaria","Meningitis/Encephalitis","male","Tete",317,"other_infections","malaria","other_infections",317,10,0,"","",NA,NA
+3179,"Meningitis and encephalitis","Malaria","Other infections","female","Tete",294,"other_infections","malaria","other_infections",294,9,0,"","",NA,NA
+3180,"Malaria","Malaria","Other infections","male","Tete",765,"malaria","malaria","other_infections",765,1,2,"","",NA,NA
+3194,"Malaria","Malaria","Other infections","male","Tete",773,"malaria","malaria","other_infections",773,1,2,"","",NA,NA
+3196,"Diarrhoeal diseases","Congenital malformation","Unspecified","male","Zambezia",36,"diarrhea","other","undecided",36,1,0,"","",NA,NA
+3197,"Meningitis and encephalitis","Congenital malformation","Unspecified","male","Zambezia",47,"other_infections","other","undecided",47,1,0,"","",NA,NA
+3199,"Malaria","Dengue fever","Other infections","female","Zambezia",408,"malaria","other_infections","other_infections",408,1,1,"","",NA,NA
+3203,"HIV/AIDS related death","HIV/AIDS related death","AIDS","female","Zambezia",730.5,"hiv","hiv","hiv",NA,NA,NA,"child","years",NA,2
+3204,"Diarrhoeal diseases","Diarrhoeal diseases","Unspecified","female","Zambezia",74,"diarrhea","diarrhea","undecided",74,2,0,"","",NA,NA
+3206,"HIV/AIDS related death","Stroke","Pneumonia","male","Inhambane",1470,"hiv","other","pneumonia",1470,0,4,"","",NA,NA
+3212,"Undetermined","Meningitis and encephalitis","Pneumonia","male","Tete",31,"other","other_infections","pneumonia",31,1,0,"","",NA,NA
+3213,"Other and unspecified infect dis","Acute resp infect incl pneumonia","Meningitis/Encephalitis","female","Tete",166,"other_infections","pneumonia","other_infections",166,5,0,"","",NA,NA
+3216,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Zambezia",162,"diarrhea","diarrhea","diarrhea",162,5,0,"","",NA,NA
+3222,"Other and unspecified infect dis","Other and unspecified infect dis","Pneumonia","female","Nampula",1187,"other_infections","other_infections","pneumonia",1187,3,3,"","",NA,NA
+3224,"Diarrhoeal diseases","Diarrhoeal diseases","Meningitis/Encephalitis","male","Sofala",533,"diarrhea","diarrhea","other_infections",533,5,1,"","",NA,NA
+3226,"Meningitis and encephalitis","Diarrhoeal diseases","Preterm","female","Zambezia",71,"other_infections","diarrhea","other",71,2,0,"","",NA,NA
+3230,"Malaria","Malaria","Unspecified","male","Zambezia",983,"malaria","malaria","undecided",983,8,2,"","",NA,NA
+3231,"Diarrhoeal diseases","Other and unspecified infect dis","Diarrhea/Dysentery","male","Niassa",206,"diarrhea","other_infections","diarrhea",206,6,0,"","",NA,NA
+3235,"Diarrhoeal diseases","Other and unspecified infect dis","Pneumonia","male","Cabo Delgado",1771,"diarrhea","other_infections","pneumonia",1771,10,4,"","",NA,NA
+3241,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Tete",186,"diarrhea","diarrhea","diarrhea",186,6,0,"","",NA,NA
+3242,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Tete",279,"diarrhea","diarrhea","diarrhea",279,9,0,"","",NA,NA
+3246,"Diarrhoeal diseases","Diarrhoeal diseases","Malaria","female","Cabo Delgado",219,"diarrhea","diarrhea","malaria",219,7,0,"","",NA,NA
+3253,"Undetermined","Acute resp infect incl pneumonia","AIDS","female","Zambezia",127,"other","pneumonia","hiv",127,4,0,"","",NA,NA
+3254,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","male","Zambezia",226,"pneumonia","pneumonia","pneumonia",226,7,0,"","",NA,NA
+3255,"Malaria","Malaria","Other infections","female","Zambezia",317,"malaria","malaria","other_infections",317,10,0,"","",NA,NA
+3261,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","female","Cabo Delgado",170,"pneumonia","pneumonia","pneumonia",170,5,0,"","",NA,NA
+3262,"Undetermined","Other and unspecified infect dis","Diarrhea/Dysentery","female","Cabo Delgado",198,"other","other_infections","diarrhea",198,6,0,"","",NA,NA
+3266,"Severe malnutrition","Other and unspecified infect dis","Pneumonia","female","Cabo Delgado",730.5,"severe_malnutrition","other_infections","pneumonia",NA,NA,NA,"child","years",NA,2
+3274,"Diarrhoeal diseases","Diarrhoeal diseases","Unspecified","male","Zambezia",469,"diarrhea","diarrhea","undecided",469,3,1,"","",NA,NA
+3275,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Zambezia",265,"diarrhea","diarrhea","diarrhea",265,8,0,"","",NA,NA
+3277,"Malaria","Malaria","Malaria","male","Zambezia",1313,"malaria","malaria","malaria",1313,7,3,"","",NA,NA
+3281,"Diarrhoeal diseases","Diarrhoeal diseases","Unspecified","female","Zambezia",875,"diarrhea","diarrhea","undecided",875,4,2,"","",NA,NA
+3283,"Diarrhoeal diseases","Diarrhoeal diseases","Unspecified","female","Zambezia",89,"diarrhea","diarrhea","undecided",89,2,0,"","",NA,NA
+3284,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Zambezia",407,"diarrhea","diarrhea","diarrhea",407,1,1,"","",NA,NA
+3285,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","female","Zambezia",1028,"diarrhea","diarrhea","diarrhea",1028,9,2,"","",NA,NA
+3286,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","female","Zambezia",1721,"pneumonia","pneumonia","pneumonia",1721,8,4,"","",NA,NA
+3294,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","female","Zambezia",73,"pneumonia","pneumonia","pneumonia",73,2,0,"","",NA,NA
+3304,"Severe malnutrition","Severe malnutrition","Pneumonia","male","Zambezia",217,"severe_malnutrition","severe_malnutrition","pneumonia",217,7,0,"","",NA,NA
+3317,"Malaria","Malaria","Other infections","female","Zambezia",596,"malaria","malaria","other_infections",596,7,1,"","",NA,NA
+3320,"Diarrhoeal diseases","Diarrhoeal diseases","Malnutrition","female","Zambezia",771,"diarrhea","diarrhea","severe_malnutrition",771,1,2,"","",NA,NA
+3326,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Zambezia",677,"diarrhea","diarrhea","diarrhea",677,10,1,"","",NA,NA
+3330,"Malaria","Malaria","Pneumonia","male","Sofala",797,"malaria","malaria","pneumonia",797,2,2,"","",NA,NA
+3334,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Zambezia",1761,"diarrhea","diarrhea","diarrhea",1761,9,4,"","",NA,NA
+3337,"Diarrhoeal diseases","Other and unspecified infect dis","Malaria","male","Cabo Delgado",236,"diarrhea","other_infections","malaria",236,7,0,"","",NA,NA
+3340,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Other infections","female","Zambezia",1461,"pneumonia","pneumonia","other_infections",NA,NA,NA,"child","years",NA,4
+3348,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Manica",50,"diarrhea","diarrhea","diarrhea",50,1,0,"","",NA,NA
+3350,"Epilepsy","Epilepsy","Unspecified","male","Manica",1242,"other","other","undecided",1242,4,3,"","",NA,NA
+3351,"Diarrhoeal diseases","Diarrhoeal diseases","Malnutrition","male","Cabo Delgado",1427,"diarrhea","diarrhea","severe_malnutrition",1427,10,3,"","",NA,NA
+3357,"Meningitis and encephalitis","Malaria","Pneumonia","female","Manica",324,"other_infections","malaria","pneumonia",324,10,0,"","",NA,NA
+3362,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","female","Zambezia",771,"pneumonia","pneumonia","pneumonia",771,1,2,"","",NA,NA
+3363,"Meningitis and encephalitis","Malaria","Malaria","female","Zambezia",153,"other_infections","malaria","malaria",153,5,0,"","",NA,NA
+3376,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Manica",912,"diarrhea","diarrhea","diarrhea",912,5,2,"","",NA,NA
+3383,"Other and unspecified infect dis","Malaria","Pneumonia","male","Tete",1334,"other_infections","malaria","pneumonia",1334,7,3,"","",NA,NA
+3393,"Acute resp infect incl pneumonia","Malaria","Pneumonia","male","Manica",987,"pneumonia","malaria","pneumonia",987,8,2,"","",NA,NA
+3396,"Sepsis (non-obstetric)","Sepsis (non-obstetric)","Malaria","male","Manica",193,"other_infections","other_infections","malaria",193,6,0,"","",NA,NA
+3401,"Malaria","Malaria","Other infections","male","Cabo Delgado",758,"malaria","malaria","other_infections",758,0,2,"","",NA,NA
+3408,"Malaria","Malaria","Malaria","male","Manica",357,"malaria","malaria","malaria",357,11,0,"","",NA,NA
+3424,"Diarrhoeal diseases","Diarrhoeal diseases","Malaria","male","Manica",358,"diarrhea","diarrhea","malaria",358,11,0,"","",NA,NA
+3429,"Diarrhoeal diseases","Diarrhoeal diseases","Unspecified","female","Manica",1301,"diarrhea","diarrhea","undecided",1301,6,3,"","",NA,NA
+3430,"Undetermined","Acute resp infect incl pneumonia","Unspecified","female","Manica",142,"other","pneumonia","undecided",142,4,0,"","",NA,NA
+3444,"Other and unspecified infect dis","Other and unspecified infect dis","Other infections","female","Tete",485,"other_infections","other_infections","other_infections",485,3,1,"","",NA,NA
+3446,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","female","Tete",480,"diarrhea","diarrhea","diarrhea",480,3,1,"","",NA,NA
+3469,"Diarrhoeal diseases","Other and unspecified infect dis","Pneumonia","female","Tete",357,"diarrhea","other_infections","pneumonia",357,11,0,"","",NA,NA
+3476,"Meningitis and encephalitis","Diarrhoeal diseases","Diarrhea/Dysentery","male","Tete",238,"other_infections","diarrhea","diarrhea",238,7,0,"","",NA,NA
+3483,"Meningitis and encephalitis","Meningitis and encephalitis","Other infections","female","Manica",89,"other_infections","other_infections","other_infections",89,2,0,"","",NA,NA
+3484,"Sepsis (non-obstetric)","Malaria","Other infections","male","Manica",212.8,"other_infections","malaria","other_infections",NA,NA,NA,"child","months",7,NA
+3488,"HIV/AIDS related death","Severe malnutrition","Other infections","male","Tete",1097,"hiv","severe_malnutrition","other_infections",1097,0,3,"","",NA,NA
+3491,"Malaria","Malaria","Other infections","female","Manica",1105,"malaria","malaria","other_infections",1105,0,3,"","",NA,NA
+3497,"Diarrhoeal diseases","Acute abdomen","Other infections","female","Manica",1096,"diarrhea","other","other_infections",1096,0,3,"","",NA,NA
+3513,"Diarrhoeal diseases","Acute abdomen","Pneumonia","female","Inhambane",1408,"diarrhea","other","pneumonia",1408,10,3,"","",NA,NA
+3519,"HIV/AIDS related death","HIV/AIDS related death","AIDS","female","Inhambane",633,"hiv","hiv","hiv",633,8,1,"","",NA,NA
+3532,"Meningitis and encephalitis","Meningitis and encephalitis","Meningitis/Encephalitis","male","Nampula",87,"other_infections","other_infections","other_infections",87,2,0,"","",NA,NA
+3544,"Malaria","Malaria","Malaria","male","Manica",65,"malaria","malaria","malaria",65,2,0,"","",NA,NA
+3545,"Severe malnutrition","Severe malnutrition","Other infections","male","Tete",924,"severe_malnutrition","severe_malnutrition","other_infections",924,6,2,"","",NA,NA
+3547,"Undetermined","Diarrhoeal diseases","Diarrhea/Dysentery","female","Zambezia",201,"other","diarrhea","diarrhea",201,6,0,"","",NA,NA
+3569,"Malaria","Other and unspecified infect dis","Malnutrition","female","Manica",816,"malaria","other_infections","severe_malnutrition",816,2,2,"","",NA,NA
+3570,"Diarrhoeal diseases","Meningitis and encephalitis","Meningitis/Encephalitis","female","Manica",967,"diarrhea","other_infections","other_infections",967,7,2,"","",NA,NA
+3576,"Accid drowning and submersion","Accid drowning and submersion","Injury","female","Tete",644,"other","other","other",644,9,1,"","",NA,NA
+3578,"Malaria","Malaria","Meningitis/Encephalitis","female","Tete",242,"malaria","malaria","other_infections",242,7,0,"","",NA,NA
+3584,"Malaria","Malaria","Malaria","female","Zambezia",228,"malaria","malaria","malaria",228,7,0,"","",NA,NA
+3589,"Malaria","Malaria","Other infections","female","Zambezia",711,"malaria","malaria","other_infections",711,11,1,"","",NA,NA
+3592,"Acute resp infect incl pneumonia","Malaria","Pneumonia","male","Zambezia",1288,"pneumonia","malaria","pneumonia",1288,6,3,"","",NA,NA
+3601,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Tete",310,"diarrhea","diarrhea","diarrhea",310,10,0,"","",NA,NA
+3618,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Malaria","male","Nampula",1123,"pneumonia","pneumonia","malaria",1123,0,3,"","",NA,NA
+3631,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Nampula",476,"diarrhea","diarrhea","diarrhea",476,3,1,"","",NA,NA
+3636,"Undetermined","Malaria","Unspecified","female","Zambezia",888,"other","malaria","undecided",888,5,2,"","",NA,NA
+3637,"Undetermined","Diarrhoeal diseases","Meningitis/Encephalitis","male","Zambezia",91.2,"other","diarrhea","other_infections",NA,NA,NA,"child","months",3,NA
+3657,"Other and unspecified infect dis","Acute resp infect incl pneumonia","Meningitis/Encephalitis","male","Gaza",33,"other_infections","pneumonia","other_infections",33,1,0,"","",NA,NA
+3663,"Malaria","Other and unspecified infect dis","Measles","male","Nampula",676,"malaria","other_infections","other_infections",676,10,1,"","",NA,NA
+3672,"Diarrhoeal diseases","Malaria","Other infections","male","Niassa",140,"diarrhea","malaria","other_infections",140,4,0,"","",NA,NA
+3674,"Undetermined","Other and unspecified infect dis","Other infections","male","Niassa",60.8,"other","other_infections","other_infections",NA,NA,NA,"child","months",2,NA
+3695,"HIV/AIDS related death","Other and unspecified infect dis","Pneumonia","female","Nampula",737,"hiv","other_infections","pneumonia",737,0,2,"","",NA,NA
+3696,"Malaria","Malaria","Unspecified","female","Nampula",152,"malaria","malaria","undecided",NA,NA,NA,"child","months",5,NA
+3698,"Undetermined","Malaria","Malaria","female","Cabo Delgado",303,"other","malaria","malaria",303,9,0,"","",NA,NA
+3699,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","female","Cabo Delgado",1128,"pneumonia","pneumonia","pneumonia",1128,1,3,"","",NA,NA
+3700,"Undetermined","Meningitis and encephalitis","Meningitis/Encephalitis","female","Cabo Delgado",329,"other","other_infections","other_infections",329,10,0,"","",NA,NA
+3705,"Malaria","Malaria","Pneumonia","male","Nampula",366,"malaria","malaria","pneumonia",366,0,1,"","",NA,NA
+3713,"Diarrhoeal diseases","Diarrhoeal diseases","Other infections","female","Nampula",778,"diarrhea","diarrhea","other_infections",778,1,2,"","",NA,NA
+3714,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Other infections","female","Nampula",31,"pneumonia","pneumonia","other_infections",31,1,0,"","",NA,NA
+3715,"Undetermined","HIV/AIDS related death","Other infections","female","Nampula",66,"other","hiv","other_infections",66,2,0,"","",NA,NA
+3721,"HIV/AIDS related death","Other and unspecified infect dis","Pneumonia","female","Nampula",737,"hiv","other_infections","pneumonia",737,0,2,"","",NA,NA
+3722,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","female","Tete",48,"pneumonia","pneumonia","pneumonia",48,1,0,"","",NA,NA
+3726,"Other and unspecified infect dis","Acute resp infect incl pneumonia","Meningitis/Encephalitis","male","Manica",214,"other_infections","pneumonia","other_infections",214,7,0,"","",NA,NA
+3727,"Diarrhoeal diseases","Diarrhoeal diseases","Malnutrition","male","Manica",1303,"diarrhea","diarrhea","severe_malnutrition",1303,6,3,"","",NA,NA
+3733,"Malaria","Malaria","Malnutrition","male","Manica",652,"malaria","malaria","severe_malnutrition",652,9,1,"","",NA,NA
+3736,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","male","Cabo Delgado",731,"pneumonia","pneumonia","pneumonia",731,0,2,"","",NA,NA
+3743,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","female","Maputo Provincia",461,"diarrhea","diarrhea","diarrhea",461,3,1,"","",NA,NA
+3751,"Malaria","Malaria","Diarrhea/Dysentery","female","Tete",867,"malaria","malaria","diarrhea",867,4,2,"","",NA,NA
+3759,"Malaria","Malaria","Other infections","male","Sofala",258,"malaria","malaria","other_infections",258,8,0,"","",NA,NA
+3760,"Meningitis and encephalitis","Meningitis and encephalitis","Unspecified","female","Sofala",30,"other_infections","other_infections","undecided",30,0,0,"","",NA,NA
+3764,"Malaria","Malaria","Pneumonia","female","Sofala",583,"malaria","malaria","pneumonia",583,7,1,"","",NA,NA
+3766,"Acute resp infect incl pneumonia","Meningitis and encephalitis","Meningitis/Encephalitis","female","Sofala",643,"pneumonia","other_infections","other_infections",643,9,1,"","",NA,NA
+3786,"Severe malnutrition","Acute resp infect incl pneumonia","Measles","male","Sofala",1461,"severe_malnutrition","pneumonia","other_infections",NA,NA,NA,"child","years",NA,4
+3787,"Diarrhoeal diseases","Diarrhoeal diseases","Meningitis/Encephalitis","female","Manica",590,"diarrhea","diarrhea","other_infections",590,7,1,"","",NA,NA
+3789,"Diarrhoeal diseases","Meningitis and encephalitis","Pneumonia","male","Manica",28,"diarrhea","other_infections","pneumonia",28,0,0,"","",NA,NA
+3791,"HIV/AIDS related death","Severe malnutrition","Pneumonia","male","Manica",685,"hiv","severe_malnutrition","pneumonia",685,10,1,"","",NA,NA
+3793,"Malaria","Malaria","Other infections","male","Niassa",1461,"malaria","malaria","other_infections",NA,NA,NA,"child","years",NA,4
+3805,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","male","Tete",879,"pneumonia","pneumonia","pneumonia",879,4,2,"","",NA,NA
+3806,"Meningitis and encephalitis","Meningitis and encephalitis","Meningitis/Encephalitis","male","Tete",396,"other_infections","other_infections","other_infections",396,1,1,"","",NA,NA
+3820,"HIV/AIDS related death","Malaria","AIDS","female","Cabo Delgado",370,"hiv","malaria","hiv",370,0,1,"","",NA,NA
+3826,"Undetermined","Acute resp infect incl pneumonia","Pneumonia","female","Cabo Delgado",150,"other","pneumonia","pneumonia",150,4,0,"","",NA,NA
+3830,"HIV/AIDS related death","HIV/AIDS related death","Pneumonia","female","Cabo Delgado",455,"hiv","hiv","pneumonia",455,2,1,"","",NA,NA
+3840,"Malaria","Malaria","Malaria","female","Tete",914,"malaria","malaria","malaria",914,6,2,"","",NA,NA
+3843,"Acute abdomen","Acute abdomen","Other infections","male","Niassa",528,"other","other","other_infections",528,5,1,"","",NA,NA
+3861,"HIV/AIDS related death","Diabetes mellitus","Malnutrition","female","Tete",1616,"hiv","other","severe_malnutrition",1616,5,4,"","",NA,NA
+3864,"Other and unspecified infect dis","Other and unspecified infect dis","Pneumonia","male","Tete",1652,"other_infections","other_infections","pneumonia",1652,6,4,"","",NA,NA
+3869,"HIV/AIDS related death","HIV/AIDS related death","Malnutrition","female","Tete",1492,"hiv","hiv","severe_malnutrition",1492,1,4,"","",NA,NA
+3872,"Meningitis and encephalitis","Dengue fever","Other infections","female","Manica",723,"other_infections","other_infections","other_infections",723,11,1,"","",NA,NA
+3874,"Meningitis and encephalitis","Acute resp infect incl pneumonia","Pneumonia","female","Cabo Delgado",286,"other_infections","pneumonia","pneumonia",286,9,0,"","",NA,NA
+3878,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","female","Cabo Delgado",104,"pneumonia","pneumonia","pneumonia",104,3,0,"","",NA,NA
+3879,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","female","Cabo Delgado",440,"pneumonia","pneumonia","pneumonia",440,2,1,"","",NA,NA
+3882,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Cabo Delgado",365.25,"diarrhea","diarrhea","diarrhea",NA,NA,NA,"child","years",NA,1
+3885,"Malaria","Malaria","Pneumonia","male","Cabo Delgado",733,"malaria","malaria","pneumonia",733,0,2,"","",NA,NA
+3886,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Cabo Delgado",669,"diarrhea","diarrhea","diarrhea",669,9,1,"","",NA,NA
+3892,"HIV/AIDS related death","Severe malnutrition","Diarrhea/Dysentery","female","Cabo Delgado",730.5,"hiv","severe_malnutrition","diarrhea",NA,NA,NA,"child","years",NA,2
+3893,"Malaria","Other and unspecified infect dis","Unspecified","male","Manica",1426,"malaria","other_infections","undecided",1426,10,3,"","",NA,NA
+3901,"Tetanus","Meningitis and encephalitis","Meningitis/Encephalitis","female","Tete",88,"other_infections","other_infections","other_infections",88,2,0,"","",NA,NA
+3915,"Other and unspecified infect dis","Acute resp infect incl pneumonia","Pneumonia","male","Manica",69,"other_infections","pneumonia","pneumonia",69,2,0,"","",NA,NA
+3926,"Severe malnutrition","Severe malnutrition","Other infections","female","Manica",536,"severe_malnutrition","severe_malnutrition","other_infections",536,5,1,"","",NA,NA
+3929,"Other and unspecified infect dis","Other and unspecified infect dis","Pneumonia","female","Manica",748,"other_infections","other_infections","pneumonia",748,0,2,"","",NA,NA
+3935,"Other and unspecified infect dis","Other and unspecified infect dis","Diarrhea/Dysentery","female","Niassa",730.5,"other_infections","other_infections","diarrhea",NA,NA,NA,"child","years",NA,2
+3938,"Other and unspecified infect dis","Other and unspecified infect dis","Malnutrition","male","Sofala",1467,"other_infections","other_infections","severe_malnutrition",1467,0,4,"","",NA,NA
+3942,"Undetermined","Diarrhoeal diseases","Malnutrition","female","Manica",81,"other","diarrhea","severe_malnutrition",81,2,0,"","",NA,NA
+3948,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Meningitis/Encephalitis","female","Manica",36,"pneumonia","pneumonia","other_infections",36,1,0,"","",NA,NA
+3952,"Diarrhoeal diseases","Diarrhoeal diseases","Malaria","female","Manica",59,"diarrhea","diarrhea","malaria",59,1,0,"","",NA,NA
+3955,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","female","Manica",353,"diarrhea","diarrhea","diarrhea",353,11,0,"","",NA,NA
+3962,"Other and unspecified infect dis","Other and unspecified infect dis","Meningitis/Encephalitis","male","Tete",697,"other_infections","other_infections","other_infections",697,10,1,"","",NA,NA
+3965,"Meningitis and encephalitis","Meningitis and encephalitis","Meningitis/Encephalitis","male","Cabo Delgado",392,"other_infections","other_infections","other_infections",392,0,1,"","",NA,NA
+3967,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Meningitis/Encephalitis","female","Cabo Delgado",365.25,"pneumonia","pneumonia","other_infections",NA,NA,NA,"child","years",NA,1
+3991,"HIV/AIDS related death","Other and unspecified infect dis","Pneumonia","male","Manica",1085,"hiv","other_infections","pneumonia",1085,11,2,"","",NA,NA
+3994,"Meningitis and encephalitis","Meningitis and encephalitis","Meningitis/Encephalitis","female","Tete",48,"other_infections","other_infections","other_infections",48,1,0,"","",NA,NA
+4000,"Malaria","Malaria","Meningitis/Encephalitis","male","Cabo Delgado",1095.75,"malaria","malaria","other_infections",NA,NA,NA,"child","years",NA,3
+4005,"HIV/AIDS related death","Other and unspecified infect dis","Diarrhea/Dysentery","female","Cabo Delgado",1755,"hiv","other_infections","diarrhea",1755,9,4,"","",NA,NA
+4006,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Nampula",180,"diarrhea","diarrhea","diarrhea",180,5,0,"","",NA,NA
+4008,"Diarrhoeal diseases","Diarrhoeal diseases","Meningitis/Encephalitis","female","Tete",357,"diarrhea","diarrhea","other_infections",357,11,0,"","",NA,NA
+4013,"Malaria","Other and unspecified infect dis","Unspecified","female","Cabo Delgado",1461,"malaria","other_infections","undecided",1461,0,4,"","",NA,NA
+4027,"Meningitis and encephalitis","Acute resp infect incl pneumonia","Unspecified","male","Tete",55,"other_infections","pneumonia","undecided",55,1,0,"","",NA,NA
+4029,"Other and unspecified infect dis","Other and unspecified infect dis","Pneumonia","female","Cabo Delgado",1032,"other_infections","other_infections","pneumonia",1032,9,2,"","",NA,NA
+4060,"Diarrhoeal diseases","Malaria","Other infections","female","Cabo Delgado",1028,"diarrhea","malaria","other_infections",1028,9,2,"","",NA,NA
+4070,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Other infections","male","Tete",719,"pneumonia","pneumonia","other_infections",719,11,1,"","",NA,NA
+4086,"Diarrhoeal diseases","Diarrhoeal diseases","Pneumonia","female","Manica",609,"diarrhea","diarrhea","pneumonia",609,8,1,"","",NA,NA
+4091,"Other and unspecified infect dis","Other and unspecified infect dis","Pneumonia","female","Manica",267,"other_infections","other_infections","pneumonia",267,8,0,"","",NA,NA
+4101,"Malaria","Malaria","Pneumonia","male","Manica",907,"malaria","malaria","pneumonia",907,5,2,"","",NA,NA
+4123,"Acute resp infect incl pneumonia","Meningitis and encephalitis","Pneumonia","male","Tete",396,"pneumonia","other_infections","pneumonia",396,1,1,"","",NA,NA
+4124,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","male","Tete",699,"pneumonia","pneumonia","pneumonia",699,10,1,"","",NA,NA
+4130,"Accid poisoning & noxious subs","Intentional self-harm","Injury","female","Gaza",1500,"other","other","other",1500,1,4,"","",NA,NA
+4134,"Meningitis and encephalitis","Meningitis and encephalitis","Other infections","male","Zambezia",130,"other_infections","other_infections","other_infections",130,4,0,"","",NA,NA
+4136,"Undetermined","Diarrhoeal diseases","Malnutrition","male","Gaza",59,"other","diarrhea","severe_malnutrition",59,1,0,"","",NA,NA
+4137,"Diarrhoeal diseases","HIV/AIDS related death","Other infections","female","Zambezia",332,"diarrhea","hiv","other_infections",332,10,0,"","",NA,NA
+4144,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","female","Zambezia",365.25,"diarrhea","diarrhea","diarrhea",NA,NA,NA,"child","years",NA,1
+4154,"HIV/AIDS related death","HIV/AIDS related death","AIDS","male","Zambezia",1604,"hiv","hiv","hiv",1604,4,4,"","",NA,NA
+4155,"Meningitis and encephalitis","Malaria","Other infections","male","Zambezia",82,"other_infections","other_infections","other_infections",82,2,0,"","",NA,NA
+4162,"Severe malnutrition","Severe malnutrition","Malnutrition","male","Zambezia",243,"severe_malnutrition","severe_malnutrition","severe_malnutrition",243,7,0,"","",NA,NA
+4168,"Undetermined","Other and unspecified infect dis","Malaria","female","Zambezia",189,"other","other_infections","malaria",189,6,0,"","",NA,NA
+4170,"Diarrhoeal diseases","Other and unspecified infect dis","Malnutrition","female","Zambezia",730.5,"diarrhea","other_infections","severe_malnutrition",NA,NA,NA,"child","years",NA,2
+4182,"Diarrhoeal diseases","Acute resp infect incl pneumonia","Unspecified","male","Zambezia",363,"diarrhea","pneumonia","undecided",363,11,0,"","",NA,NA
+4195,"Diarrhoeal diseases","Malaria","Unspecified","male","Niassa",1492,"diarrhea","malaria","undecided",1492,1,4,"","",NA,NA
+4203,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Zambezia",668,"diarrhea","diarrhea","diarrhea",668,9,1,"","",NA,NA
+4204,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","male","Zambezia",730.5,"pneumonia","pneumonia","pneumonia",NA,NA,NA,"child","years",NA,2
+4206,"Severe malnutrition","Severe malnutrition","Diarrhea/Dysentery","female","Zambezia",889,"severe_malnutrition","severe_malnutrition","diarrhea",889,5,2,"","",NA,NA
+4225,"Diarrhoeal diseases","Diarrhoeal diseases","AIDS","male","Zambezia",102,"diarrhea","diarrhea","hiv",102,3,0,"","",NA,NA
+4236,"Acute resp infect incl pneumonia","Meningitis and encephalitis","Meningitis/Encephalitis","male","Cabo Delgado",730.5,"pneumonia","other_infections","other_infections",NA,NA,NA,"child","years",NA,2
+4252,"HIV/AIDS related death","Diarrhoeal diseases","AIDS","male","Zambezia",495,"hiv","diarrhea","hiv",495,4,1,"","",NA,NA
+4256,"Diarrhoeal diseases","Diarrhoeal diseases","AIDS","female","Zambezia",684,"diarrhea","diarrhea","hiv",684,10,1,"","",NA,NA
+4268,"Meningitis and encephalitis","Malaria","Other infections","male","Zambezia",659,"other_infections","malaria","other_infections",659,9,1,"","",NA,NA
+4273,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","male","Manica",1113,"pneumonia","pneumonia","pneumonia",1113,0,3,"","",NA,NA
+4286,"Malaria","Malaria","Pneumonia","male","Nampula",626,"malaria","malaria","pneumonia",626,8,1,"","",NA,NA
+4289,"Renal failure","Haemorrhagic fever (non-dengue)","Unspecified","male","Manica",785,"other","other_infections","undecided",785,1,2,"","",NA,NA
+4310,"Undetermined","Malaria","Unspecified","female","Manica",459,"other","other_infections","undecided",459,3,1,"","",NA,NA
+4313,"Sepsis (non-obstetric)","Dengue fever","Malaria","female","Manica",152,"other_infections","other_infections","malaria",NA,NA,NA,"child","months",5,NA
+4336,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","female","Manica",740,"diarrhea","diarrhea","diarrhea",740,0,2,"","",NA,NA
+4337,"Meningitis and encephalitis","Malaria","Unspecified","male","Manica",1461,"other_infections","malaria","undecided",1461,0,4,"","",NA,NA
+4343,"Severe malnutrition","Severe malnutrition","Malnutrition","male","Manica",1095.75,"severe_malnutrition","severe_malnutrition","severe_malnutrition",NA,NA,NA,"child","years",NA,3
+4347,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","female","Sofala",214,"diarrhea","diarrhea","diarrhea",214,7,0,"","",NA,NA
+4382,"Malaria","Malaria","Unspecified","male","Manica",1025,"malaria","malaria","undecided",1025,9,2,"","",NA,NA
+4414,"Undetermined","Malaria","Unspecified","male","Tete",1264,"other","malaria","undecided",1264,5,3,"","",NA,NA
+4427,"Malaria","Malaria","Other infections","male","Nampula",1461,"malaria","malaria","other_infections",1461,0,4,"","",NA,NA
+4445,"Pertussis","Pertussis","Other infections","female","Manica",153,"other_infections","other_infections","other_infections",153,5,0,"","",NA,NA
+4452,"Pertussis","Pertussis","Unspecified","male","Cabo Delgado",1198,"other_infections","other_infections","undecided",1198,3,3,"","",NA,NA
+4464,"HIV/AIDS related death","Other and unspecified infect dis","Pneumonia","male","Cabo Delgado",1124,"hiv","other_infections","pneumonia",1124,0,3,"","",NA,NA
+4470,"Meningitis and encephalitis","Meningitis and encephalitis","Meningitis/Encephalitis","female","Cabo Delgado",1036,"other_infections","other_infections","other_infections",1036,10,2,"","",NA,NA
+4486,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","female","Cabo Delgado",730.5,"pneumonia","pneumonia","pneumonia",NA,NA,NA,"child","years",NA,2
+4506,"Diarrhoeal diseases","Diarrhoeal diseases","Malnutrition","female","Zambezia",1296,"diarrhea","diarrhea","severe_malnutrition",1296,6,3,"","",NA,NA
+4525,"Diarrhoeal diseases","Accid fall","Injury","male","Zambezia",1166,"diarrhea","other","other",1166,2,3,"","",NA,NA
+4527,"Malaria","Malaria","Other infections","female","Zambezia",1208,"malaria","malaria","other_infections",1208,3,3,"","",NA,NA
+4536,"HIV/AIDS related death","Severe malnutrition","Diarrhea/Dysentery","female","Cabo Delgado",753,"hiv","severe_malnutrition","diarrhea",753,0,2,"","",NA,NA
+4537,"Meningitis and encephalitis","Meningitis and encephalitis","Meningitis/Encephalitis","female","Cabo Delgado",845,"other_infections","other_infections","other_infections",845,3,2,"","",NA,NA
+4551,"Meningitis and encephalitis","Meningitis and encephalitis","Unspecified","male","Cabo Delgado",320,"other_infections","other_infections","undecided",320,10,0,"","",NA,NA
+4552,"Meningitis and encephalitis","Acute resp infect incl pneumonia","Preterm","female","Cabo Delgado",63,"other_infections","pneumonia","other",63,2,0,"","",NA,NA
+4555,"Other and unspecified infect dis","Meningitis and encephalitis","Pneumonia","male","Cabo Delgado",315,"other_infections","other_infections","pneumonia",315,10,0,"","",NA,NA
+4560,"Meningitis and encephalitis","HIV/AIDS related death","AIDS","male","Cabo Delgado",152,"other_infections","hiv","hiv",NA,NA,NA,"child","months",5,NA
+4568,"Other and unspecified cardiac dis","Malaria","Pneumonia","male","Zambezia",199,"other","malaria","pneumonia",199,6,0,"","",NA,NA
+4569,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Other infections","male","Zambezia",170,"pneumonia","pneumonia","other_infections",170,5,0,"","",NA,NA
+4575,"Malaria","Malaria","Pneumonia","male","Inhambane",1156,"malaria","malaria","pneumonia",1156,1,3,"","",NA,NA
+4584,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","female","Tete",1190,"pneumonia","pneumonia","pneumonia",1190,3,3,"","",NA,NA
+4586,"Diarrhoeal diseases","Severe malnutrition","Diarrhea/Dysentery","male","Manica",730.5,"diarrhea","severe_malnutrition","diarrhea",NA,NA,NA,"child","years",NA,2
+4592,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Nampula",387,"diarrhea","diarrhea","diarrhea",387,0,1,"","",NA,NA
+4594,"Other and unspecified infect dis","Other and unspecified infect dis","Other infections","male","Zambezia",60.8,"other_infections","other_infections","other_infections",NA,NA,NA,"child","months",2,NA
+4602,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","AIDS","female","Tete",1107,"pneumonia","pneumonia","hiv",1107,0,3,"","",NA,NA
+4603,"Meningitis and encephalitis","Malaria","Other infections","female","Tete",1073,"other_infections","malaria","other_infections",1073,11,2,"","",NA,NA
+4614,"Diarrhoeal diseases","Acute resp infect incl pneumonia","Pneumonia","male","Cabo Delgado",217,"diarrhea","pneumonia","pneumonia",217,7,0,"","",NA,NA
+4618,"Diarrhoeal diseases","Diarrhoeal diseases","Malaria","female","Zambezia",299,"diarrhea","diarrhea","malaria",299,9,0,"","",NA,NA
+4627,"Other and unspecified infect dis","Other and unspecified infect dis","Pneumonia","female","Tete",870,"other_infections","other_infections","pneumonia",870,4,2,"","",NA,NA
+4643,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Other infections","male","Tete",81,"pneumonia","pneumonia","other_infections",81,2,0,"","",NA,NA
+4654,"Malaria","Malaria","Pneumonia","male","Manica",1398,"malaria","malaria","pneumonia",1398,9,3,"","",NA,NA
+4655,"Sepsis (non-obstetric)","Other and unspecified infect dis","Meningitis/Encephalitis","male","Manica",59,"other_infections","other_infections","other_infections",59,1,0,"","",NA,NA
+4656,"Other and unspecified infect dis","Other and unspecified infect dis","Pneumonia","male","Manica",343,"other_infections","other_infections","pneumonia",343,11,0,"","",NA,NA
+4657,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","female","Manica",1148,"pneumonia","pneumonia","pneumonia",1148,1,3,"","",NA,NA
+4658,"Diarrhoeal diseases","Diarrhoeal diseases","Meningitis/Encephalitis","male","Manica",316,"diarrhea","diarrhea","other_infections",316,10,0,"","",NA,NA
+4689,"Accid expos to smoke fire & flame","Accid expos to smoke fire & flame","Injury","male","Inhambane",329,"other","other","other",329,10,0,"","",NA,NA
+4700,"Other and unspecified infect dis","Acute resp infect incl pneumonia","Pneumonia","female","Zambezia",152,"other_infections","pneumonia","pneumonia",NA,NA,NA,"child","months",5,NA
+4718,"Stroke","Epilepsy","Unspecified","male","Cabo Delgado",565,"other","other","undecided",565,6,1,"","",NA,NA
+4720,"Meningitis and encephalitis","Malaria","Meningitis/Encephalitis","female","Zambezia",31,"other_infections","malaria","other_infections",31,1,0,"","",NA,NA
+4727,"HIV/AIDS related death","Other and unspecified infect dis","Malnutrition","male","Tete",1125,"hiv","other_infections","severe_malnutrition",1125,0,3,"","",NA,NA
+4734,"Meningitis and encephalitis","Malaria","Pneumonia","male","Sofala",75,"other_infections","malaria","pneumonia",75,2,0,"","",NA,NA
+4747,"Malaria","Malaria","Other infections","male","Zambezia",121.6,"malaria","malaria","other_infections",NA,NA,NA,"child","months",4,NA
+4754,"Diarrhoeal diseases","Diarrhoeal diseases","Pneumonia","female","Manica",701,"diarrhea","diarrhea","pneumonia",701,11,1,"","",NA,NA
+4763,"Other and unspecified infect dis","Other and unspecified infect dis","Pneumonia","female","Manica",528,"other_infections","other_infections","pneumonia",528,5,1,"","",NA,NA
+4772,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Unspecified","male","Sofala",324,"pneumonia","pneumonia","undecided",324,10,0,"","",NA,NA
+4777,"Diarrhoeal diseases","Malaria","Diarrhea/Dysentery","male","Manica",195,"diarrhea","malaria","diarrhea",195,6,0,"","",NA,NA
+4785,"Undetermined","Diarrhoeal diseases","Meningitis/Encephalitis","female","Manica",239,"other","diarrhea","other_infections",239,7,0,"","",NA,NA
+4802,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Tete",904,"diarrhea","diarrhea","diarrhea",904,5,2,"","",NA,NA
+4807,"Pertussis","Pertussis","Other infections","female","Tete",449,"other_infections","other_infections","other_infections",449,2,1,"","",NA,NA
+4811,"Diarrhoeal diseases","Diarrhoeal diseases","Meningitis/Encephalitis","male","Sofala",121,"diarrhea","diarrhea","other_infections",121,3,0,"","",NA,NA
+4813,"Malaria","Malaria","Other infections","male","Tete",474,"malaria","malaria","other_infections",474,3,1,"","",NA,NA
+4815,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","female","Maputo Provincia",410,"pneumonia","pneumonia","pneumonia",410,1,1,"","",NA,NA
+4819,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Zambezia",730.5,"diarrhea","diarrhea","diarrhea",NA,NA,NA,"child","years",NA,2
+4836,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Zambezia",182.4,"diarrhea","diarrhea","diarrhea",NA,NA,NA,"child","months",6,NA
+4840,"Diarrhoeal diseases","Diarrhoeal diseases","Measles","male","Zambezia",212.8,"diarrhea","diarrhea","other_infections",NA,NA,NA,"child","months",7,NA
+4841,"Diarrhoeal diseases","Acute resp infect incl pneumonia","Diarrhea/Dysentery","male","Zambezia",60.8,"diarrhea","pneumonia","diarrhea",NA,NA,NA,"child","months",2,NA
+4844,"Other and unspecified cardiac dis","Acute resp infect incl pneumonia","Meningitis/Encephalitis","male","Cabo Delgado",195,"other","pneumonia","other_infections",195,6,0,"","",NA,NA
+4845,"Diarrhoeal diseases","Acute abdomen","Diarrhea/Dysentery","female","Cabo Delgado",397,"diarrhea","other","diarrhea",397,1,1,"","",NA,NA
+4852,"Diarrhoeal diseases","Acute abdomen","Diarrhea/Dysentery","female","Zambezia",1095.75,"diarrhea","other","diarrhea",NA,NA,NA,"child","years",NA,3
+4855,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Zambezia",182.4,"diarrhea","diarrhea","diarrhea",NA,NA,NA,"child","months",6,NA
+4868,"Sickle cell with crisis","Meningitis and encephalitis","Measles","female","Cabo Delgado",363,"other","other_infections","other_infections",363,11,0,"","",NA,NA
+4870,"HIV/AIDS related death","HIV/AIDS related death","AIDS","male","Cabo Delgado",703,"hiv","hiv","hiv",703,11,1,"","",NA,NA
+4871,"Stroke","Other and unspecified infect dis","Meningitis/Encephalitis","female","Cabo Delgado",451,"other","other_infections","other_infections",451,2,1,"","",NA,NA
+4884,"Undetermined","Malaria","Unspecified","female","Zambezia",962,"other","malaria","undecided",962,7,2,"","",NA,NA
+4885,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","male","Zambezia",715,"pneumonia","pneumonia","pneumonia",715,11,1,"","",NA,NA
+4892,"Malaria","Malaria","Pneumonia","male","Manica",1123,"malaria","malaria","pneumonia",1123,0,3,"","",NA,NA
+4893,"Pertussis","Pertussis","Pneumonia","male","Manica",34,"other_infections","other_infections","pneumonia",34,1,0,"","",NA,NA
+4894,"Liver cirrhosis","Other and unspecified infect dis","Pneumonia","male","Manica",594,"other","other_infections","pneumonia",594,7,1,"","",NA,NA
+4916,"Other and unspecified infect dis","Other and unspecified infect dis","Malaria","male","Tete",183,"other_infections","other_infections","malaria",183,6,0,"","",NA,NA
+4918,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Zambezia",1095.75,"diarrhea","diarrhea","diarrhea",NA,NA,NA,"child","years",NA,3
+4926,"Malaria","Malaria","Other infections","male","Cabo Delgado",691,"malaria","malaria","other_infections",691,10,1,"","",NA,NA
+4938,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","female","Tete",759,"pneumonia","pneumonia","pneumonia",759,0,2,"","",NA,NA
+4939,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Tete",359,"diarrhea","diarrhea","diarrhea",359,11,0,"","",NA,NA
+4945,"Contact with venomous plant/animal","Contact with venomous plant/animal","Injury","male","Nampula",923,"other","other","other",923,6,2,"","",NA,NA
+4949,"Other and unspecified infect dis","Other and unspecified infect dis","Malaria","male","Zambezia",184,"other_infections","other_infections","malaria",184,6,0,"","",NA,NA
+4953,"Epilepsy","Epilepsy","Unspecified","male","Zambezia",502,"other","other","undecided",502,4,1,"","",NA,NA
+4954,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","female","Manica",782,"diarrhea","diarrhea","diarrhea",782,1,2,"","",NA,NA
+4955,"Diarrhoeal diseases","Diarrhoeal diseases","Pneumonia","male","Manica",549,"diarrhea","diarrhea","pneumonia",549,6,1,"","",NA,NA
+4976,"Undetermined","Acute resp infect incl pneumonia","Meningitis/Encephalitis","female","Cabo Delgado",147,"other","pneumonia","other_infections",147,4,0,"","",NA,NA
+4991,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Manica",370,"diarrhea","diarrhea","diarrhea",370,0,1,"","",NA,NA
+5004,"Dengue fever","Dengue fever","Pneumonia","female","Tete",1147,"other_infections","other_infections","pneumonia",1147,1,3,"","",NA,NA
+5008,"Meningitis and encephalitis","Meningitis and encephalitis","Unspecified","female","Cabo Delgado",1648,"other_infections","other_infections","undecided",1648,6,4,"","",NA,NA
+5019,"Diarrhoeal diseases","Acute abdomen","Unspecified","male","Zambezia",633,"diarrhea","other","undecided",633,8,1,"","",NA,NA
+5020,"Undetermined","Haemorrhagic fever (non-dengue)","Diarrhea/Dysentery","female","Zambezia",474,"other_infections","other_infections","diarrhea",474,3,1,"","",NA,NA
+5021,"Malaria","Malaria","Other infections","female","Zambezia",853,"malaria","malaria","other_infections",853,4,2,"","",NA,NA
+5030,"Meningitis and encephalitis","Meningitis and encephalitis","Meningitis/Encephalitis","male","Zambezia",241,"other_infections","other_infections","other_infections",241,7,0,"","",NA,NA
+5033,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Other infections","male","Tete",667,"pneumonia","pneumonia","other_infections",667,9,1,"","",NA,NA
+5035,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","male","Nampula",795,"pneumonia","pneumonia","pneumonia",795,2,2,"","",NA,NA
+5037,"HIV/AIDS related death","HIV/AIDS related death","Malnutrition","male","Zambezia",750,"hiv","hiv","severe_malnutrition",750,0,2,"","",NA,NA
+5048,"Sickle cell with crisis","Acute resp infect incl pneumonia","Unspecified","male","Cabo Delgado",1045,"other","pneumonia","undecided",1045,10,2,"","",NA,NA
+5049,"Meningitis and encephalitis","Acute resp infect incl pneumonia","Pneumonia","female","Cabo Delgado",60,"other_infections","pneumonia","pneumonia",60,1,0,"","",NA,NA
+5051,"Severe malnutrition","Severe malnutrition","Pneumonia","male","Niassa",157,"severe_malnutrition","severe_malnutrition","pneumonia",157,5,0,"","",NA,NA
+5055,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","female","Nampula",473,"diarrhea","diarrhea","diarrhea",473,3,1,"","",NA,NA
+5063,"Diarrhoeal diseases","Diarrhoeal diseases","Unspecified","male","Nampula",365,"diarrhea","diarrhea","undecided",365,12,0,"","",NA,NA
+5074,"Meningitis and encephalitis","Other and unspecified infect dis","Other infections","male","Tete",336,"other_infections","other_infections","other_infections",336,11,0,"","",NA,NA
+5076,"Meningitis and encephalitis","Other and unspecified infect dis","Malaria","male","Tete",1003,"other_infections","other_infections","malaria",1003,8,2,"","",NA,NA
+5082,"Diarrhoeal diseases","Diarrhoeal diseases","Meningitis/Encephalitis","female","Sofala",157,"diarrhea","diarrhea","other_infections",157,5,0,"","",NA,NA
+5089,"Meningitis and encephalitis","Dengue fever","Malaria","female","Tete",328,"other_infections","other_infections","malaria",328,10,0,"","",NA,NA
+5091,"Epilepsy","Epilepsy","Unspecified","female","Tete",37,"other","other","undecided",37,1,0,"","",NA,NA
+5105,"Other and unspecified infect dis","Other and unspecified infect dis","Meningitis/Encephalitis","female","Nampula",655,"other_infections","other_infections","other_infections",655,9,1,"","",NA,NA
+5108,"Undetermined","Diarrhoeal diseases","Unspecified","male","Zambezia",34,"other","diarrhea","undecided",34,1,0,"","",NA,NA
+5115,"Meningitis and encephalitis","Meningitis and encephalitis","Meningitis/Encephalitis","male","Nampula",608,"other_infections","other_infections","other_infections",NA,NA,NA,"child","months",20,NA
+5117,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","female","Niassa",334.4,"pneumonia","pneumonia","pneumonia",NA,NA,NA,"child","months",11,NA
+5133,"Diarrhoeal diseases","Acute resp infect incl pneumonia","Meningitis/Encephalitis","male","Manica",213,"diarrhea","pneumonia","other_infections",213,7,0,"","",NA,NA
+5134,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","female","Manica",529,"diarrhea","diarrhea","diarrhea",529,5,1,"","",NA,NA
+5136,"Malaria","Malaria","Other infections","male","Manica",1288,"malaria","malaria","other_infections",1288,6,3,"","",NA,NA
+5146,"Severe malnutrition","Acute resp infect incl pneumonia","Pneumonia","female","Manica",121.6,"severe_malnutrition","pneumonia","pneumonia",NA,NA,NA,"child","months",4,NA
+5152,"Pertussis","Pertussis","Diarrhea/Dysentery","male","Tete",732,"other_infections","other_infections","diarrhea",732,0,2,"","",NA,NA
+5156,"Undetermined","Malaria","Unspecified","male","Tete",860,"other","malaria","undecided",860,4,2,"","",NA,NA
+5162,"Pulmonary tuberculosis","Pertussis","Other infections","female","Tete",370,"other_infections","other_infections","other_infections",370,0,1,"","",NA,NA
+5169,"Undetermined","Diarrhoeal diseases","Diarrhea/Dysentery","female","Nampula",56,"other","diarrhea","diarrhea",56,1,0,"","",NA,NA
+5178,"Undetermined","Acute resp infect incl pneumonia","Pneumonia","female","Tete",47,"other","pneumonia","pneumonia",47,1,0,"","",NA,NA
+5179,"Undetermined","Acute resp infect incl pneumonia","Pneumonia","female","Tete",87,"other","pneumonia","pneumonia",87,2,0,"","",NA,NA
+5189,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","male","Nampula",377,"pneumonia","pneumonia","pneumonia",377,0,1,"","",NA,NA
+5193,"Sepsis (non-obstetric)","Dengue fever","Malaria","female","Zambezia",783,"other_infections","other_infections","malaria",783,1,2,"","",NA,NA
+5196,"Diabetes mellitus","Sickle cell with crisis","Unspecified","female","Zambezia",199,"other","other","undecided",199,6,0,"","",NA,NA
+5197,"Malaria","Malaria","Pneumonia","female","Zambezia",792,"malaria","malaria","pneumonia",792,2,2,"","",NA,NA
+5205,"Malaria","Malaria","Pneumonia","female","Tete",515,"malaria","malaria","pneumonia",515,4,1,"","",NA,NA
+5208,"Malaria","Malaria","Unspecified","male","Zambezia",43,"malaria","malaria","undecided",43,1,0,"","",NA,NA
+5219,"Liver cirrhosis","Liver cirrhosis","AIDS","male","Sofala",1078,"other","other","hiv",1078,11,2,"","",NA,NA
+5358,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Zambezia",730.5,"diarrhea","diarrhea","diarrhea",NA,NA,NA,"child","years",NA,2
+5363,"Diarrhoeal diseases","Pertussis","Unspecified","male","Manica",835,"diarrhea","other_infections","undecided",835,3,2,"","",NA,NA
+5367,"Undetermined","Congenital malformation","Unspecified","male","Manica",193,"other","other","undecided",193,6,0,"","",NA,NA
+5372,"Other and unspecified infect dis","Other and unspecified infect dis","Unspecified","female","Zambezia",1503,"other_infections","other_infections","undecided",1503,1,4,"","",NA,NA
+5380,"Congenital malformation","Acute resp infect incl pneumonia","Preterm","female","Inhambane",167,"other","pneumonia","other",167,5,0,"","",NA,NA
+5383,"Other and unspecified infect dis","Acute resp infect incl pneumonia","Pneumonia","female","Tete",339,"other_infections","pneumonia","pneumonia",339,11,0,"","",NA,NA
+5388,"Acute resp infect incl pneumonia","Other and unspecified infect dis","Pneumonia","male","Niassa",460,"pneumonia","other_infections","pneumonia",460,3,1,"","",NA,NA
+5393,"Undetermined","Malaria","Unspecified","male","Manica",1300,"other","malaria","undecided",1300,6,3,"","",NA,NA
+5411,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Meningitis/Encephalitis","male","Maputo Provincia",114,"pneumonia","pneumonia","other_infections",114,3,0,"","",NA,NA
+5414,"Undetermined","Malaria","Pneumonia","male","Nampula",31,"other","malaria","pneumonia",31,1,0,"","",NA,NA
+5416,"Diarrhoeal diseases","Diarrhoeal diseases","Unspecified","female","Nampula",152,"diarrhea","diarrhea","undecided",NA,NA,NA,"child","months",5,NA
+5432,"HIV/AIDS related death","Other and unspecified infect dis","Meningitis/Encephalitis","female","Niassa",1095.75,"hiv","other_infections","other_infections",NA,NA,NA,"child","years",NA,3
+5438,"Severe malnutrition","Pertussis","Other infections","female","Tete",435,"severe_malnutrition","other_infections","other_infections",435,2,1,"","",NA,NA
+5440,"Other and unspecified cardiac dis","Pertussis","Other infections","male","Tete",40,"other","other_infections","other_infections",40,1,0,"","",NA,NA
+5451,"Malaria","Malaria","Other infections","male","Zambezia",1114,"malaria","malaria","other_infections",1114,0,3,"","",NA,NA
+5467,"Undetermined","Diarrhoeal diseases","Diarrhea/Dysentery","female","Manica",51,"other","diarrhea","diarrhea",51,1,0,"","",NA,NA
+5469,"Malaria","Malaria","Other infections","male","Inhambane",360,"malaria","malaria","other_infections",360,11,0,"","",NA,NA
+5470,"Liver cirrhosis","Liver cirrhosis","Other infections","male","Cabo Delgado",745,"other","other","other_infections",745,0,2,"","",NA,NA
+5471,"HIV/AIDS related death","HIV/AIDS related death","Pneumonia","male","Cabo Delgado",855,"hiv","hiv","pneumonia",855,4,2,"","",NA,NA
+5481,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Tete",458,"diarrhea","diarrhea","diarrhea",458,3,1,"","",NA,NA
+5485,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Cabo Delgado",439,"diarrhea","diarrhea","diarrhea",439,2,1,"","",NA,NA
+5490,"Meningitis and encephalitis","Meningitis and encephalitis","Diarrhea/Dysentery","male","Cabo Delgado",31,"other_infections","other_infections","diarrhea",31,1,0,"","",NA,NA
+5492,"Accid fall","Accid fall","Injury","male","Inhambane",130,"other","other","other",130,4,0,"","",NA,NA
+5499,"Malaria","Malaria","Other infections","male","Tete",184,"malaria","malaria","other_infections",184,6,0,"","",NA,NA
+5503,"Congenital malformation","Other and unspecified infect dis","Malaria","female","Nampula",267,"other","other_infections","malaria",267,8,0,"","",NA,NA
+5504,"Undetermined","Malaria","Other infections","female","Nampula",293,"other","malaria","other_infections",293,9,0,"","",NA,NA
+5511,"Sickle cell with crisis","Malaria","Meningitis/Encephalitis","female","Nampula",1452,"other","malaria","other_infections",1452,11,3,"","",NA,NA
+5530,"Undetermined","Malaria","Pneumonia","female","Tete",127,"other","malaria","pneumonia",127,4,0,"","",NA,NA
+5534,"Meningitis and encephalitis","Meningitis and encephalitis","Other infections","male","Tete",40,"other_infections","other_infections","other_infections",40,1,0,"","",NA,NA
+5538,"Undetermined","Acute resp infect incl pneumonia","Pneumonia","male","Manica",33,"other","pneumonia","pneumonia",33,1,0,"","",NA,NA
+5540,"Contact with venomous plant/animal","Contact with venomous plant/animal","Injury","male","Tete",318,"other","other","other",318,10,0,"","",NA,NA
+5560,"Diarrhoeal diseases","Diarrhoeal diseases","Malaria","male","Cabo Delgado",201,"diarrhea","diarrhea","malaria",201,6,0,"","",NA,NA
+5562,"HIV/AIDS related death","Diarrhoeal diseases","Diarrhea/Dysentery","male","Cabo Delgado",1708,"hiv","diarrhea","diarrhea",1708,8,4,"","",NA,NA
+5574,"Undetermined","Other and unspecified infect dis","Unspecified","male","Niassa",91.2,"other","other_infections","undecided",NA,NA,NA,"child","months",3,NA
+5580,"Congenital malformation","Congenital malformation","Unspecified","male","Inhambane",31,"other","other","undecided",31,1,0,"","",NA,NA
+5585,"Malaria","Malaria","Other infections","male","Cabo Delgado",777,"malaria","malaria","other_infections",777,1,2,"","",NA,NA
+5587,"Diarrhoeal diseases","Malaria","Pneumonia","female","Cabo Delgado",769,"diarrhea","malaria","pneumonia",769,1,2,"","",NA,NA
+5594,"Diarrhoeal diseases","Diarrhoeal diseases","Malaria","male","Manica",186,"diarrhea","diarrhea","malaria",186,6,0,"","",NA,NA
+5598,"Pulmonary tuberculosis","Acute resp infect incl pneumonia","Malnutrition","male","Gaza",1397,"other_infections","pneumonia","severe_malnutrition",1397,9,3,"","",NA,NA
+5622,"Acute abdomen","Acute abdomen","Pneumonia","male","Sofala",763,"other","other","pneumonia",763,1,2,"","",NA,NA
+5633,"Other and unspecified infect dis","Other and unspecified infect dis","Malnutrition","female","Cabo Delgado",365.25,"other_infections","other_infections","severe_malnutrition",NA,NA,NA,"child","years",NA,1
+5636,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Malnutrition","male","Cabo Delgado",365.25,"pneumonia","pneumonia","severe_malnutrition",NA,NA,NA,"child","years",NA,1
+5640,"Diarrhoeal diseases","Malaria","Other infections","female","Cabo Delgado",329,"diarrhea","malaria","other_infections",329,10,0,"","",NA,NA
+5645,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","male","Cabo Delgado",653,"pneumonia","pneumonia","pneumonia",653,9,1,"","",NA,NA
+5650,"Dengue fever","Dengue fever","Other infections","female","Cabo Delgado",790,"other_infections","other_infections","other_infections",790,1,2,"","",NA,NA
+5653,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","female","Nampula",395.2,"pneumonia","pneumonia","pneumonia",NA,NA,NA,"child","months",13,NA
+5696,"Diarrhoeal diseases","Diarrhoeal diseases","Unspecified","male","Zambezia",333,"diarrhea","diarrhea","undecided",333,10,0,"","",NA,NA
+5705,"Diarrhoeal diseases","Diarrhoeal diseases","AIDS","male","Maputo Cidade",412,"diarrhea","diarrhea","hiv",412,1,1,"","",NA,NA
+5716,"Pertussis","Pertussis","Other infections","female","Zambezia",296,"other_infections","other_infections","other_infections",296,9,0,"","",NA,NA
+5718,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Zambezia",1184,"diarrhea","diarrhea","diarrhea",1184,2,3,"","",NA,NA
+5721,"Diarrhoeal diseases","Diarrhoeal diseases","Other infections","female","Zambezia",182.4,"diarrhea","diarrhea","other_infections",NA,NA,NA,"child","months",6,NA
+5730,"HIV/AIDS related death","Other and unspecified infect dis","Malnutrition","female","Zambezia",637,"hiv","other_infections","severe_malnutrition",637,8,1,"","",NA,NA
+5733,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Zambezia",1095.75,"diarrhea","diarrhea","diarrhea",NA,NA,NA,"child","years",NA,3
+5738,"Malaria","Malaria","Malnutrition","female","Cabo Delgado",719,"malaria","malaria","severe_malnutrition",719,11,1,"","",NA,NA
+5744,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","male","Zambezia",747,"pneumonia","pneumonia","pneumonia",747,0,2,"","",NA,NA
+5753,"Road traffic accident","Road traffic accident","Injury","male","Manica",1355,"other","other","other",1355,8,3,"","",NA,NA
+5754,"Road traffic accident","Road traffic accident","Injury","male","Manica",855,"other","other","other",855,4,2,"","",NA,NA
+5760,"Accid drowning and submersion","Accid drowning and submersion","Injury","female","Zambezia",1147,"other","other","other",1147,1,3,"","",NA,NA
+5768,"Exposure to force of nature","Exposure to force of nature","Injury","male","Manica",1295,"other","other","other",1295,6,3,"","",NA,NA
+5776,"Diarrhoeal diseases","Other and unspecified infect dis","Unspecified","male","Manica",296,"diarrhea","other_infections","undecided",296,9,0,"","",NA,NA
+5787,"Undetermined","Congenital malformation","Unspecified","female","Sofala",30,"other_infections","other","undecided",30,0,0,"","",NA,NA
+5827,"Other and unspecified infect dis","Other and unspecified infect dis","Pneumonia","female","Manica",1095.75,"other_infections","other_infections","pneumonia",NA,NA,NA,"child","years",NA,3
+5828,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","female","Manica",48,"pneumonia","pneumonia","pneumonia",48,1,0,"","",NA,NA
+5830,"Diarrhoeal diseases","Malaria","AIDS","female","Zambezia",119,"diarrhea","malaria","hiv",119,3,0,"","",NA,NA
+5836,"Other and unspecified infect dis","Other and unspecified infect dis","Other infections","male","Zambezia",869,"other_infections","other_infections","other_infections",869,4,2,"","",NA,NA
+5837,"Diarrhoeal diseases","Acute resp infect incl pneumonia","Diarrhea/Dysentery","male","Zambezia",277,"diarrhea","pneumonia","diarrhea",277,9,0,"","",NA,NA
+5846,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Meningitis/Encephalitis","female","Manica",34,"pneumonia","pneumonia","other_infections",34,1,0,"","",NA,NA
+5847,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","female","Manica",278,"pneumonia","pneumonia","pneumonia",278,9,0,"","",NA,NA
+5849,"Congenital malformation","Congenital malformation","Unspecified","male","Zambezia",91.2,"other","other","undecided",NA,NA,NA,"child","months",3,NA
+5851,"Congenital malformation","Congenital malformation","Unspecified","female","Zambezia",167,"other","other","undecided",167,5,0,"","",NA,NA
+5858,"Other and unspecified infect dis","Malaria","Diarrhea/Dysentery","female","Zambezia",1427,"other_infections","malaria","diarrhea",1427,10,3,"","",NA,NA
+5859,"Sepsis (non-obstetric)","Dengue fever","Other infections","female","Zambezia",1224,"other_infections","other_infections","other_infections",1224,4,3,"","",NA,NA
+5886,"Undetermined","Acute resp infect incl pneumonia","Pneumonia","female","Nampula",86,"other","pneumonia","pneumonia",86,2,0,"","",NA,NA
+5899,"Diarrhoeal diseases","Other and unspecified infect dis","Pneumonia","male","Manica",41,"diarrhea","other_infections","pneumonia",41,1,0,"","",NA,NA
+5930,"Congenital malformation","Malaria","Other infections","female","Sofala",137,"other","malaria","other_infections",137,4,0,"","",NA,NA
+5935,"Other and unspecified infect dis","Other and unspecified infect dis","Other infections","male","Cabo Delgado",1461,"other_infections","other_infections","other_infections",NA,NA,NA,"child","years",NA,4
+5941,"Meningitis and encephalitis","Meningitis and encephalitis","Pneumonia","female","Cabo Delgado",47,"other_infections","other_infections","pneumonia",47,1,0,"","",NA,NA
+5943,"Other and unspecified infect dis","Other and unspecified infect dis","Malaria","male","Cabo Delgado",292,"other_infections","other_infections","malaria",292,9,0,"","",NA,NA
+5948,"Undetermined","Acute resp infect incl pneumonia","Pneumonia","female","Cabo Delgado",189,"other","pneumonia","pneumonia",189,6,0,"","",NA,NA
+5954,"Diarrhoeal diseases","Diarrhoeal diseases","Malaria","male","Manica",516.8,"diarrhea","diarrhea","malaria",NA,NA,NA,"child","months",17,NA
+5974,"HIV/AIDS related death","Other and unspecified infect dis","Other infections","male","Cabo Delgado",126,"hiv","other_infections","other_infections",126,4,0,"","",NA,NA
+5975,"HIV/AIDS related death","HIV/AIDS related death","AIDS","female","Cabo Delgado",427,"hiv","hiv","hiv",427,2,1,"","",NA,NA
+5976,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Cabo Delgado",678,"diarrhea","diarrhea","diarrhea",678,10,1,"","",NA,NA
+5978,"HIV/AIDS related death","Diarrhoeal diseases","Malnutrition","female","Cabo Delgado",1056,"hiv","diarrhea","severe_malnutrition",1056,10,2,"","",NA,NA
+5982,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Unspecified","female","Sofala",33,"pneumonia","pneumonia","undecided",33,1,0,"","",NA,NA
+5984,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Meningitis/Encephalitis","male","Sofala",216,"pneumonia","pneumonia","other_infections",216,7,0,"","",NA,NA
+5992,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Nampula",827,"diarrhea","diarrhea","diarrhea",827,3,2,"","",NA,NA
+6002,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","female","Maputo Cidade",157,"diarrhea","diarrhea","diarrhea",157,5,0,"","",NA,NA
+6007,"Diarrhoeal diseases","Intentional self-harm","Injury","male","Gaza",1273,"diarrhea","other","other",1273,5,3,"","",NA,NA
+6009,"Malaria","Malaria","Other infections","female","Manica",896,"malaria","malaria","other_infections",896,5,2,"","",NA,NA
+6010,"Malaria","Dengue fever","Other infections","female","Manica",554,"malaria","other_infections","other_infections",554,6,1,"","",NA,NA
+6021,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Unspecified","female","Gaza",1727,"pneumonia","pneumonia","undecided",1727,8,4,"","",NA,NA
+6041,"Meningitis and encephalitis","Acute resp infect incl pneumonia","Measles","male","Cabo Delgado",176,"other_infections","pneumonia","other_infections",176,5,0,"","",NA,NA
+6049,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Other infections","male","Cabo Delgado",365.25,"pneumonia","pneumonia","other_infections",NA,NA,NA,"child","years",NA,1
+6051,"Other and unspecified infect dis","Acute resp infect incl pneumonia","Malaria","male","Cabo Delgado",92,"other_infections","pneumonia","malaria",92,3,0,"","",NA,NA
+6052,"Undetermined","Diarrhoeal diseases","Diarrhea/Dysentery","male","Cabo Delgado",274,"other","diarrhea","diarrhea",274,9,0,"","",NA,NA
+6054,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","male","Cabo Delgado",1461,"pneumonia","pneumonia","pneumonia",NA,NA,NA,"child","years",NA,4
+6068,"Diarrhoeal diseases","Diarrhoeal diseases","Measles","male","Manica",914,"diarrhea","diarrhea","other_infections",914,6,2,"","",NA,NA
+6078,"Undetermined","Diarrhoeal diseases","Diarrhea/Dysentery","male","Manica",72,"other","diarrhea","diarrhea",72,2,0,"","",NA,NA
+6084,"Meningitis and encephalitis","Meningitis and encephalitis","Other infections","male","Cabo Delgado",534,"other_infections","other_infections","other_infections",534,5,1,"","",NA,NA
+6089,"Diarrhoeal diseases","Pertussis","Unspecified","male","Manica",218,"diarrhea","other_infections","undecided",218,7,0,"","",NA,NA
+6095,"Severe malnutrition","Severe malnutrition","Malnutrition","male","Nampula",730.5,"severe_malnutrition","severe_malnutrition","severe_malnutrition",NA,NA,NA,"child","years",NA,2
+6096,"Sepsis (non-obstetric)","Malaria","Other infections","male","Cabo Delgado",129,"other_infections","malaria","other_infections",129,4,0,"","",NA,NA
+6113,"Diarrhoeal diseases","Diarrhoeal diseases","Meningitis/Encephalitis","female","Nampula",577.6,"diarrhea","diarrhea","other_infections",NA,NA,NA,"child","months",19,NA
+6117,"Other and unspecified infect dis","Other and unspecified infect dis","Measles","male","Nampula",865,"other_infections","other_infections","other_infections",865,4,2,"","",NA,NA
+6118,"Diarrhoeal diseases","Diarrhoeal diseases","Malnutrition","female","Nampula",816,"diarrhea","diarrhea","severe_malnutrition",816,2,2,"","",NA,NA
+6124,"Diarrhoeal diseases","Malaria","Diarrhea/Dysentery","male","Manica",397,"diarrhea","malaria","diarrhea",397,1,1,"","",NA,NA
+6138,"Diarrhoeal diseases","Other and unspecified infect dis","Pneumonia","female","Zambezia",304,"diarrhea","other_infections","pneumonia",NA,NA,NA,"child","months",10,NA
+6139,"Sickle cell with crisis","Acute resp infect incl pneumonia","Unspecified","male","Zambezia",265,"other","pneumonia","undecided",265,8,0,"","",NA,NA
+6140,"Assault","Assault","Injury","male","Zambezia",1535,"other","other","other",1535,2,4,"","",NA,NA
+6141,"Diarrhoeal diseases","Diarrhoeal diseases","Malnutrition","male","Zambezia",530,"diarrhea","diarrhea","severe_malnutrition",530,5,1,"","",NA,NA
+6142,"Diarrhoeal diseases","Diarrhoeal diseases","Pneumonia","female","Manica",1453,"diarrhea","diarrhea","pneumonia",1453,11,3,"","",NA,NA
+6150,"Sepsis (non-obstetric)","Malaria","Other infections","female","Cabo Delgado",53,"other_infections","malaria","other_infections",53,1,0,"","",NA,NA
+6152,"Undetermined","HIV/AIDS related death","AIDS","male","Zambezia",91.2,"other","hiv","hiv",NA,NA,NA,"child","months",3,NA
+6154,"Malaria","Malaria","Unspecified","male","Zambezia",474,"malaria","malaria","undecided",474,3,1,"","",NA,NA
+6156,"HIV/AIDS related death","HIV/AIDS related death","Other infections","female","Zambezia",1461,"hiv","hiv","other_infections",NA,NA,NA,"child","years",NA,4
+6157,"Sickle cell with crisis","Acute resp infect incl pneumonia","Other infections","male","Zambezia",207,"other","pneumonia","other_infections",207,6,0,"","",NA,NA
+6158,"Sepsis (non-obstetric)","Acute resp infect incl pneumonia","Unspecified","male","Zambezia",28,"other_infections","pneumonia","undecided",28,0,0,"","",NA,NA
+6162,"Diarrhoeal diseases","Acute abdomen","Pneumonia","male","Zambezia",730.5,"diarrhea","other","pneumonia",NA,NA,NA,"child","years",NA,2
+6164,"Meningitis and encephalitis","Acute resp infect incl pneumonia","Unspecified","male","Zambezia",91.2,"other_infections","pneumonia","undecided",NA,NA,NA,"child","months",3,NA
+6165,"Diarrhoeal diseases","Diarrhoeal diseases","Unspecified","female","Zambezia",365.25,"diarrhea","diarrhea","undecided",NA,NA,NA,"child","years",NA,1
+6166,"Diarrhoeal diseases","Diarrhoeal diseases","Unspecified","female","Zambezia",1095.75,"diarrhea","diarrhea","undecided",NA,NA,NA,"child","years",NA,3
+6168,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Zambezia",730.5,"diarrhea","diarrhea","diarrhea",NA,NA,NA,"child","years",NA,2
+6169,"Diarrhoeal diseases","Dengue fever","Other infections","female","Zambezia",33,"diarrhea","other_infections","other_infections",33,1,0,"","",NA,NA
+6172,"Diarrhoeal diseases","Other and unspecified infect dis","Diarrhea/Dysentery","female","Zambezia",358,"diarrhea","other_infections","diarrhea",358,11,0,"","",NA,NA
+6181,"Diarrhoeal diseases","Malaria","Diarrhea/Dysentery","male","Zambezia",1357,"diarrhea","malaria","diarrhea",1357,8,3,"","",NA,NA
+6187,"Pertussis","Pertussis","Pneumonia","female","Niassa",245,"other_infections","other_infections","pneumonia",245,8,0,"","",NA,NA
+6208,"Meningitis and encephalitis","Meningitis and encephalitis","Meningitis/Encephalitis","female","Niassa",227,"other_infections","other_infections","other_infections",227,7,0,"","",NA,NA
+6211,"Liver cirrhosis","Tetanus","Malnutrition","male","Niassa",947,"other","other_infections","severe_malnutrition",947,7,2,"","",NA,NA
+6225,"Diarrhoeal diseases","Pertussis","Unspecified","male","Zambezia",35,"diarrhea","other_infections","undecided",35,1,0,"","",NA,NA
+6229,"HIV/AIDS related death","Liver cirrhosis","Pneumonia","female","Zambezia",1461,"hiv","other","pneumonia",NA,NA,NA,"child","years",NA,4
+6232,"Other and unspecified NCD","Diarrhoeal diseases","Measles","female","Nampula",643,"other","diarrhea","other_infections",643,9,1,"","",NA,NA
+6258,"HIV/AIDS related death","Other and unspecified infect dis","Meningitis/Encephalitis","male","Cabo Delgado",922,"hiv","other_infections","other_infections",922,6,2,"","",NA,NA
+6278,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","female","Zambezia",578,"diarrhea","diarrhea","diarrhea",578,6,1,"","",NA,NA
+6280,"Undetermined","Congenital malformation","Unspecified","male","Manica",50,"other","other","undecided",50,1,0,"","",NA,NA
+6282,"Severe malnutrition","Severe malnutrition","Malnutrition","male","Manica",627,"severe_malnutrition","severe_malnutrition","severe_malnutrition",627,8,1,"","",NA,NA
+6283,"Diarrhoeal diseases","Malaria","Meningitis/Encephalitis","female","Manica",144,"diarrhea","malaria","other_infections",144,4,0,"","",NA,NA
+6286,"Undetermined","Malaria","Other infections","female","Manica",137,"other","malaria","other_infections",137,4,0,"","",NA,NA
+6291,"Undetermined","Diarrhoeal diseases","Diarrhea/Dysentery","male","Manica",343,"other","diarrhea","diarrhea",343,11,0,"","",NA,NA
+6298,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Sofala",339,"diarrhea","diarrhea","diarrhea",339,11,0,"","",NA,NA
+6301,"Meningitis and encephalitis","Dengue fever","Malaria","male","Manica",160,"other_infections","other_infections","malaria",160,5,0,"","",NA,NA
+6308,"Severe malnutrition","Severe malnutrition","Malnutrition","male","Zambezia",505,"severe_malnutrition","severe_malnutrition","severe_malnutrition",505,4,1,"","",NA,NA
+6309,"Stroke","Stroke","Unspecified","male","Zambezia",1285,"other","other","undecided",1285,6,3,"","",NA,NA
+6318,"Other and unspecified infect dis","Malaria","Pneumonia","female","Manica",331,"other_infections","malaria","pneumonia",331,10,0,"","",NA,NA
+6332,"Undetermined","Diarrhoeal diseases","Diarrhea/Dysentery","male","Maputo Cidade",32,"other","diarrhea","diarrhea",32,1,0,"","",NA,NA
+6335,"Malaria","Malaria","Other infections","male","Tete",371,"malaria","malaria","other_infections",371,0,1,"","",NA,NA
+6336,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","female","Niassa",365.25,"diarrhea","diarrhea","diarrhea",NA,NA,NA,"child","years",NA,1
+6339,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","female","Tete",74,"pneumonia","pneumonia","pneumonia",74,2,0,"","",NA,NA
+6358,"HIV/AIDS related death","Other and unspecified infect dis","Other infections","female","Manica",738,"hiv","other_infections","other_infections",738,0,2,"","",NA,NA
+6363,"Diarrhoeal diseases","Other and unspecified infect dis","Pneumonia","female","Tete",40,"diarrhea","other_infections","pneumonia",40,1,0,"","",NA,NA
+6365,"Malaria","Malaria","Pneumonia","female","Zambezia",131,"malaria","malaria","pneumonia",131,4,0,"","",NA,NA
+6380,"Pulmonary tuberculosis","Pulmonary tuberculosis","Other infections","male","Manica",1212,"other_infections","other_infections","other_infections",1212,3,3,"","",NA,NA
+6393,"HIV/AIDS related death","Severe malnutrition","Other infections","male","Maputo Provincia",762,"hiv","severe_malnutrition","other_infections",762,1,2,"","",NA,NA
+6401,"Malaria","Malaria","Pneumonia","male","Zambezia",730.5,"malaria","malaria","pneumonia",NA,NA,NA,"child","years",NA,2
+6403,"Malaria","Acute resp infect incl pneumonia","Unspecified","male","Gaza",752,"malaria","pneumonia","undecided",752,0,2,"","",NA,NA
+6415,"Undetermined","Acute resp infect incl pneumonia","Diarrhea/Dysentery","male","Gaza",93,"other","pneumonia","diarrhea",93,3,0,"","",NA,NA
+6423,"Meningitis and encephalitis","Diarrhoeal diseases","Pneumonia","female","Manica",153,"other_infections","diarrhea","pneumonia",153,5,0,"","",NA,NA
+6425,"Meningitis and encephalitis","Malaria","Pneumonia","female","Gaza",124,"other_infections","malaria","pneumonia",124,4,0,"","",NA,NA
+6429,"Malaria","Malaria","Other infections","female","Gaza",760,"malaria","malaria","other_infections",760,0,2,"","",NA,NA
+6430,"Malaria","Malaria","Other infections","male","Gaza",1496,"malaria","malaria","other_infections",1496,1,4,"","",NA,NA
+6432,"Severe malnutrition","Acute resp infect incl pneumonia","Diarrhea/Dysentery","male","Gaza",729,"severe_malnutrition","pneumonia","diarrhea",729,11,1,"","",NA,NA
+6434,"Diarrhoeal diseases","Malaria","Malaria","male","Manica",230,"diarrhea","malaria","malaria",230,7,0,"","",NA,NA
+6435,"Malaria","Malaria","Other infections","female","Manica",621,"malaria","malaria","other_infections",621,8,1,"","",NA,NA
+6457,"Undetermined","Dengue fever","Pneumonia","male","Gaza",61,"other","other_infections","pneumonia",61,2,0,"","",NA,NA
+6470,"Undetermined","Diarrhoeal diseases","Diarrhea/Dysentery","male","Manica",332,"other","diarrhea","diarrhea",332,10,0,"","",NA,NA
+6471,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Manica",1019,"diarrhea","diarrhea","diarrhea",1019,9,2,"","",NA,NA
+6472,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Meningitis/Encephalitis","male","Manica",241,"pneumonia","pneumonia","other_infections",241,7,0,"","",NA,NA
+6478,"Other and unspecified infect dis","Other and unspecified infect dis","Malnutrition","female","Gaza",973,"other_infections","other_infections","severe_malnutrition",973,7,2,"","",NA,NA
+6484,"Meningitis and encephalitis","Malaria","Pneumonia","female","Zambezia",182.4,"other_infections","malaria","pneumonia",NA,NA,NA,"child","months",6,NA
+6520,"Meningitis and encephalitis","Meningitis and encephalitis","Meningitis/Encephalitis","male","Cabo Delgado",31,"other_infections","other_infections","other_infections",31,1,0,"","",NA,NA
+6539,"HIV/AIDS related death","Malaria","Pneumonia","male","Manica",388,"hiv","malaria","pneumonia",388,0,1,"","",NA,NA
+6541,"Malaria","Malaria","Other infections","male","Zambezia",1095.75,"malaria","malaria","other_infections",NA,NA,NA,"child","years",NA,3
+6549,"Haemorrhagic fever (non-dengue)","Haemorrhagic fever (non-dengue)","Unspecified","male","Manica",1338,"other_infections","other_infections","undecided",1338,7,3,"","",NA,NA
+6553,"Diarrhoeal diseases","Congenital malformation","Unspecified","female","Zambezia",60.8,"diarrhea","other","undecided",NA,NA,NA,"child","months",2,NA
+6555,"Meningitis and encephalitis","Meningitis and encephalitis","Malaria","female","Zambezia",332,"other_infections","other_infections","malaria",332,10,0,"","",NA,NA
+6557,"Diabetes mellitus","Acute resp infect incl pneumonia","Unspecified","female","Zambezia",658,"other","pneumonia","undecided",658,9,1,"","",NA,NA
+6559,"Malaria","Malaria","Malaria","male","Zambezia",718,"malaria","malaria","malaria",718,11,1,"","",NA,NA
+6561,"HIV/AIDS related death","HIV/AIDS related death","AIDS","female","Zambezia",1717,"hiv","hiv","hiv",1717,8,4,"","",NA,NA
+6562,"HIV/AIDS related death","HIV/AIDS related death","Other infections","male","Zambezia",109,"hiv","hiv","other_infections",109,3,0,"","",NA,NA
+6567,"Sickle cell with crisis","Meningitis and encephalitis","Meningitis/Encephalitis","female","Zambezia",364.8,"other","other_infections","other_infections",NA,NA,NA,"child","months",12,NA
+6568,"Diarrhoeal diseases","Other and unspecified infect dis","Other infections","female","Zambezia",1318,"diarrhea","other_infections","other_infections",1318,7,3,"","",NA,NA
+6572,"Malaria","Malaria","Other infections","female","Zambezia",511,"malaria","malaria","other_infections",511,4,1,"","",NA,NA
+6573,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","male","Zambezia",261,"pneumonia","pneumonia","pneumonia",261,8,0,"","",NA,NA
+6584,"Malaria","Malaria","Other infections","male","Zambezia",668,"malaria","malaria","other_infections",668,9,1,"","",NA,NA
+6585,"Dengue fever","Dengue fever","Other infections","female","Zambezia",384,"other_infections","other_infections","other_infections",384,0,1,"","",NA,NA
+6592,"Accid fall","Accid fall","Injury","male","Zambezia",1043,"other","other","other",1043,10,2,"","",NA,NA
+6601,"Diabetes mellitus","Acute abdomen","Unspecified","female","Manica",1173,"other","other","undecided",1173,2,3,"","",NA,NA
+6602,"Diarrhoeal diseases","Other and unspecified infect dis","Diarrhea/Dysentery","male","Manica",691,"diarrhea","other_infections","diarrhea",691,10,1,"","",NA,NA
+6603,"Other and unspecified infect dis","Other and unspecified infect dis","Other infections","male","Manica",1237,"other_infections","other_infections","other_infections",1237,4,3,"","",NA,NA
+6625,"Diarrhoeal diseases","Other and unspecified infect dis","Diarrhea/Dysentery","female","Nampula",912,"diarrhea","other_infections","diarrhea",912,5,2,"","",NA,NA
+6627,"Malaria","Malaria","Pneumonia","female","Cabo Delgado",479,"malaria","malaria","pneumonia",479,3,1,"","",NA,NA
+6628,"HIV/AIDS related death","HIV/AIDS related death","Other infections","female","Cabo Delgado",487,"hiv","hiv","other_infections",487,4,1,"","",NA,NA
+6640,"Diarrhoeal diseases","Diarrhoeal diseases","Other infections","male","Cabo Delgado",121.6,"diarrhea","diarrhea","other_infections",NA,NA,NA,"child","months",4,NA
+6642,"Undetermined","Acute resp infect incl pneumonia","Pneumonia","male","Cabo Delgado",31,"other","pneumonia","pneumonia",31,1,0,"","",NA,NA
+6645,"Diarrhoeal diseases","Diarrhoeal diseases","Malnutrition","male","Cabo Delgado",365.25,"diarrhea","diarrhea","severe_malnutrition",NA,NA,NA,"child","years",NA,1
+6647,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Meningitis/Encephalitis","female","Cabo Delgado",694,"pneumonia","pneumonia","other_infections",694,10,1,"","",NA,NA
+6651,"Meningitis and encephalitis","Malaria","Meningitis/Encephalitis","male","Manica",363,"other_infections","malaria","other_infections",363,11,0,"","",NA,NA
+6653,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Manica",40,"diarrhea","diarrhea","diarrhea",40,1,0,"","",NA,NA
+6655,"Diarrhoeal diseases","Diarrhoeal diseases","Meningitis/Encephalitis","male","Manica",365,"diarrhea","diarrhea","other_infections",365,12,0,"","",NA,NA
+6659,"Meningitis and encephalitis","Meningitis and encephalitis","Unspecified","male","Nampula",459,"other_infections","other_infections","undecided",459,3,1,"","",NA,NA
+6663,"Malaria","Malaria","Malaria","female","Manica",96,"malaria","malaria","malaria",96,3,0,"","",NA,NA
+6664,"Undetermined","Other and unspecified infect dis","Pneumonia","male","Nampula",304,"other","other_infections","pneumonia",NA,NA,NA,"child","months",10,NA
+6668,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","female","Nampula",1461,"diarrhea","diarrhea","diarrhea",NA,NA,NA,"child","years",NA,4
+6669,"HIV/AIDS related death","HIV/AIDS related death","Pneumonia","male","Nampula",649,"hiv","hiv","pneumonia",649,9,1,"","",NA,NA
+6671,"Undetermined","Pertussis","Pneumonia","female","Nampula",52,"other","other_infections","pneumonia",52,1,0,"","",NA,NA
+6676,"Malaria","Malaria","Pneumonia","female","Manica",462,"malaria","malaria","pneumonia",462,3,1,"","",NA,NA
+6677,"Diarrhoeal diseases","Contact with venomous plant/animal","Injury","male","Manica",726,"diarrhea","other","other",726,11,1,"","",NA,NA
+6684,"Diarrhoeal diseases","Diarrhoeal diseases","Diarrhea/Dysentery","male","Manica",304,"diarrhea","diarrhea","diarrhea",NA,NA,NA,"child","months",10,NA
+6688,"Undetermined","Diarrhoeal diseases","Diarrhea/Dysentery","male","Nampula",225,"other","diarrhea","diarrhea",225,7,0,"","",NA,NA
+6695,"Malaria","Diarrhoeal diseases","Pneumonia","male","Manica",1091,"malaria","diarrhea","pneumonia",1091,11,2,"","",NA,NA
+6698,"Acute resp infect incl pneumonia","Acute resp infect incl pneumonia","Pneumonia","female","Manica",805,"pneumonia","pneumonia","pneumonia",805,2,2,"","",NA,NA
+6701,"Diarrhoeal diseases","Diarrhoeal diseases","Pneumonia","male","Cabo Delgado",266,"diarrhea","diarrhea","pneumonia",266,8,0,"","",NA,NA
+6703,"Malaria","Malaria","Other infections","female","Cabo Delgado",913,"malaria","malaria","other_infections",913,6,2,"","",NA,NA
+6707,"Malaria","Malaria","Other infections","female","Cabo Delgado",487,"malaria","malaria","other_infections",487,4,1,"","",NA,NA
+6709,"Liver cirrhosis","Accid drowning and submersion","Injury","male","Sofala",1114,"other","other","other",1114,0,3,"","",NA,NA
+6712,"Liver cirrhosis","Other and unspecified infect dis","Pneumonia","female","Manica",1461,"other","other_infections","pneumonia",1461,0,4,"","",NA,NA
+6721,"Severe malnutrition","Severe malnutrition","Diarrhea/Dysentery","male","Manica",774,"severe_malnutrition","severe_malnutrition","diarrhea",774,1,2,"","",NA,NA
+6722,"Malaria","Malaria","Pneumonia","female","Manica",28,"malaria","malaria","pneumonia",28,0,0,"","",NA,NA
+6731,"Diarrhoeal diseases","Acute resp infect incl pneumonia","Pneumonia","female","Manica",162,"diarrhea","pneumonia","pneumonia",162,5,0,"","",NA,NA
+6742,"Undetermined","Diarrhoeal diseases","Diarrhea/Dysentery","male","Nampula",243.2,"other","diarrhea","diarrhea",NA,NA,NA,"child","months",8,NA

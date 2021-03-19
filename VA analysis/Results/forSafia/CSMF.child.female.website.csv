@@ -1,0 +1,8 @@
+"cause","variable","value","n","method","sex"
+"diarrhea","raw",0.19438877755511,97,"InsilicoVA","female"
+"hiv","raw",0.0360721442885772,18,"InsilicoVA","female"
+"malaria","raw",0.17434869739479,87,"InsilicoVA","female"
+"other","raw",0.0841683366733467,42,"InsilicoVA","female"
+"other_infections","raw",0.272545090180361,136,"InsilicoVA","female"
+"pneumonia","raw",0.208416833667335,104,"InsilicoVA","female"
+"severe_malnutrition","raw",0.030060120240481,15,"InsilicoVA","female"

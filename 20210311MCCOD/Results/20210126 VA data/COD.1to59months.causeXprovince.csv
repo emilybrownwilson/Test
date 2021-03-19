@@ -1,0 +1,65 @@
+"province","InsilicoVA","n","freq"
+"Cabo Delgado","diarrhea",15,0.14
+"Cabo Delgado","hiv",7,0.065
+"Cabo Delgado","malaria",18,0.168
+"Cabo Delgado","other",4,0.037
+"Cabo Delgado","other_infections",34,0.318
+"Cabo Delgado","pneumonia",24,0.224
+"Cabo Delgado","severe_malnutrition",5,0.047
+"Gaza","diarrhea",1,0.067
+"Gaza","malaria",3,0.2
+"Gaza","other",3,0.2
+"Gaza","other_infections",1,0.067
+"Gaza","pneumonia",7,0.467
+"Inhambane","hiv",2,0.133
+"Inhambane","malaria",2,0.133
+"Inhambane","other",7,0.467
+"Inhambane","other_infections",1,0.067
+"Inhambane","pneumonia",1,0.067
+"Inhambane","severe_malnutrition",2,0.133
+"Manica","diarrhea",35,0.304
+"Manica","hiv",2,0.017
+"Manica","malaria",24,0.209
+"Manica","other",7,0.061
+"Manica","other_infections",28,0.243
+"Manica","pneumonia",15,0.13
+"Manica","severe_malnutrition",4,0.035
+"Maputo Cidade","diarrhea",3,0.75
+"Maputo Cidade","severe_malnutrition",1,0.25
+"Maputo Provincia","diarrhea",1,0.143
+"Maputo Provincia","other",1,0.143
+"Maputo Provincia","pneumonia",3,0.429
+"Maputo Provincia","severe_malnutrition",2,0.286
+"Nampula","diarrhea",15,0.341
+"Nampula","hiv",1,0.023
+"Nampula","malaria",6,0.136
+"Nampula","other",4,0.091
+"Nampula","other_infections",11,0.25
+"Nampula","pneumonia",6,0.136
+"Nampula","severe_malnutrition",1,0.023
+"Niassa","diarrhea",1,0.059
+"Niassa","malaria",4,0.235
+"Niassa","other",2,0.118
+"Niassa","other_infections",7,0.412
+"Niassa","pneumonia",3,0.176
+"Sofala","diarrhea",6,0.222
+"Sofala","hiv",1,0.037
+"Sofala","malaria",6,0.222
+"Sofala","other",3,0.111
+"Sofala","other_infections",4,0.148
+"Sofala","pneumonia",6,0.222
+"Sofala","severe_malnutrition",1,0.037
+"Tete","diarrhea",22,0.191
+"Tete","hiv",2,0.017
+"Tete","malaria",24,0.209
+"Tete","other",8,0.07
+"Tete","other_infections",31,0.27
+"Tete","pneumonia",23,0.2
+"Tete","severe_malnutrition",5,0.043
+"Zambezia","diarrhea",37,0.228
+"Zambezia","hiv",10,0.062
+"Zambezia","malaria",37,0.228
+"Zambezia","other",15,0.093
+"Zambezia","other_infections",32,0.198
+"Zambezia","pneumonia",24,0.148
+"Zambezia","severe_malnutrition",7,0.043

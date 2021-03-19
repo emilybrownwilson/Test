@@ -1,0 +1,8 @@
+"cause","variable","value","n","method","sex"
+"Cancer","raw",0.057660626029654,35,"InsilicoVA","female"
+"HIV","raw",0.364085667215815,221,"InsilicoVA","female"
+"Injury","raw",0.0955518945634267,58,"InsilicoVA","female"
+"Maternal","raw",0.243822075782537,148,"InsilicoVA","female"
+"Other","raw",0.0724876441515651,44,"InsilicoVA","female"
+"Other infections","raw",0.14003294892916,85,"InsilicoVA","female"
+"Tuberculosis","raw",0.0263591433278418,16,"InsilicoVA","female"

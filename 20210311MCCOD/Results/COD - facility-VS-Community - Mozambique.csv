@@ -1,0 +1,18 @@
+1-59 months,,,,,,0-27 days,,,,
+method,cause,community,facility,Diff,,method,cause,community,facility,Diff
+InsilicoVA,diarrhea,0.207,0.241,-0.034,,InsilicoVA,infection,0.53,0.289,0.241
+InsilicoVA,hiv,0.048,0.014,0.034,,InsilicoVA,ipre,0.141,0.404,-0.263
+InsilicoVA,malaria,0.201,0.207,-0.006,,InsilicoVA,other,0.032,0.044,-0.012
+InsilicoVA,other,0.084,0.097,-0.013,,InsilicoVA,prematurity,0.297,0.263,0.034
+InsilicoVA,other_infections,0.231,0.255,-0.024,,,,,,
+InsilicoVA,pneumonia,0.183,0.145,0.038,,EAVA,congenital_malformation,0.032,0.018,0.014
+InsilicoVA,severe_malnutrition,0.046,0.041,0.005,,EAVA,infection,0.449,0.368,0.081
+,,,,,,EAVA,ipre,0.097,0.193,-0.096
+EAVA,diarrhea,0.143,0.221,-0.078,,EAVA,other,0.016,0.018,-0.002
+EAVA,hiv,0.08,0.062,0.018,,EAVA,prematurity,0.168,0.14,0.028
+EAVA,malaria,0.072,0.041,0.031,,EAVA,undecided,0.238,0.263,-0.025
+EAVA,other,0.046,0.034,0.012,,,,,,
+EAVA,other_infections,0.279,0.276,0.003,,,,,,
+EAVA,pneumonia,0.223,0.193,0.03,,,,,,
+EAVA,severe_malnutrition,0.044,0.055,-0.011,,,,,,
+EAVA,undecided,0.112,0.117,-0.005,,,,,,

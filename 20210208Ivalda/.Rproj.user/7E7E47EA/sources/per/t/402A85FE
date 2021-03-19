@@ -1,0 +1,24 @@
+{
+    "id": "402A85FE",
+    "path": "~/Desktop/COMSA Analysis/Raw to CalibratedVA input pipeline/For/20210208Ivalda/6a. multi_va_comsa.R",
+    "project_path": "6a. multi_va_comsa.R",
+    "type": "r_source",
+    "hash": "1463128367",
+    "contents": "",
+    "dirty": false,
+    "created": 1612810500491.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "cursorPosition": "35,22",
+        "scrollLine": "9"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1612810614,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1612810614524,
+    "read_only": false,
+    "read_only_alternatives": []
+}

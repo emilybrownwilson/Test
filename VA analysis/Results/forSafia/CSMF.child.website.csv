@@ -1,0 +1,8 @@
+"cause","variable","value","n","method"
+"diarrhea","raw",0.223463687150838,240,"InsilicoVA"
+"hiv","raw",0.0344506517690875,37,"InsilicoVA"
+"malaria","raw",0.188081936685289,202,"InsilicoVA"
+"other","raw",0.0865921787709497,93,"InsilicoVA"
+"other_infections","raw",0.245810055865922,264,"InsilicoVA"
+"pneumonia","raw",0.182495344506518,196,"InsilicoVA"
+"severe_malnutrition","raw",0.0391061452513966,42,"InsilicoVA"

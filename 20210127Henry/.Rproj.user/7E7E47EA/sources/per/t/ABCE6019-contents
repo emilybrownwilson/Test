@@ -1,0 +1,105 @@
+# Last edited: 27 Jan 2021
+# Last run:    27 Jan 2021
+# Objective: Question of how InsilicoVA and EAVA compare
+#            What is InsilicoVA calling cases that have no data?
+#            What are the EAVA undecided cases called in InsilicoVA?
+
+rm(list = ls())
+
+# library(rJava)
+# library(openVA)
+library(readr)
+library(dplyr)
+library(tidyr)
+# library(CrossVA)
+library(readxl)
+library(xlsx)
+library(data.table)
+library(tidyverse)
+library(haven)
+
+'%!in%' <- function(x,y)!('%in%'(x,y))
+
+file <- getwd()
+file
+
+################################################################# 1-59m
+allEAVA <- read.csv(file.path(file,"/Data/eava_child_comsa.csv"))
+table(allEAVA$allexpertdxs)
+unspecifiedEAVA.child <- read.csv("~/Desktop/COMSA Analysis/Raw to CalibratedVA input pipeline/For/20200804Henry/EAVA.COMSA.child-unspecified.csv", header=TRUE)
+unspecifiedEAVA.child.abrv <- unspecifiedEAVA.child[,c("ID","allexpertdxs")]
+rownames(unspecifiedEAVA.child.abrv) <- unspecifiedEAVA.child.abrv$ID
+
+eava_child_comsa <- readRDS("/Users/EWilson/Desktop/COMSA Analysis/Raw to CalibratedVA input pipeline/For/20210127Henry/Results/single_eava_child_comsa.rds")
+insilicova_child_comsa <- readRDS("/Users/EWilson/Desktop/COMSA Analysis/Raw to CalibratedVA input pipeline/For/20210127Henry/Results/single_insilicova_child_comsa.rds")
+dim(eava_child_comsa)
+dim(insilicova_child_comsa)
+
+head(insilicova_child_comsa)
+head(eava_child_comsa)
+head(unspecifiedEAVA.child.abrv)
+test <- merge(unspecifiedEAVA.child.abrv,eava_child_comsa, by="row.names")
+head(test)
+
+head(insilicova_child_comsa)
+insilicova_child_comsa <- as.data.frame(insilicova_child_comsa)
+insilicova_child_comsa$InsilicoVA <- "."
+insilicova_child_comsa$InsilicoVA[insilicova_child_comsa$malaria==1] <- "malaria"
+insilicova_child_comsa$InsilicoVA[insilicova_child_comsa$pneumonia==1] <- "pneumonia"
+insilicova_child_comsa$InsilicoVA[insilicova_child_comsa$diarrhea==1] <- "diarrhea"
+insilicova_child_comsa$InsilicoVA[insilicova_child_comsa$severe_malnutrition==1] <- "severe_malnutrition"
+insilicova_child_comsa$InsilicoVA[insilicova_child_comsa$hiv==1] <- "hiv"
+insilicova_child_comsa$InsilicoVA[insilicova_child_comsa$other==1] <- "other"
+insilicova_child_comsa$InsilicoVA[insilicova_child_comsa$other_infections==1] <- "other_infections"
+
+insilicova_child_comsa$ID <- row.names(insilicova_child_comsa)
+insilicova_child_comsa <- insilicova_child_comsa[,c("ID","InsilicoVA")]
+
+EAVA_undecideds_with_InsilicoVA_causes_child <- merge(unspecifiedEAVA.child.abrv,insilicova_child_comsa, by="ID")
+head(EAVA_undecideds_with_InsilicoVA_causes_child)
+
+write.csv(EAVA_undecideds_with_InsilicoVA_causes_child,"EAVA_undecideds_InsilicoVA_causes_child.csv", row.names = FALSE)
+
+
+
+
+################################################################# 0-27d
+allEAVA <- read.csv(file.path(file,"/Data/eava_neonate_comsa.csv"))
+table(allEAVA$allexpertdxs1)
+unspecifiedEAVA.neonate <- read.csv("~/Desktop/COMSA Analysis/Raw to CalibratedVA input pipeline/For/20200804Henry/EAVA.COMSA.neonate-unspecified.csv", header=TRUE)
+unspecifiedEAVA.neonate.abrv <- unspecifiedEAVA.neonate[,c("ID","allexpertdxs1")]
+rownames(unspecifiedEAVA.neonate.abrv) <- unspecifiedEAVA.neonate.abrv$ID
+
+eava_neonate_comsa <- readRDS("/Users/EWilson/Desktop/COMSA Analysis/Raw to CalibratedVA input pipeline/For/20210127Henry/Results/single_eava_neonate_comsa.rds")
+insilicova_neonate_comsa <- readRDS("/Users/EWilson/Desktop/COMSA Analysis/Raw to CalibratedVA input pipeline/For/20210127Henry/Results/single_insilicova_neonate_comsa.rds")
+dim(eava_neonate_comsa)
+dim(insilicova_neonate_comsa)
+
+head(insilicova_neonate_comsa)
+head(eava_neonate_comsa)
+head(unspecifiedEAVA.neonate.abrv)
+test <- merge(unspecifiedEAVA.neonate.abrv,eava_neonate_comsa, by="row.names")
+head(test)
+
+head(insilicova_neonate_comsa)
+insilicova_neonate_comsa <- as.data.frame(insilicova_neonate_comsa)
+insilicova_neonate_comsa$InsilicoVA <- "."
+insilicova_neonate_comsa$InsilicoVA[insilicova_neonate_comsa$congenital_malformation==1] <- "congenital_malformation"
+insilicova_neonate_comsa$InsilicoVA[insilicova_neonate_comsa$infection==1] <- "infection"
+insilicova_neonate_comsa$InsilicoVA[insilicova_neonate_comsa$ipre==1] <- "ipre"
+insilicova_neonate_comsa$InsilicoVA[insilicova_neonate_comsa$other==1] <- "other"
+insilicova_neonate_comsa$InsilicoVA[insilicova_neonate_comsa$prematurity==1] <- "prematurity"
+
+insilicova_neonate_comsa$ID <- row.names(insilicova_neonate_comsa)
+insilicova_neonate_comsa <- insilicova_neonate_comsa[,c("ID","InsilicoVA")]
+
+EAVA_undecideds_with_InsilicoVA_causes_neonate <- merge(unspecifiedEAVA.neonate.abrv,insilicova_neonate_comsa, by="ID")
+head(EAVA_undecideds_with_InsilicoVA_causes_neonate)
+
+write.csv(EAVA_undecideds_with_InsilicoVA_causes_neonate,"EAVA_undecideds_InsilicoVA_causes_neonate.csv", row.names = FALSE)
+
+table(EAVA_undecideds_with_InsilicoVA_causes_neonate$InsilicoVA)
+
+
+
+

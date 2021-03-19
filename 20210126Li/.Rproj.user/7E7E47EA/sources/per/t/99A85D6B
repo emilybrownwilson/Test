@@ -1,0 +1,24 @@
+{
+    "id": "99A85D6B",
+    "path": "~/Desktop/COMSA Analysis/Raw to CalibratedVA input pipeline/For/20210126Li/1. COMSA openVA results.R",
+    "project_path": "1. COMSA openVA results.R",
+    "type": "r_source",
+    "hash": "2940804734",
+    "contents": "",
+    "dirty": false,
+    "created": 1611870498552.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "cursorPosition": "505,0",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1611680373,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1611680373,
+    "read_only": false,
+    "read_only_alternatives": []
+}

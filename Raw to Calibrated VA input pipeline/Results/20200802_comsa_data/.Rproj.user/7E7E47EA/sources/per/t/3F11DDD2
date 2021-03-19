@@ -1,0 +1,24 @@
+{
+    "id": "3F11DDD2",
+    "path": "~/Desktop/COMSA Analysis/Raw to CalibratedVA input pipeline/Results/20200802_comsa_data/checks.R",
+    "project_path": "checks.R",
+    "type": "r_source",
+    "hash": "977092924",
+    "contents": "",
+    "dirty": false,
+    "created": 1596417323148.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "cursorPosition": "0,0",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1596425950,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1596425950409,
+    "read_only": false,
+    "read_only_alternatives": []
+}

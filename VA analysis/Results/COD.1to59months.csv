@@ -1,0 +1,1075 @@
+"ID","InterVA","InsilicoVA","EAVA","sex","province","age_in_days"
+"100","other_infections","other_infections","diarrhea","female","Tete",427
+"1004","other_infections","malaria","other","female","Tete",256
+"1010","malaria","malaria","pneumonia","male","Nampula",432
+"1017","diarrhea","diarrhea","other","male","Tete",32
+"1022","other_infections","other_infections","other","female","Cabo Delgado",28
+"1036","diarrhea","diarrhea","diarrhea","male","Tete",115
+"1039","pneumonia","pneumonia","diarrhea","male","Tete",531
+"1049","diarrhea","diarrhea","severe_malnutrition","male","Zambezia",413
+"1051","other_infections","other_infections","other_infections","male","Zambezia",212.8
+"1057","other_infections","other","other_infections","male","Cabo Delgado",32
+"106","other_infections","other_infections","other_infections","female","Nampula",364.8
+"1062","other_infections","pneumonia","other","male","Cabo Delgado",137
+"1070","other_infections","pneumonia","malaria","male","Cabo Delgado",119
+"108","malaria","malaria","other_infections","female","Cabo Delgado",579
+"1083","diarrhea","diarrhea","undecided","male","Nampula",121.6
+"1087","other_infections","other_infections","other","male","Nampula",100
+"1099","other_infections","other_infections","other_infections","female","Tete",267
+"11","hiv","diarrhea","hiv","male","Sofala",845
+"1100","severe_malnutrition","other_infections","undecided","male","Tete",899
+"1134","hiv","malaria","other_infections","male","Cabo Delgado",516
+"1146","diarrhea","other_infections","other_infections","female","Nampula",730.5
+"1151","other_infections","other_infections","other_infections","male","Zambezia",248
+"1156","diarrhea","diarrhea","diarrhea","male","Zambezia",311
+"1161","other","other","undecided","female","Zambezia",865
+"1181","diarrhea","diarrhea","other_infections","male","Cabo Delgado",291
+"1184","diarrhea","diarrhea","severe_malnutrition","female","Cabo Delgado",32
+"119","malaria","malaria","pneumonia","male","Cabo Delgado",1095.75
+"1195","other_infections","other_infections","pneumonia","male","Cabo Delgado",155
+"1199","other_infections","other_infections","other_infections","female","Cabo Delgado",791
+"1202","other","other","undecided","female","Cabo Delgado",730.5
+"1207","hiv","other_infections","hiv","female","Zambezia",752
+"1208","malaria","malaria","pneumonia","male","Zambezia",694
+"1209","malaria","malaria","other_infections","female","Zambezia",487
+"1218","diarrhea","malaria","undecided","female","Zambezia",32
+"1234","other_infections","other","other","female","Cabo Delgado",1410
+"1235","other_infections","other_infections","malaria","male","Tete",59
+"1237","diarrhea","other_infections","pneumonia","male","Tete",196
+"1250","other_infections","other_infections","other_infections","male","Tete",34
+"1259","pneumonia","pneumonia","other_infections","female","Sofala",579
+"126","diarrhea","pneumonia","malaria","female","Tete",323
+"1261","malaria","other_infections","other_infections","male","Zambezia",643
+"1263","other","other","other","male","Zambezia",1136
+"1264","other_infections","other_infections","undecided","female","Zambezia",93
+"1265","diarrhea","diarrhea","hiv","male","Zambezia",76
+"1275","diarrhea","diarrhea","pneumonia","male","Nampula",336
+"1279","diarrhea","malaria","diarrhea","male","Cabo Delgado",365.25
+"128","diarrhea","malaria","diarrhea","female","Cabo Delgado",980
+"1284","malaria","malaria","diarrhea","male","Nampula",714
+"1289","other","malaria","undecided","female","Zambezia",657
+"1290","other","malaria","undecided","male","Zambezia",206
+"1300","diarrhea","pneumonia","diarrhea","male","Zambezia",206
+"1301","other_infections","malaria","pneumonia","female","Zambezia",126
+"1302","diarrhea","diarrhea","undecided","female","Zambezia",34
+"1313","diarrhea","diarrhea","undecided","male","Zambezia",212
+"1331","severe_malnutrition","pneumonia","diarrhea","male","Sofala",105
+"1335","other_infections","other_infections","undecided","male","Tete",123
+"1343","diarrhea","pneumonia","undecided","male","Tete",295
+"1344","other","other","undecided","male","Tete",611
+"1357","diarrhea","diarrhea","undecided","male","Nampula",168
+"1364","hiv","other_infections","pneumonia","male","Inhambane",377
+"1365","diarrhea","diarrhea","diarrhea","male","Inhambane",726
+"1380","diarrhea","other_infections","diarrhea","female","Maputo Provincia",563
+"1399","diarrhea","malaria","diarrhea","female","Manica",829
+"140","other_infections","other","other_infections","female","Cabo Delgado",146
+"142","other_infections","pneumonia","other","male","Cabo Delgado",44
+"1421","pneumonia","pneumonia","undecided","male","Inhambane",334
+"1429","pneumonia","pneumonia","pneumonia","male","Inhambane",910
+"145","other","other_infections","other_infections","male","Cabo Delgado",815
+"1452","diarrhea","diarrhea","pneumonia","female","Maputo Cidade",1223
+"146","other","other_infections","other_infections","female","Nampula",742
+"147","other","other","other_infections","female","Nampula",1476
+"1479","other_infections","other_infections","diarrhea","male","Inhambane",752
+"1488","other_infections","hiv","other_infections","male","Inhambane",759
+"1491","other_infections","other_infections","other_infections","female","Gaza",229
+"1518","severe_malnutrition","severe_malnutrition","other_infections","male","Gaza",144
+"1528","other_infections","pneumonia","pneumonia","female","Zambezia",68
+"1536","diarrhea","diarrhea","diarrhea","male","Gaza",519
+"1538","other_infections","pneumonia","malaria","female","Inhambane",101
+"1547","other","other","other","male","Zambezia",237
+"1551","diarrhea","diarrhea","other_infections","female","Zambezia",476
+"1567","hiv","other_infections","severe_malnutrition","male","Zambezia",209
+"1573","other_infections","other_infections","other_infections","female","Zambezia",244
+"1575","diarrhea","diarrhea","diarrhea","male","Zambezia",979
+"1581","other_infections","other_infections","other_infections","male","Inhambane",335
+"1584","diarrhea","diarrhea","pneumonia","male","Zambezia",369
+"1591","other_infections","pneumonia","pneumonia","female","Zambezia",82
+"1592","malaria","malaria","pneumonia","female","Zambezia",457
+"1593","other_infections","pneumonia","other_infections","female","Zambezia",239
+"1594","other_infections","diarrhea","malaria","female","Zambezia",65
+"161","severe_malnutrition","severe_malnutrition","severe_malnutrition","female","Cabo Delgado",460
+"1611","pneumonia","pneumonia","undecided","female","Zambezia",892
+"1623","diarrhea","hiv","hiv","female","Zambezia",152
+"1628","other","malaria","other_infections","male","Zambezia",379
+"1636","other","other","other","female","Gaza",337
+"1644","diarrhea","malaria","other_infections","female","Zambezia",273.6
+"165","diarrhea","diarrhea","other_infections","male","Cabo Delgado",389
+"1651","hiv","other_infections","pneumonia","male","Cabo Delgado",795
+"1657","other_infections","other_infections","other_infections","male","Zambezia",1114
+"1658","other_infections","other_infections","other_infections","female","Zambezia",31
+"1682","other_infections","other_infections","other_infections","female","Manica",967
+"1686","diarrhea","diarrhea","malaria","male","Tete",212
+"1688","pneumonia","malaria","pneumonia","female","Tete",250
+"1693","diarrhea","diarrhea","other_infections","female","Tete",1312
+"1694","diarrhea","severe_malnutrition","severe_malnutrition","male","Tete",146
+"1702","diarrhea","diarrhea","other_infections","male","Tete",364
+"1705","pneumonia","pneumonia","pneumonia","female","Tete",372
+"1706","pneumonia","pneumonia","pneumonia","male","Tete",1097
+"1717","other","other","undecided","female","Nampula",1113
+"1718","diarrhea","diarrhea","diarrhea","male","Nampula",1325
+"1724","hiv","severe_malnutrition","other_infections","male","Nampula",732
+"1729","hiv","malaria","other_infections","male","Manica",473
+"1731","other","other","other","female","Tete",1228
+"1733","pneumonia","malaria","pneumonia","male","Tete",422
+"1734","diarrhea","other_infections","other_infections","female","Tete",179
+"1737","hiv","hiv","other_infections","female","Tete",606
+"1745","hiv","hiv","severe_malnutrition","male","Tete",420
+"1748","diarrhea","diarrhea","pneumonia","female","Tete",838
+"1749","pneumonia","pneumonia","pneumonia","female","Tete",314
+"175","other_infections","pneumonia","other_infections","female","Tete",185
+"1750","pneumonia","pneumonia","pneumonia","female","Tete",33
+"1752","other","other","other","male","Tete",1375
+"1755","other","other","undecided","female","Tete",463
+"1761","diarrhea","diarrhea","undecided","female","Cabo Delgado",154
+"1764","other","other","undecided","male","Cabo Delgado",76
+"177","malaria","malaria","other_infections","female","Tete",711
+"1773","other","other","other","female","Cabo Delgado",1656
+"178","other","pneumonia","pneumonia","male","Tete",167
+"1780","severe_malnutrition","severe_malnutrition","severe_malnutrition","male","Nampula",388
+"1782","malaria","malaria","other_infections","female","Cabo Delgado",790
+"1784","severe_malnutrition","severe_malnutrition","other_infections","female","Cabo Delgado",89
+"1785","other","malaria","pneumonia","female","Tete",379
+"1790","other","other","other","male","Inhambane",386
+"180","diarrhea","diarrhea","diarrhea","male","Zambezia",386
+"1805","other","pneumonia","other_infections","female","Cabo Delgado",41
+"181","diarrhea","malaria","diarrhea","female","Tete",392
+"1810","diarrhea","diarrhea","diarrhea","male","Cabo Delgado",348
+"182","malaria","malaria","pneumonia","female","Tete",1120
+"1827","other","diarrhea","other_infections","male","Zambezia",1111
+"183","other","other_infections","pneumonia","male","Zambezia",147
+"1832","other_infections","other_infections","pneumonia","female","Zambezia",747
+"185","diarrhea","diarrhea","severe_malnutrition","female","Zambezia",729
+"1850","other_infections","diarrhea","diarrhea","male","Nampula",306
+"1853","diarrhea","diarrhea","severe_malnutrition","male","Zambezia",388
+"1855","malaria","malaria","other_infections","male","Zambezia",409
+"1869","diarrhea","diarrhea","diarrhea","male","Zambezia",1362
+"187","hiv","diarrhea","diarrhea","female","Sofala",973
+"1870","malaria","other_infections","undecided","male","Cabo Delgado",182.4
+"1882","severe_malnutrition","severe_malnutrition","diarrhea","male","Tete",743
+"1886","other","pneumonia","diarrhea","male","Gaza",176
+"1892","diarrhea","severe_malnutrition","hiv","female","Inhambane",423
+"1902","diarrhea","other_infections","diarrhea","male","Inhambane",1040
+"1926","severe_malnutrition","severe_malnutrition","pneumonia","female","Cabo Delgado",1122
+"1927","malaria","malaria","severe_malnutrition","female","Cabo Delgado",664
+"1929","other","severe_malnutrition","other_infections","female","Niassa",152
+"1931","malaria","other_infections","other_infections","male","Cabo Delgado",739
+"1932","malaria","malaria","malaria","female","Cabo Delgado",191
+"1933","diarrhea","other_infections","diarrhea","male","Cabo Delgado",1461
+"1939","severe_malnutrition","severe_malnutrition","other_infections","female","Manica",182.4
+"194","other_infections","other_infections","pneumonia","female","Sofala",730.5
+"1959","diarrhea","diarrhea","pneumonia","male","Manica",92
+"1966","diarrhea","diarrhea","pneumonia","male","Cabo Delgado",341
+"197","diarrhea","diarrhea","other_infections","male","Nampula",202
+"1971","other","pneumonia","other_infections","male","Cabo Delgado",243
+"1973","other_infections","other_infections","other_infections","male","Cabo Delgado",130
+"1974","other_infections","other_infections","other_infections","male","Cabo Delgado",730.5
+"1982","diarrhea","diarrhea","diarrhea","female","Cabo Delgado",751
+"1987","other","other","other_infections","female","Nampula",797
+"1995","other","diarrhea","diarrhea","female","Nampula",245
+"200","diarrhea","diarrhea","other_infections","male","Cabo Delgado",353
+"2002","other","other","undecided","female","Maputo Provincia",126
+"2004","malaria","malaria","malaria","female","Tete",475
+"2005","other_infections","malaria","other","male","Tete",32
+"2006","other_infections","other_infections","other_infections","male","Tete",349
+"2007","other_infections","pneumonia","pneumonia","male","Tete",153
+"201","other","malaria","pneumonia","male","Cabo Delgado",934
+"2019","pneumonia","pneumonia","pneumonia","female","Zambezia",376
+"2023","other_infections","other_infections","other_infections","male","Tete",813
+"2028","diarrhea","severe_malnutrition","diarrhea","male","Cabo Delgado",470
+"2030","other_infections","pneumonia","pneumonia","female","Cabo Delgado",42
+"2036","other_infections","other_infections","other_infections","male","Zambezia",95
+"205","diarrhea","diarrhea","other","male","Nampula",66
+"2054","pneumonia","pneumonia","pneumonia","female","Tete",28
+"2055","diarrhea","diarrhea","diarrhea","female","Zambezia",140
+"206","diarrhea","diarrhea","diarrhea","female","Nampula",1373
+"2063","hiv","other_infections","other_infections","male","Zambezia",515
+"2069","other","other","other","female","Zambezia",1345
+"2072","diarrhea","diarrhea","diarrhea","male","Zambezia",460
+"2073","diarrhea","diarrhea","diarrhea","male","Zambezia",365.25
+"2094","other","pneumonia","pneumonia","male","Sofala",242
+"2121","hiv","severe_malnutrition","pneumonia","male","Inhambane",574
+"2142","diarrhea","diarrhea","diarrhea","female","Tete",374
+"2148","other","other","pneumonia","female","Tete",1532
+"215","other","pneumonia","undecided","female","Tete",77
+"216","malaria","malaria","pneumonia","male","Tete",840
+"2164","malaria","pneumonia","undecided","male","Gaza",609
+"2170","hiv","other_infections","other_infections","female","Nampula",1004
+"2172","other","diarrhea","other_infections","male","Nampula",230
+"2173","pneumonia","pneumonia","undecided","female","Nampula",113
+"2185","diarrhea","diarrhea","diarrhea","male","Gaza",1495
+"2190","other_infections","other_infections","undecided","female","Tete",385
+"2191","other_infections","other_infections","diarrhea","female","Tete",584
+"2192","pneumonia","pneumonia","pneumonia","female","Tete",1022
+"2203","malaria","malaria","undecided","male","Tete",1310
+"2209","other","pneumonia","pneumonia","male","Tete",36
+"2213","diarrhea","diarrhea","diarrhea","female","Tete",795
+"2214","other","other","pneumonia","female","Tete",1479
+"2217","other_infections","other_infections","other_infections","female","Tete",119
+"2219","other_infections","other_infections","pneumonia","female","Tete",463
+"2224","malaria","malaria","malaria","male","Tete",500
+"223","diarrhea","malaria","pneumonia","female","Cabo Delgado",284
+"2232","other_infections","other_infections","other_infections","female","Zambezia",1089
+"2233","pneumonia","pneumonia","pneumonia","female","Manica",444
+"2234","hiv","pneumonia","other_infections","male","Manica",408
+"2237","hiv","pneumonia","pneumonia","female","Zambezia",657
+"2255","diarrhea","diarrhea","other_infections","female","Tete",157
+"2274","hiv","hiv","pneumonia","female","Inhambane",1095.75
+"2284","other_infections","other_infections","malaria","female","Manica",35
+"2300","malaria","malaria","pneumonia","male","Zambezia",1012
+"2302","diarrhea","pneumonia","undecided","female","Zambezia",363
+"2308","other_infections","other_infections","other_infections","male","Tete",883
+"2313","diarrhea","diarrhea","diarrhea","female","Nampula",280
+"2320","other_infections","malaria","other_infections","male","Cabo Delgado",327
+"2322","malaria","malaria","other_infections","female","Cabo Delgado",843
+"2326","diarrhea","malaria","other_infections","female","Zambezia",724
+"2331","pneumonia","pneumonia","diarrhea","female","Cabo Delgado",579
+"2336","diarrhea","other_infections","other_infections","female","Zambezia",188
+"2338","diarrhea","diarrhea","pneumonia","male","Zambezia",85
+"2354","other","other_infections","pneumonia","male","Nampula",64
+"2355","other","pneumonia","malaria","female","Nampula",90
+"236","other","pneumonia","pneumonia","male","Nampula",63
+"2360","other","diarrhea","other_infections","female","Nampula",270
+"2361","diarrhea","diarrhea","other_infections","female","Nampula",59
+"2364","hiv","severe_malnutrition","diarrhea","male","Nampula",365.25
+"2367","diarrhea","diarrhea","diarrhea","male","Nampula",365.25
+"2368","pneumonia","other_infections","malaria","male","Nampula",91.2
+"237","other_infections","pneumonia","other_infections","female","Nampula",182
+"2373","diarrhea","diarrhea","diarrhea","female","Manica",1272
+"2374","malaria","malaria","undecided","female","Manica",1393
+"2375","malaria","malaria","other_infections","male","Zambezia",375
+"2380","diarrhea","other_infections","pneumonia","female","Zambezia",194
+"2393","other","other","other","male","Maputo Provincia",905
+"2395","malaria","malaria","diarrhea","male","Zambezia",1106
+"242","other_infections","other_infections","other_infections","female","Cabo Delgado",1028
+"243","severe_malnutrition","other_infections","other_infections","male","Nampula",70
+"2431","other","malaria","severe_malnutrition","male","Tete",1368
+"2432","other","other","other","female","Tete",306
+"2434","other_infections","other_infections","other_infections","female","Tete",209
+"2441","malaria","malaria","other_infections","female","Maputo Provincia",45
+"245","diarrhea","diarrhea","undecided","male","Tete",531
+"2455","diarrhea","diarrhea","diarrhea","male","Tete",471
+"2456","other","other","undecided","male","Tete",822
+"2457","diarrhea","diarrhea","hiv","male","Tete",592
+"2460","malaria","malaria","malaria","male","Tete",62
+"2462","diarrhea","diarrhea","diarrhea","male","Tete",665
+"2466","diarrhea","diarrhea","diarrhea","male","Tete",37
+"2474","other_infections","pneumonia","other_infections","male","Tete",193
+"2477","diarrhea","diarrhea","other_infections","female","Tete",137
+"248","malaria","malaria","pneumonia","male","Nampula",402
+"2484","pneumonia","pneumonia","diarrhea","male","Maputo Provincia",1077
+"2485","other","other","other","female","Zambezia",307
+"2493","other_infections","other_infections","other_infections","female","Tete",1273
+"2496","malaria","malaria","pneumonia","male","Tete",552
+"2497","pneumonia","pneumonia","pneumonia","male","Tete",161
+"2500","malaria","malaria","other_infections","female","Tete",447
+"2501","diarrhea","diarrhea","diarrhea","male","Tete",388
+"2506","malaria","malaria","undecided","male","Tete",1782
+"2507","diarrhea","pneumonia","other","male","Manica",114
+"2515","other","malaria","malaria","female","Zambezia",230
+"2518","diarrhea","diarrhea","undecided","female","Manica",542
+"253","other_infections","other_infections","severe_malnutrition","female","Sofala",937
+"2537","hiv","hiv","hiv","male","Inhambane",361
+"254","other_infections","other_infections","undecided","male","Sofala",31
+"2549","diarrhea","severe_malnutrition","severe_malnutrition","male","Niassa",212.8
+"2553","other","other","other","male","Niassa",1095.75
+"2558","diarrhea","diarrhea","other_infections","female","Niassa",579
+"2562","pneumonia","pneumonia","other_infections","female","Cabo Delgado",487
+"2569","diarrhea","pneumonia","pneumonia","male","Manica",241
+"257","other_infections","other_infections","other_infections","female","Sofala",30
+"2572","malaria","malaria","diarrhea","male","Zambezia",1199
+"2577","diarrhea","diarrhea","diarrhea","female","Manica",456
+"2581","other_infections","pneumonia","pneumonia","female","Cabo Delgado",74
+"2582","hiv","severe_malnutrition","other_infections","male","Cabo Delgado",743
+"2583","diarrhea","diarrhea","pneumonia","male","Cabo Delgado",1453
+"2590","diarrhea","diarrhea","severe_malnutrition","female","Manica",485
+"2592","hiv","hiv","hiv","female","Manica",824
+"2595","diarrhea","diarrhea","diarrhea","male","Manica",799
+"260","other_infections","other_infections","other","female","Sofala",61
+"2634","other_infections","pneumonia","pneumonia","female","Zambezia",243.2
+"2637","diarrhea","diarrhea","diarrhea","male","Zambezia",1276
+"2639","diarrhea","diarrhea","pneumonia","female","Zambezia",270
+"2643","diarrhea","diarrhea","severe_malnutrition","male","Zambezia",125
+"2658","diarrhea","diarrhea","diarrhea","female","Zambezia",1218
+"2660","hiv","hiv","hiv","male","Zambezia",750
+"2662","severe_malnutrition","severe_malnutrition","pneumonia","male","Zambezia",639
+"2665","malaria","malaria","diarrhea","male","Zambezia",757
+"2669","other","pneumonia","undecided","male","Cabo Delgado",60.8
+"2673","other","other","other","female","Zambezia",334
+"2693","other_infections","other_infections","hiv","female","Sofala",281
+"2700","diarrhea","diarrhea","diarrhea","female","Tete",309
+"2702","other","other","diarrhea","male","Inhambane",742
+"2707","pneumonia","other_infections","pneumonia","female","Tete",185
+"2708","other_infections","severe_malnutrition","other_infections","male","Tete",812
+"2711","diarrhea","diarrhea","diarrhea","male","Tete",1185
+"2717","pneumonia","pneumonia","pneumonia","male","Inhambane",1095.75
+"272","malaria","malaria","other_infections","male","Tete",427
+"2720","diarrhea","malaria","other_infections","male","Tete",298
+"273","other_infections","pneumonia","pneumonia","female","Tete",117
+"2731","diarrhea","diarrhea","diarrhea","male","Manica",647
+"2733","other","pneumonia","pneumonia","male","Tete",333
+"2737","hiv","diarrhea","other_infections","male","Zambezia",601
+"2738","other","diarrhea","diarrhea","male","Zambezia",328
+"2742","diarrhea","diarrhea","diarrhea","female","Niassa",218
+"2745","diarrhea","other_infections","malaria","male","Zambezia",176
+"2748","hiv","severe_malnutrition","severe_malnutrition","female","Zambezia",1141
+"2750","diarrhea","other_infections","other_infections","female","Cabo Delgado",243.2
+"2751","pneumonia","pneumonia","severe_malnutrition","female","Cabo Delgado",1203
+"2753","hiv","other","pneumonia","female","Zambezia",541
+"2758","diarrhea","diarrhea","diarrhea","female","Zambezia",426
+"2760","diarrhea","other_infections","diarrhea","female","Zambezia",82
+"2767","severe_malnutrition","other","other_infections","female","Zambezia",1377
+"2768","malaria","malaria","other_infections","male","Zambezia",514
+"2769","other_infections","other_infections","undecided","female","Zambezia",294
+"2770","diarrhea","other","undecided","female","Zambezia",287
+"2774","other_infections","malaria","pneumonia","male","Zambezia",182
+"2775","hiv","pneumonia","pneumonia","female","Zambezia",438
+"2778","other_infections","other_infections","other_infections","male","Zambezia",1749
+"2780","other","other","other","female","Tete",615
+"2783","diarrhea","malaria","malaria","female","Cabo Delgado",260
+"2784","other_infections","other_infections","other_infections","female","Tete",327
+"2787","other_infections","other_infections","malaria","male","Tete",1131
+"279","other","other","undecided","male","Tete",555
+"2801","diarrhea","diarrhea","diarrhea","female","Tete",513
+"2807","hiv","malaria","other_infections","male","Nampula",826
+"2808","diarrhea","diarrhea","diarrhea","male","Zambezia",408
+"2817","diarrhea","diarrhea","severe_malnutrition","male","Sofala",1529
+"2818","pneumonia","pneumonia","hiv","male","Tete",116
+"2819","other","severe_malnutrition","diarrhea","female","Sofala",47
+"2821","pneumonia","pneumonia","pneumonia","male","Zambezia",111
+"2822","other","pneumonia","malaria","female","Zambezia",92
+"2826","pneumonia","pneumonia","pneumonia","male","Tete",212
+"2827","malaria","malaria","other_infections","male","Sofala",1095.75
+"2829","pneumonia","pneumonia","pneumonia","male","Sofala",454
+"2831","other_infections","hiv","hiv","male","Sofala",281
+"2858","other_infections","pneumonia","other_infections","female","Cabo Delgado",288
+"286","other","other","other","male","Tete",1094
+"287","pneumonia","pneumonia","pneumonia","female","Tete",1142
+"2872","other","hiv","other_infections","male","Cabo Delgado",319
+"2874","other","diarrhea","other_infections","male","Cabo Delgado",195
+"2894","diarrhea","diarrhea","diarrhea","male","Cabo Delgado",154
+"2895","other","other","other","male","Cabo Delgado",1332
+"290","pneumonia","pneumonia","pneumonia","female","Tete",794
+"2917","diarrhea","diarrhea","diarrhea","female","Tete",465
+"2928","other_infections","other_infections","other_infections","female","Cabo Delgado",1506
+"2929","diarrhea","malaria","undecided","male","Cabo Delgado",319
+"2931","other","other_infections","other_infections","female","Cabo Delgado",243
+"2939","diarrhea","diarrhea","diarrhea","female","Cabo Delgado",464
+"294","diarrhea","diarrhea","severe_malnutrition","female","Tete",548
+"2941","other_infections","pneumonia","undecided","female","Cabo Delgado",63
+"2943","hiv","severe_malnutrition","diarrhea","female","Cabo Delgado",1100
+"2945","malaria","malaria","diarrhea","male","Cabo Delgado",861
+"2946","diarrhea","diarrhea","undecided","female","Cabo Delgado",1378
+"2961","hiv","pneumonia","pneumonia","female","Niassa",400
+"2963","malaria","malaria","undecided","male","Zambezia",97
+"2964","other_infections","other_infections","pneumonia","male","Zambezia",966
+"2965","other_infections","other_infections","pneumonia","female","Zambezia",371
+"2973","other_infections","pneumonia","pneumonia","female","Zambezia",28
+"2976","other","hiv","hiv","female","Manica",151
+"2980","other","other","other","male","Nampula",870
+"2986","other","diarrhea","other_infections","female","Manica",33
+"2988","other","malaria","other_infections","male","Sofala",1067
+"2996","other","other","other","male","Zambezia",1461
+"2997","other","pneumonia","other_infections","male","Zambezia",152
+"30","other_infections","pneumonia","pneumonia","female","Sofala",35
+"3008","other","other","other","female","Zambezia",876
+"3009","diarrhea","diarrhea","diarrhea","female","Zambezia",139
+"301","diarrhea","other_infections","other_infections","male","Tete",291
+"3013","pneumonia","pneumonia","pneumonia","male","Niassa",369
+"3016","severe_malnutrition","severe_malnutrition","diarrhea","female","Tete",572
+"3018","other","other","other","female","Niassa",147
+"3020","other","malaria","undecided","male","Niassa",182.4
+"3021","severe_malnutrition","severe_malnutrition","severe_malnutrition","male","Niassa",60.8
+"304","other_infections","other_infections","other_infections","male","Nampula",902
+"3045","other","pneumonia","undecided","female","Zambezia",89
+"305","other","hiv","severe_malnutrition","male","Nampula",850
+"3056","other","pneumonia","other_infections","male","Zambezia",94
+"3066","hiv","hiv","hiv","female","Zambezia",523
+"3069","diarrhea","other_infections","diarrhea","female","Zambezia",254
+"3075","diarrhea","diarrhea","other_infections","male","Zambezia",158
+"308","diarrhea","diarrhea","pneumonia","male","Nampula",193
+"3081","severe_malnutrition","severe_malnutrition","diarrhea","female","Maputo Provincia",469
+"3097","malaria","malaria","pneumonia","female","Manica",669
+"3104","pneumonia","pneumonia","other_infections","female","Manica",325
+"3114","diarrhea","other_infections","undecided","female","Cabo Delgado",97
+"3126","diarrhea","other","undecided","female","Gaza",1243
+"3127","pneumonia","pneumonia","pneumonia","female","Cabo Delgado",994
+"3130","other","other_infections","other_infections","male","Cabo Delgado",266
+"3139","other_infections","other_infections","other_infections","male","Cabo Delgado",903
+"3173","diarrhea","diarrhea","pneumonia","male","Tete",184
+"3178","other_infections","malaria","other_infections","male","Tete",317
+"3179","other_infections","malaria","other_infections","female","Tete",294
+"318","other","other_infections","undecided","male","Zambezia",419
+"3180","malaria","malaria","other_infections","male","Tete",765
+"3194","malaria","malaria","other_infections","male","Tete",773
+"3196","diarrhea","other","undecided","male","Zambezia",36
+"3197","other_infections","other","undecided","male","Zambezia",47
+"3199","malaria","other_infections","other_infections","female","Zambezia",408
+"3203","hiv","hiv","hiv","female","Zambezia",730.5
+"3204","diarrhea","diarrhea","undecided","female","Zambezia",74
+"3206","hiv","other","pneumonia","male","Inhambane",1470
+"3212","other","other_infections","pneumonia","male","Tete",31
+"3213","other_infections","pneumonia","other_infections","female","Tete",166
+"3216","diarrhea","diarrhea","diarrhea","male","Zambezia",162
+"322","other_infections","other_infections","pneumonia","male","Zambezia",686
+"3222","other_infections","other_infections","pneumonia","female","Nampula",1187
+"3224","diarrhea","diarrhea","other_infections","male","Sofala",533
+"3226","other_infections","diarrhea","other","female","Zambezia",71
+"323","diarrhea","diarrhea","pneumonia","female","Zambezia",1491
+"3230","malaria","malaria","undecided","male","Zambezia",983
+"3231","diarrhea","other_infections","diarrhea","male","Niassa",206
+"3235","diarrhea","other_infections","pneumonia","male","Cabo Delgado",1771
+"3241","diarrhea","diarrhea","diarrhea","male","Tete",186
+"3242","diarrhea","diarrhea","diarrhea","male","Tete",279
+"3246","diarrhea","diarrhea","malaria","female","Cabo Delgado",219
+"325","other_infections","other_infections","severe_malnutrition","male","Zambezia",1065
+"3253","other","pneumonia","hiv","female","Zambezia",127
+"3254","pneumonia","pneumonia","pneumonia","male","Zambezia",226
+"3255","malaria","malaria","other_infections","female","Zambezia",317
+"3261","pneumonia","pneumonia","pneumonia","female","Cabo Delgado",170
+"3262","other","other_infections","diarrhea","female","Cabo Delgado",198
+"3266","severe_malnutrition","other_infections","pneumonia","female","Cabo Delgado",730.5
+"327","diarrhea","diarrhea","hiv","female","Zambezia",122
+"3274","diarrhea","diarrhea","undecided","male","Zambezia",469
+"3275","diarrhea","diarrhea","diarrhea","male","Zambezia",265
+"3277","malaria","malaria","malaria","male","Zambezia",1313
+"3281","diarrhea","diarrhea","undecided","female","Zambezia",875
+"3283","diarrhea","diarrhea","undecided","female","Zambezia",89
+"3284","diarrhea","diarrhea","diarrhea","male","Zambezia",407
+"3285","diarrhea","diarrhea","diarrhea","female","Zambezia",1028
+"3286","pneumonia","pneumonia","pneumonia","female","Zambezia",1721
+"329","diarrhea","diarrhea","severe_malnutrition","female","Zambezia",727
+"3294","pneumonia","pneumonia","pneumonia","female","Zambezia",73
+"3304","severe_malnutrition","severe_malnutrition","pneumonia","male","Zambezia",217
+"3317","malaria","malaria","other_infections","female","Zambezia",596
+"3320","diarrhea","diarrhea","severe_malnutrition","female","Zambezia",771
+"3326","diarrhea","diarrhea","diarrhea","male","Zambezia",677
+"333","other_infections","other_infections","other_infections","female","Sofala",212
+"3330","malaria","malaria","pneumonia","male","Sofala",797
+"3334","diarrhea","diarrhea","diarrhea","male","Zambezia",1761
+"3337","diarrhea","other_infections","malaria","male","Cabo Delgado",236
+"3340","pneumonia","pneumonia","other_infections","female","Zambezia",1461
+"3348","diarrhea","diarrhea","diarrhea","male","Manica",50
+"3350","other","other","undecided","male","Manica",1242
+"3351","diarrhea","diarrhea","severe_malnutrition","male","Cabo Delgado",1427
+"3357","other_infections","malaria","pneumonia","female","Manica",324
+"3362","pneumonia","pneumonia","pneumonia","female","Zambezia",771
+"3363","other_infections","malaria","malaria","female","Zambezia",153
+"3376","diarrhea","diarrhea","diarrhea","male","Manica",912
+"3383","other_infections","malaria","pneumonia","male","Tete",1334
+"3393","pneumonia","malaria","pneumonia","male","Manica",987
+"3396","other_infections","other_infections","malaria","male","Manica",193
+"34","other_infections","pneumonia","pneumonia","female","Sofala",49
+"3401","malaria","malaria","other_infections","male","Cabo Delgado",758
+"3408","malaria","malaria","malaria","male","Manica",357
+"341","malaria","other_infections","other_infections","male","Zambezia",597
+"342","other_infections","pneumonia","other","female","Zambezia",121.6
+"3424","diarrhea","diarrhea","malaria","male","Manica",358
+"3429","diarrhea","diarrhea","undecided","female","Manica",1301
+"343","malaria","malaria","other_infections","male","Zambezia",656
+"3430","other","pneumonia","undecided","female","Manica",142
+"3444","other_infections","other_infections","other_infections","female","Tete",485
+"3446","diarrhea","diarrhea","diarrhea","female","Tete",480
+"3469","diarrhea","other_infections","pneumonia","female","Tete",357
+"3476","other_infections","diarrhea","diarrhea","male","Tete",238
+"3483","other_infections","other_infections","other_infections","female","Manica",89
+"3484","other_infections","malaria","other_infections","male","Manica",212.8
+"3488","hiv","severe_malnutrition","other_infections","male","Tete",1097
+"349","other","other","severe_malnutrition","male","Zambezia",44
+"3491","malaria","malaria","other_infections","female","Manica",1105
+"3497","diarrhea","other","other_infections","female","Manica",1096
+"3513","diarrhea","other","pneumonia","female","Inhambane",1408
+"3519","hiv","hiv","hiv","female","Inhambane",633
+"3532","other_infections","other_infections","other_infections","male","Nampula",87
+"354","other_infections","pneumonia","other_infections","female","Tete",89
+"3544","malaria","malaria","malaria","male","Manica",65
+"3545","severe_malnutrition","severe_malnutrition","other_infections","male","Tete",924
+"3547","other","diarrhea","diarrhea","female","Zambezia",201
+"356","malaria","malaria","other_infections","female","Tete",1113
+"3569","malaria","other_infections","severe_malnutrition","female","Manica",816
+"3570","diarrhea","other_infections","other_infections","female","Manica",967
+"3576","other","other","other","female","Tete",644
+"3578","malaria","malaria","other_infections","female","Tete",242
+"3584","malaria","malaria","malaria","female","Zambezia",228
+"3589","malaria","malaria","other_infections","female","Zambezia",711
+"3592","pneumonia","malaria","pneumonia","male","Zambezia",1288
+"3601","diarrhea","diarrhea","diarrhea","male","Tete",310
+"361","other_infections","other","other","male","Tete",1051
+"3618","pneumonia","pneumonia","malaria","male","Nampula",1123
+"3631","diarrhea","diarrhea","diarrhea","male","Nampula",476
+"3636","other","malaria","undecided","female","Zambezia",888
+"3637","other","diarrhea","other_infections","male","Zambezia",91.2
+"3657","other_infections","pneumonia","other_infections","male","Gaza",33
+"3663","malaria","other_infections","other_infections","male","Nampula",676
+"3672","diarrhea","malaria","other_infections","male","Niassa",140
+"3674","other","other_infections","other_infections","male","Niassa",60.8
+"3695","hiv","other_infections","pneumonia","female","Nampula",737
+"3696","malaria","malaria","undecided","female","Nampula",152
+"3698","other","malaria","malaria","female","Cabo Delgado",303
+"3699","pneumonia","pneumonia","pneumonia","female","Cabo Delgado",1128
+"370","diarrhea","diarrhea","hiv","male","Zambezia",1459
+"3700","other","other_infections","other_infections","female","Cabo Delgado",329
+"3705","malaria","malaria","pneumonia","male","Nampula",366
+"3713","diarrhea","diarrhea","other_infections","female","Nampula",778
+"3714","pneumonia","pneumonia","other_infections","female","Nampula",31
+"3715","other","hiv","other_infections","female","Nampula",66
+"3721","hiv","other_infections","pneumonia","female","Nampula",737
+"3722","pneumonia","pneumonia","pneumonia","female","Tete",48
+"3726","other_infections","pneumonia","other_infections","male","Manica",214
+"3727","diarrhea","diarrhea","severe_malnutrition","male","Manica",1303
+"3733","malaria","malaria","severe_malnutrition","male","Manica",652
+"3736","pneumonia","pneumonia","pneumonia","male","Cabo Delgado",731
+"3743","diarrhea","diarrhea","diarrhea","female","Maputo Provincia",461
+"3751","malaria","malaria","diarrhea","female","Tete",867
+"3759","malaria","malaria","other_infections","male","Sofala",258
+"3760","other_infections","other_infections","undecided","female","Sofala",30
+"3764","malaria","malaria","pneumonia","female","Sofala",583
+"3766","pneumonia","other_infections","other_infections","female","Sofala",643
+"377","other_infections","pneumonia","undecided","female","Tete",194
+"3786","severe_malnutrition","pneumonia","other_infections","male","Sofala",1461
+"3787","diarrhea","diarrhea","other_infections","female","Manica",590
+"3789","diarrhea","other_infections","pneumonia","male","Manica",28
+"3791","hiv","severe_malnutrition","pneumonia","male","Manica",685
+"3793","malaria","malaria","other_infections","male","Niassa",1461
+"380","malaria","malaria","pneumonia","male","Tete",1569
+"3805","pneumonia","pneumonia","pneumonia","male","Tete",879
+"3806","other_infections","other_infections","other_infections","male","Tete",396
+"3820","hiv","malaria","hiv","female","Cabo Delgado",370
+"3826","other","pneumonia","pneumonia","female","Cabo Delgado",150
+"3830","hiv","hiv","pneumonia","female","Cabo Delgado",455
+"3840","malaria","malaria","malaria","female","Tete",914
+"3843","other","other","other_infections","male","Niassa",528
+"3861","hiv","other","severe_malnutrition","female","Tete",1616
+"3864","other_infections","other_infections","pneumonia","male","Tete",1652
+"3869","hiv","hiv","severe_malnutrition","female","Tete",1492
+"3872","other_infections","other_infections","other_infections","female","Manica",723
+"3874","other_infections","pneumonia","pneumonia","female","Cabo Delgado",286
+"3878","pneumonia","pneumonia","pneumonia","female","Cabo Delgado",104
+"3879","pneumonia","pneumonia","pneumonia","female","Cabo Delgado",440
+"3882","diarrhea","diarrhea","diarrhea","male","Cabo Delgado",365.25
+"3885","malaria","malaria","pneumonia","male","Cabo Delgado",733
+"3886","diarrhea","diarrhea","diarrhea","male","Cabo Delgado",669
+"389","other","pneumonia","other_infections","female","Zambezia",111
+"3892","hiv","severe_malnutrition","diarrhea","female","Cabo Delgado",730.5
+"3893","malaria","other_infections","undecided","male","Manica",1426
+"390","pneumonia","pneumonia","severe_malnutrition","female","Zambezia",535
+"3901","other_infections","other_infections","other_infections","female","Tete",88
+"3915","other_infections","pneumonia","pneumonia","male","Manica",69
+"3926","severe_malnutrition","severe_malnutrition","other_infections","female","Manica",536
+"3929","other_infections","other_infections","pneumonia","female","Manica",748
+"393","other_infections","other_infections","other_infections","female","Zambezia",518
+"3935","other_infections","other_infections","diarrhea","female","Niassa",730.5
+"3938","other_infections","other_infections","severe_malnutrition","male","Sofala",1467
+"3942","other","diarrhea","severe_malnutrition","female","Manica",81
+"3948","pneumonia","pneumonia","other_infections","female","Manica",36
+"3952","diarrhea","diarrhea","malaria","female","Manica",59
+"3955","diarrhea","diarrhea","diarrhea","female","Manica",353
+"396","diarrhea","other_infections","diarrhea","female","Zambezia",1131
+"3962","other_infections","other_infections","other_infections","male","Tete",697
+"3965","other_infections","other_infections","other_infections","male","Cabo Delgado",392
+"3967","pneumonia","pneumonia","other_infections","female","Cabo Delgado",365.25
+"3991","hiv","other_infections","pneumonia","male","Manica",1085
+"3994","other_infections","other_infections","other_infections","female","Tete",48
+"40","malaria","malaria","other_infections","male","Sofala",977
+"4000","malaria","malaria","other_infections","male","Cabo Delgado",1095.75
+"4005","hiv","other_infections","diarrhea","female","Cabo Delgado",1755
+"4006","diarrhea","diarrhea","diarrhea","male","Nampula",180
+"4008","diarrhea","diarrhea","other_infections","female","Tete",357
+"401","other_infections","other_infections","other_infections","male","Zambezia",948
+"4013","malaria","other_infections","undecided","female","Cabo Delgado",1461
+"4027","other_infections","pneumonia","undecided","male","Tete",55
+"4029","other_infections","other_infections","pneumonia","female","Cabo Delgado",1032
+"4060","diarrhea","malaria","other_infections","female","Cabo Delgado",1028
+"4070","pneumonia","pneumonia","other_infections","male","Tete",719
+"4086","diarrhea","diarrhea","pneumonia","female","Manica",609
+"4091","other_infections","other_infections","pneumonia","female","Manica",267
+"4101","malaria","malaria","pneumonia","male","Manica",907
+"411","other","pneumonia","other_infections","male","Zambezia",182
+"412","severe_malnutrition","hiv","hiv","male","Zambezia",41
+"4123","pneumonia","other_infections","pneumonia","male","Tete",396
+"4124","pneumonia","pneumonia","pneumonia","male","Tete",699
+"4130","other","other","other","female","Gaza",1500
+"4134","other_infections","other_infections","other_infections","male","Zambezia",130
+"4136","other","diarrhea","severe_malnutrition","male","Gaza",59
+"4137","diarrhea","hiv","other_infections","female","Zambezia",332
+"4144","diarrhea","diarrhea","diarrhea","female","Zambezia",365.25
+"4154","hiv","hiv","hiv","male","Zambezia",1604
+"4155","other_infections","other_infections","other_infections","male","Zambezia",82
+"4162","severe_malnutrition","severe_malnutrition","severe_malnutrition","male","Zambezia",243
+"4168","other","other_infections","malaria","female","Zambezia",189
+"4170","diarrhea","other_infections","severe_malnutrition","female","Zambezia",730.5
+"4182","diarrhea","pneumonia","undecided","male","Zambezia",363
+"4195","diarrhea","malaria","undecided","male","Niassa",1492
+"42","pneumonia","other_infections","pneumonia","female","Cabo Delgado",493
+"4203","diarrhea","diarrhea","diarrhea","male","Zambezia",668
+"4204","pneumonia","pneumonia","pneumonia","male","Zambezia",730.5
+"4206","severe_malnutrition","severe_malnutrition","diarrhea","female","Zambezia",889
+"421","diarrhea","other_infections","pneumonia","female","Zambezia",450
+"422","other_infections","other_infections","undecided","female","Zambezia",40
+"4225","diarrhea","diarrhea","hiv","male","Zambezia",102
+"4236","pneumonia","other_infections","other_infections","male","Cabo Delgado",730.5
+"425","other_infections","other_infections","undecided","female","Zambezia",31
+"4252","hiv","diarrhea","hiv","male","Zambezia",495
+"4256","diarrhea","diarrhea","hiv","female","Zambezia",684
+"426","malaria","malaria","pneumonia","female","Zambezia",635
+"4268","other_infections","malaria","other_infections","male","Zambezia",659
+"4273","pneumonia","pneumonia","pneumonia","male","Manica",1113
+"4286","malaria","malaria","pneumonia","male","Nampula",626
+"4289","other","other_infections","undecided","male","Manica",785
+"4310","other","other_infections","undecided","female","Manica",459
+"4313","other_infections","other_infections","malaria","female","Manica",152
+"432","diarrhea","diarrhea","other_infections","male","Zambezia",1374
+"433","pneumonia","pneumonia","other_infections","male","Zambezia",1436
+"4336","diarrhea","diarrhea","diarrhea","female","Manica",740
+"4337","other_infections","malaria","undecided","male","Manica",1461
+"434","other_infections","other_infections","other_infections","female","Zambezia",1602
+"4343","severe_malnutrition","severe_malnutrition","severe_malnutrition","male","Manica",1095.75
+"4347","diarrhea","diarrhea","diarrhea","female","Sofala",214
+"435","other","other_infections","severe_malnutrition","male","Zambezia",1459
+"436","diarrhea","diarrhea","diarrhea","female","Zambezia",1126
+"438","hiv","hiv","hiv","female","Zambezia",365.25
+"4382","malaria","malaria","undecided","male","Manica",1025
+"44","diarrhea","diarrhea","diarrhea","male","Cabo Delgado",1556
+"440","hiv","hiv","hiv","male","Zambezia",365.25
+"4414","other","malaria","undecided","male","Tete",1264
+"4427","malaria","malaria","other_infections","male","Nampula",1461
+"4445","other_infections","other_infections","other_infections","female","Manica",153
+"4452","other_infections","other_infections","undecided","male","Cabo Delgado",1198
+"4464","hiv","other_infections","pneumonia","male","Cabo Delgado",1124
+"4470","other_infections","other_infections","other_infections","female","Cabo Delgado",1036
+"4486","pneumonia","pneumonia","pneumonia","female","Cabo Delgado",730.5
+"4506","diarrhea","diarrhea","severe_malnutrition","female","Zambezia",1296
+"451","malaria","malaria","other_infections","male","Zambezia",1061
+"4525","diarrhea","other","other","male","Zambezia",1166
+"4527","malaria","malaria","other_infections","female","Zambezia",1208
+"4536","hiv","severe_malnutrition","diarrhea","female","Cabo Delgado",753
+"4537","other_infections","other_infections","other_infections","female","Cabo Delgado",845
+"4551","other_infections","other_infections","undecided","male","Cabo Delgado",320
+"4552","other_infections","pneumonia","other","female","Cabo Delgado",63
+"4555","other_infections","other_infections","pneumonia","male","Cabo Delgado",315
+"4560","other_infections","hiv","hiv","male","Cabo Delgado",152
+"4568","other","malaria","pneumonia","male","Zambezia",199
+"4569","pneumonia","pneumonia","other_infections","male","Zambezia",170
+"457","malaria","malaria","other_infections","male","Cabo Delgado",365.25
+"4575","malaria","malaria","pneumonia","male","Inhambane",1156
+"458","diarrhea","other_infections","undecided","male","Cabo Delgado",504
+"4584","pneumonia","pneumonia","pneumonia","female","Tete",1190
+"4586","diarrhea","severe_malnutrition","diarrhea","male","Manica",730.5
+"4592","diarrhea","diarrhea","diarrhea","male","Nampula",387
+"4594","other_infections","other_infections","other_infections","male","Zambezia",60.8
+"460","other_infections","malaria","other_infections","male","Cabo Delgado",160
+"4602","pneumonia","pneumonia","hiv","female","Tete",1107
+"4603","other_infections","malaria","other_infections","female","Tete",1073
+"4614","diarrhea","pneumonia","pneumonia","male","Cabo Delgado",217
+"4618","diarrhea","diarrhea","malaria","female","Zambezia",299
+"4627","other_infections","other_infections","pneumonia","female","Tete",870
+"464","other_infections","other_infections","pneumonia","female","Cabo Delgado",1095.75
+"4643","pneumonia","pneumonia","other_infections","male","Tete",81
+"4654","malaria","malaria","pneumonia","male","Manica",1398
+"4655","other_infections","other_infections","other_infections","male","Manica",59
+"4656","other_infections","other_infections","pneumonia","male","Manica",343
+"4657","pneumonia","pneumonia","pneumonia","female","Manica",1148
+"4658","diarrhea","diarrhea","other_infections","male","Manica",316
+"4689","other","other","other","male","Inhambane",329
+"47","other_infections","other_infections","other_infections","male","Cabo Delgado",930
+"470","other_infections","pneumonia","hiv","female","Zambezia",200
+"4700","other_infections","pneumonia","pneumonia","female","Zambezia",152
+"4718","other","other","undecided","male","Cabo Delgado",565
+"472","other_infections","pneumonia","pneumonia","female","Zambezia",64
+"4720","other_infections","malaria","other_infections","female","Zambezia",31
+"4727","hiv","other_infections","severe_malnutrition","male","Tete",1125
+"4734","other_infections","malaria","pneumonia","male","Sofala",75
+"4747","malaria","malaria","other_infections","male","Zambezia",121.6
+"4754","diarrhea","diarrhea","pneumonia","female","Manica",701
+"4763","other_infections","other_infections","pneumonia","female","Manica",528
+"4772","pneumonia","pneumonia","undecided","male","Sofala",324
+"4777","diarrhea","malaria","diarrhea","male","Manica",195
+"4785","other","diarrhea","other_infections","female","Manica",239
+"48","other_infections","other","other","male","Nampula",285
+"4802","diarrhea","diarrhea","diarrhea","male","Tete",904
+"4807","other_infections","other_infections","other_infections","female","Tete",449
+"4811","diarrhea","diarrhea","other_infections","male","Sofala",121
+"4813","malaria","malaria","other_infections","male","Tete",474
+"4815","pneumonia","pneumonia","pneumonia","female","Maputo Provincia",410
+"4819","diarrhea","diarrhea","diarrhea","male","Zambezia",730.5
+"482","other_infections","pneumonia","malaria","female","Cabo Delgado",327
+"4836","diarrhea","diarrhea","diarrhea","male","Zambezia",182.4
+"4840","diarrhea","diarrhea","other_infections","male","Zambezia",212.8
+"4841","diarrhea","pneumonia","diarrhea","male","Zambezia",60.8
+"4844","other","pneumonia","other_infections","male","Cabo Delgado",195
+"4845","diarrhea","other","diarrhea","female","Cabo Delgado",397
+"4852","diarrhea","other","diarrhea","female","Zambezia",1095.75
+"4855","diarrhea","diarrhea","diarrhea","male","Zambezia",182.4
+"4868","other","other_infections","other_infections","female","Cabo Delgado",363
+"4870","hiv","hiv","hiv","male","Cabo Delgado",703
+"4871","other","other_infections","other_infections","female","Cabo Delgado",451
+"4884","other","malaria","undecided","female","Zambezia",962
+"4885","pneumonia","pneumonia","pneumonia","male","Zambezia",715
+"4892","malaria","malaria","pneumonia","male","Manica",1123
+"4893","other_infections","other_infections","pneumonia","male","Manica",34
+"4894","other","other_infections","pneumonia","male","Manica",594
+"4916","other_infections","other_infections","malaria","male","Tete",183
+"4918","diarrhea","diarrhea","diarrhea","male","Zambezia",1095.75
+"492","pneumonia","pneumonia","severe_malnutrition","male","Cabo Delgado",374
+"4926","malaria","malaria","other_infections","male","Cabo Delgado",691
+"4938","pneumonia","pneumonia","pneumonia","female","Tete",759
+"4939","diarrhea","diarrhea","diarrhea","male","Tete",359
+"4945","other","other","other","male","Nampula",923
+"4949","other_infections","other_infections","malaria","male","Zambezia",184
+"4953","other","other","undecided","male","Zambezia",502
+"4954","diarrhea","diarrhea","diarrhea","female","Manica",782
+"4955","diarrhea","diarrhea","pneumonia","male","Manica",549
+"4976","other","pneumonia","other_infections","female","Cabo Delgado",147
+"4991","diarrhea","diarrhea","diarrhea","male","Manica",370
+"50","malaria","malaria","pneumonia","female","Nampula",397
+"500","other_infections","malaria","other","male","Cabo Delgado",281
+"5004","other_infections","other_infections","pneumonia","female","Tete",1147
+"5008","other_infections","other_infections","undecided","female","Cabo Delgado",1648
+"501","malaria","malaria","other_infections","male","Zambezia",943
+"5019","diarrhea","other","undecided","male","Zambezia",633
+"502","other_infections","other_infections","pneumonia","female","Zambezia",143
+"5020","other_infections","other_infections","diarrhea","female","Zambezia",474
+"5021","malaria","malaria","other_infections","female","Zambezia",853
+"5030","other_infections","other_infections","other_infections","male","Zambezia",241
+"5033","pneumonia","pneumonia","other_infections","male","Tete",667
+"5035","pneumonia","pneumonia","pneumonia","male","Nampula",795
+"5037","hiv","hiv","severe_malnutrition","male","Zambezia",750
+"5048","other","pneumonia","undecided","male","Cabo Delgado",1045
+"5049","other_infections","pneumonia","pneumonia","female","Cabo Delgado",60
+"5051","severe_malnutrition","severe_malnutrition","pneumonia","male","Niassa",157
+"5055","diarrhea","diarrhea","diarrhea","female","Nampula",473
+"5063","diarrhea","diarrhea","undecided","male","Nampula",365
+"507","malaria","malaria","undecided","male","Zambezia",661
+"5074","other_infections","other_infections","other_infections","male","Tete",336
+"5076","other_infections","other_infections","malaria","male","Tete",1003
+"5082","diarrhea","diarrhea","other_infections","female","Sofala",157
+"5089","other_infections","other_infections","malaria","female","Tete",328
+"5091","other","other","undecided","female","Tete",37
+"51","diarrhea","diarrhea","diarrhea","male","Nampula",1117
+"5105","other_infections","other_infections","other_infections","female","Nampula",655
+"5108","other","diarrhea","undecided","male","Zambezia",34
+"5115","other_infections","other_infections","other_infections","male","Nampula",608
+"5117","pneumonia","pneumonia","pneumonia","female","Niassa",334.4
+"5133","diarrhea","pneumonia","other_infections","male","Manica",213
+"5134","diarrhea","diarrhea","diarrhea","female","Manica",529
+"5136","malaria","malaria","other_infections","male","Manica",1288
+"5146","severe_malnutrition","pneumonia","pneumonia","female","Manica",121.6
+"5152","other_infections","other_infections","diarrhea","male","Tete",732
+"5156","other","malaria","undecided","male","Tete",860
+"5162","other_infections","other_infections","other_infections","female","Tete",370
+"5169","other","diarrhea","diarrhea","female","Nampula",56
+"5178","other","pneumonia","pneumonia","female","Tete",47
+"5179","other","pneumonia","pneumonia","female","Tete",87
+"5189","pneumonia","pneumonia","pneumonia","male","Nampula",377
+"5193","other_infections","other_infections","malaria","female","Zambezia",783
+"5196","other","other","undecided","female","Zambezia",199
+"5197","malaria","malaria","pneumonia","female","Zambezia",792
+"5205","malaria","malaria","pneumonia","female","Tete",515
+"5208","malaria","malaria","undecided","male","Zambezia",43
+"5219","other","other","hiv","male","Sofala",1078
+"525","other_infections","pneumonia","pneumonia","female","Tete",51
+"5358","diarrhea","diarrhea","diarrhea","male","Zambezia",730.5
+"5363","diarrhea","other_infections","undecided","male","Manica",835
+"5367","other","other","undecided","male","Manica",193
+"5372","other_infections","other_infections","undecided","female","Zambezia",1503
+"5380","other","pneumonia","other","female","Inhambane",167
+"5383","other_infections","pneumonia","pneumonia","female","Tete",339
+"5388","pneumonia","other_infections","pneumonia","male","Niassa",460
+"539","diarrhea","malaria","hiv","female","Zambezia",177
+"5393","other","malaria","undecided","male","Manica",1300
+"540","other_infections","other_infections","other_infections","male","Tete",568
+"5411","pneumonia","pneumonia","other_infections","male","Maputo Provincia",114
+"5414","other","malaria","pneumonia","male","Nampula",31
+"5416","diarrhea","diarrhea","undecided","female","Nampula",152
+"542","other_infections","pneumonia","undecided","female","Tete",952
+"543","other","other","other_infections","male","Cabo Delgado",1295
+"5432","hiv","other_infections","other_infections","female","Niassa",1095.75
+"5438","severe_malnutrition","other_infections","other_infections","female","Tete",435
+"5440","other","other_infections","other_infections","male","Tete",40
+"5451","malaria","malaria","other_infections","male","Zambezia",1114
+"5467","other","diarrhea","diarrhea","female","Manica",51
+"5469","malaria","malaria","other_infections","male","Inhambane",360
+"5470","other","other","other_infections","male","Cabo Delgado",745
+"5471","hiv","hiv","pneumonia","male","Cabo Delgado",855
+"5481","diarrhea","diarrhea","diarrhea","male","Tete",458
+"5485","diarrhea","diarrhea","diarrhea","male","Cabo Delgado",439
+"5490","other_infections","other_infections","diarrhea","male","Cabo Delgado",31
+"5492","other","other","other","male","Inhambane",130
+"5499","malaria","malaria","other_infections","male","Tete",184
+"5503","other","other_infections","malaria","female","Nampula",267
+"5504","other","malaria","other_infections","female","Nampula",293
+"551","other","diarrhea","undecided","male","Zambezia",120
+"5511","other","malaria","other_infections","female","Nampula",1452
+"5530","other","malaria","pneumonia","female","Tete",127
+"5534","other_infections","other_infections","other_infections","male","Tete",40
+"5538","other","pneumonia","pneumonia","male","Manica",33
+"5540","other","other","other","male","Tete",318
+"5560","diarrhea","diarrhea","malaria","male","Cabo Delgado",201
+"5562","hiv","diarrhea","diarrhea","male","Cabo Delgado",1708
+"5574","other","other_infections","undecided","male","Niassa",91.2
+"5580","other","other","undecided","male","Inhambane",31
+"5585","malaria","malaria","other_infections","male","Cabo Delgado",777
+"5587","diarrhea","malaria","pneumonia","female","Cabo Delgado",769
+"5594","diarrhea","diarrhea","malaria","male","Manica",186
+"5598","other_infections","pneumonia","severe_malnutrition","male","Gaza",1397
+"56","pneumonia","pneumonia","diarrhea","female","Tete",459
+"5622","other","other","pneumonia","male","Sofala",763
+"5633","other_infections","other_infections","severe_malnutrition","female","Cabo Delgado",365.25
+"5636","pneumonia","pneumonia","severe_malnutrition","male","Cabo Delgado",365.25
+"5640","diarrhea","malaria","other_infections","female","Cabo Delgado",329
+"5645","pneumonia","pneumonia","pneumonia","male","Cabo Delgado",653
+"5650","other_infections","other_infections","other_infections","female","Cabo Delgado",790
+"5653","pneumonia","pneumonia","pneumonia","female","Nampula",395.2
+"569","other_infections","pneumonia","other_infections","male","Sofala",134
+"5696","diarrhea","diarrhea","undecided","male","Zambezia",333
+"5705","diarrhea","diarrhea","hiv","male","Maputo Cidade",412
+"5716","other_infections","other_infections","other_infections","female","Zambezia",296
+"5718","diarrhea","diarrhea","diarrhea","male","Zambezia",1184
+"5721","diarrhea","diarrhea","other_infections","female","Zambezia",182.4
+"5730","hiv","other_infections","severe_malnutrition","female","Zambezia",637
+"5733","diarrhea","diarrhea","diarrhea","male","Zambezia",1095.75
+"5738","malaria","malaria","severe_malnutrition","female","Cabo Delgado",719
+"574","diarrhea","other_infections","pneumonia","female","Zambezia",60.8
+"5744","pneumonia","pneumonia","pneumonia","male","Zambezia",747
+"575","other_infections","other_infections","undecided","female","Zambezia",246
+"5753","other","other","other","male","Manica",1355
+"5754","other","other","other","male","Manica",855
+"5760","other","other","other","female","Zambezia",1147
+"5768","other","other","other","male","Manica",1295
+"5776","diarrhea","other_infections","undecided","male","Manica",296
+"5787","other_infections","other","undecided","female","Sofala",30
+"5827","other_infections","other_infections","pneumonia","female","Manica",1095.75
+"5828","pneumonia","pneumonia","pneumonia","female","Manica",48
+"5830","diarrhea","malaria","hiv","female","Zambezia",119
+"5836","other_infections","other_infections","other_infections","male","Zambezia",869
+"5837","diarrhea","pneumonia","diarrhea","male","Zambezia",277
+"584","pneumonia","pneumonia","pneumonia","male","Tete",896
+"5846","pneumonia","pneumonia","other_infections","female","Manica",34
+"5847","pneumonia","pneumonia","pneumonia","female","Manica",278
+"5849","other","other","undecided","male","Zambezia",91.2
+"5851","other","other","undecided","female","Zambezia",167
+"5858","other_infections","malaria","diarrhea","female","Zambezia",1427
+"5859","other_infections","other_infections","other_infections","female","Zambezia",1224
+"5886","other","pneumonia","pneumonia","female","Nampula",86
+"5899","diarrhea","other_infections","pneumonia","male","Manica",41
+"590","other_infections","other_infections","pneumonia","male","Zambezia",730.5
+"5930","other","malaria","other_infections","female","Sofala",137
+"5935","other_infections","other_infections","other_infections","male","Cabo Delgado",1461
+"594","other_infections","other_infections","pneumonia","male","Zambezia",334.4
+"5941","other_infections","other_infections","pneumonia","female","Cabo Delgado",47
+"5943","other_infections","other_infections","malaria","male","Cabo Delgado",292
+"5948","other","pneumonia","pneumonia","female","Cabo Delgado",189
+"5954","diarrhea","diarrhea","malaria","male","Manica",516.8
+"596","diarrhea","other","undecided","male","Zambezia",774
+"5974","hiv","other_infections","other_infections","male","Cabo Delgado",126
+"5975","hiv","hiv","hiv","female","Cabo Delgado",427
+"5976","diarrhea","diarrhea","diarrhea","male","Cabo Delgado",678
+"5978","hiv","diarrhea","severe_malnutrition","female","Cabo Delgado",1056
+"5982","pneumonia","pneumonia","undecided","female","Sofala",33
+"5984","pneumonia","pneumonia","other_infections","male","Sofala",216
+"599","malaria","malaria","pneumonia","male","Zambezia",1164
+"5992","diarrhea","diarrhea","diarrhea","male","Nampula",827
+"60","malaria","malaria","pneumonia","male","Cabo Delgado",846
+"6002","diarrhea","diarrhea","diarrhea","female","Maputo Cidade",157
+"6007","diarrhea","other","other","male","Gaza",1273
+"6009","malaria","malaria","other_infections","female","Manica",896
+"6010","malaria","other_infections","other_infections","female","Manica",554
+"6021","pneumonia","pneumonia","undecided","female","Gaza",1727
+"6041","other_infections","pneumonia","other_infections","male","Cabo Delgado",176
+"6049","pneumonia","pneumonia","other_infections","male","Cabo Delgado",365.25
+"605","diarrhea","diarrhea","undecided","female","Zambezia",741
+"6051","other_infections","pneumonia","malaria","male","Cabo Delgado",92
+"6052","other","diarrhea","diarrhea","male","Cabo Delgado",274
+"6054","pneumonia","pneumonia","pneumonia","male","Cabo Delgado",1461
+"6068","diarrhea","diarrhea","other_infections","male","Manica",914
+"6078","other","diarrhea","diarrhea","male","Manica",72
+"6084","other_infections","other_infections","other_infections","male","Cabo Delgado",534
+"6089","diarrhea","other_infections","undecided","male","Manica",218
+"6095","severe_malnutrition","severe_malnutrition","severe_malnutrition","male","Nampula",730.5
+"6096","other_infections","malaria","other_infections","male","Cabo Delgado",129
+"6113","diarrhea","diarrhea","other_infections","female","Nampula",577.6
+"6117","other_infections","other_infections","other_infections","male","Nampula",865
+"6118","diarrhea","diarrhea","severe_malnutrition","female","Nampula",816
+"6124","diarrhea","malaria","diarrhea","male","Manica",397
+"6138","diarrhea","other_infections","pneumonia","female","Zambezia",304
+"6139","other","pneumonia","undecided","male","Zambezia",265
+"6140","other","other","other","male","Zambezia",1535
+"6141","diarrhea","diarrhea","severe_malnutrition","male","Zambezia",530
+"6142","diarrhea","diarrhea","pneumonia","female","Manica",1453
+"6150","other_infections","malaria","other_infections","female","Cabo Delgado",53
+"6152","other","hiv","hiv","male","Zambezia",91.2
+"6154","malaria","malaria","undecided","male","Zambezia",474
+"6156","hiv","hiv","other_infections","female","Zambezia",1461
+"6157","other","pneumonia","other_infections","male","Zambezia",207
+"6158","other_infections","pneumonia","undecided","male","Zambezia",28
+"6162","diarrhea","other","pneumonia","male","Zambezia",730.5
+"6164","other_infections","pneumonia","undecided","male","Zambezia",91.2
+"6165","diarrhea","diarrhea","undecided","female","Zambezia",365.25
+"6166","diarrhea","diarrhea","undecided","female","Zambezia",1095.75
+"6168","diarrhea","diarrhea","diarrhea","male","Zambezia",730.5
+"6169","diarrhea","other_infections","other_infections","female","Zambezia",33
+"6172","diarrhea","other_infections","diarrhea","female","Zambezia",358
+"618","hiv","malaria","hiv","male","Tete",690
+"6181","diarrhea","malaria","diarrhea","male","Zambezia",1357
+"6187","other_infections","other_infections","pneumonia","female","Niassa",245
+"6208","other_infections","other_infections","other_infections","female","Niassa",227
+"6211","other","other_infections","severe_malnutrition","male","Niassa",947
+"6225","diarrhea","other_infections","undecided","male","Zambezia",35
+"6229","hiv","other","pneumonia","female","Zambezia",1461
+"6232","other","diarrhea","other_infections","female","Nampula",643
+"624","malaria","malaria","other_infections","male","Tete",381
+"6258","hiv","other_infections","other_infections","male","Cabo Delgado",922
+"6278","diarrhea","diarrhea","diarrhea","female","Zambezia",578
+"6280","other","other","undecided","male","Manica",50
+"6282","severe_malnutrition","severe_malnutrition","severe_malnutrition","male","Manica",627
+"6283","diarrhea","malaria","other_infections","female","Manica",144
+"6286","other","malaria","other_infections","female","Manica",137
+"6291","other","diarrhea","diarrhea","male","Manica",343
+"6298","diarrhea","diarrhea","diarrhea","male","Sofala",339
+"630","other","other_infections","pneumonia","male","Cabo Delgado",473
+"6301","other_infections","other_infections","malaria","male","Manica",160
+"6308","severe_malnutrition","severe_malnutrition","severe_malnutrition","male","Zambezia",505
+"6309","other","other","undecided","male","Zambezia",1285
+"6318","other_infections","malaria","pneumonia","female","Manica",331
+"6332","other","diarrhea","diarrhea","male","Maputo Cidade",32
+"6335","malaria","malaria","other_infections","male","Tete",371
+"6336","diarrhea","diarrhea","diarrhea","female","Niassa",365.25
+"6339","pneumonia","pneumonia","pneumonia","female","Tete",74
+"634","other","malaria","undecided","male","Cabo Delgado",1144
+"6358","hiv","other_infections","other_infections","female","Manica",738
+"636","other_infections","other_infections","other_infections","female","Cabo Delgado",1058
+"6363","diarrhea","other_infections","pneumonia","female","Tete",40
+"6365","malaria","malaria","pneumonia","female","Zambezia",131
+"6380","other_infections","other_infections","other_infections","male","Manica",1212
+"6393","hiv","severe_malnutrition","other_infections","male","Maputo Provincia",762
+"6401","malaria","malaria","pneumonia","male","Zambezia",730.5
+"6403","malaria","pneumonia","undecided","male","Gaza",752
+"6415","other","pneumonia","diarrhea","male","Gaza",93
+"6423","other_infections","diarrhea","pneumonia","female","Manica",153
+"6425","other_infections","malaria","pneumonia","female","Gaza",124
+"6429","malaria","malaria","other_infections","female","Gaza",760
+"6430","malaria","malaria","other_infections","male","Gaza",1496
+"6432","severe_malnutrition","pneumonia","diarrhea","male","Gaza",729
+"6434","diarrhea","malaria","malaria","male","Manica",230
+"6435","malaria","malaria","other_infections","female","Manica",621
+"6457","other","other_infections","pneumonia","male","Gaza",61
+"6470","other","diarrhea","diarrhea","male","Manica",332
+"6471","diarrhea","diarrhea","diarrhea","male","Manica",1019
+"6472","pneumonia","pneumonia","other_infections","male","Manica",241
+"6478","other_infections","other_infections","severe_malnutrition","female","Gaza",973
+"648","diarrhea","diarrhea","pneumonia","male","Zambezia",91.2
+"6484","other_infections","malaria","pneumonia","female","Zambezia",182.4
+"6520","other_infections","other_infections","other_infections","male","Cabo Delgado",31
+"6539","hiv","malaria","pneumonia","male","Manica",388
+"654","diarrhea","diarrhea","diarrhea","female","Zambezia",182.4
+"6541","malaria","malaria","other_infections","male","Zambezia",1095.75
+"6549","other_infections","other_infections","undecided","male","Manica",1338
+"6553","diarrhea","other","undecided","female","Zambezia",60.8
+"6555","other_infections","other_infections","malaria","female","Zambezia",332
+"6557","other","pneumonia","undecided","female","Zambezia",658
+"6559","malaria","malaria","malaria","male","Zambezia",718
+"6561","hiv","hiv","hiv","female","Zambezia",1717
+"6562","hiv","hiv","other_infections","male","Zambezia",109
+"6567","other","other_infections","other_infections","female","Zambezia",364.8
+"6568","diarrhea","other_infections","other_infections","female","Zambezia",1318
+"6572","malaria","malaria","other_infections","female","Zambezia",511
+"6573","pneumonia","pneumonia","pneumonia","male","Zambezia",261
+"658","other","hiv","other","female","Zambezia",233
+"6584","malaria","malaria","other_infections","male","Zambezia",668
+"6585","other_infections","other_infections","other_infections","female","Zambezia",384
+"6592","other","other","other","male","Zambezia",1043
+"66","other_infections","other_infections","other_infections","male","Tete",819
+"6601","other","other","undecided","female","Manica",1173
+"6602","diarrhea","other_infections","diarrhea","male","Manica",691
+"6603","other_infections","other_infections","other_infections","male","Manica",1237
+"6625","diarrhea","other_infections","diarrhea","female","Nampula",912
+"6627","malaria","malaria","pneumonia","female","Cabo Delgado",479
+"6628","hiv","hiv","other_infections","female","Cabo Delgado",487
+"6640","diarrhea","diarrhea","other_infections","male","Cabo Delgado",121.6
+"6642","other","pneumonia","pneumonia","male","Cabo Delgado",31
+"6645","diarrhea","diarrhea","severe_malnutrition","male","Cabo Delgado",365.25
+"6647","pneumonia","pneumonia","other_infections","female","Cabo Delgado",694
+"6651","other_infections","malaria","other_infections","male","Manica",363
+"6653","diarrhea","diarrhea","diarrhea","male","Manica",40
+"6655","diarrhea","diarrhea","other_infections","male","Manica",365
+"6659","other_infections","other_infections","undecided","male","Nampula",459
+"666","other_infections","pneumonia","other_infections","male","Zambezia",363
+"6663","malaria","malaria","malaria","female","Manica",96
+"6664","other","other_infections","pneumonia","male","Nampula",304
+"6668","diarrhea","diarrhea","diarrhea","female","Nampula",1461
+"6669","hiv","hiv","pneumonia","male","Nampula",649
+"6671","other","other_infections","pneumonia","female","Nampula",52
+"6676","malaria","malaria","pneumonia","female","Manica",462
+"6677","diarrhea","other","other","male","Manica",726
+"6684","diarrhea","diarrhea","diarrhea","male","Manica",304
+"6688","other","diarrhea","diarrhea","male","Nampula",225
+"6695","malaria","diarrhea","pneumonia","male","Manica",1091
+"6698","pneumonia","pneumonia","pneumonia","female","Manica",805
+"6701","diarrhea","diarrhea","pneumonia","male","Cabo Delgado",266
+"6703","malaria","malaria","other_infections","female","Cabo Delgado",913
+"6707","malaria","malaria","other_infections","female","Cabo Delgado",487
+"6709","other","other","other","male","Sofala",1114
+"6712","other","other_infections","pneumonia","female","Manica",1461
+"672","diarrhea","malaria","undecided","male","Sofala",396
+"6721","severe_malnutrition","severe_malnutrition","diarrhea","male","Manica",774
+"6722","malaria","malaria","pneumonia","female","Manica",28
+"6731","diarrhea","pneumonia","pneumonia","female","Manica",162
+"6742","other","diarrhea","diarrhea","male","Nampula",243.2
+"681","hiv","other_infections","other_infections","female","Zambezia",1191
+"684","diarrhea","diarrhea","pneumonia","female","Zambezia",97
+"685","diarrhea","diarrhea","diarrhea","male","Zambezia",365.25
+"687","hiv","hiv","pneumonia","male","Zambezia",369
+"728","other_infections","other_infections","other_infections","male","Cabo Delgado",365.25
+"731","other_infections","other_infections","other_infections","female","Cabo Delgado",144
+"737","other_infections","other_infections","pneumonia","female","Cabo Delgado",1237
+"746","other_infections","other_infections","diarrhea","female","Cabo Delgado",287
+"75","other_infections","diarrhea","other","female","Zambezia",30
+"756","diarrhea","diarrhea","other_infections","male","Nampula",38
+"761","severe_malnutrition","severe_malnutrition","diarrhea","male","Cabo Delgado",61
+"767","malaria","other_infections","other_infections","female","Cabo Delgado",1546
+"769","malaria","malaria","diarrhea","female","Cabo Delgado",1568
+"78","pneumonia","pneumonia","pneumonia","female","Zambezia",654
+"783","other_infections","other_infections","other_infections","female","Nampula",347
+"79","other_infections","other_infections","other_infections","female","Zambezia",196
+"792","hiv","other_infections","other_infections","male","Tete",1155
+"80","other_infections","diarrhea","other_infections","female","Zambezia",172
+"804","pneumonia","pneumonia","pneumonia","male","Tete",682
+"82","diarrhea","other_infections","undecided","male","Zambezia",32
+"831","other_infections","pneumonia","malaria","male","Cabo Delgado",150
+"84","diarrhea","diarrhea","undecided","male","Zambezia",184
+"845","diarrhea","pneumonia","pneumonia","male","Zambezia",243.2
+"847","diarrhea","malaria","malaria","female","Zambezia",91.2
+"853","hiv","hiv","diarrhea","male","Zambezia",1461
+"857","diarrhea","diarrhea","other","male","Nampula",113
+"859","other","other","undecided","female","Cabo Delgado",472
+"862","malaria","malaria","diarrhea","female","Cabo Delgado",450
+"865","other_infections","diarrhea","other","female","Sofala",152
+"866","other_infections","other_infections","diarrhea","female","Sofala",182.4
+"871","diarrhea","diarrhea","diarrhea","male","Cabo Delgado",524
+"878","other_infections","other_infections","pneumonia","male","Zambezia",213
+"879","other_infections","other_infections","other_infections","female","Cabo Delgado",1464
+"88","other","malaria","undecided","male","Zambezia",1525
+"888","diarrhea","pneumonia","undecided","female","Cabo Delgado",214
+"889","other_infections","other_infections","other_infections","male","Cabo Delgado",937
+"891","diarrhea","diarrhea","diarrhea","female","Cabo Delgado",330
+"899","other_infections","malaria","pneumonia","female","Cabo Delgado",196
+"916","other_infections","other_infections","other_infections","male","Zambezia",151
+"92","malaria","malaria","undecided","male","Zambezia",1623
+"921","diarrhea","diarrhea","undecided","male","Zambezia",725
+"93","hiv","other","other","female","Zambezia",1621
+"930","malaria","malaria","pneumonia","male","Zambezia",840
+"936","diarrhea","diarrhea","other_infections","male","Cabo Delgado",730.5
+"938","malaria","malaria","severe_malnutrition","female","Zambezia",789
+"939","pneumonia","pneumonia","pneumonia","female","Zambezia",1445
+"94","other_infections","pneumonia","pneumonia","male","Zambezia",107
+"941","other_infections","other_infections","undecided","male","Cabo Delgado",116
+"95","other","other_infections","undecided","female","Zambezia",91
+"963","diarrhea","pneumonia","other_infections","female","Tete",32
+"970","other_infections","other_infections","pneumonia","male","Cabo Delgado",77
+"971","diarrhea","diarrhea","other","female","Tete",181
+"972","other","pneumonia","pneumonia","female","Tete",181
+"974","diarrhea","diarrhea","undecided","male","Tete",822
+"976","other_infections","other_infections","undecided","male","Tete",259
+"980","other_infections","other_infections","pneumonia","female","Zambezia",265
+"987","diarrhea","diarrhea","hiv","male","Tete",472
+"99","diarrhea","diarrhea","undecided","female","Tete",457

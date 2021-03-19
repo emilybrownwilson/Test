@@ -1,0 +1,41 @@
+"province","InsilicoVA","n","freq"
+"Cabo Delgado","infection",44,0.564
+"Cabo Delgado","ipre",14,0.179
+"Cabo Delgado","other",1,0.013
+"Cabo Delgado","prematurity",19,0.244
+"Gaza","infection",2,0.118
+"Gaza","ipre",4,0.235
+"Gaza","other",2,0.118
+"Gaza","prematurity",9,0.529
+"Inhambane","infection",6,0.375
+"Inhambane","ipre",6,0.375
+"Inhambane","other",1,0.062
+"Inhambane","prematurity",3,0.188
+"Manica","infection",34,0.312
+"Manica","ipre",39,0.358
+"Manica","other",3,0.028
+"Manica","prematurity",33,0.303
+"Maputo Cidade","infection",2,0.5
+"Maputo Cidade","ipre",2,0.5
+"Maputo Provincia","infection",5,0.263
+"Maputo Provincia","ipre",7,0.368
+"Maputo Provincia","prematurity",7,0.368
+"Nampula","infection",23,0.418
+"Nampula","ipre",17,0.309
+"Nampula","other",2,0.036
+"Nampula","prematurity",13,0.236
+"Niassa","infection",15,0.455
+"Niassa","ipre",8,0.242
+"Niassa","prematurity",10,0.303
+"Sofala","infection",10,0.455
+"Sofala","ipre",9,0.409
+"Sofala","other",1,0.045
+"Sofala","prematurity",2,0.091
+"Tete","infection",55,0.47
+"Tete","ipre",26,0.222
+"Tete","other",9,0.077
+"Tete","prematurity",27,0.231
+"Zambezia","infection",74,0.612
+"Zambezia","ipre",19,0.157
+"Zambezia","other",4,0.033
+"Zambezia","prematurity",24,0.198

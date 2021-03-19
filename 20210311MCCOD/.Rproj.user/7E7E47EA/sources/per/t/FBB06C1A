@@ -1,0 +1,24 @@
+{
+    "id": "FBB06C1A",
+    "path": "~/Desktop/COMSA Analysis/Raw to CalibratedVA input pipeline/For/20210311MCCOD/10a. get child.R",
+    "project_path": "10a. get child.R",
+    "type": "r_source",
+    "hash": "2961249626",
+    "contents": "",
+    "dirty": false,
+    "created": 1615575740707.0,
+    "source_on_save": false,
+    "relative_order": 6,
+    "properties": {
+        "cursorPosition": "78,15",
+        "scrollLine": "65"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1615576735,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1615576735798,
+    "read_only": false,
+    "read_only_alternatives": []
+}

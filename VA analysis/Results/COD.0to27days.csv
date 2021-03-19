@@ -1,0 +1,519 @@
+"ID","InterVA","InsilicoVA","EAVA","sex","province","age_in_days"
+"1012","ipre","ipre","infection","female","Nampula",0
+"1014","prematurity","ipre","undecided","male","Nampula",0
+"1016","prematurity","prematurity","prematurity","female","Nampula",5
+"1019","ipre","ipre","infection","female","Tete",0
+"102","prematurity","prematurity","undecided","female","Tete",0
+"1034","ipre","prematurity","prematurity","male","Tete",1
+"1050","ipre","infection","prematurity","male","Zambezia",14
+"1065","prematurity","prematurity","prematurity","male","Cabo Delgado",3
+"1066","ipre","infection","ipre","male","Zambezia",14
+"1082","ipre","other","infection","male","Nampula",1
+"1098","infection","infection","infection","female","Tete",15
+"111","infection","infection","infection","male","Cabo Delgado",3
+"112","other","infection","infection","female","Cabo Delgado",18
+"1143","prematurity","infection","undecided","female","Nampula",3
+"1144","ipre","prematurity","ipre","female","Nampula",0
+"1145","prematurity","ipre","undecided","female","Nampula",0
+"1147","ipre","ipre","infection","male","Nampula",0
+"1153","ipre","infection","infection","male","Zambezia",2
+"1201","congenital_malformation","ipre","congenital_malformation","male","Nampula",0
+"1204","infection","infection","ipre","female","Cabo Delgado",6
+"1212","ipre","other","ipre","female","Zambezia",0
+"1228","prematurity","prematurity","prematurity","male","Cabo Delgado",1
+"1233","prematurity","prematurity","prematurity","male","Cabo Delgado",1
+"1239","ipre","infection","prematurity","female","Tete",3
+"1244","prematurity","prematurity","prematurity","female","Tete",7
+"1253","prematurity","other","undecided","male","Tete",1
+"1254","ipre","ipre","infection","female","Tete",0
+"1258","prematurity","ipre","ipre","male","Sofala",16
+"1269","infection","infection","infection","female","Zambezia",4
+"1276","infection","infection","infection","female","Cabo Delgado",9
+"1281","prematurity","prematurity","infection","female","Cabo Delgado",8
+"1286","congenital_malformation","prematurity","congenital_malformation","female","Zambezia",7
+"129","infection","infection","undecided","female","Cabo Delgado",7
+"1297","other","infection","infection","male","Zambezia",17
+"1298","prematurity","prematurity","prematurity","female","Zambezia",1
+"1311","infection","infection","undecided","male","Zambezia",7
+"1314","prematurity","prematurity","ipre","male","Zambezia",4
+"1327","prematurity","infection","infection","female","Nampula",0
+"1332","ipre","prematurity","ipre","male","Sofala",2
+"1336","ipre","ipre","infection","male","Tete",0
+"1338","ipre","ipre","undecided","male","Nampula",0
+"1341","infection","infection","infection","female","Nampula",18
+"1351","ipre","ipre","undecided","male","Tete",0
+"1358","ipre","ipre","ipre","male","Nampula",0
+"1360","ipre","other","infection","female","Nampula",0
+"1382","ipre","ipre","undecided","female","Manica",0
+"1392","infection","infection","ipre","female","Manica",22
+"14","infection","infection","infection","male","Nampula",22
+"1400","other","ipre","infection","female","Manica",4
+"1401","prematurity","ipre","undecided","male","Maputo Provincia",0
+"141","prematurity","infection","infection","male","Cabo Delgado",10
+"1414","ipre","ipre","infection","male","Maputo Provincia",1
+"1435","prematurity","infection","undecided","female","Maputo Provincia",0
+"1440","prematurity","ipre","undecided","female","Manica",5
+"1472","other","infection","undecided","female","Manica",1
+"1473","prematurity","prematurity","prematurity","female","Manica",3
+"1485","ipre","infection","infection","female","Gaza",6
+"1530","ipre","ipre","ipre","male","Niassa",1
+"1543","infection","infection","ipre","male","Inhambane",3
+"1552","infection","infection","infection","male","Zambezia",7
+"1583","infection","infection","infection","male","Zambezia",18
+"1595","congenital_malformation","ipre","congenital_malformation","male","Zambezia",0
+"16","ipre","ipre","ipre","female","Nampula",1
+"1613","infection","infection","infection","male","Zambezia",20
+"1618","prematurity","ipre","infection","male","Zambezia",0
+"1620","other","other","undecided","male","Gaza",21
+"163","prematurity","infection","ipre","male","Cabo Delgado",15
+"1668","ipre","ipre","infection","male","Zambezia",2
+"1669","prematurity","ipre","undecided","female","Zambezia",2
+"168","prematurity","infection","undecided","female","Sofala",7
+"1684","infection","infection","infection","male","Tete",2
+"1691","ipre","ipre","ipre","female","Tete",1
+"1692","prematurity","ipre","infection","female","Tete",0
+"1711","infection","infection","ipre","female","Nampula",1
+"1727","ipre","ipre","infection","female","Manica",3
+"1741","infection","infection","ipre","male","Tete",8
+"1743","prematurity","other","undecided","male","Tete",0
+"1771","infection","infection","infection","male","Cabo Delgado",4
+"1796","prematurity","prematurity","prematurity","male","Maputo Provincia",2
+"1800","infection","infection","infection","female","Maputo Provincia",5
+"1818","ipre","ipre","infection","female","Gaza",0
+"1830","prematurity","prematurity","prematurity","male","Gaza",0
+"1833","infection","infection","infection","male","Zambezia",10
+"1859","prematurity","infection","undecided","male","Manica",0
+"1881","infection","infection","undecided","female","Tete",1
+"189","prematurity","ipre","undecided","male","Sofala",0
+"1916","ipre","ipre","infection","female","Cabo Delgado",0
+"1944","ipre","ipre","infection","female","Manica",0
+"1946","ipre","prematurity","ipre","female","Manica",2
+"1965","prematurity","prematurity","infection","male","Cabo Delgado",2
+"1968","infection","infection","ipre","male","Manica",3
+"1970","prematurity","prematurity","prematurity","female","Cabo Delgado",3
+"1988","ipre","prematurity","infection","female","Nampula",1
+"1989","infection","infection","infection","female","Nampula",7
+"2001","congenital_malformation","ipre","congenital_malformation","male","Sofala",4
+"2009","other","ipre","congenital_malformation","male","Cabo Delgado",2
+"2012","ipre","ipre","undecided","male","Cabo Delgado",0
+"2020","prematurity","infection","infection","male","Tete",2
+"2021","other","ipre","ipre","female","Tete",0
+"2025","infection","infection","undecided","male","Cabo Delgado",21
+"2071","prematurity","other","undecided","female","Zambezia",19
+"2075","infection","infection","infection","female","Zambezia",15
+"2081","prematurity","infection","ipre","male","Zambezia",3
+"2116","prematurity","prematurity","prematurity","male","Inhambane",0
+"2139","prematurity","prematurity","prematurity","female","Zambezia",0
+"2144","infection","infection","undecided","female","Tete",17
+"2151","prematurity","ipre","ipre","male","Manica",1
+"2159","congenital_malformation","prematurity","congenital_malformation","male","Manica",0
+"2160","prematurity","prematurity","prematurity","female","Manica",19
+"2166","ipre","prematurity","prematurity","female","Gaza",8
+"2167","ipre","ipre","ipre","female","Sofala",0
+"2175","prematurity","infection","ipre","male","Sofala",1
+"2178","infection","infection","ipre","female","Tete",7
+"2179","ipre","ipre","infection","male","Nampula",0
+"2194","prematurity","ipre","infection","male","Tete",0
+"2207","infection","infection","infection","male","Tete",8
+"2221","prematurity","prematurity","prematurity","male","Tete",0
+"2226","ipre","prematurity","ipre","female","Tete",0
+"2239","prematurity","infection","undecided","male","Zambezia",27
+"2242","infection","infection","infection","male","Tete",3
+"225","infection","infection","infection","female","Cabo Delgado",3
+"2259","ipre","ipre","ipre","female","Gaza",4
+"2290","prematurity","prematurity","prematurity","male","Manica",19
+"2306","prematurity","ipre","infection","male","Manica",0
+"231","infection","infection","undecided","male","Cabo Delgado",4
+"2316","prematurity","infection","infection","female","Zambezia",1
+"2318","other","infection","undecided","female","Cabo Delgado",4
+"2339","infection","infection","infection","female","Zambezia",14
+"235","other","infection","infection","male","Cabo Delgado",16
+"2362","infection","infection","infection","female","Nampula",4
+"2389","ipre","infection","undecided","female","Zambezia",1
+"24","infection","infection","infection","male","Tete",26
+"2401","infection","infection","infection","male","Tete",1
+"2402","prematurity","prematurity","prematurity","female","Tete",0
+"2413","ipre","infection","infection","female","Zambezia",14
+"2415","ipre","ipre","infection","male","Zambezia",0
+"2416","ipre","infection","infection","female","Zambezia",21
+"2418","infection","infection","infection","female","Tete",3
+"2419","infection","infection","infection","female","Tete",3
+"2424","prematurity","other","other","male","Sofala",0
+"2439","prematurity","prematurity","prematurity","male","Maputo Provincia",0
+"2465","ipre","ipre","ipre","female","Tete",0
+"2476","infection","infection","infection","male","Tete",22
+"249","infection","infection","infection","female","Nampula",2
+"2498","prematurity","infection","ipre","male","Tete",0
+"2505","prematurity","ipre","infection","male","Tete",0
+"2520","infection","infection","infection","female","Zambezia",4
+"2540","infection","infection","infection","male","Cabo Delgado",9
+"2556","prematurity","ipre","ipre","male","Niassa",4
+"2587","ipre","infection","undecided","male","Cabo Delgado",5
+"2593","prematurity","infection","infection","female","Manica",10
+"2616","ipre","infection","infection","female","Cabo Delgado",1
+"2644","infection","infection","infection","male","Zambezia",3
+"2649","prematurity","infection","infection","female","Zambezia",2
+"2672","prematurity","ipre","infection","male","Zambezia",0
+"2699","infection","infection","undecided","female","Tete",15
+"2716","prematurity","ipre","infection","female","Inhambane",0
+"2730","prematurity","ipre","infection","female","Manica",1
+"2732","congenital_malformation","infection","congenital_malformation","female","Manica",22
+"2755","ipre","prematurity","prematurity","male","Niassa",2
+"2761","ipre","infection","infection","female","Zambezia",3
+"2766","infection","infection","infection","male","Zambezia",5
+"2771","infection","prematurity","prematurity","female","Cabo Delgado",2
+"2811","ipre","ipre","undecided","male","Nampula",0
+"2825","infection","infection","infection","female","Niassa",25
+"2836","prematurity","ipre","infection","male","Cabo Delgado",1
+"2849","ipre","infection","ipre","male","Tete",11
+"2853","prematurity","prematurity","ipre","male","Gaza",0
+"2856","ipre","ipre","infection","female","Gaza",22
+"2869","prematurity","other","undecided","male","Gaza",2
+"2877","infection","infection","undecided","female","Cabo Delgado",1
+"2879","other","infection","ipre","female","Tete",7
+"2924","prematurity","prematurity","prematurity","male","Nampula",8
+"296","infection","infection","prematurity","male","Tete",3
+"2977","ipre","infection","ipre","female","Manica",2
+"298","prematurity","infection","prematurity","male","Tete",11
+"299","other","infection","undecided","female","Tete",1
+"2998","ipre","ipre","infection","male","Maputo Cidade",2
+"300","other","infection","undecided","female","Tete",6
+"3015","ipre","infection","ipre","female","Niassa",20
+"3031","infection","infection","undecided","male","Maputo Provincia",8
+"3034","prematurity","prematurity","undecided","female","Maputo Provincia",2
+"3076","ipre","ipre","infection","male","Zambezia",0
+"3077","infection","infection","undecided","male","Zambezia",12
+"3080","ipre","other","undecided","male","Manica",0
+"3112","prematurity","prematurity","prematurity","male","Nampula",0
+"3113","infection","infection","prematurity","female","Nampula",3
+"3119","prematurity","prematurity","prematurity","male","Tete",0
+"3129","infection","infection","infection","female","Cabo Delgado",8
+"3144","infection","infection","ipre","female","Cabo Delgado",10
+"3163","infection","infection","prematurity","male","Cabo Delgado",2
+"3169","infection","infection","undecided","male","Tete",4
+"3170","ipre","ipre","undecided","female","Tete",0
+"3172","prematurity","ipre","infection","male","Tete",0
+"3188","ipre","prematurity","ipre","female","Gaza",1
+"3210","prematurity","prematurity","prematurity","male","Inhambane",2
+"3227","prematurity","prematurity","prematurity","male","Zambezia",7
+"3232","infection","infection","infection","male","Tete",5
+"3233","infection","infection","infection","male","Tete",4
+"3240","prematurity","prematurity","undecided","female","Tete",0
+"3243","ipre","prematurity","prematurity","male","Tete",1
+"3244","other","infection","prematurity","female","Tete",7
+"3249","ipre","infection","infection","female","Tete",0
+"3272","other","infection","undecided","male","Zambezia",22
+"3300","prematurity","prematurity","prematurity","female","Manica",0
+"3312","prematurity","prematurity","prematurity","female","Nampula",3
+"3341","prematurity","infection","ipre","male","Zambezia",12
+"3366","prematurity","prematurity","prematurity","female","Zambezia",0
+"3368","ipre","prematurity","undecided","male","Cabo Delgado",0
+"3372","infection","infection","infection","female","Cabo Delgado",4
+"3378","ipre","infection","undecided","male","Cabo Delgado",7
+"3397","prematurity","prematurity","prematurity","male","Manica",0
+"3406","prematurity","prematurity","prematurity","female","Manica",1
+"3407","ipre","ipre","infection","female","Manica",0
+"3410","prematurity","prematurity","prematurity","female","Manica",0
+"3411","infection","infection","prematurity","male","Manica",5
+"3416","prematurity","ipre","undecided","female","Maputo Provincia",1
+"3417","ipre","ipre","undecided","male","Manica",2
+"3448","prematurity","infection","undecided","male","Niassa",1
+"3449","infection","infection","infection","female","Niassa",3
+"3450","prematurity","ipre","infection","male","Niassa",0
+"3453","prematurity","infection","undecided","male","Niassa",23
+"3473","prematurity","prematurity","prematurity","female","Tete",3
+"3478","prematurity","infection","infection","female","Manica",1
+"3492","ipre","ipre","infection","male","Manica",1
+"3496","prematurity","infection","infection","male","Manica",0
+"3498","prematurity","prematurity","infection","female","Manica",0
+"3499","prematurity","infection","infection","male","Manica",6
+"3500","prematurity","infection","infection","female","Manica",7
+"3528","prematurity","ipre","infection","female","Nampula",1
+"3541","prematurity","infection","infection","male","Niassa",9
+"3559","infection","infection","ipre","female","Nampula",6
+"3586","infection","infection","infection","female","Zambezia",8
+"359","prematurity","prematurity","infection","female","Sofala",0
+"3598","prematurity","prematurity","prematurity","male","Tete",1
+"360","prematurity","other","undecided","male","Tete",0
+"3610","prematurity","prematurity","undecided","male","Nampula",0
+"3615","infection","infection","infection","male","Cabo Delgado",12
+"3647","ipre","infection","infection","female","Nampula",7
+"3662","ipre","prematurity","infection","female","Nampula",2
+"3666","congenital_malformation","prematurity","congenital_malformation","female","Maputo Provincia",14
+"3671","infection","infection","infection","female","Niassa",10
+"3690","prematurity","prematurity","infection","female","Cabo Delgado",1
+"3745","infection","infection","prematurity","male","Zambezia",23
+"376","prematurity","prematurity","prematurity","male","Tete",0
+"3774","ipre","infection","infection","female","Zambezia",2
+"3775","infection","infection","undecided","male","Zambezia",15
+"3803","prematurity","ipre","undecided","female","Tete",0
+"3811","ipre","infection","prematurity","female","Maputo Provincia",1
+"3829","congenital_malformation","infection","congenital_malformation","female","Cabo Delgado",3
+"3842","ipre","prematurity","infection","female","Niassa",1
+"3862","ipre","ipre","undecided","male","Tete",0
+"3868","infection","infection","infection","female","Tete",25
+"387","other","infection","undecided","female","Zambezia",20
+"3875","prematurity","prematurity","infection","female","Cabo Delgado",1
+"3895","ipre","ipre","infection","male","Niassa",0
+"3896","prematurity","infection","infection","male","Tete",1
+"3898","other","infection","undecided","female","Tete",11
+"3900","ipre","ipre","infection","female","Tete",0
+"3919","prematurity","prematurity","prematurity","male","Manica",2
+"3923","prematurity","ipre","infection","male","Manica",0
+"3924","ipre","ipre","infection","male","Manica",0
+"3925","prematurity","prematurity","prematurity","male","Manica",0
+"3931","prematurity","prematurity","infection","female","Nampula",1
+"3943","prematurity","ipre","undecided","male","Manica",0
+"3949","prematurity","prematurity","prematurity","female","Manica",3
+"3985","ipre","infection","ipre","female","Inhambane",3
+"4039","infection","infection","infection","male","Tete",15
+"4047","other","prematurity","prematurity","female","Tete",3
+"4049","infection","infection","infection","female","Tete",18
+"405","infection","infection","undecided","male","Zambezia",17
+"4103","ipre","infection","infection","female","Manica",0
+"4117","prematurity","other","undecided","male","Tete",6
+"4118","other","other","infection","female","Tete",5
+"4138","prematurity","prematurity","prematurity","male","Zambezia",15
+"4142","prematurity","prematurity","prematurity","male","Zambezia",0
+"4148","prematurity","prematurity","ipre","female","Zambezia",1
+"4150","infection","infection","undecided","female","Zambezia",7
+"4163","other","ipre","infection","male","Sofala",0
+"4166","infection","infection","infection","female","Zambezia",15
+"4167","ipre","infection","infection","male","Zambezia",2
+"418","other","infection","undecided","female","Zambezia",8
+"4205","infection","infection","infection","male","Zambezia",3
+"4208","ipre","infection","ipre","female","Zambezia",11
+"4214","infection","infection","ipre","male","Zambezia",9
+"4220","infection","infection","infection","male","Zambezia",3
+"4228","infection","infection","other","male","Zambezia",12
+"4246","prematurity","infection","infection","male","Zambezia",3
+"4258","infection","infection","infection","female","Manica",2
+"4259","infection","infection","infection","female","Manica",1
+"4262","prematurity","infection","infection","male","Manica",1
+"4263","prematurity","prematurity","undecided","female","Tete",1
+"4280","ipre","infection","other","male","Tete",1
+"4287","prematurity","prematurity","infection","male","Nampula",1
+"4294","prematurity","prematurity","undecided","male","Niassa",1
+"4295","prematurity","prematurity","undecided","male","Niassa",2
+"4298","prematurity","prematurity","undecided","male","Niassa",0
+"4299","infection","infection","ipre","male","Niassa",4
+"4308","prematurity","ipre","infection","male","Inhambane",0
+"4316","infection","infection","infection","male","Tete",3
+"4327","prematurity","prematurity","prematurity","male","Manica",1
+"4328","prematurity","prematurity","prematurity","male","Manica",1
+"4428","prematurity","infection","infection","male","Nampula",9
+"443","prematurity","prematurity","prematurity","female","Nampula",0
+"4432","prematurity","prematurity","undecided","female","Maputo Provincia",3
+"4433","infection","infection","infection","female","Maputo Provincia",10
+"4446","prematurity","ipre","infection","female","Manica",0
+"4447","ipre","infection","undecided","male","Maputo Provincia",2
+"4451","infection","infection","infection","female","Cabo Delgado",6
+"4460","other","infection","infection","female","Niassa",19
+"4471","prematurity","ipre","ipre","male","Cabo Delgado",0
+"4485","infection","infection","infection","male","Cabo Delgado",3
+"4495","other","infection","other","male","Manica",3
+"4504","prematurity","other","undecided","female","Zambezia",1
+"4507","infection","infection","undecided","male","Zambezia",7
+"4513","prematurity","prematurity","infection","female","Zambezia",0
+"4517","infection","infection","infection","female","Zambezia",7
+"452","prematurity","ipre","undecided","male","Zambezia",0
+"4526","prematurity","ipre","undecided","male","Zambezia",0
+"4528","ipre","infection","infection","male","Zambezia",27
+"4600","other","prematurity","infection","female","Zambezia",25
+"4604","prematurity","prematurity","infection","male","Tete",0
+"4615","prematurity","prematurity","infection","male","Cabo Delgado",1
+"4622","ipre","prematurity","ipre","male","Manica",0
+"4641","prematurity","ipre","ipre","male","Manica",0
+"4646","ipre","infection","undecided","male","Tete",0
+"4699","ipre","prematurity","ipre","male","Zambezia",0
+"4714","ipre","prematurity","infection","male","Gaza",0
+"4724","ipre","ipre","ipre","female","Tete",0
+"4728","prematurity","infection","undecided","female","Tete",1
+"4731","prematurity","infection","infection","female","Sofala",10
+"4739","infection","infection","undecided","female","Manica",4
+"4751","prematurity","prematurity","prematurity","male","Tete",0
+"4771","prematurity","prematurity","undecided","female","Niassa",1
+"4776","ipre","ipre","undecided","male","Manica",3
+"4791","infection","infection","infection","male","Tete",6
+"4798","infection","infection","other","female","Maputo Cidade",8
+"4810","other","ipre","undecided","female","Tete",0
+"4830","ipre","infection","ipre","female","Zambezia",7
+"4834","infection","infection","infection","female","Zambezia",26
+"4869","ipre","ipre","infection","male","Cabo Delgado",2
+"4873","infection","infection","infection","female","Nampula",11
+"4889","ipre","infection","undecided","male","Zambezia",1
+"4896","other","infection","undecided","female","Tete",2
+"4923","infection","infection","infection","male","Cabo Delgado",1
+"4946","infection","infection","infection","male","Zambezia",2
+"4947","infection","infection","undecided","male","Zambezia",6
+"4967","ipre","ipre","undecided","male","Tete",2
+"4979","ipre","ipre","ipre","male","Inhambane",2
+"4980","prematurity","ipre","ipre","female","Inhambane",3
+"4983","prematurity","infection","undecided","female","Nampula",13
+"4987","prematurity","prematurity","prematurity","female","Tete",0
+"4990","ipre","ipre","undecided","female","Manica",0
+"4997","prematurity","prematurity","undecided","male","Manica",2
+"5038","prematurity","prematurity","infection","male","Nampula",5
+"5043","prematurity","prematurity","prematurity","female","Cabo Delgado",0
+"5050","prematurity","infection","infection","male","Niassa",2
+"5052","infection","infection","infection","male","Niassa",16
+"5056","ipre","ipre","infection","male","Nampula",0
+"506","prematurity","prematurity","undecided","female","Zambezia",23
+"5090","prematurity","prematurity","undecided","female","Tete",9
+"5116","prematurity","prematurity","prematurity","female","Gaza",15
+"5135","prematurity","prematurity","ipre","male","Manica",0
+"5137","prematurity","prematurity","prematurity","female","Manica",3
+"5140","prematurity","prematurity","prematurity","male","Manica",0
+"5141","prematurity","prematurity","prematurity","male","Manica",3
+"5143","prematurity","other","undecided","female","Manica",1
+"5144","prematurity","prematurity","prematurity","female","Tete",0
+"5147","ipre","ipre","infection","male","Manica",0
+"5170","infection","infection","infection","male","Niassa",16
+"5171","ipre","ipre","infection","male","Niassa",0
+"5195","prematurity","prematurity","undecided","female","Zambezia",0
+"529","infection","infection","prematurity","female","Tete",7
+"5351","ipre","ipre","infection","male","Gaza",0
+"5360","infection","infection","undecided","male","Inhambane",5
+"5364","ipre","ipre","undecided","female","Manica",0
+"5368","prematurity","infection","infection","female","Manica",0
+"5370","other","prematurity","infection","female","Manica",7
+"5392","congenital_malformation","infection","congenital_malformation","male","Manica",1
+"5396","ipre","ipre","infection","female","Manica",0
+"54","other","infection","ipre","male","Sofala",27
+"5406","ipre","infection","undecided","male","Nampula",0
+"5418","prematurity","prematurity","prematurity","female","Nampula",0
+"5421","ipre","prematurity","infection","female","Cabo Delgado",1
+"5426","prematurity","prematurity","undecided","male","Manica",1
+"5437","prematurity","prematurity","undecided","male","Tete",0
+"5442","prematurity","prematurity","prematurity","female","Tete",0
+"5444","prematurity","other","ipre","male","Zambezia",1
+"548","prematurity","prematurity","prematurity","male","Cabo Delgado",9
+"5488","infection","infection","infection","male","Cabo Delgado",6
+"5525","ipre","ipre","ipre","male","Tete",0
+"5527","congenital_malformation","prematurity","congenital_malformation","female","Tete",0
+"5528","prematurity","infection","undecided","female","Tete",7
+"5529","ipre","prematurity","infection","male","Tete",1
+"5532","infection","infection","infection","male","Tete",3
+"5533","prematurity","infection","undecided","male","Tete",3
+"5549","other","infection","ipre","female","Inhambane",4
+"5550","prematurity","prematurity","ipre","male","Inhambane",3
+"5553","prematurity","infection","infection","female","Niassa",3
+"5559","ipre","infection","prematurity","female","Cabo Delgado",1
+"556","infection","infection","other","male","Tete",5
+"5575","infection","infection","infection","male","Manica",7
+"5579","prematurity","ipre","infection","male","Inhambane",11
+"5591","infection","infection","ipre","male","Manica",11
+"5596","infection","infection","ipre","female","Manica",23
+"5632","other","prematurity","infection","male","Cabo Delgado",1
+"5634","ipre","ipre","infection","male","Cabo Delgado",0
+"5644","prematurity","prematurity","infection","male","Cabo Delgado",1
+"5651","infection","infection","ipre","female","Cabo Delgado",14
+"5667","ipre","ipre","ipre","female","Zambezia",0
+"5687","prematurity","prematurity","prematurity","female","Tete",0
+"5688","prematurity","other","undecided","male","Tete",3
+"571","prematurity","ipre","infection","male","Cabo Delgado",2
+"5710","infection","infection","infection","male","Zambezia",24
+"5717","prematurity","prematurity","ipre","female","Zambezia",0
+"5728","prematurity","ipre","undecided","male","Zambezia",1
+"5750","prematurity","prematurity","prematurity","female","Manica",0
+"5751","prematurity","prematurity","prematurity","male","Manica",0
+"5752","prematurity","prematurity","prematurity","male","Manica",0
+"5758","infection","infection","infection","female","Manica",13
+"5765","prematurity","ipre","infection","male","Zambezia",0
+"5766","other","prematurity","prematurity","male","Manica",23
+"5769","prematurity","prematurity","prematurity","male","Niassa",1
+"5774","prematurity","ipre","infection","male","Manica",1
+"5784","ipre","prematurity","infection","male","Tete",0
+"580","infection","other","infection","male","Tete",18
+"5838","prematurity","infection","ipre","female","Zambezia",1
+"5843","prematurity","ipre","infection","male","Zambezia",0
+"585","infection","infection","undecided","female","Zambezia",14
+"5856","infection","infection","infection","male","Zambezia",3
+"5876","prematurity","other","undecided","male","Inhambane",1
+"5903","infection","infection","infection","female","Manica",16
+"5904","other","infection","infection","female","Manica",13
+"5959","ipre","ipre","ipre","female","Manica",1
+"5960","prematurity","prematurity","ipre","male","Cabo Delgado",2
+"5981","ipre","ipre","ipre","male","Sofala",2
+"5991","ipre","infection","infection","male","Nampula",2
+"6008","prematurity","ipre","undecided","male","Manica",2
+"604","ipre","ipre","undecided","female","Zambezia",0
+"6053","infection","infection","infection","male","Cabo Delgado",8
+"6056","ipre","ipre","infection","male","Cabo Delgado",0
+"6069","ipre","ipre","infection","male","Manica",0
+"6080","ipre","ipre","undecided","female","Manica",0
+"6082","prematurity","prematurity","prematurity","male","Niassa",0
+"6087","infection","infection","infection","male","Cabo Delgado",3
+"609","congenital_malformation","infection","congenital_malformation","female","Zambezia",3
+"6092","infection","infection","undecided","female","Nampula",5
+"6094","ipre","ipre","infection","female","Nampula",0
+"6108","ipre","ipre","infection","male","Nampula",0
+"6120","infection","infection","infection","male","Nampula",19
+"6127","infection","infection","infection","male","Nampula",16
+"6159","prematurity","infection","ipre","female","Cabo Delgado",3
+"6163","prematurity","infection","undecided","male","Zambezia",4
+"6171","prematurity","infection","ipre","male","Zambezia",14
+"6173","infection","infection","infection","female","Tete",9
+"6176","prematurity","infection","undecided","male","Manica",1
+"623","ipre","infection","infection","female","Zambezia",11
+"6235","infection","infection","infection","female","Inhambane",15
+"6311","prematurity","ipre","infection","male","Manica",0
+"6392","ipre","ipre","infection","male","Maputo Provincia",2
+"6421","infection","infection","infection","male","Maputo Cidade",22
+"6428","infection","infection","ipre","male","Gaza",1
+"643","infection","infection","infection","male","Cabo Delgado",10
+"6444","congenital_malformation","infection","congenital_malformation","male","Zambezia",3
+"6481","prematurity","prematurity","prematurity","male","Manica",4
+"6531","ipre","infection","undecided","male","Manica",0
+"6548","prematurity","prematurity","undecided","female","Manica",2
+"6554","congenital_malformation","prematurity","congenital_malformation","female","Zambezia",1
+"6575","prematurity","ipre","undecided","male","Manica",0
+"6589","ipre","ipre","other","female","Manica",0
+"6596","prematurity","prematurity","prematurity","male","Zambezia",0
+"6630","infection","infection","infection","male","Cabo Delgado",12
+"6654","prematurity","ipre","infection","male","Manica",0
+"6661","prematurity","infection","infection","male","Nampula",0
+"6675","infection","infection","undecided","male","Manica",10
+"6681","prematurity","infection","infection","female","Nampula",7
+"6691","infection","infection","infection","female","Manica",3
+"6693","infection","infection","undecided","female","Manica",14
+"6697","prematurity","ipre","infection","male","Manica",0
+"671","ipre","infection","undecided","male","Sofala",6
+"6725","prematurity","prematurity","prematurity","female","Manica",0
+"6726","other","infection","infection","male","Manica",5
+"6738","ipre","ipre","undecided","female","Manica",1
+"679","infection","infection","infection","male","Zambezia",8
+"692","ipre","infection","undecided","male","Zambezia",6
+"70","infection","infection","infection","male","Nampula",2
+"705","ipre","ipre","undecided","male","Zambezia",0
+"71","infection","infection","undecided","male","Nampula",18
+"711","prematurity","ipre","undecided","male","Zambezia",0
+"736","other","infection","infection","male","Cabo Delgado",6
+"742","ipre","ipre","undecided","male","Zambezia",0
+"751","ipre","ipre","infection","male","Tete",0
+"753","infection","infection","ipre","female","Tete",4
+"754","prematurity","prematurity","ipre","female","Tete",7
+"766","infection","infection","infection","female","Cabo Delgado",24
+"787","prematurity","infection","infection","male","Zambezia",1
+"788","prematurity","infection","ipre","male","Zambezia",1
+"805","ipre","ipre","ipre","male","Tete",0
+"808","congenital_malformation","other","congenital_malformation","male","Tete",0
+"817","infection","infection","undecided","male","Tete",8
+"818","ipre","ipre","undecided","male","Tete",0
+"884","ipre","ipre","infection","male","Nampula",0
+"894","infection","infection","infection","female","Tete",7
+"9","other","infection","infection","male","Zambezia",16
+"903","prematurity","infection","infection","female","Tete",0
+"905","prematurity","other","undecided","female","Tete",1
+"925","ipre","ipre","infection","female","Nampula",0
+"928","infection","infection","infection","male","Zambezia",7
+"935","prematurity","other","undecided","female","Cabo Delgado",0
+"960","prematurity","prematurity","undecided","male","Zambezia",15
+"966","infection","infection","infection","female","Tete",15
+"968","prematurity","other","undecided","male","Tete",10
+"969","prematurity","prematurity","infection","male","Zambezia",0
+"981","prematurity","prematurity","infection","male","Zambezia",7
+"983","congenital_malformation","prematurity","congenital_malformation","male","Zambezia",0
+"985","congenital_malformation","prematurity","congenital_malformation","male","Zambezia",0
+"988","infection","infection","infection","male","Tete",6
+"990","prematurity","prematurity","undecided","male","Zambezia",0

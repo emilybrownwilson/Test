@@ -1,0 +1,519 @@
+"ID","InterVA_sm_cause","InsilicoVA_sm_cause","EAVA_sm_cause","sex","province","age_in_days","InterVA","InsilicoVA","EAVA","ageInDays","age_group","age_neonate_days"
+9,"Undetermined","Neonatal sepsis","Diarrhea","male","Zambezia",16,"other","infection","infection",16,"",NA
+14,"Neonatal sepsis","Neonatal sepsis","Sepsis","male","Nampula",22,"infection","infection","infection",22,"",NA
+16,"Birth asphyxia","Birth asphyxia","Intrapartum","female","Nampula",1,"ipre","ipre","ipre",1,"",NA
+24,"Neonatal sepsis","Neonatal sepsis","Sepsis","male","Tete",26,"infection","infection","infection",26,"",NA
+54,"Undetermined","Neonatal pneumonia","Intrapartum","male","Sofala",27,"other","infection","ipre",27,"",NA
+70,"Neonatal sepsis","Neonatal sepsis","Meningitis","male","Nampula",2,"infection","infection","infection",2,"",NA
+71,"Neonatal sepsis","Neonatal sepsis","Unspecified","male","Nampula",18,"infection","infection","undecided",18,"",NA
+102,"Prematurity","Prematurity","Unspecified","female","Tete",0,"prematurity","prematurity","undecided",0,"",NA
+111,"Neonatal sepsis","Neonatal sepsis","Sepsis","male","Cabo Delgado",3,"infection","infection","infection",3,"",NA
+112,"Undetermined","Neonatal sepsis","Diarrhea","female","Cabo Delgado",18,"other","infection","infection",18,"",NA
+129,"Neonatal sepsis","Neonatal sepsis","Unspecified","female","Cabo Delgado",7,"infection","infection","undecided",7,"",NA
+141,"Prematurity","Neonatal sepsis","Meningitis","male","Cabo Delgado",10,"prematurity","infection","infection",10,"",NA
+163,"Prematurity","Neonatal sepsis","Intrapartum","male","Cabo Delgado",15,"prematurity","infection","ipre",15,"",NA
+168,"Prematurity","Neonatal sepsis","Unspecified","female","Sofala",7,"prematurity","infection","undecided",7,"",NA
+189,"Prematurity","Birth asphyxia","Unspecified","male","Sofala",0,"prematurity","ipre","undecided",0,"",NA
+225,"Neonatal sepsis","Neonatal sepsis","Sepsis","female","Cabo Delgado",3,"infection","infection","infection",3,"",NA
+231,"Neonatal sepsis","Neonatal sepsis","Unspecified","male","Cabo Delgado",4,"infection","infection","undecided",4,"",NA
+235,"Undetermined","Neonatal sepsis","Sepsis","male","Cabo Delgado",16,"other","infection","infection",16,"",NA
+249,"Neonatal pneumonia","Neonatal pneumonia","Pneumonia","female","Nampula",2,"infection","infection","infection",2,"",NA
+296,"Neonatal sepsis","Neonatal sepsis","Preterm","male","Tete",3,"infection","infection","prematurity",3,"",NA
+298,"Prematurity","Neonatal sepsis","Preterm","male","Tete",11,"prematurity","infection","prematurity",11,"",NA
+299,"Undetermined","Neonatal sepsis","Unspecified","female","Tete",1,"other","infection","undecided",1,"",NA
+300,"Undetermined","Neonatal pneumonia","Unspecified","female","Tete",6,"other","infection","undecided",6,"",NA
+359,"Prematurity","Prematurity","Sepsis","female","Sofala",0,"prematurity","prematurity","infection",0,"",NA
+360,"Prematurity","Other and unspecified neonatal CoD","Unspecified","male","Tete",0,"prematurity","other","undecided",0,"",NA
+376,"Prematurity","Prematurity","Preterm","male","Tete",0,"prematurity","prematurity","prematurity",0,"",NA
+387,"Other and unspecified neonatal CoD","Neonatal sepsis","Unspecified","female","Zambezia",20,"other","infection","undecided",20,"",NA
+405,"Neonatal sepsis","Neonatal sepsis","Unspecified","male","Zambezia",17,"infection","infection","undecided",17,"",NA
+418,"Other and unspecified neonatal CoD","Neonatal sepsis","Unspecified","female","Zambezia",8,"other","infection","undecided",8,"",NA
+443,"Prematurity","Prematurity","Preterm","female","Nampula",0,"prematurity","prematurity","prematurity",0,"",NA
+452,"Prematurity","Birth asphyxia","Unspecified","male","Zambezia",0,"prematurity","ipre","undecided",0,"",NA
+506,"Prematurity","Prematurity","Unspecified","female","Zambezia",23,"prematurity","prematurity","undecided",23,"",NA
+529,"Neonatal pneumonia","Neonatal pneumonia","Preterm","female","Tete",7,"infection","infection","prematurity",7,"",NA
+548,"Prematurity","Prematurity","Preterm","male","Cabo Delgado",9,"prematurity","prematurity","prematurity",9,"",NA
+556,"Neonatal pneumonia","Neonatal pneumonia","Other","male","Tete",5,"infection","infection","other",5,"",NA
+571,"Prematurity","Birth asphyxia","Sepsis","male","Cabo Delgado",2,"prematurity","ipre","infection",2,"",NA
+580,"Neonatal sepsis","Road traffic accident","Sepsis","male","Tete",18,"infection","other","infection",18,"",NA
+585,"Neonatal sepsis","Neonatal sepsis","Unspecified","female","Zambezia",14,"infection","infection","undecided",14,"",NA
+604,"Birth asphyxia","Birth asphyxia","Unspecified","female","Zambezia",0,"ipre","ipre","undecided",0,"",NA
+609,"Congenital malformation","Neonatal pneumonia","Malformation","female","Zambezia",3,"congenital_malformation","infection","congenital_malformation",3,"",NA
+623,"Birth asphyxia","Neonatal sepsis","Sepsis","female","Zambezia",11,"ipre","infection","infection",11,"",NA
+643,"Neonatal pneumonia","Neonatal pneumonia","Pneumonia","male","Cabo Delgado",10,"infection","infection","infection",10,"",NA
+671,"Birth asphyxia","Neonatal sepsis","Unspecified","male","Sofala",6,"ipre","infection","undecided",6,"",NA
+679,"Neonatal sepsis","Neonatal sepsis","Sepsis","male","Zambezia",8,"infection","infection","infection",8,"",NA
+692,"Birth asphyxia","Neonatal sepsis","Unspecified","male","Zambezia",6,"ipre","infection","undecided",6,"",NA
+705,"Birth asphyxia","Birth asphyxia","Unspecified","male","Zambezia",0,"ipre","ipre","undecided",0,"",NA
+711,"Prematurity","Birth asphyxia","Unspecified","male","Zambezia",0,"prematurity","ipre","undecided",0,"",NA
+736,"Undetermined","Neonatal sepsis","Sepsis","male","Cabo Delgado",6,"other","infection","infection",6,"",NA
+742,"Birth asphyxia","Birth asphyxia","Unspecified","male","Zambezia",0,"ipre","ipre","undecided",0,"",NA
+751,"Birth asphyxia","Birth asphyxia","Pneumonia","male","Tete",0,"ipre","ipre","infection",0,"",NA
+753,"Neonatal sepsis","Neonatal sepsis","Intrapartum","female","Tete",4,"infection","infection","ipre",4,"",NA
+754,"Prematurity","Prematurity","Intrapartum","female","Tete",7,"prematurity","prematurity","ipre",7,"",NA
+766,"Neonatal sepsis","Neonatal sepsis","Sepsis","female","Cabo Delgado",24,"infection","infection","infection",24,"",NA
+787,"Prematurity","Neonatal sepsis","Sepsis","male","Zambezia",1,"prematurity","infection","infection",1,"",NA
+788,"Prematurity","Neonatal sepsis","Intrapartum","male","Zambezia",1,"prematurity","infection","ipre",1,"",NA
+805,"Birth asphyxia","Birth asphyxia","Intrapartum","male","Tete",0,"ipre","ipre","ipre",0,"",NA
+808,"Congenital malformation","Road traffic accident","Malformation","male","Tete",0,"congenital_malformation","other","congenital_malformation",0,"",NA
+817,"Neonatal sepsis","Neonatal sepsis","Unspecified","male","Tete",8,"infection","infection","undecided",8,"",NA
+818,"Birth asphyxia","Birth asphyxia","Unspecified","male","Tete",0,"ipre","ipre","undecided",0,"",NA
+884,"Birth asphyxia","Birth asphyxia","Pneumonia","male","Nampula",0,"ipre","ipre","infection",0,"",NA
+894,"Neonatal sepsis","Neonatal sepsis","Diarrhea","female","Tete",7,"infection","infection","infection",7,"",NA
+903,"Prematurity","Neonatal pneumonia","Pneumonia","female","Tete",0,"prematurity","infection","infection",0,"",NA
+905,"Prematurity","Other and unspecified neonatal CoD","Unspecified","female","Tete",1,"prematurity","other","undecided",1,"",NA
+925,"Birth asphyxia","Birth asphyxia","Pneumonia","female","Nampula",0,"ipre","ipre","infection",0,"",NA
+928,"Neonatal pneumonia","Neonatal pneumonia","Sepsis","male","Zambezia",7,"infection","infection","infection",7,"",NA
+935,"Prematurity","Other and unspecified neonatal CoD","Unspecified","female","Cabo Delgado",0,"prematurity","other","undecided",0,"",NA
+960,"Prematurity","Prematurity","Unspecified","male","Zambezia",15,"prematurity","prematurity","undecided",15,"",NA
+966,"Neonatal sepsis","Neonatal sepsis","Sepsis","female","Tete",15,"infection","infection","infection",15,"",NA
+968,"Prematurity","Other and unspecified neonatal CoD","Unspecified","male","Tete",10,"prematurity","other","undecided",10,"",NA
+969,"Prematurity","Prematurity","Sepsis","male","Zambezia",0,"prematurity","prematurity","infection",0,"",NA
+981,"Prematurity","Prematurity","Pneumonia","male","Zambezia",7,"prematurity","prematurity","infection",7,"",NA
+983,"Congenital malformation","Prematurity","Malformation","male","Zambezia",0,"congenital_malformation","prematurity","congenital_malformation",0,"",NA
+985,"Congenital malformation","Prematurity","Malformation","male","Zambezia",0,"congenital_malformation","prematurity","congenital_malformation",0,"",NA
+988,"Neonatal sepsis","Neonatal sepsis","Sepsis","male","Tete",6,"infection","infection","infection",6,"",NA
+990,"Prematurity","Prematurity","Unspecified","male","Zambezia",0,"prematurity","prematurity","undecided",0,"",NA
+1012,"Birth asphyxia","Birth asphyxia","Pneumonia","female","Nampula",0,"ipre","ipre","infection",0,"",NA
+1014,"Prematurity","Birth asphyxia","Unspecified","male","Nampula",0,"prematurity","ipre","undecided",0,"",NA
+1016,"Prematurity","Prematurity","Preterm","female","Nampula",5,"prematurity","prematurity","prematurity",5,"",NA
+1019,"Birth asphyxia","Birth asphyxia","Pneumonia","female","Tete",0,"ipre","ipre","infection",0,"",NA
+1034,"Birth asphyxia","Prematurity","Preterm","male","Tete",1,"ipre","prematurity","prematurity",1,"",NA
+1050,"Birth asphyxia","Neonatal pneumonia","Preterm","male","Zambezia",14,"ipre","infection","prematurity",14,"",NA
+1065,"Prematurity","Prematurity","Preterm","male","Cabo Delgado",3,"prematurity","prematurity","prematurity",3,"",NA
+1066,"Birth asphyxia","Neonatal pneumonia","Intrapartum","male","Zambezia",14,"ipre","infection","ipre",14,"",NA
+1082,"Birth asphyxia","Accid fall","Sepsis","male","Nampula",1,"ipre","other","infection",1,"",NA
+1098,"Neonatal pneumonia","Neonatal pneumonia","Pneumonia","female","Tete",15,"infection","infection","infection",15,"",NA
+1143,"Prematurity","Neonatal sepsis","Unspecified","female","Nampula",3,"prematurity","infection","undecided",3,"",NA
+1144,"Birth asphyxia","Prematurity","Intrapartum","female","Nampula",0,"ipre","prematurity","ipre",0,"",NA
+1145,"Prematurity","Birth asphyxia","Unspecified","female","Nampula",0,"prematurity","ipre","undecided",0,"",NA
+1147,"Birth asphyxia","Birth asphyxia","Sepsis","male","Nampula",0,"ipre","ipre","infection",0,"",NA
+1153,"Birth asphyxia","Neonatal sepsis","Sepsis","male","Zambezia",2,"ipre","infection","infection",2,"",NA
+1201,"Congenital malformation","Birth asphyxia","Malformation","male","Nampula",0,"congenital_malformation","ipre","congenital_malformation",0,"",NA
+1204,"Neonatal sepsis","Neonatal sepsis","Intrapartum","female","Cabo Delgado",6,"infection","infection","ipre",6,"",NA
+1212,"Birth asphyxia","Other and unspecified neonatal CoD","Intrapartum","female","Zambezia",0,"ipre","other","ipre",0,"",NA
+1228,"Prematurity","Prematurity","Preterm","male","Cabo Delgado",1,"prematurity","prematurity","prematurity",1,"",NA
+1233,"Prematurity","Prematurity","Preterm","male","Cabo Delgado",1,"prematurity","prematurity","prematurity",1,"",NA
+1239,"Birth asphyxia","Neonatal pneumonia","Preterm","female","Tete",3,"ipre","infection","prematurity",3,"",NA
+1244,"Prematurity","Prematurity","Preterm","female","Tete",7,"prematurity","prematurity","prematurity",7,"",NA
+1253,"Prematurity","Other and unspecified neonatal CoD","Unspecified","male","Tete",1,"prematurity","other","undecided",1,"",NA
+1254,"Birth asphyxia","Birth asphyxia","Pneumonia","female","Tete",0,"ipre","ipre","infection",0,"",NA
+1258,"Prematurity","Birth asphyxia","Intrapartum","male","Sofala",16,"prematurity","ipre","ipre",16,"",NA
+1269,"Neonatal pneumonia","Neonatal pneumonia","Pneumonia","female","Zambezia",4,"infection","infection","infection",4,"",NA
+1276,"Neonatal pneumonia","Neonatal pneumonia","Pneumonia","female","Cabo Delgado",9,"infection","infection","infection",9,"",NA
+1281,"Prematurity","Prematurity","Sepsis","female","Cabo Delgado",8,"prematurity","prematurity","infection",8,"",NA
+1286,"Congenital malformation","Prematurity","Malformation","female","Zambezia",7,"congenital_malformation","prematurity","congenital_malformation",7,"",NA
+1297,"Undetermined","Neonatal sepsis","Diarrhea","male","Zambezia",17,"other","infection","infection",17,"",NA
+1298,"Prematurity","Prematurity","Preterm","female","Zambezia",1,"prematurity","prematurity","prematurity",1,"",NA
+1311,"Neonatal sepsis","Neonatal sepsis","Unspecified","male","Zambezia",7,"infection","infection","undecided",7,"",NA
+1314,"Prematurity","Prematurity","Intrapartum","male","Zambezia",4,"prematurity","prematurity","ipre",4,"",NA
+1327,"Prematurity","Neonatal sepsis","Sepsis","female","Nampula",0,"prematurity","infection","infection",0,"",NA
+1332,"Birth asphyxia","Prematurity","Intrapartum","male","Sofala",2,"ipre","prematurity","ipre",2,"",NA
+1336,"Birth asphyxia","Birth asphyxia","Pneumonia","male","Tete",0,"ipre","ipre","infection",0,"",NA
+1338,"Birth asphyxia","Birth asphyxia","Unspecified","male","Nampula",0,"ipre","ipre","undecided",0,"",NA
+1341,"Neonatal pneumonia","Neonatal pneumonia","NNT","female","Nampula",18,"infection","infection","infection",18,"",NA
+1351,"Birth asphyxia","Birth asphyxia","Unspecified","male","Tete",0,"ipre","ipre","undecided",0,"",NA
+1358,"Birth asphyxia","Birth asphyxia","Intrapartum","male","Nampula",0,"ipre","ipre","ipre",0,"",NA
+1360,"Birth asphyxia","Accid fall","Sepsis","female","Nampula",0,"ipre","other","infection",0,"",NA
+1382,"Birth asphyxia","Birth asphyxia","Unspecified","female","Manica",0,"ipre","ipre","undecided",0,"",NA
+1392,"Neonatal sepsis","Neonatal sepsis","Intrapartum","female","Manica",22,"infection","infection","ipre",22,"",NA
+1400,"Undetermined","Birth asphyxia","Pneumonia","female","Manica",4,"other","ipre","infection",4,"",NA
+1401,"Prematurity","Birth asphyxia","Unspecified","male","Maputo Provincia",0,"prematurity","ipre","undecided",0,"",NA
+1414,"Birth asphyxia","Birth asphyxia","Pneumonia","male","Maputo Provincia",1,"ipre","ipre","infection",1,"",NA
+1435,"Prematurity","Neonatal sepsis","Unspecified","female","Maputo Provincia",0,"prematurity","infection","undecided",0,"",NA
+1440,"Prematurity","Birth asphyxia","Unspecified","female","Manica",5,"prematurity","ipre","undecided",5,"",NA
+1472,"Other and unspecified neonatal CoD","Neonatal sepsis","Unspecified","female","Manica",1,"other","infection","undecided",1,"",NA
+1473,"Prematurity","Prematurity","Preterm","female","Manica",3,"prematurity","prematurity","prematurity",3,"",NA
+1485,"Birth asphyxia","Neonatal sepsis","Sepsis","female","Gaza",6,"ipre","infection","infection",6,"",NA
+1530,"Birth asphyxia","Birth asphyxia","Intrapartum","male","Niassa",1,"ipre","ipre","ipre",1,"",NA
+1543,"Neonatal sepsis","Neonatal sepsis","Intrapartum","male","Inhambane",3,"infection","infection","ipre",3,"",NA
+1552,"Neonatal pneumonia","Neonatal pneumonia","Pneumonia","male","Zambezia",7,"infection","infection","infection",NA,"neonate",7
+1583,"Neonatal sepsis","Neonatal sepsis","Diarrhea","male","Zambezia",18,"infection","infection","infection",18,"",NA
+1595,"Congenital malformation","Birth asphyxia","Malformation","male","Zambezia",0,"congenital_malformation","ipre","congenital_malformation",0,"",NA
+1613,"Neonatal pneumonia","Neonatal pneumonia","Pneumonia","male","Zambezia",20,"infection","infection","infection",20,"",NA
+1618,"Prematurity","Birth asphyxia","Pneumonia","male","Zambezia",0,"prematurity","ipre","infection",0,"",NA
+1620,"Other and unspecified neonatal CoD","Other and unspecified neonatal CoD","Unspecified","male","Gaza",21,"other","other","undecided",21,"",NA
+1668,"Birth asphyxia","Birth asphyxia","Sepsis","male","Zambezia",2,"ipre","ipre","infection",2,"",NA
+1669,"Prematurity","Birth asphyxia","Unspecified","female","Zambezia",2,"prematurity","ipre","undecided",2,"",NA
+1684,"Neonatal sepsis","Neonatal sepsis","Sepsis","male","Tete",2,"infection","infection","infection",2,"",NA
+1691,"Birth asphyxia","Birth asphyxia","Intrapartum","female","Tete",1,"ipre","ipre","ipre",1,"",NA
+1692,"Prematurity","Birth asphyxia","Sepsis","female","Tete",0,"prematurity","ipre","infection",0,"",NA
+1711,"Neonatal pneumonia","Neonatal pneumonia","Intrapartum","female","Nampula",1,"infection","infection","ipre",1,"",NA
+1727,"Birth asphyxia","Birth asphyxia","Pneumonia","female","Manica",3,"ipre","ipre","infection",3,"",NA
+1741,"Neonatal pneumonia","Neonatal pneumonia","Intrapartum","male","Tete",8,"infection","infection","ipre",8,"",NA
+1743,"Prematurity","Other and unspecified neonatal CoD","Unspecified","male","Tete",0,"prematurity","other","undecided",0,"",NA
+1771,"Neonatal sepsis","Neonatal sepsis","Pneumonia","male","Cabo Delgado",4,"infection","infection","infection",4,"",NA
+1796,"Prematurity","Prematurity","Preterm","male","Maputo Provincia",2,"prematurity","prematurity","prematurity",2,"",NA
+1800,"Neonatal pneumonia","Neonatal pneumonia","Pneumonia","female","Maputo Provincia",5,"infection","infection","infection",5,"",NA
+1818,"Birth asphyxia","Birth asphyxia","Pneumonia","female","Gaza",0,"ipre","ipre","infection",0,"",NA
+1830,"Prematurity","Prematurity","Preterm","male","Gaza",0,"prematurity","prematurity","prematurity",0,"",NA
+1833,"Neonatal pneumonia","Neonatal pneumonia","Meningitis","male","Zambezia",10,"infection","infection","infection",10,"",NA
+1859,"Prematurity","Neonatal sepsis","Unspecified","male","Manica",0,"prematurity","infection","undecided",0,"",NA
+1881,"Neonatal sepsis","Neonatal sepsis","Unspecified","female","Tete",1,"infection","infection","undecided",1,"",NA
+1916,"Birth asphyxia","Birth asphyxia","Pneumonia","female","Cabo Delgado",0,"ipre","ipre","infection",0,"",NA
+1944,"Birth asphyxia","Birth asphyxia","Pneumonia","female","Manica",0,"ipre","ipre","infection",0,"",NA
+1946,"Birth asphyxia","Prematurity","Intrapartum","female","Manica",2,"ipre","prematurity","ipre",2,"",NA
+1965,"Prematurity","Prematurity","Sepsis","male","Cabo Delgado",2,"prematurity","prematurity","infection",2,"",NA
+1968,"Neonatal pneumonia","Neonatal pneumonia","Intrapartum","male","Manica",3,"infection","infection","ipre",3,"",NA
+1970,"Prematurity","Prematurity","Preterm","female","Cabo Delgado",3,"prematurity","prematurity","prematurity",3,"",NA
+1988,"Birth asphyxia","Prematurity","Pneumonia","female","Nampula",1,"ipre","prematurity","infection",1,"",NA
+1989,"Neonatal sepsis","Neonatal sepsis","NNT","female","Nampula",7,"infection","infection","infection",7,"",NA
+2001,"Congenital malformation","Birth asphyxia","Malformation","male","Sofala",4,"congenital_malformation","ipre","congenital_malformation",4,"",NA
+2009,"Undetermined","Birth asphyxia","Malformation","male","Cabo Delgado",2,"other","ipre","congenital_malformation",2,"",NA
+2012,"Birth asphyxia","Birth asphyxia","Unspecified","male","Cabo Delgado",0,"ipre","ipre","undecided",0,"",NA
+2020,"Prematurity","Neonatal sepsis","Pneumonia","male","Tete",2,"prematurity","infection","infection",2,"",NA
+2021,"Undetermined","Birth asphyxia","Intrapartum","female","Tete",0,"other","ipre","ipre",0,"",NA
+2025,"Neonatal sepsis","Neonatal sepsis","Unspecified","male","Cabo Delgado",21,"infection","infection","undecided",21,"",NA
+2071,"Prematurity","Other and unspecified neonatal CoD","Unspecified","female","Zambezia",19,"prematurity","other","undecided",19,"",NA
+2075,"Neonatal sepsis","Neonatal sepsis","Sepsis","female","Zambezia",15,"infection","infection","infection",15,"",NA
+2081,"Prematurity","Neonatal sepsis","Intrapartum","male","Zambezia",3,"prematurity","infection","ipre",NA,"neonate",3
+2116,"Prematurity","Prematurity","Preterm","male","Inhambane",0,"prematurity","prematurity","prematurity",0,"",NA
+2139,"Prematurity","Prematurity","Preterm","female","Zambezia",0,"prematurity","prematurity","prematurity",0,"",NA
+2144,"Neonatal sepsis","Neonatal sepsis","Unspecified","female","Tete",17,"infection","infection","undecided",17,"",NA
+2151,"Prematurity","Birth asphyxia","Intrapartum","male","Manica",1,"prematurity","ipre","ipre",1,"",NA
+2159,"Congenital malformation","Prematurity","Malformation","male","Manica",0,"congenital_malformation","prematurity","congenital_malformation",0,"",NA
+2160,"Prematurity","Prematurity","Preterm","female","Manica",19,"prematurity","prematurity","prematurity",19,"",NA
+2166,"Birth asphyxia","Prematurity","Preterm","female","Gaza",8,"ipre","prematurity","prematurity",8,"",NA
+2167,"Birth asphyxia","Birth asphyxia","Intrapartum","female","Sofala",0,"ipre","ipre","ipre",0,"",NA
+2175,"Prematurity","Neonatal sepsis","Intrapartum","male","Sofala",1,"prematurity","infection","ipre",1,"",NA
+2178,"Neonatal sepsis","Neonatal sepsis","Intrapartum","female","Tete",7,"infection","infection","ipre",7,"",NA
+2179,"Birth asphyxia","Birth asphyxia","Pneumonia","male","Nampula",0,"ipre","ipre","infection",0,"",NA
+2194,"Prematurity","Birth asphyxia","Sepsis","male","Tete",0,"prematurity","ipre","infection",0,"",NA
+2207,"Neonatal pneumonia","Neonatal pneumonia","Pneumonia","male","Tete",8,"infection","infection","infection",8,"",NA
+2221,"Prematurity","Prematurity","Preterm","male","Tete",0,"prematurity","prematurity","prematurity",0,"",NA
+2226,"Birth asphyxia","Prematurity","Intrapartum","female","Tete",0,"ipre","prematurity","ipre",0,"",NA
+2239,"Prematurity","Neonatal sepsis","Unspecified","male","Zambezia",27,"prematurity","infection","undecided",27,"",NA
+2242,"Neonatal sepsis","Neonatal sepsis","Sepsis","male","Tete",3,"infection","infection","infection",3,"",NA
+2259,"Birth asphyxia","Birth asphyxia","Intrapartum","female","Gaza",4,"ipre","ipre","ipre",4,"",NA
+2290,"Prematurity","Prematurity","Preterm","male","Manica",19,"prematurity","prematurity","prematurity",19,"",NA
+2306,"Prematurity","Birth asphyxia","Sepsis","male","Manica",0,"prematurity","ipre","infection",0,"",NA
+2316,"Prematurity","Neonatal sepsis","Sepsis","female","Zambezia",1,"prematurity","infection","infection",1,"",NA
+2318,"Other and unspecified neonatal CoD","Neonatal sepsis","Unspecified","female","Cabo Delgado",4,"other","infection","undecided",4,"",NA
+2339,"Neonatal pneumonia","Neonatal pneumonia","Sepsis","female","Zambezia",14,"infection","infection","infection",14,"",NA
+2362,"Neonatal sepsis","Neonatal sepsis","NNT","female","Nampula",4,"infection","infection","infection",4,"",NA
+2389,"Birth asphyxia","Neonatal sepsis","Unspecified","female","Zambezia",1,"ipre","infection","undecided",1,"",NA
+2401,"Neonatal sepsis","Neonatal sepsis","Sepsis","male","Tete",1,"infection","infection","infection",1,"",NA
+2402,"Prematurity","Prematurity","Preterm","female","Tete",0,"prematurity","prematurity","prematurity",0,"",NA
+2413,"Birth asphyxia","Neonatal pneumonia","Diarrhea","female","Zambezia",14,"ipre","infection","infection",14,"",NA
+2415,"Birth asphyxia","Birth asphyxia","Pneumonia","male","Zambezia",0,"ipre","ipre","infection",0,"",NA
+2416,"Birth asphyxia","Neonatal pneumonia","Diarrhea","female","Zambezia",21,"ipre","infection","infection",21,"",NA
+2418,"Neonatal sepsis","Neonatal sepsis","Meningitis","female","Tete",3,"infection","infection","infection",3,"",NA
+2419,"Neonatal sepsis","Neonatal sepsis","Meningitis","female","Tete",3,"infection","infection","infection",3,"",NA
+2424,"Prematurity","Other and unspecified neonatal CoD","Other","male","Sofala",0,"prematurity","other","other",0,"",NA
+2439,"Prematurity","Prematurity","Preterm","male","Maputo Provincia",0,"prematurity","prematurity","prematurity",0,"",NA
+2465,"Birth asphyxia","Birth asphyxia","Intrapartum","female","Tete",0,"ipre","ipre","ipre",0,"",NA
+2476,"Neonatal sepsis","Neonatal sepsis","Pneumonia","male","Tete",22,"infection","infection","infection",22,"",NA
+2498,"Prematurity","Neonatal sepsis","Intrapartum","male","Tete",0,"prematurity","infection","ipre",0,"",NA
+2505,"Prematurity","Birth asphyxia","Sepsis","male","Tete",0,"prematurity","ipre","infection",0,"",NA
+2520,"Neonatal sepsis","Neonatal sepsis","Meningitis","female","Zambezia",4,"infection","infection","infection",4,"",NA
+2540,"Neonatal sepsis","Neonatal sepsis","Diarrhea","male","Cabo Delgado",9,"infection","infection","infection",9,"",NA
+2556,"Prematurity","Birth asphyxia","Intrapartum","male","Niassa",4,"prematurity","ipre","ipre",NA,"neonate",4
+2587,"Birth asphyxia","Neonatal pneumonia","Unspecified","male","Cabo Delgado",5,"ipre","infection","undecided",5,"",NA
+2593,"Prematurity","Neonatal sepsis","Sepsis","female","Manica",10,"prematurity","infection","infection",10,"",NA
+2616,"Birth asphyxia","Neonatal pneumonia","Sepsis","female","Cabo Delgado",1,"ipre","infection","infection",1,"",NA
+2644,"Neonatal sepsis","Neonatal sepsis","Sepsis","male","Zambezia",3,"infection","infection","infection",3,"",NA
+2649,"Prematurity","Neonatal sepsis","Meningitis","female","Zambezia",2,"prematurity","infection","infection",2,"",NA
+2672,"Prematurity","Birth asphyxia","Sepsis","male","Zambezia",0,"prematurity","ipre","infection",0,"",NA
+2699,"Neonatal sepsis","Neonatal sepsis","Unspecified","female","Tete",15,"infection","infection","undecided",15,"",NA
+2716,"Prematurity","Birth asphyxia","Pneumonia","female","Inhambane",0,"prematurity","ipre","infection",0,"",NA
+2730,"Prematurity","Birth asphyxia","Sepsis","female","Manica",1,"prematurity","ipre","infection",1,"",NA
+2732,"Congenital malformation","Neonatal sepsis","Malformation","female","Manica",22,"congenital_malformation","infection","congenital_malformation",22,"",NA
+2755,"Birth asphyxia","Prematurity","Preterm","male","Niassa",2,"ipre","prematurity","prematurity",NA,"neonate",2
+2761,"Birth asphyxia","Neonatal sepsis","Sepsis","female","Zambezia",3,"ipre","infection","infection",3,"",NA
+2766,"Neonatal pneumonia","Neonatal pneumonia","Sepsis","male","Zambezia",5,"infection","infection","infection",5,"",NA
+2771,"Neonatal sepsis","Prematurity","Preterm","female","Cabo Delgado",2,"infection","prematurity","prematurity",2,"",NA
+2811,"Birth asphyxia","Birth asphyxia","Unspecified","male","Nampula",0,"ipre","ipre","undecided",0,"",NA
+2825,"Neonatal sepsis","Neonatal sepsis","Sepsis","female","Niassa",25,"infection","infection","infection",25,"",NA
+2836,"Prematurity","Birth asphyxia","Pneumonia","male","Cabo Delgado",1,"prematurity","ipre","infection",1,"",NA
+2849,"Birth asphyxia","Neonatal pneumonia","Intrapartum","male","Tete",11,"ipre","infection","ipre",11,"",NA
+2853,"Prematurity","Prematurity","Intrapartum","male","Gaza",0,"prematurity","prematurity","ipre",0,"",NA
+2856,"Birth asphyxia","Birth asphyxia","Sepsis","female","Gaza",22,"ipre","ipre","infection",22,"",NA
+2869,"Prematurity","Other and unspecified neonatal CoD","Unspecified","male","Gaza",2,"prematurity","other","undecided",2,"",NA
+2877,"Neonatal sepsis","Neonatal sepsis","Unspecified","female","Cabo Delgado",1,"infection","infection","undecided",1,"",NA
+2879,"Undetermined","Neonatal pneumonia","Intrapartum","female","Tete",7,"other","infection","ipre",7,"",NA
+2924,"Prematurity","Prematurity","Preterm","male","Nampula",8,"prematurity","prematurity","prematurity",8,"",NA
+2977,"Birth asphyxia","Neonatal sepsis","Intrapartum","female","Manica",2,"ipre","infection","ipre",2,"",NA
+2998,"Birth asphyxia","Birth asphyxia","Pneumonia","male","Maputo Cidade",2,"ipre","ipre","infection",2,"",NA
+3015,"Birth asphyxia","Neonatal sepsis","Intrapartum","female","Niassa",20,"ipre","infection","ipre",20,"",NA
+3031,"Neonatal sepsis","Neonatal sepsis","Unspecified","male","Maputo Provincia",8,"infection","infection","undecided",8,"",NA
+3034,"Prematurity","Prematurity","Unspecified","female","Maputo Provincia",2,"prematurity","prematurity","undecided",2,"",NA
+3076,"Birth asphyxia","Birth asphyxia","Sepsis","male","Zambezia",0,"ipre","ipre","infection",0,"",NA
+3077,"Neonatal sepsis","Neonatal sepsis","Unspecified","male","Zambezia",12,"infection","infection","undecided",12,"",NA
+3080,"Birth asphyxia","Other and unspecified neonatal CoD","Unspecified","male","Manica",0,"ipre","other","undecided",0,"",NA
+3112,"Prematurity","Prematurity","Preterm","male","Nampula",0,"prematurity","prematurity","prematurity",NA,"neonate",0
+3113,"Neonatal sepsis","Neonatal sepsis","Preterm","female","Nampula",3,"infection","infection","prematurity",NA,"neonate",3
+3119,"Prematurity","Prematurity","Preterm","male","Tete",0,"prematurity","prematurity","prematurity",0,"",NA
+3129,"Neonatal pneumonia","Neonatal pneumonia","Sepsis","female","Cabo Delgado",8,"infection","infection","infection",NA,"neonate",8
+3144,"Neonatal pneumonia","Neonatal pneumonia","Intrapartum","female","Cabo Delgado",10,"infection","infection","ipre",10,"",NA
+3163,"Neonatal sepsis","Neonatal sepsis","Preterm","male","Cabo Delgado",2,"infection","infection","prematurity",2,"",NA
+3169,"Neonatal sepsis","Neonatal sepsis","Unspecified","male","Tete",4,"infection","infection","undecided",4,"",NA
+3170,"Birth asphyxia","Birth asphyxia","Unspecified","female","Tete",0,"ipre","ipre","undecided",0,"",NA
+3172,"Prematurity","Birth asphyxia","Sepsis","male","Tete",0,"prematurity","ipre","infection",0,"",NA
+3188,"Birth asphyxia","Prematurity","Intrapartum","female","Gaza",1,"ipre","prematurity","ipre",1,"",NA
+3210,"Prematurity","Prematurity","Preterm","male","Inhambane",2,"prematurity","prematurity","prematurity",2,"",NA
+3227,"Prematurity","Prematurity","Preterm","male","Zambezia",7,"prematurity","prematurity","prematurity",7,"",NA
+3232,"Neonatal pneumonia","Neonatal pneumonia","Pneumonia","male","Tete",5,"infection","infection","infection",5,"",NA
+3233,"Neonatal pneumonia","Neonatal pneumonia","Pneumonia","male","Tete",4,"infection","infection","infection",4,"",NA
+3240,"Prematurity","Prematurity","Unspecified","female","Tete",0,"prematurity","prematurity","undecided",0,"",NA
+3243,"Birth asphyxia","Prematurity","Preterm","male","Tete",1,"ipre","prematurity","prematurity",1,"",NA
+3244,"Undetermined","Neonatal pneumonia","Preterm","female","Tete",7,"other","infection","prematurity",7,"",NA
+3249,"Birth asphyxia","Neonatal sepsis","Pneumonia","female","Tete",0,"ipre","infection","infection",0,"",NA
+3272,"Other and unspecified neonatal CoD","Neonatal sepsis","Unspecified","male","Zambezia",22,"other","infection","undecided",22,"",NA
+3300,"Prematurity","Prematurity","Preterm","female","Manica",0,"prematurity","prematurity","prematurity",0,"",NA
+3312,"Prematurity","Prematurity","Preterm","female","Nampula",3,"prematurity","prematurity","prematurity",NA,"neonate",3
+3341,"Prematurity","Neonatal sepsis","Intrapartum","male","Zambezia",12,"prematurity","infection","ipre",12,"",NA
+3366,"Prematurity","Prematurity","Preterm","female","Zambezia",0,"prematurity","prematurity","prematurity",0,"",NA
+3368,"Birth asphyxia","Prematurity","Unspecified","male","Cabo Delgado",0,"ipre","prematurity","undecided",0,"",NA
+3372,"Neonatal sepsis","Neonatal sepsis","Sepsis","female","Cabo Delgado",4,"infection","infection","infection",4,"",NA
+3378,"Birth asphyxia","Neonatal sepsis","Unspecified","male","Cabo Delgado",7,"ipre","infection","undecided",7,"",NA
+3397,"Prematurity","Prematurity","Preterm","male","Manica",0,"prematurity","prematurity","prematurity",0,"",NA
+3406,"Prematurity","Prematurity","Preterm","female","Manica",1,"prematurity","prematurity","prematurity",1,"",NA
+3407,"Birth asphyxia","Birth asphyxia","Pneumonia","female","Manica",0,"ipre","ipre","infection",0,"",NA
+3410,"Prematurity","Prematurity","Preterm","female","Manica",0,"prematurity","prematurity","prematurity",0,"",NA
+3411,"Neonatal sepsis","Neonatal sepsis","Preterm","male","Manica",5,"infection","infection","prematurity",5,"",NA
+3416,"Prematurity","Birth asphyxia","Unspecified","female","Maputo Provincia",1,"prematurity","ipre","undecided",1,"",NA
+3417,"Birth asphyxia","Birth asphyxia","Unspecified","male","Manica",2,"ipre","ipre","undecided",2,"",NA
+3448,"Prematurity","Neonatal sepsis","Unspecified","male","Niassa",1,"prematurity","infection","undecided",1,"",NA
+3449,"Neonatal sepsis","Neonatal sepsis","Sepsis","female","Niassa",3,"infection","infection","infection",3,"",NA
+3450,"Prematurity","Birth asphyxia","Pneumonia","male","Niassa",0,"prematurity","ipre","infection",0,"",NA
+3453,"Prematurity","Neonatal sepsis","Unspecified","male","Niassa",23,"prematurity","infection","undecided",23,"",NA
+3473,"Prematurity","Prematurity","Preterm","female","Tete",3,"prematurity","prematurity","prematurity",3,"",NA
+3478,"Prematurity","Neonatal sepsis","Pneumonia","female","Manica",1,"prematurity","infection","infection",1,"",NA
+3492,"Birth asphyxia","Birth asphyxia","Pneumonia","male","Manica",1,"ipre","ipre","infection",1,"",NA
+3496,"Prematurity","Neonatal sepsis","Sepsis","male","Manica",0,"prematurity","infection","infection",0,"",NA
+3498,"Prematurity","Prematurity","Sepsis","female","Manica",0,"prematurity","prematurity","infection",0,"",NA
+3499,"Prematurity","Neonatal sepsis","Sepsis","male","Manica",6,"prematurity","infection","infection",6,"",NA
+3500,"Prematurity","Neonatal sepsis","Sepsis","female","Manica",7,"prematurity","infection","infection",7,"",NA
+3528,"Prematurity","Birth asphyxia","Sepsis","female","Nampula",1,"prematurity","ipre","infection",1,"",NA
+3541,"Prematurity","Neonatal sepsis","Sepsis","male","Niassa",9,"prematurity","infection","infection",9,"",NA
+3559,"Neonatal pneumonia","Neonatal pneumonia","Intrapartum","female","Nampula",6,"infection","infection","ipre",6,"",NA
+3586,"Neonatal sepsis","Neonatal sepsis","Sepsis","female","Zambezia",8,"infection","infection","infection",8,"",NA
+3598,"Prematurity","Prematurity","Preterm","male","Tete",1,"prematurity","prematurity","prematurity",1,"",NA
+3610,"Prematurity","Prematurity","Unspecified","male","Nampula",0,"prematurity","prematurity","undecided",0,"",NA
+3615,"Neonatal sepsis","Neonatal sepsis","Sepsis","male","Cabo Delgado",12,"infection","infection","infection",12,"",NA
+3647,"Birth asphyxia","Neonatal pneumonia","Pneumonia","female","Nampula",7,"ipre","infection","infection",7,"",NA
+3662,"Birth asphyxia","Prematurity","Pneumonia","female","Nampula",2,"ipre","prematurity","infection",2,"",NA
+3666,"Congenital malformation","Prematurity","Malformation","female","Maputo Provincia",14,"congenital_malformation","prematurity","congenital_malformation",14,"",NA
+3671,"Neonatal sepsis","Neonatal sepsis","Sepsis","female","Niassa",10,"infection","infection","infection",10,"",NA
+3690,"Prematurity","Prematurity","Pneumonia","female","Cabo Delgado",1,"prematurity","prematurity","infection",1,"",NA
+3745,"Neonatal sepsis","Neonatal sepsis","Preterm","male","Zambezia",23,"infection","infection","prematurity",23,"",NA
+3774,"Birth asphyxia","Neonatal pneumonia","Pneumonia","female","Zambezia",2,"ipre","infection","infection",2,"",NA
+3775,"Neonatal sepsis","Neonatal sepsis","Unspecified","male","Zambezia",15,"infection","infection","undecided",NA,"neonate",15
+3803,"Prematurity","Birth asphyxia","Unspecified","female","Tete",0,"prematurity","ipre","undecided",0,"",NA
+3811,"Birth asphyxia","Neonatal pneumonia","Preterm","female","Maputo Provincia",1,"ipre","infection","prematurity",1,"",NA
+3829,"Congenital malformation","Neonatal sepsis","Malformation","female","Cabo Delgado",3,"congenital_malformation","infection","congenital_malformation",3,"",NA
+3842,"Birth asphyxia","Prematurity","Pneumonia","female","Niassa",1,"ipre","prematurity","infection",NA,"neonate",1
+3862,"Birth asphyxia","Birth asphyxia","Unspecified","male","Tete",0,"ipre","ipre","undecided",0,"",NA
+3868,"Neonatal pneumonia","Neonatal pneumonia","Pneumonia","female","Tete",25,"infection","infection","infection",25,"",NA
+3875,"Prematurity","Prematurity","Pneumonia","female","Cabo Delgado",1,"prematurity","prematurity","infection",1,"",NA
+3895,"Birth asphyxia","Birth asphyxia","Pneumonia","male","Niassa",0,"ipre","ipre","infection",0,"",NA
+3896,"Prematurity","Neonatal sepsis","Sepsis","male","Tete",1,"prematurity","infection","infection",1,"",NA
+3898,"Other and unspecified neonatal CoD","Neonatal sepsis","Unspecified","female","Tete",11,"other","infection","undecided",11,"",NA
+3900,"Birth asphyxia","Birth asphyxia","Sepsis","female","Tete",0,"ipre","ipre","infection",0,"",NA
+3919,"Prematurity","Prematurity","Preterm","male","Manica",2,"prematurity","prematurity","prematurity",2,"",NA
+3923,"Prematurity","Birth asphyxia","Pneumonia","male","Manica",0,"prematurity","ipre","infection",0,"",NA
+3924,"Birth asphyxia","Birth asphyxia","Pneumonia","male","Manica",0,"ipre","ipre","infection",0,"",NA
+3925,"Prematurity","Prematurity","Preterm","male","Manica",0,"prematurity","prematurity","prematurity",0,"",NA
+3931,"Prematurity","Prematurity","Sepsis","female","Nampula",1,"prematurity","prematurity","infection",1,"",NA
+3943,"Prematurity","Birth asphyxia","Unspecified","male","Manica",0,"prematurity","ipre","undecided",0,"",NA
+3949,"Prematurity","Prematurity","Preterm","female","Manica",3,"prematurity","prematurity","prematurity",3,"",NA
+3985,"Birth asphyxia","Neonatal pneumonia","Intrapartum","female","Inhambane",3,"ipre","infection","ipre",3,"",NA
+4039,"Neonatal pneumonia","Neonatal pneumonia","Pneumonia","male","Tete",15,"infection","infection","infection",15,"",NA
+4047,"Undetermined","Prematurity","Preterm","female","Tete",3,"other","prematurity","prematurity",3,"",NA
+4049,"Meningitis and encephalitis","Neonatal pneumonia","Pneumonia","female","Tete",18,"infection","infection","infection",18,"",NA
+4103,"Birth asphyxia","Neonatal sepsis","Sepsis","female","Manica",0,"ipre","infection","infection",0,"",NA
+4117,"Prematurity","Other and unspecified neonatal CoD","Unspecified","male","Tete",6,"prematurity","other","undecided",6,"",NA
+4118,"Other and unspecified neonatal CoD","Other and unspecified neonatal CoD","Sepsis","female","Tete",5,"other","other","infection",5,"",NA
+4138,"Prematurity","Prematurity","Preterm","male","Zambezia",15,"prematurity","prematurity","prematurity",15,"",NA
+4142,"Prematurity","Prematurity","Preterm","male","Zambezia",0,"prematurity","prematurity","prematurity",0,"",NA
+4148,"Prematurity","Prematurity","Intrapartum","female","Zambezia",1,"prematurity","prematurity","ipre",NA,"neonate",1
+4150,"Neonatal pneumonia","Neonatal pneumonia","Unspecified","female","Zambezia",7,"infection","infection","undecided",NA,"neonate",7
+4163,"Undetermined","Birth asphyxia","Sepsis","male","Sofala",0,"other","ipre","infection",0,"",NA
+4166,"Neonatal sepsis","Neonatal sepsis","Sepsis","female","Zambezia",15,"infection","infection","infection",15,"",NA
+4167,"Birth asphyxia","Neonatal sepsis","Pneumonia","male","Zambezia",2,"ipre","infection","infection",2,"",NA
+4205,"Neonatal sepsis","Neonatal sepsis","NNT","male","Zambezia",3,"infection","infection","infection",3,"",NA
+4208,"Birth asphyxia","Neonatal sepsis","Intrapartum","female","Zambezia",11,"ipre","infection","ipre",11,"",NA
+4214,"Neonatal sepsis","Neonatal sepsis","Intrapartum","male","Zambezia",9,"infection","infection","ipre",9,"",NA
+4220,"Neonatal sepsis","Neonatal sepsis","Sepsis","male","Zambezia",3,"infection","infection","infection",NA,"neonate",3
+4228,"Neonatal sepsis","Neonatal sepsis","Other","male","Zambezia",12,"infection","infection","other",12,"",NA
+4246,"Prematurity","Neonatal sepsis","Sepsis","male","Zambezia",3,"prematurity","infection","infection",3,"",NA
+4258,"Neonatal pneumonia","Neonatal pneumonia","Sepsis","female","Manica",2,"infection","infection","infection",2,"",NA
+4259,"Neonatal sepsis","Neonatal sepsis","Sepsis","female","Manica",1,"infection","infection","infection",1,"",NA
+4262,"Prematurity","Neonatal sepsis","Pneumonia","male","Manica",1,"prematurity","infection","infection",1,"",NA
+4263,"Prematurity","Prematurity","Unspecified","female","Tete",1,"prematurity","prematurity","undecided",1,"",NA
+4280,"Birth asphyxia","Neonatal pneumonia","Other","male","Tete",1,"ipre","infection","other",1,"",NA
+4287,"Prematurity","Prematurity","Pneumonia","male","Nampula",1,"prematurity","prematurity","infection",1,"",NA
+4294,"Prematurity","Prematurity","Unspecified","male","Niassa",1,"prematurity","prematurity","undecided",1,"",NA
+4295,"Prematurity","Prematurity","Unspecified","male","Niassa",2,"prematurity","prematurity","undecided",2,"",NA
+4298,"Prematurity","Prematurity","Unspecified","male","Niassa",0,"prematurity","prematurity","undecided",0,"",NA
+4299,"Neonatal sepsis","Neonatal sepsis","Intrapartum","male","Niassa",4,"infection","infection","ipre",4,"",NA
+4308,"Prematurity","Birth asphyxia","Sepsis","male","Inhambane",0,"prematurity","ipre","infection",0,"",NA
+4316,"Neonatal sepsis","Neonatal sepsis","Sepsis","male","Tete",3,"infection","infection","infection",3,"",NA
+4327,"Prematurity","Prematurity","Preterm","male","Manica",1,"prematurity","prematurity","prematurity",1,"",NA
+4328,"Prematurity","Prematurity","Preterm","male","Manica",1,"prematurity","prematurity","prematurity",1,"",NA
+4428,"Prematurity","Neonatal sepsis","Meningitis","male","Nampula",9,"prematurity","infection","infection",9,"",NA
+4432,"Prematurity","Prematurity","Unspecified","female","Maputo Provincia",3,"prematurity","prematurity","undecided",3,"",NA
+4433,"Neonatal sepsis","Neonatal sepsis","Sepsis","female","Maputo Provincia",10,"infection","infection","infection",10,"",NA
+4446,"Prematurity","Birth asphyxia","Pneumonia","female","Manica",0,"prematurity","ipre","infection",0,"",NA
+4447,"Birth asphyxia","Neonatal pneumonia","Unspecified","male","Maputo Provincia",2,"ipre","infection","undecided",2,"",NA
+4451,"Neonatal sepsis","Neonatal sepsis","Sepsis","female","Cabo Delgado",6,"infection","infection","infection",6,"",NA
+4460,"Undetermined","Neonatal pneumonia","Pneumonia","female","Niassa",19,"other","infection","infection",19,"",NA
+4471,"Prematurity","Birth asphyxia","Intrapartum","male","Cabo Delgado",0,"prematurity","ipre","ipre",0,"",NA
+4485,"Neonatal sepsis","Neonatal sepsis","Sepsis","male","Cabo Delgado",3,"infection","infection","infection",3,"",NA
+4495,"Undetermined","Neonatal pneumonia","Other","male","Manica",3,"other","infection","other",3,"",NA
+4504,"Prematurity","Other and unspecified neonatal CoD","Unspecified","female","Zambezia",1,"prematurity","other","undecided",NA,"neonate",1
+4507,"Neonatal sepsis","Neonatal sepsis","Unspecified","male","Zambezia",7,"infection","infection","undecided",NA,"neonate",7
+4513,"Prematurity","Prematurity","Sepsis","female","Zambezia",0,"prematurity","prematurity","infection",0,"",NA
+4517,"Neonatal sepsis","Neonatal sepsis","NNT","female","Zambezia",7,"infection","infection","infection",NA,"neonate",7
+4526,"Prematurity","Birth asphyxia","Unspecified","male","Zambezia",0,"prematurity","ipre","undecided",0,"",NA
+4528,"Birth asphyxia","Neonatal pneumonia","Pneumonia","male","Zambezia",27,"ipre","infection","infection",27,"",NA
+4600,"Undetermined","Prematurity","Diarrhea","female","Zambezia",25,"other","prematurity","infection",25,"",NA
+4604,"Prematurity","Prematurity","Sepsis","male","Tete",0,"prematurity","prematurity","infection",0,"",NA
+4615,"Prematurity","Prematurity","Sepsis","male","Cabo Delgado",1,"prematurity","prematurity","infection",1,"",NA
+4622,"Birth asphyxia","Prematurity","Intrapartum","male","Manica",0,"ipre","prematurity","ipre",0,"",NA
+4641,"Prematurity","Birth asphyxia","Intrapartum","male","Manica",0,"prematurity","ipre","ipre",0,"",NA
+4646,"Birth asphyxia","Neonatal sepsis","Unspecified","male","Tete",0,"ipre","infection","undecided",0,"",NA
+4699,"Birth asphyxia","Prematurity","Intrapartum","male","Zambezia",0,"ipre","prematurity","ipre",0,"",NA
+4714,"Birth asphyxia","Prematurity","Pneumonia","male","Gaza",0,"ipre","prematurity","infection",0,"",NA
+4724,"Birth asphyxia","Birth asphyxia","Intrapartum","female","Tete",0,"ipre","ipre","ipre",0,"",NA
+4728,"Prematurity","Neonatal sepsis","Unspecified","female","Tete",1,"prematurity","infection","undecided",1,"",NA
+4731,"Prematurity","Neonatal sepsis","Pneumonia","female","Sofala",10,"prematurity","infection","infection",10,"",NA
+4739,"Neonatal sepsis","Neonatal sepsis","Unspecified","female","Manica",4,"infection","infection","undecided",4,"",NA
+4751,"Prematurity","Prematurity","Preterm","male","Tete",0,"prematurity","prematurity","prematurity",0,"",NA
+4771,"Prematurity","Prematurity","Unspecified","female","Niassa",1,"prematurity","prematurity","undecided",1,"",NA
+4776,"Birth asphyxia","Birth asphyxia","Unspecified","male","Manica",3,"ipre","ipre","undecided",3,"",NA
+4791,"Neonatal pneumonia","Neonatal pneumonia","Pneumonia","male","Tete",6,"infection","infection","infection",6,"",NA
+4798,"Birth asphyxia","Neonatal sepsis","Other","female","Maputo Cidade",8,"infection","infection","other",8,"",NA
+4810,"Undetermined","Birth asphyxia","Unspecified","female","Tete",0,"other","ipre","undecided",0,"",NA
+4830,"Birth asphyxia","Neonatal sepsis","Intrapartum","female","Zambezia",7,"ipre","infection","ipre",7,"",NA
+4834,"Meningitis and encephalitis","Neonatal pneumonia","Pneumonia","female","Zambezia",26,"infection","infection","infection",26,"",NA
+4869,"Birth asphyxia","Birth asphyxia","Meningitis","male","Cabo Delgado",2,"ipre","ipre","infection",2,"",NA
+4873,"Neonatal sepsis","Neonatal sepsis","Sepsis","female","Nampula",11,"infection","infection","infection",11,"",NA
+4889,"Birth asphyxia","Neonatal sepsis","Unspecified","male","Zambezia",1,"ipre","infection","undecided",1,"",NA
+4896,"Other and unspecified cardiac dis","Neonatal pneumonia","Unspecified","female","Tete",2,"other","infection","undecided",2,"",NA
+4923,"Neonatal sepsis","Neonatal sepsis","Sepsis","male","Cabo Delgado",1,"infection","infection","infection",1,"",NA
+4946,"Neonatal sepsis","Neonatal sepsis","Sepsis","male","Zambezia",2,"infection","infection","infection",2,"",NA
+4947,"Neonatal sepsis","Neonatal sepsis","Unspecified","male","Zambezia",6,"infection","infection","undecided",6,"",NA
+4967,"Birth asphyxia","Birth asphyxia","Unspecified","male","Tete",2,"ipre","ipre","undecided",2,"",NA
+4979,"Birth asphyxia","Birth asphyxia","Intrapartum","male","Inhambane",2,"ipre","ipre","ipre",2,"",NA
+4980,"Prematurity","Birth asphyxia","Intrapartum","female","Inhambane",3,"prematurity","ipre","ipre",3,"",NA
+4983,"Prematurity","Neonatal pneumonia","Unspecified","female","Nampula",13,"prematurity","infection","undecided",13,"",NA
+4987,"Prematurity","Prematurity","Preterm","female","Tete",0,"prematurity","prematurity","prematurity",0,"",NA
+4990,"Birth asphyxia","Birth asphyxia","Unspecified","female","Manica",0,"ipre","ipre","undecided",0,"",NA
+4997,"Prematurity","Prematurity","Unspecified","male","Manica",2,"prematurity","prematurity","undecided",2,"",NA
+5038,"Prematurity","Prematurity","Pneumonia","male","Nampula",5,"prematurity","prematurity","infection",5,"",NA
+5043,"Prematurity","Prematurity","Preterm","female","Cabo Delgado",0,"prematurity","prematurity","prematurity",0,"",NA
+5050,"Prematurity","Neonatal sepsis","Pneumonia","male","Niassa",2,"prematurity","infection","infection",2,"",NA
+5052,"Neonatal sepsis","Neonatal sepsis","Sepsis","male","Niassa",16,"infection","infection","infection",16,"",NA
+5056,"Birth asphyxia","Birth asphyxia","Sepsis","male","Nampula",0,"ipre","ipre","infection",0,"",NA
+5090,"Prematurity","Prematurity","Unspecified","female","Tete",9,"prematurity","prematurity","undecided",9,"",NA
+5116,"Prematurity","Prematurity","Preterm","female","Gaza",15,"prematurity","prematurity","prematurity",15,"",NA
+5135,"Prematurity","Prematurity","Intrapartum","male","Manica",0,"prematurity","prematurity","ipre",0,"",NA
+5137,"Prematurity","Prematurity","Preterm","female","Manica",3,"prematurity","prematurity","prematurity",NA,"neonate",3
+5140,"Prematurity","Prematurity","Preterm","male","Manica",0,"prematurity","prematurity","prematurity",0,"",NA
+5141,"Prematurity","Prematurity","Preterm","male","Manica",3,"prematurity","prematurity","prematurity",3,"",NA
+5143,"Prematurity","Other and unspecified neonatal CoD","Unspecified","female","Manica",1,"prematurity","other","undecided",1,"",NA
+5144,"Prematurity","Prematurity","Preterm","female","Tete",0,"prematurity","prematurity","prematurity",0,"",NA
+5147,"Birth asphyxia","Birth asphyxia","Pneumonia","male","Manica",0,"ipre","ipre","infection",0,"",NA
+5170,"Neonatal pneumonia","Neonatal pneumonia","Sepsis","male","Niassa",16,"infection","infection","infection",16,"",NA
+5171,"Birth asphyxia","Birth asphyxia","Pneumonia","male","Niassa",0,"ipre","ipre","infection",0,"",NA
+5195,"Prematurity","Prematurity","Unspecified","female","Zambezia",0,"prematurity","prematurity","undecided",0,"",NA
+5351,"Birth asphyxia","Birth asphyxia","Pneumonia","male","Gaza",0,"ipre","ipre","infection",0,"",NA
+5360,"Neonatal pneumonia","Neonatal pneumonia","Unspecified","male","Inhambane",5,"infection","infection","undecided",5,"",NA
+5364,"Birth asphyxia","Birth asphyxia","Unspecified","female","Manica",0,"ipre","ipre","undecided",0,"",NA
+5368,"Prematurity","Neonatal sepsis","Sepsis","female","Manica",0,"prematurity","infection","infection",0,"",NA
+5370,"Undetermined","Prematurity","Sepsis","female","Manica",7,"other","prematurity","infection",NA,"neonate",7
+5392,"Congenital malformation","Neonatal sepsis","Malformation","male","Manica",1,"congenital_malformation","infection","congenital_malformation",1,"",NA
+5396,"Birth asphyxia","Birth asphyxia","Pneumonia","female","Manica",0,"ipre","ipre","infection",0,"",NA
+5406,"Birth asphyxia","Neonatal sepsis","Unspecified","male","Nampula",0,"ipre","infection","undecided",NA,"neonate",0
+5418,"Prematurity","Prematurity","Preterm","female","Nampula",0,"prematurity","prematurity","prematurity",NA,"neonate",0
+5421,"Birth asphyxia","Prematurity","Pneumonia","female","Cabo Delgado",1,"ipre","prematurity","infection",1,"",NA
+5426,"Prematurity","Prematurity","Unspecified","male","Manica",1,"prematurity","prematurity","undecided",NA,"neonate",1
+5437,"Prematurity","Prematurity","Unspecified","male","Tete",0,"prematurity","prematurity","undecided",0,"",NA
+5442,"Prematurity","Prematurity","Preterm","female","Tete",0,"prematurity","prematurity","prematurity",0,"",NA
+5444,"Prematurity","Other and unspecified neonatal CoD","Intrapartum","male","Zambezia",1,"prematurity","other","ipre",1,"",NA
+5488,"Neonatal pneumonia","Neonatal pneumonia","Pneumonia","male","Cabo Delgado",6,"infection","infection","infection",NA,"neonate",6
+5525,"Birth asphyxia","Birth asphyxia","Intrapartum","male","Tete",0,"ipre","ipre","ipre",0,"",NA
+5527,"Congenital malformation","Prematurity","Malformation","female","Tete",0,"congenital_malformation","prematurity","congenital_malformation",0,"",NA
+5528,"Prematurity","Neonatal sepsis","Unspecified","female","Tete",7,"prematurity","infection","undecided",7,"",NA
+5529,"Birth asphyxia","Prematurity","Pneumonia","male","Tete",1,"ipre","prematurity","infection",1,"",NA
+5532,"Neonatal sepsis","Neonatal sepsis","NNT","male","Tete",3,"infection","infection","infection",3,"",NA
+5533,"Prematurity","Neonatal sepsis","Unspecified","male","Tete",3,"prematurity","infection","undecided",3,"",NA
+5549,"Undetermined","Neonatal sepsis","Intrapartum","female","Inhambane",4,"other","infection","ipre",4,"",NA
+5550,"Prematurity","Prematurity","Intrapartum","male","Inhambane",3,"prematurity","prematurity","ipre",3,"",NA
+5553,"Prematurity","Neonatal sepsis","Sepsis","female","Niassa",3,"prematurity","infection","infection",3,"",NA
+5559,"Birth asphyxia","Neonatal pneumonia","Preterm","female","Cabo Delgado",1,"ipre","infection","prematurity",1,"",NA
+5575,"Neonatal sepsis","Neonatal sepsis","Sepsis","male","Manica",7,"infection","infection","infection",7,"",NA
+5579,"Prematurity","Birth asphyxia","Sepsis","male","Inhambane",11,"prematurity","ipre","infection",11,"",NA
+5591,"Neonatal sepsis","Neonatal sepsis","Intrapartum","male","Manica",11,"infection","infection","ipre",11,"",NA
+5596,"Neonatal pneumonia","Neonatal pneumonia","Intrapartum","female","Manica",23,"infection","infection","ipre",23,"",NA
+5632,"Undetermined","Prematurity","Pneumonia","male","Cabo Delgado",1,"other","prematurity","infection",1,"",NA
+5634,"Birth asphyxia","Birth asphyxia","Sepsis","male","Cabo Delgado",0,"ipre","ipre","infection",0,"",NA
+5644,"Prematurity","Prematurity","Pneumonia","male","Cabo Delgado",1,"prematurity","prematurity","infection",1,"",NA
+5651,"Neonatal sepsis","Neonatal sepsis","Intrapartum","female","Cabo Delgado",14,"infection","infection","ipre",14,"",NA
+5667,"Birth asphyxia","Birth asphyxia","Intrapartum","female","Zambezia",0,"ipre","ipre","ipre",0,"",NA
+5687,"Prematurity","Prematurity","Preterm","female","Tete",0,"prematurity","prematurity","prematurity",0,"",NA
+5688,"Prematurity","Other and unspecified neonatal CoD","Unspecified","male","Tete",3,"prematurity","other","undecided",3,"",NA
+5710,"Neonatal sepsis","Neonatal sepsis","Sepsis","male","Zambezia",24,"infection","infection","infection",24,"",NA
+5717,"Prematurity","Prematurity","Intrapartum","female","Zambezia",0,"prematurity","prematurity","ipre",0,"",NA
+5728,"Prematurity","Birth asphyxia","Unspecified","male","Zambezia",1,"prematurity","ipre","undecided",1,"",NA
+5750,"Prematurity","Prematurity","Preterm","female","Manica",0,"prematurity","prematurity","prematurity",0,"",NA
+5751,"Prematurity","Prematurity","Preterm","male","Manica",0,"prematurity","prematurity","prematurity",0,"",NA
+5752,"Prematurity","Prematurity","Preterm","male","Manica",0,"prematurity","prematurity","prematurity",0,"",NA
+5758,"Neonatal sepsis","Neonatal sepsis","Sepsis","female","Manica",13,"infection","infection","infection",13,"",NA
+5765,"Prematurity","Birth asphyxia","Sepsis","male","Zambezia",0,"prematurity","ipre","infection",0,"",NA
+5766,"Undetermined","Prematurity","Preterm","male","Manica",23,"other","prematurity","prematurity",23,"",NA
+5769,"Prematurity","Prematurity","Preterm","male","Niassa",1,"prematurity","prematurity","prematurity",NA,"neonate",1
+5774,"Prematurity","Birth asphyxia","Sepsis","male","Manica",1,"prematurity","ipre","infection",1,"",NA
+5784,"Birth asphyxia","Prematurity","Pneumonia","male","Tete",0,"ipre","prematurity","infection",0,"",NA
+5838,"Prematurity","Neonatal sepsis","Intrapartum","female","Zambezia",1,"prematurity","infection","ipre",1,"",NA
+5843,"Prematurity","Birth asphyxia","Sepsis","male","Zambezia",0,"prematurity","ipre","infection",NA,"neonate",0
+5856,"Neonatal sepsis","Neonatal sepsis","Sepsis","male","Zambezia",3,"infection","infection","infection",NA,"neonate",3
+5876,"Prematurity","Other and unspecified neonatal CoD","Unspecified","male","Inhambane",1,"prematurity","other","undecided",1,"",NA
+5903,"Neonatal sepsis","Neonatal sepsis","Sepsis","female","Manica",16,"infection","infection","infection",16,"",NA
+5904,"Undetermined","Neonatal pneumonia","Pneumonia","female","Manica",13,"other","infection","infection",13,"",NA
+5959,"Birth asphyxia","Birth asphyxia","Intrapartum","female","Manica",1,"ipre","ipre","ipre",1,"",NA
+5960,"Prematurity","Prematurity","Intrapartum","male","Cabo Delgado",2,"prematurity","prematurity","ipre",2,"",NA
+5981,"Birth asphyxia","Birth asphyxia","Intrapartum","male","Sofala",2,"ipre","ipre","ipre",2,"",NA
+5991,"Birth asphyxia","Neonatal sepsis","Pneumonia","male","Nampula",2,"ipre","infection","infection",2,"",NA
+6008,"Prematurity","Birth asphyxia","Unspecified","male","Manica",2,"prematurity","ipre","undecided",2,"",NA
+6053,"Neonatal sepsis","Neonatal sepsis","Sepsis","male","Cabo Delgado",8,"infection","infection","infection",8,"",NA
+6056,"Birth asphyxia","Birth asphyxia","Pneumonia","male","Cabo Delgado",0,"ipre","ipre","infection",0,"",NA
+6069,"Birth asphyxia","Birth asphyxia","Pneumonia","male","Manica",0,"ipre","ipre","infection",0,"",NA
+6080,"Birth asphyxia","Birth asphyxia","Unspecified","female","Manica",0,"ipre","ipre","undecided",0,"",NA
+6082,"Prematurity","Prematurity","Preterm","male","Niassa",0,"prematurity","prematurity","prematurity",0,"",NA
+6087,"Neonatal sepsis","Neonatal sepsis","NNT","male","Cabo Delgado",3,"infection","infection","infection",3,"",NA
+6092,"Neonatal sepsis","Neonatal sepsis","Unspecified","female","Nampula",5,"infection","infection","undecided",5,"",NA
+6094,"Birth asphyxia","Birth asphyxia","Meningitis","female","Nampula",0,"ipre","ipre","infection",0,"",NA
+6108,"Birth asphyxia","Birth asphyxia","Pneumonia","male","Nampula",0,"ipre","ipre","infection",NA,"neonate",0
+6120,"Neonatal sepsis","Neonatal pneumonia","Pneumonia","male","Nampula",19,"infection","infection","infection",19,"",NA
+6127,"Neonatal pneumonia","Neonatal pneumonia","Meningitis","male","Nampula",16,"infection","infection","infection",16,"",NA
+6159,"Prematurity","Neonatal sepsis","Intrapartum","female","Cabo Delgado",3,"prematurity","infection","ipre",3,"",NA
+6163,"Prematurity","Neonatal sepsis","Unspecified","male","Zambezia",4,"prematurity","infection","undecided",NA,"neonate",4
+6171,"Prematurity","Neonatal sepsis","Intrapartum","male","Zambezia",14,"prematurity","infection","ipre",14,"",NA
+6173,"Neonatal sepsis","Neonatal sepsis","NNT","female","Tete",9,"infection","infection","infection",9,"",NA
+6176,"Prematurity","Neonatal sepsis","Unspecified","male","Manica",1,"prematurity","infection","undecided",1,"",NA
+6235,"Neonatal sepsis","Neonatal sepsis","Sepsis","female","Inhambane",15,"infection","infection","infection",NA,"neonate",15
+6311,"Prematurity","Birth asphyxia","Sepsis","male","Manica",0,"prematurity","ipre","infection",0,"",NA
+6392,"Birth asphyxia","Birth asphyxia","Pneumonia","male","Maputo Provincia",2,"ipre","ipre","infection",2,"",NA
+6421,"Neonatal pneumonia","Neonatal pneumonia","Meningitis","male","Maputo Cidade",22,"infection","infection","infection",22,"",NA
+6428,"Neonatal pneumonia","Neonatal pneumonia","Intrapartum","male","Gaza",1,"infection","infection","ipre",1,"",NA
+6444,"Congenital malformation","Neonatal sepsis","Malformation","male","Zambezia",3,"congenital_malformation","infection","congenital_malformation",3,"",NA
+6481,"Prematurity","Prematurity","Preterm","male","Manica",4,"prematurity","prematurity","prematurity",4,"",NA
+6531,"Birth asphyxia","Neonatal sepsis","Unspecified","male","Manica",0,"ipre","infection","undecided",0,"",NA
+6548,"Prematurity","Prematurity","Unspecified","female","Manica",2,"prematurity","prematurity","undecided",2,"",NA
+6554,"Congenital malformation","Prematurity","Malformation","female","Zambezia",1,"congenital_malformation","prematurity","congenital_malformation",1,"",NA
+6575,"Prematurity","Birth asphyxia","Unspecified","male","Manica",0,"prematurity","ipre","undecided",0,"",NA
+6589,"Birth asphyxia","Birth asphyxia","Other","female","Manica",0,"ipre","ipre","other",0,"",NA
+6596,"Prematurity","Prematurity","Preterm","male","Zambezia",0,"prematurity","prematurity","prematurity",NA,"neonate",0
+6630,"Neonatal sepsis","Neonatal sepsis","Meningitis","male","Cabo Delgado",12,"infection","infection","infection",12,"",NA
+6654,"Prematurity","Birth asphyxia","Sepsis","male","Manica",0,"prematurity","ipre","infection",0,"",NA
+6661,"Prematurity","Neonatal sepsis","Sepsis","male","Nampula",0,"prematurity","infection","infection",0,"",NA
+6675,"Neonatal pneumonia","Neonatal pneumonia","Unspecified","male","Manica",10,"infection","infection","undecided",10,"",NA
+6681,"Prematurity","Neonatal sepsis","Sepsis","female","Nampula",7,"prematurity","infection","infection",NA,"neonate",7
+6691,"Neonatal sepsis","Neonatal sepsis","Sepsis","female","Manica",3,"infection","infection","infection",3,"",NA
+6693,"Neonatal sepsis","Neonatal sepsis","Unspecified","female","Manica",14,"infection","infection","undecided",14,"",NA
+6697,"Prematurity","Birth asphyxia","Sepsis","male","Manica",0,"prematurity","ipre","infection",0,"",NA
+6725,"Prematurity","Prematurity","Preterm","female","Manica",0,"prematurity","prematurity","prematurity",0,"",NA
+6726,"Undetermined","Neonatal sepsis","Sepsis","male","Manica",5,"other","infection","infection",5,"",NA
+6738,"Birth asphyxia","Birth asphyxia","Unspecified","female","Manica",1,"ipre","ipre","undecided",1,"",NA

@@ -1,0 +1,14 @@
+"","diarrhea","hiv","malaria","other","other_infections","pneumonia","severe_malnutrition","undecided"
+"AIDS",0,40,0,0,0,0,0,0
+"Diarrhea/Dysentery",176,0,0,0,0,0,0,0
+"Injury",0,0,0,40,0,0,0,0
+"Intrapartum",0,0,0,10,0,0,0,0
+"Malaria",0,0,53,0,0,0,0,0
+"Malformation",0,0,0,5,0,0,0,0
+"Malnutrition",0,0,0,0,0,0,58,0
+"Measles",0,0,0,0,16,0,0,0
+"Meningitis/Encephalitis",0,0,0,0,129,0,0,0
+"Other infections",0,0,0,0,158,0,0,0
+"Pneumonia",0,0,0,0,0,245,0,0
+"Preterm",0,0,0,5,0,0,0,0
+"Unspecified",0,0,0,0,0,0,0,139

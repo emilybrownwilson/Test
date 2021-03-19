@@ -1,0 +1,65 @@
+"province","InsilicoVA","n","freq"
+"Cabo Delgado","Diarrhea",5,0.102
+"Cabo Delgado","HIV",4,0.082
+"Cabo Delgado","Injury",5,0.102
+"Cabo Delgado","Malaria",5,0.102
+"Cabo Delgado","Other",15,0.306
+"Cabo Delgado","Other infections",13,0.265
+"Cabo Delgado","Pneumonia",2,0.041
+"Gaza","Cancer",1,0.053
+"Gaza","HIV",4,0.211
+"Gaza","Injury",3,0.158
+"Gaza","Malaria",2,0.105
+"Gaza","Other",2,0.105
+"Gaza","Other infections",4,0.211
+"Gaza","Pneumonia",2,0.105
+"Gaza","Tuberculosis",1,0.053
+"Inhambane","HIV",2,0.167
+"Inhambane","Injury",6,0.5
+"Inhambane","Malaria",1,0.083
+"Inhambane","Other",2,0.167
+"Inhambane","Other infections",1,0.083
+"Manica","Cancer",1,0.025
+"Manica","Diarrhea",4,0.1
+"Manica","HIV",2,0.05
+"Manica","Injury",8,0.2
+"Manica","Malaria",4,0.1
+"Manica","Other",10,0.25
+"Manica","Other infections",6,0.15
+"Manica","Pneumonia",4,0.1
+"Manica","Tuberculosis",1,0.025
+"Maputo Cidade","Cancer",1,0.143
+"Maputo Cidade","Injury",3,0.429
+"Maputo Cidade","Other",2,0.286
+"Maputo Cidade","Pneumonia",1,0.143
+"Maputo Provincia","Injury",1,0.077
+"Maputo Provincia","Other",4,0.308
+"Maputo Provincia","Other infections",5,0.385
+"Maputo Provincia","Pneumonia",3,0.231
+"Nampula","Diarrhea",1,0.062
+"Nampula","Injury",2,0.125
+"Nampula","Malaria",3,0.188
+"Nampula","Other",3,0.188
+"Nampula","Other infections",7,0.438
+"Niassa","HIV",1,0.091
+"Niassa","Malaria",4,0.364
+"Niassa","Other",3,0.273
+"Niassa","Other infections",3,0.273
+"Sofala","Diarrhea",1,0.091
+"Sofala","Injury",4,0.364
+"Sofala","Other",1,0.091
+"Sofala","Other infections",4,0.364
+"Sofala","Pneumonia",1,0.091
+"Tete","Diarrhea",5,0.156
+"Tete","HIV",1,0.031
+"Tete","Injury",6,0.188
+"Tete","Malaria",6,0.188
+"Tete","Other",7,0.219
+"Tete","Other infections",6,0.188
+"Tete","Pneumonia",1,0.031
+"Zambezia","Diarrhea",6,0.146
+"Zambezia","HIV",4,0.098
+"Zambezia","Injury",7,0.171
+"Zambezia","Other",11,0.268
+"Zambezia","Other infections",12,0.293
+"Zambezia","Pneumonia",1,0.024

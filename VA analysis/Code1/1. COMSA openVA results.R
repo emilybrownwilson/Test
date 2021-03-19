@@ -1,0 +1,589 @@
+# Last edited: 2 Aug 2020
+# Last run:    2 Aug 2020
+
+# Objective: run InterVA and Insilico on COMSA data, after mapping variables 
+
+rm(list=ls())
+
+library(rJava)
+library(openVA)
+library(CrossVA)
+library(readr)
+library(dplyr)
+library(readxl)
+library(data.table)
+library(tidyverse)
+
+'%!in%' <- function(x,y)!('%in%'(x,y))
+
+################################### READ IN DATA AND WHO VARIABLES 
+start <- Sys.time()
+file <- getwd()
+file
+COMSAdata <- read.csv(file.path(file,"Data/all_WHO.csv"), stringsAsFactors = FALSE)
+
+names(COMSAdata) <- tolower(colnames(COMSAdata))
+COMSAvariables <- as.vector(colnames(COMSAdata))
+dim(COMSAdata)
+
+# Remove Stillbirths
+table(COMSAdata$id10104, exclude = NULL)
+table(COMSAdata$id10109, exclude = NULL)
+table(COMSAdata$id10110, exclude = NULL)
+table(COMSAdata$id10114, exclude = NULL)
+COMSAdata$Stillbirth <- ifelse(COMSAdata$id10104 %in% c("no","dk") & COMSAdata$id10109 %in% c("no","dk") & COMSAdata$id10110 %in% c("no","dk"),1,0)
+
+
+dim(COMSAdata)
+COMSAdata <- COMSAdata[COMSAdata$Stillbirth!=1,]
+dim(COMSAdata)
+COMSAdata <- as.data.frame(COMSAdata)
+
+################################## MAP COLUMN VARIABLES
+                            ###### Wet/Dry
+COMSAdata$id10004a <- ifelse(COMSAdata$id10004 %in% c("wet"), "Y", ifelse(COMSAdata$id10004 %!in% c("dk","DK","ref",".",""), "N", "."))
+COMSAdata$id10004b <- ifelse(COMSAdata$id10004 %in% c("dry"), "Y", ifelse(COMSAdata$id10004 %!in% c("dk","DK","ref",".",""), "N", "."))
+table(COMSAdata$id10004a, COMSAdata$id10004, exclude = NULL)
+table(COMSAdata$id10004b, COMSAdata$id10004, exclude = NULL)
+
+                            ###### Male/Female
+COMSAdata$id10019a <- ifelse(COMSAdata$id10019 %in% c("male"), "Y", ifelse(COMSAdata$id10019 %!in% c("dk",".","","ambiguous/intersex"), "N", "."))
+COMSAdata$id10019b <- ifelse(COMSAdata$id10019 %in% c("female"), "Y", ifelse(COMSAdata$id10019 %!in% c("dk",".","","ambiguous/intersex"), "N", "."))
+table(COMSAdata$id10019a, COMSAdata$id10019, exclude = NULL)
+table(COMSAdata$id10019b, COMSAdata$id10019, exclude = NULL)
+
+                            ###### Age
+table(COMSAdata$id10022, exclude=NULL)
+table(COMSAdata$ageindays, exclude=NULL)
+table(COMSAdata$ageinmonths, exclude = NULL)
+table(COMSAdata$ageinyears)
+table(COMSAdata$isneonatal, COMSAdata$age_group, exclude=NULL)
+table(COMSAdata$age_neonate_minutes, exclude=NULL)
+table(COMSAdata$age_neonate_hours, exclude=NULL)
+table(COMSAdata$ageindaysneonate, exclude=NULL) 
+table(COMSAdata$ageinmonths, exclude=NULL)
+table(COMSAdata$age_neonate_hours, exclude=NULL)
+table(COMSAdata$age_child_months, exclude=NULL)
+table(COMSAdata$age_child_years, exclude=NULL)
+table(COMSAdata$age_adult, exclude=NULL)
+table(COMSAdata$age_adult, COMSAdata$id10022)
+
+# revise age group into one "ageatdeath" variable based on WHO format
+COMSAdata$ageatdeath <- NULL
+COMSAdata$ageatdeath <- COMSAdata$ageindays
+table(is.na(COMSAdata$ageatdeath))
+
+COMSAdata$ageatdeath <- ifelse(is.na(COMSAdata$ageatdeath) & !is.na(COMSAdata$age_neonate_minutes) & COMSAdata$isneonatal==1, COMSAdata$age_neonate_minutes/(60*24), COMSAdata$ageatdeath)
+table(is.na(COMSAdata$ageatdeath))
+COMSAdata$ageatdeath <- ifelse(is.na(COMSAdata$ageatdeath) & !is.na(COMSAdata$age_neonate_hours) & COMSAdata$isneonatal==1, COMSAdata$age_neonate_hours/(24), COMSAdata$ageatdeath)
+table(is.na(COMSAdata$ageatdeath))
+COMSAdata$ageatdeath <- ifelse(is.na(COMSAdata$ageatdeath) & !is.na(COMSAdata$ageindaysneonate) & COMSAdata$isneonatal==1, COMSAdata$ageindaysneonate, COMSAdata$ageatdeath)
+table(is.na(COMSAdata$ageatdeath))
+COMSAdata$ageatdeath <- ifelse(is.na(COMSAdata$ageatdeath) & !is.na(COMSAdata$age_child_months) & COMSAdata$ischild==1, COMSAdata$age_child_months*30.4, COMSAdata$ageatdeath)
+table(is.na(COMSAdata$ageatdeath))
+COMSAdata$ageatdeath <- ifelse(is.na(COMSAdata$ageatdeath) & !is.na(COMSAdata$age_child_years) & COMSAdata$ischild==1, COMSAdata$age_child_years*365.25, COMSAdata$ageatdeath)
+table(is.na(COMSAdata$ageatdeath))
+COMSAdata$ageatdeath <- ifelse(is.na(COMSAdata$ageatdeath) & !is.na(COMSAdata$age_adult) & COMSAdata$isadult==1, COMSAdata$age_adult*365.25, COMSAdata$ageatdeath)
+table(is.na(COMSAdata$ageatdeath))
+COMSAdata$ageatdeath <- ifelse(is.na(COMSAdata$ageatdeath) & !is.na(COMSAdata$ageinyears) & COMSAdata$isadult==1, COMSAdata$ageinyears*365.25, COMSAdata$ageatdeath)
+table(is.na(COMSAdata$ageatdeath))
+COMSAdata$ageatdeath <- ifelse(is.na(COMSAdata$ageatdeath) & !is.na(COMSAdata$ageinmonths) & COMSAdata$isadult==1, COMSAdata$ageinmonths*30.4, COMSAdata$ageatdeath)
+table(is.na(COMSAdata$ageatdeath))
+
+write.csv(COMSAdata,"Data/all_WHO_with_age.csv")
+
+COMSAdata.childu5 <- subset(COMSAdata, ischild==1 & COMSAdata$ageinyears <= 4 | COMSAdata$age_child_years <= 4 | COMSAdata$age_child_months <= 12)
+dim(COMSAdata.childu5)
+
+COMSAdata$id10022a <- ifelse(is.na(COMSAdata$ageatdeath), NA, ifelse(COMSAdata$ageatdeath  >= 65*365.25, "Y", "N"))
+COMSAdata$id10022b <- ifelse(is.na(COMSAdata$ageatdeath), NA, ifelse(COMSAdata$ageatdeath >= 50*365.25 & COMSAdata$ageatdeath < 65*365.25, "Y","N"))
+COMSAdata$id10022c <- ifelse(is.na(COMSAdata$ageatdeath), NA, ifelse(COMSAdata$ageatdeath >= 15*365.25 & COMSAdata$ageatdeath < 50*365.25, "Y", "N"))
+COMSAdata$id10022d <- ifelse(is.na(COMSAdata$ageatdeath), NA, ifelse(COMSAdata$ageatdeath >= 5*365.25 & COMSAdata$ageatdeath < 15*365.25, "Y", "N"))
+COMSAdata$id10022e <- ifelse(is.na(COMSAdata$ageatdeath), NA, ifelse(COMSAdata$ageatdeath >= 1*365.25 & COMSAdata$ageatdeath < 5*365.25, "Y", "N"))
+COMSAdata$id10022f <- ifelse(is.na(COMSAdata$ageatdeath), NA, ifelse(COMSAdata$ageatdeath >= 28 & COMSAdata$ageatdeath < 365.25, "Y", "N"))
+COMSAdata$id10022g <- ifelse(is.na(COMSAdata$ageatdeath), NA, ifelse(COMSAdata$ageatdeath < 28, "Y", "N"))
+COMSAdata$id10022h <- ifelse(is.na(COMSAdata$ageatdeath), NA, ifelse(COMSAdata$ageatdeath < 1, "Y", "N"))
+COMSAdata$id10022i <- ifelse(is.na(COMSAdata$ageatdeath), NA, ifelse(COMSAdata$ageatdeath %in% c(1:2), "Y", "N"))
+COMSAdata$id10022j <- ifelse(is.na(COMSAdata$ageatdeath), NA, ifelse(COMSAdata$ageatdeath %in% c(3:7), "Y", "N"))
+COMSAdata$id10022k <- ifelse(is.na(COMSAdata$ageatdeath), NA, ifelse(COMSAdata$ageatdeath %in% c(8:27), "Y", "N"))
+COMSAdata$id10022l <- ifelse(is.na(COMSAdata$ageatdeath), NA, ifelse(COMSAdata$id10019b == "Y" & COMSAdata$ageatdeath >= 12*365.25 & COMSAdata$ageatdeath < 20*365.25, "Y", "N"))
+COMSAdata$id10022m <- ifelse(is.na(COMSAdata$ageatdeath), NA, ifelse(COMSAdata$id10019b == "Y" & COMSAdata$ageatdeath >= 20*365.25 & COMSAdata$ageatdeath < 35*365.25, "Y", "N"))
+COMSAdata$id10022n <- ifelse(is.na(COMSAdata$ageatdeath), NA, ifelse(COMSAdata$id10019b == "Y" & COMSAdata$ageatdeath >= 35*365.25 & COMSAdata$ageatdeath < 49*365.25, "Y", "N"))
+
+table(COMSAdata$id10022a, exclude=NULL)
+table(COMSAdata$id10022b, exclude=NULL)
+table(COMSAdata$id10022c, exclude=NULL)
+table(COMSAdata$id10022d, exclude=NULL)
+table(COMSAdata$id10022e, exclude=NULL)
+table(COMSAdata$id10022f, exclude=NULL)
+table(COMSAdata$id10022g, exclude=NULL)
+table(COMSAdata$id10022h, exclude=NULL)
+table(COMSAdata$id10022i, exclude=NULL)
+table(COMSAdata$id10022j, exclude=NULL)
+table(COMSAdata$id10022k, exclude=NULL)
+table(COMSAdata$id10022l, exclude=NULL)
+table(COMSAdata$id10022m, exclude=NULL)
+table(COMSAdata$id10022n, exclude=NULL)
+
+                           ###### Women
+table(COMSAdata$id10059, exclude=NULL)
+COMSAdata$id10059o <- ifelse(COMSAdata$id10059 %in% c("married","partner","life_partner"), "Y", ifelse(COMSAdata$id10059 %!in% c("dk","DK","ref",".",""), "N", "."))
+table(COMSAdata$id10059, COMSAdata$id10059o, exclude=NULL)
+
+table(COMSAdata$id10106, exclude=NULL)
+COMSAdata$id10106a <- ifelse(COMSAdata$id10106 %in% c(98,99) | is.na(COMSAdata$id10106), ".", ifelse(COMSAdata$id10106 > 5 & COMSAdata$id10106 < 98, "Y", "N"))
+table(COMSAdata$id10106, COMSAdata$id10106a, exclude = NULL)
+
+table(COMSAdata$id10108, exclude=NULL)
+COMSAdata$id10108a <- ifelse(COMSAdata$id10108 %in% c("one_day_and_more"), "Y", ifelse(COMSAdata$id10108 %!in% c("dk","DK","ref",".",""), "N", "."))
+table(COMSAdata$id10108, COMSAdata$id10108a, exclude = NULL)
+
+table(COMSAdata$illdur, exclude = NULL)
+table(COMSAdata$id10120, exclude = NULL)
+table(COMSAdata$id10120, COMSAdata$id10120_0)
+table(COMSAdata$id10120, COMSAdata$id10120_1)
+table(COMSAdata$id10120_unit, COMSAdata$id10120_0)
+table(COMSAdata$id10120_unit, COMSAdata$id10120_1)
+COMSAdata$id10120a <- ifelse(COMSAdata$id10120 %in% c(99,999,9999) | is.na(COMSAdata$id10120), ".", ifelse(COMSAdata$illdur < 21, "Y", "N"))
+COMSAdata$id10120b <- ifelse(COMSAdata$id10120 %in% c(99,999,9999) | is.na(COMSAdata$id10120), ".", ifelse(COMSAdata$illdur >= 21, "Y", "N"))
+table(COMSAdata$illdur,COMSAdata$id10120a, exclude = NULL)
+table(COMSAdata$illdur,COMSAdata$id10120b, exclude = NULL)
+
+table(COMSAdata$id10148)
+COMSAdata$id10148a <- ifelse(COMSAdata$id10148 %in% c(99,999,9999) | is.na(COMSAdata$id10148), ".", ifelse(COMSAdata$id10148 <7, "Y", "N"))
+COMSAdata$id10148b <- ifelse(COMSAdata$id10148 %in% c(99,999,9999) | is.na(COMSAdata$id10148), ".", ifelse(COMSAdata$id10148 %in% c(7:13), "Y", "N"))
+COMSAdata$id10148c <- ifelse(COMSAdata$id10148 %in% c(99,999,9999) | is.na(COMSAdata$id10148), ".", ifelse(COMSAdata$id10148 >=14, "Y", "N"))
+table(COMSAdata$id10148a, COMSAdata$id10148, exclude = NULL)
+table(COMSAdata$id10148b, COMSAdata$id10148, exclude = NULL)
+table(COMSAdata$id10148c, COMSAdata$id10148, exclude = NULL)
+
+table(COMSAdata$id10150)
+COMSAdata$id10150a <- ifelse(COMSAdata$id10150 %in% c("severe"), "Y", ifelse(COMSAdata$id10150 %!in% c("dk","DK","ref",".",""), "N", "."))
+table(COMSAdata$id10150a, COMSAdata$id10150, exclude = NULL)
+
+table(COMSAdata$id10151)
+COMSAdata$id10151a <- ifelse(COMSAdata$id10151 %in% c("continuous"), "Y", ifelse(COMSAdata$id10151 %!in% c("dk","DK","ref",".",""), "N", "."))
+table(COMSAdata$id10151a, COMSAdata$id10151, exclude = NULL)
+
+table(COMSAdata$id10154)
+COMSAdata$id10154a <- ifelse(COMSAdata$id10154 %in% c(99,999,9999) | is.na(COMSAdata$id10154), ".", ifelse(COMSAdata$id10154 < 21, "Y", "N"))
+COMSAdata$id10154b <- ifelse(COMSAdata$id10154 %in% c(99,999,9999) | is.na(COMSAdata$id10154), ".", ifelse(COMSAdata$id10154 >= 21, "Y", "N"))
+table(COMSAdata$id10154a, COMSAdata$id10154, exclude = NULL)
+table(COMSAdata$id10154b, COMSAdata$id10154, exclude = NULL)
+
+table(COMSAdata$id10161)
+COMSAdata$id10161a <- ifelse(COMSAdata$id10161 %in% c(99,999,9999) | is.na(COMSAdata$id10161), ".", ifelse(COMSAdata$id10161 >= 3, "Y", "N"))
+table(COMSAdata$id10161a, COMSAdata$id10161, exclude = NULL)
+
+table(COMSAdata$id10165)
+COMSAdata$id10165a <- ifelse(COMSAdata$id10165 %in% c("continuous"), "Y", ifelse(COMSAdata$id10165 %!in% c("dk","DK","ref",".",""), "N", "."))
+table(COMSAdata$id10165a, COMSAdata$id10165, exclude = NULL)
+
+table(COMSAdata$id10167)
+COMSAdata$id10167a <- ifelse(COMSAdata$id10167 %in% c(99,999,9999) | is.na(COMSAdata$id10167), ".", ifelse(COMSAdata$id10167 < 14, "Y", "N"))
+COMSAdata$id10167b <- ifelse(COMSAdata$id10167 %in% c(99,999,9999) | is.na(COMSAdata$id10167), ".", ifelse(COMSAdata$id10167 >= 14, "Y", "N"))
+table(COMSAdata$id10167a, COMSAdata$id10167, exclude = NULL)
+table(COMSAdata$id10167b, COMSAdata$id10167, exclude = NULL)
+
+table(COMSAdata$id10169)
+COMSAdata$id10169a <- ifelse(COMSAdata$id10169 %in% c(99,999,9999) | is.na(COMSAdata$id10169), ".", ifelse(COMSAdata$id10169 < 14, "Y", "N"))
+COMSAdata$id10169b <- ifelse(COMSAdata$id10169 %in% c(99,999,9999) | is.na(COMSAdata$id10169), ".", ifelse(COMSAdata$id10169 >= 14, "Y", "N"))
+table(COMSAdata$id10169a, COMSAdata$id10169, exclude = NULL)
+table(COMSAdata$id10169b, COMSAdata$id10169, exclude = NULL)
+
+COMSAdata$id10173a <- ifelse(COMSAdata$id10173 %in% c("grunting","grunting wheezing","stridor  wheezing","stridor grunting","stridor grunting wheezing","wheezing"), "Y", ifelse(COMSAdata$id10173 %!in% c("dk","DK","ref",".",""), "N", "."))
+table(COMSAdata$id10173a, COMSAdata$id10173, exclude = NULL)
+
+COMSAdata$id10176a <- ifelse(COMSAdata$id10176 %in% c(99,999,9999) | is.na(COMSAdata$id10176), ".", ifelse(COMSAdata$id10176 >= 3, "Y", "N"))
+table(COMSAdata$id10176a, COMSAdata$id10176, exclude = NULL)
+
+COMSAdata$id10178a <- ifelse(COMSAdata$id10178 %in% c(99,999,9999) | is.na(COMSAdata$id10178), ".", ifelse(COMSAdata$id10178 >= 30, "Y", "N"))
+table(COMSAdata$id10178a, COMSAdata$id10178, exclude = NULL)
+
+COMSAdata$id10182a <- ifelse(COMSAdata$id10182 %in% c(99,999,9999) | is.na(COMSAdata$id10182), ".", ifelse(COMSAdata$id10182 < 14, "Y", "N"))
+COMSAdata$id10182b <- ifelse(COMSAdata$id10182 %in% c(99,999,9999) | is.na(COMSAdata$id10182), ".", ifelse(COMSAdata$id10182 %in% c(14:27), "Y", "N"))
+COMSAdata$id10182c <- ifelse(COMSAdata$id10182 %in% c(99,999,9999) | is.na(COMSAdata$id10182), ".", ifelse(COMSAdata$id10182 >= 28, "Y", "N"))
+table(COMSAdata$id10182a, COMSAdata$id10182, exclude = NULL)
+table(COMSAdata$id10182b, COMSAdata$id10182, exclude = NULL)
+table(COMSAdata$id10182c, COMSAdata$id10182, exclude = NULL)
+
+table(COMSAdata$id10183)
+COMSAdata$id10183a <- ifelse(COMSAdata$id10183 %in% c(99,999,9999) | is.na(COMSAdata$id10183), ".", ifelse(COMSAdata$id10183 >= 4, "Y", "N"))
+table(COMSAdata$id10183a, COMSAdata$id10183, exclude = NULL)
+
+table(COMSAdata$id10184)
+table(COMSAdata$id10184_a, COMSAdata$isneonatal)
+table(COMSAdata$id10184_b, COMSAdata$ischild)
+table(COMSAdata$id10184_a, COMSAdata$id10184_b, exclude = NULL)
+COMSAdata$id10184a <- ifelse(COMSAdata$id10184_b %in% c(99,999,9999) | is.na(COMSAdata$id10184_b),".",ifelse(COMSAdata$id10184_b >= 3, "Y", "N"))
+COMSAdata$id10184a[COMSAdata$id10184_a >= 3 & COMSAdata$id10184_a < 99] <- "Y"
+COMSAdata$id10184a[COMSAdata$id10184_a < 3] <- "N"
+table(COMSAdata$id10184a, COMSAdata$id10184_a, exclude = NULL)
+table(COMSAdata$id10184a, COMSAdata$id10184_b, exclude = NULL)
+
+table(COMSAdata$id10190)
+table(COMSAdata$id10190_a, COMSAdata$id10190_units) # days
+table(COMSAdata$id10190_b, COMSAdata$id10190_units) # months
+COMSAdata$id10190o <- ifelse(COMSAdata$id10190_a %in% c(99,999,9999) | is.na(COMSAdata$id10190_a), ".", ifelse(COMSAdata$id10190_a >= 3, "Y", "N"))
+COMSAdata$id10190o[COMSAdata$id10190_b > 0 & COMSAdata$id10190_b < 99] <- "Y"
+table(COMSAdata$id10190o, COMSAdata$id10190_a, exclude = NULL)
+table(COMSAdata$id10190o, COMSAdata$id10190_b, exclude = NULL)
+
+table(COMSAdata$id10196)
+table(COMSAdata$id10197)
+table(COMSAdata$id10197_a)
+table(COMSAdata$id10196, exclude = NULL)
+table(COMSAdata$id10197, exclude = NULL)
+table(COMSAdata$id10197_a, exclude = NULL)
+table(COMSAdata$id10196_units,COMSAdata$id10196_unit)
+table(COMSAdata$id10196,COMSAdata$id10196_unit)   # hours
+table(COMSAdata$id10196,COMSAdata$id10196_units)  # hours
+table(COMSAdata$id10197,COMSAdata$id10196_unit)
+table(COMSAdata$id10197,COMSAdata$id10196_units)
+table(COMSAdata$id10197_a,COMSAdata$id10196_unit)
+table(COMSAdata$id10197_a,COMSAdata$id10196_units)
+table(COMSAdata$id10198)
+table(COMSAdata$id10197,COMSAdata$id10196)
+table(COMSAdata$id10197,COMSAdata$id10197_a)
+
+COMSAdata$id10197a <- ifelse(COMSAdata$id10197 %in% c(99,999,9999) | is.na(COMSAdata$id10197), ".", ifelse(COMSAdata$id10197 < 14, "Y", "N"))
+COMSAdata$id10197b <- ifelse(COMSAdata$id10197 %in% c(99,999,9999) | is.na(COMSAdata$id10197), ".", ifelse(COMSAdata$id10197 >= 14, "Y", "N"))
+table(COMSAdata$id10197a, COMSAdata$id10197, exclude = NULL)
+table(COMSAdata$id10197b, COMSAdata$id10197, exclude = NULL)
+
+table(COMSAdata$id10199)
+COMSAdata$id10199a <- ifelse(COMSAdata$id10199 %in% c("upper_abdomen","upper_and_lower_abdomen","upper_lower_abdomen"), "Y", ifelse(COMSAdata$id10199 %!in% c("dk","DK","ref",".",""), "N", "."))
+COMSAdata$id10199b <- ifelse(COMSAdata$id10199 %in% c("lower_abdomen","upper_and_lower_abdomen","upper_lower_abdomen"), "Y", ifelse(COMSAdata$id10199 %!in% c("dk","DK","ref",".",""), "N", "."))
+table(COMSAdata$id10199a, COMSAdata$id10199, exclude = NULL)
+table(COMSAdata$id10199b, COMSAdata$id10199, exclude = NULL)
+
+table(COMSAdata$id10201)
+COMSAdata$id10201a <- ifelse(COMSAdata$id10201 %in% c(99,999,9999) | is.na(COMSAdata$id10201), ".", ifelse(COMSAdata$id10201 <14, "Y", "N"))
+COMSAdata$id10201b <- ifelse(COMSAdata$id10201 %in% c(99,999,9999) | is.na(COMSAdata$id10201), ".", ifelse(COMSAdata$id10201 >=14, "Y", "N"))
+table(COMSAdata$id10201a, COMSAdata$id10201, exclude = NULL)
+table(COMSAdata$id10201b, COMSAdata$id10201, exclude = NULL)
+
+table(COMSAdata$id10203)
+COMSAdata$id10203a <- ifelse(COMSAdata$id10203 %in% c("rapidly"), "Y", ifelse(COMSAdata$id10203 %!in% c("dk","DK","ref",".",""), "N", "."))
+table(COMSAdata$id10203a, COMSAdata$id10203, exclude = NULL)
+
+table(COMSAdata$id10205)
+COMSAdata$id10205a <- ifelse(COMSAdata$id10205 %in% c(99,999,9999) | is.na(COMSAdata$id10205), ".", ifelse(COMSAdata$id10205 <14, "Y", "N"))
+COMSAdata$id10205b <- ifelse(COMSAdata$id10205 %in% c(99,999,9999) | is.na(COMSAdata$id10205), ".", ifelse(COMSAdata$id10205 >=14, "Y", "N"))
+table(COMSAdata$id10205a, COMSAdata$id10205, exclude = NULL)
+table(COMSAdata$id10205b, COMSAdata$id10205, exclude = NULL)
+
+table(COMSAdata$id10209)
+table(COMSAdata$id10209_a, COMSAdata$id10209_units)
+table(COMSAdata$id10209_b, COMSAdata$id10209_units)
+table(COMSAdata$id10209, COMSAdata$id10209_a)
+table(COMSAdata$id10209, COMSAdata$id10209_b)
+COMSAdata$id10209a <- ifelse(COMSAdata$id10209_a %in% c(99,999,9999) | is.na(COMSAdata$id10209), ".", ifelse(COMSAdata$id10209 < 7, "Y", "N"))
+COMSAdata$id10209b <- ifelse(COMSAdata$id10209_b %in% c(99,999,9999) | is.na(COMSAdata$id10209), ".", ifelse(COMSAdata$id10209 >= 7, "Y", "N"))
+table(COMSAdata$id10209a, COMSAdata$id10209, exclude = NULL)
+table(COMSAdata$id10209b, COMSAdata$id10209, exclude = NULL)
+
+table(COMSAdata$id10211, exclude = NULL)
+table(COMSAdata$id10211_units, COMSAdata$id10211, exclude=NULL)
+table(COMSAdata$id10211, COMSAdata$id10211_a, exclude=NULL) # days
+table(COMSAdata$id10211, COMSAdata$id10211_b, exclude=NULL) # months
+COMSAdata$id10211a <- ifelse(COMSAdata$id10211_a %in% c(99,999,9999) | is.na(COMSAdata$id10211), ".", ifelse(COMSAdata$id10211 >= 7, "Y", "N"))
+table(COMSAdata$id10211a, COMSAdata$id10211, exclude = NULL)
+
+table(COMSAdata$id10213_units, COMSAdata$id10213, exclude=NULL)
+table(COMSAdata$id10213_units, COMSAdata$id10213_a, exclude=NULL) # days
+table(COMSAdata$id10213_units, COMSAdata$id10213_b, exclude=NULL) # months
+table(COMSAdata$id10213, COMSAdata$id10213_a, exclude=NULL) # days
+table(COMSAdata$id10213, COMSAdata$id10213_b, exclude=NULL) # days
+COMSAdata$id10213o <- ifelse(COMSAdata$id10213 %in% c(99,999,9999) | is.na(COMSAdata$id10213), ".", ifelse(COMSAdata$id10213 >= 90, "Y", "N"))
+table(COMSAdata$id10213o, COMSAdata$id10213, exclude = NULL)
+
+table(COMSAdata$id10216, exclude=NULL)
+COMSAdata$id10216a <- ifelse(COMSAdata$id10216 %in% c(99,999,9999) | is.na(COMSAdata$id10216), ".", ifelse(COMSAdata$id10216 >= 6, "Y", "N"))
+table(COMSAdata$id10216a, COMSAdata$id10216, exclude = NULL)
+
+table(COMSAdata$id10221, exclude = NULL)
+COMSAdata$id10221a <- ifelse(COMSAdata$id10221 %in% c(99,999,9999) | is.na(COMSAdata$id10221), ".", ifelse(COMSAdata$id10221 < 10, "Y", "N"))
+COMSAdata$id10221b <- ifelse(COMSAdata$id10221 %in% c(99,999,9999) | is.na(COMSAdata$id10221), ".", ifelse(COMSAdata$id10221 >= 10, "Y", "N"))
+table(COMSAdata$id10221a, COMSAdata$id10221, exclude = NULL)
+table(COMSAdata$id10221b, COMSAdata$id10221, exclude = NULL)
+
+table(COMSAdata$id10232, COMSAdata$id10232_a, exclude = NULL)
+table(COMSAdata$id10232, COMSAdata$id10232_b, exclude = NULL)
+COMSAdata$id10232a <- ifelse(COMSAdata$id10232 %in% c(99,999,9999) | is.na(COMSAdata$id10232), ".", ifelse(COMSAdata$id10232 >= 14, "Y", "N"))
+table(COMSAdata$id10232a, COMSAdata$id10232, exclude = NULL)
+
+table(COMSAdata$id10234, exclude = NULL)
+COMSAdata$id10234a <- ifelse(COMSAdata$id10234 %in% c(99,999,9999) | is.na(COMSAdata$id10234), ".", ifelse(COMSAdata$id10234 < 7, "Y", "N"))
+COMSAdata$id10234b <- ifelse(COMSAdata$id10234 %in% c(99,999,9999) | is.na(COMSAdata$id10234), ".", ifelse(COMSAdata$id10234 >=7, "Y", "N"))
+table(COMSAdata$id10234a, COMSAdata$id10234, exclude = NULL)
+table(COMSAdata$id10234b, COMSAdata$id10234, exclude = NULL)
+
+table(COMSAdata$id10235, exclude=NULL)
+COMSAdata$id10235a <- ifelse(COMSAdata$id10235 %in% c("face"), "Y", ifelse(COMSAdata$id10235 %!in% c("dk","DK","ref",".",""), "N", "."))
+COMSAdata$id10235b <- ifelse(COMSAdata$id10235 %in% c("trunk_or_abdomen"), "Y", ifelse(COMSAdata$id10235 %!in% c("dk","DK","ref",".",""), "N", "."))
+COMSAdata$id10235c <- ifelse(COMSAdata$id10235 %in% c("extremities"), "Y", ifelse(COMSAdata$id10235 %!in% c("dk","DK","ref",".",""), "N", "."))
+COMSAdata$id10235d <- ifelse(COMSAdata$id10235 %in% c("everywhere"), "Y", ifelse(COMSAdata$id10235 %!in% c("dk","DK","ref",".",""), "N", "."))
+table(COMSAdata$id10235a, COMSAdata$id10235, exclude = NULL)
+table(COMSAdata$id10235b, COMSAdata$id10235, exclude = NULL)
+table(COMSAdata$id10235c, COMSAdata$id10235, exclude = NULL)
+table(COMSAdata$id10235d, COMSAdata$id10235, exclude = NULL)
+
+table(COMSAdata$id10248)
+COMSAdata$id10248a <- ifelse(COMSAdata$id10248 %in% c(99,999,9999) | is.na(COMSAdata$id10248), ".", ifelse(COMSAdata$id10248 >= 7, "Y", "N"))
+table(COMSAdata$id10248a, COMSAdata$id10248, exclude = NULL)
+
+table(COMSAdata$id10250)
+COMSAdata$id10250a <- ifelse(COMSAdata$id10250 %in% c(99,999,9999) | is.na(COMSAdata$id10250), ".", ifelse(COMSAdata$id10250 >= 3, "Y", "N"))
+table(COMSAdata$id10250a, COMSAdata$id10250, exclude = NULL)
+
+table(COMSAdata$id10260)
+COMSAdata$id10260a <- ifelse(COMSAdata$id10260 %in% c("right_side","right_side    one_leg_only one_arm_only"), "Y", ifelse(COMSAdata$id10260 %!in% c("dk","DK","ref",".",""), "N", "."))
+COMSAdata$id10260b <- ifelse(COMSAdata$id10260 %in% c("left_side"), "Y", ifelse(COMSAdata$id10260 %!in% c("dk","DK","ref",".",""), "N", "."))
+COMSAdata$id10260c <- ifelse(COMSAdata$id10260 %in% c("lower_part_of_body","lower_part_of_body upper_part_of_body"), "Y", ifelse(COMSAdata$id10260 %!in% c("dk","DK","ref",".",""), "N", "."))
+COMSAdata$id10260d <- ifelse(COMSAdata$id10260 %in% c("upper_part_of_body","lower_part_of_body upper_part_of_body"), "Y", ifelse(COMSAdata$id10260 %!in% c("dk","DK","ref",".",""), "N", "."))
+COMSAdata$id10260e <- ifelse(COMSAdata$id10260 %in% c("one_leg_only","one_leg_only one_arm_only","right_side    one_leg_only one_arm_only"), "Y", ifelse(COMSAdata$id10260 %!in% c("dk","DK","ref",".",""), "N", "."))
+COMSAdata$id10260f <- ifelse(COMSAdata$id10260 %in% c("one_arm_only","one_leg_only one_arm_only ","right_side    one_leg_only one_arm_only"), "Y", ifelse(COMSAdata$id10260 %!in% c("dk","DK","ref",".",""), "N", "."))
+COMSAdata$id10260g <- ifelse(COMSAdata$id10260 %in% c("whole_body"), "Y", ifelse(COMSAdata$id10260 %!in% c("dk","DK","ref",".",""), "N", "."))
+table(COMSAdata$id10260, COMSAdata$id10260a, exclude = NULL)
+table(COMSAdata$id10260, COMSAdata$id10260b, exclude = NULL)
+table(COMSAdata$id10260, COMSAdata$id10260c, exclude = NULL)
+table(COMSAdata$id10260, COMSAdata$id10260d, exclude = NULL)
+table(COMSAdata$id10260, COMSAdata$id10260e, exclude = NULL)
+table(COMSAdata$id10260, COMSAdata$id10260f, exclude = NULL)
+table(COMSAdata$id10260, COMSAdata$id10260g, exclude = NULL)
+
+table(COMSAdata$id10262, exclude = NULL)
+COMSAdata$id10262a <- ifelse(COMSAdata$id10262 %in% c(99,999,9999) | is.na(COMSAdata$id10262), ".", ifelse(COMSAdata$id10262 >=7, "Y", "N"))
+table(COMSAdata$id10262a, COMSAdata$id10262, exclude = NULL)
+
+table(COMSAdata$id10263, exclude = NULL)
+COMSAdata$id10263a <- ifelse(COMSAdata$id10263 %in% c("solids","both"), "Y", ifelse(COMSAdata$id10263 %!in% c("dk","DK","ref",".",""), "N", "."))
+COMSAdata$id10263b <- ifelse(COMSAdata$id10263 %in% c("liquids","both"), "Y", ifelse(COMSAdata$id10263 %!in% c("dk","DK","ref",".",""), "N", "."))
+table(COMSAdata$id10263a, COMSAdata$id10263, exclude = NULL)
+table(COMSAdata$id10263b, COMSAdata$id10263, exclude = NULL)
+
+table(COMSAdata$id10266, exclude = NULL)
+COMSAdata$id10266a <- ifelse(COMSAdata$id10266 %in% c(99,999,9999) | is.na(COMSAdata$id10266), ".", ifelse(COMSAdata$id10266 >=21, "Y", "N"))
+table(COMSAdata$id10266a, COMSAdata$id10266, exclude = NULL)
+
+table(COMSAdata$id10274, exclude = NULL)
+COMSAdata$id10274a <- ifelse(COMSAdata$id10274 %in% c(99,999,9999) | is.na(COMSAdata$id10274), ".", ifelse(COMSAdata$id10274 >=2, "Y", "N"))
+table(COMSAdata$id10274a, COMSAdata$id10274, exclude = NULL)
+
+table(COMSAdata$id10285, exclude = NULL)
+COMSAdata$id10285a <- ifelse(COMSAdata$id10285 %in% c(99,999,9999) | is.na(COMSAdata$id10285), ".", ifelse(COMSAdata$id10285 >3, "Y", "N"))
+table(COMSAdata$id10285a, COMSAdata$id10285, exclude = NULL)
+
+table(COMSAdata$id10303, exclude = NULL) # variable Q5310 question units = weeks
+COMSAdata$id10303a <- ifelse(COMSAdata$id10303 %in% c(99,999,9999) | is.na(COMSAdata$id10303), ".", ifelse(COMSAdata$id10303 >=4, "Y", "N"))
+table(COMSAdata$id10303a, COMSAdata$id10303, exclude = NULL)
+
+table(COMSAdata$id10309, exclude = NULL)
+COMSAdata$id10309o <- ifelse(COMSAdata$id10309 %in% c(99,999,9999) | is.na(COMSAdata$id10309), ".", ifelse(COMSAdata$id10309 <6, "Y", "N"))
+table(COMSAdata$id10309o, COMSAdata$id10309, exclude = NULL)
+
+table(COMSAdata$id10319, exclude = NULL)
+COMSAdata$id10319a <- ifelse(COMSAdata$id10319 %in% c(99,999,9999) | is.na(COMSAdata$id10319), ".", ifelse(COMSAdata$id10319 ==0, "Y", "N"))
+COMSAdata$id10319b <- ifelse(COMSAdata$id10319 %in% c(99,999,9999) | is.na(COMSAdata$id10319), ".", ifelse(COMSAdata$id10319 >=4, "Y", "N"))
+table(COMSAdata$id10319a, COMSAdata$id10319, exclude = NULL)
+table(COMSAdata$id10319b, COMSAdata$id10319, exclude = NULL)
+
+table(COMSAdata$id10332, exclude = NULL)
+COMSAdata$id10332a <- ifelse(COMSAdata$id10332 %in% c(99,999,9999) | is.na(COMSAdata$id10332), ".", ifelse(COMSAdata$id10332 >24, "Y", "N"))
+table(COMSAdata$id10332a, COMSAdata$id10332, exclude = NULL)
+
+table(COMSAdata$id10337, exclude = NULL)
+COMSAdata$id10337a <- ifelse(COMSAdata$id10337 %in% c("hospital","other_health_facility"), "Y", ifelse(COMSAdata$id10337 %!in% c("dk","DK","ref",".",""), "N", "."))
+COMSAdata$id10337b <- ifelse(COMSAdata$id10337 %in% c("home"), "Y", ifelse(COMSAdata$id10337 %!in% c("dk","DK","ref",".",""), "N", "."))
+COMSAdata$id10337c <- ifelse(COMSAdata$id10337 %in% c("other", "on_route_to_hospital_or_facility"), "Y", ifelse(COMSAdata$id10337 %!in% c("dk","DK","ref",".",""), "N", "."))
+table(COMSAdata$id10337a, COMSAdata$id10337, exclude = NULL)
+table(COMSAdata$id10337b, COMSAdata$id10337, exclude = NULL)
+table(COMSAdata$id10337c, COMSAdata$id10337, exclude = NULL)
+
+table(COMSAdata$id10355, exclude = NULL)
+COMSAdata$id10355a <- ifelse(COMSAdata$id10355 %in% c("first"), "Y", ifelse(COMSAdata$id10355 %!in% c("dk","DK","ref",".",""), "N", "."))
+table(COMSAdata$id10355a, COMSAdata$id10355, exclude = NULL)
+
+table(COMSAdata$id10357, exclude=NULL)
+COMSAdata$id10357o <- ifelse(COMSAdata$id10357 %in% c("during_delivery","after_delivery"), "Y", ifelse(COMSAdata$id10357 %!in% c("dk","DK","ref",".",""), "N", "."))
+table(COMSAdata$id10357o, COMSAdata$id10357, exclude = NULL)
+
+table(COMSAdata$id10358, exclude=NULL)
+COMSAdata$id10358a <- ifelse(COMSAdata$id10358 %in% c(99,999,9999) | is.na(COMSAdata$id10358), ".", ifelse(COMSAdata$id10358 <=12, "Y", "N"))
+table(COMSAdata$id10358a, COMSAdata$id10358, exclude = NULL)
+
+table(COMSAdata$id10360, exclude=NULL)
+COMSAdata$id10360a <- ifelse(COMSAdata$id10360 %in% c("hospital","other_health_facility"), "Y", ifelse(COMSAdata$id10360 %!in% c("dk","DK","ref",".",""), "N", "."))
+COMSAdata$id10360b <- ifelse(COMSAdata$id10360 %in% c("home"), "Y", ifelse(COMSAdata$id10360 %!in% c("dk","DK","ref",".",""), "N", "."))
+COMSAdata$id10360c <- ifelse(COMSAdata$id10360 %in% c("other","on_route_to_hospital_or_facility"), "Y", ifelse(COMSAdata$id10360 %!in% c("dk","DK","ref",".",""), "N", "."))
+table(COMSAdata$id10360a, COMSAdata$id10360, exclude = NULL)
+table(COMSAdata$id10360b, COMSAdata$id10360, exclude = NULL)
+table(COMSAdata$id10360c, COMSAdata$id10360, exclude = NULL)
+
+table(COMSAdata$id10367, exclude=NULL)
+COMSAdata$id10367a <- ifelse(COMSAdata$id10367 %in% c(99,999,9999) | is.na(COMSAdata$id10367), ".", ifelse(COMSAdata$id10367 >=9 & COMSAdata$id10367 <= 10, "Y", "N"))
+COMSAdata$id10367b <- ifelse(COMSAdata$id10367 %in% c(99,999,9999) | is.na(COMSAdata$id10367), ".", ifelse(COMSAdata$id10367 ==8, "Y", "N"))
+COMSAdata$id10367c <- ifelse(COMSAdata$id10367 %in% c(99,999,9999) | is.na(COMSAdata$id10367), ".", ifelse(COMSAdata$id10367 <=7, "Y", "N"))
+table(COMSAdata$id10367a, COMSAdata$id10367, exclude = NULL)
+table(COMSAdata$id10367b, COMSAdata$id10367, exclude = NULL)
+table(COMSAdata$id10367c, COMSAdata$id10367, exclude = NULL)
+
+table(COMSAdata$id10382, exclude=NULL)
+COMSAdata$id10382a <- ifelse(COMSAdata$id10382 %in% c(99,999,9999) | is.na(COMSAdata$id10382), ".", ifelse(COMSAdata$id10382 >24, "Y", "N"))
+table(COMSAdata$id10382a, COMSAdata$id10382, exclude = NULL)
+
+table(COMSAdata$id10385, exclude=NULL)
+COMSAdata$id10385a <- ifelse(COMSAdata$id10385 %in% c("green_or_brown"), "Y", ifelse(COMSAdata$id10385 %!in% c("dk","DK","ref",".",""), "N", "."))
+table(COMSAdata$id10385a, COMSAdata$id10385, exclude = NULL)
+
+table(COMSAdata$id10394, exclude = NULL)
+COMSAdata$id10394a <- ifelse(COMSAdata$id10394 %in% c(99,999,9999) | is.na(COMSAdata$id10394), ".", ifelse(COMSAdata$id10394 ==0, "Y", "N"))
+COMSAdata$id10394b <- ifelse(COMSAdata$id10394 %in% c(99,999,9999) | is.na(COMSAdata$id10394), ".", ifelse(COMSAdata$id10394 >=4, "Y", "N"))
+table(COMSAdata$id10394a, COMSAdata$id10394, exclude = NULL)
+table(COMSAdata$id10394b, COMSAdata$id10394, exclude = NULL)
+
+table(COMSAdata$id10414, exclude=NULL)
+COMSAdata$id10414a <- ifelse(COMSAdata$id10414 %in% c("chewing_tobacco"), "Y", ifelse(COMSAdata$id10414 %!in% c("dk","DK","ref",".",""), "N", "."))
+table(COMSAdata$id10414a, COMSAdata$id10414, exclude = NULL)
+
+table(COMSAdata$id10415, exclude=NULL)
+COMSAdata$id10415a <- ifelse(COMSAdata$id10415 %in% c(99,999,9999) | is.na(COMSAdata$id10415), ".", ifelse(COMSAdata$id10415 >=10, "Y", "N"))
+table(COMSAdata$id10415a, COMSAdata$id10415, exclude = NULL)
+
+table(COMSAdata$id10114)
+COMSAdata$id10114[COMSAdata$id10114 == "dead"]<-"yes"
+COMSAdata$id10114[COMSAdata$id10114 == "alive"]<-"no"
+
+################################## CONVERT ALL Y/N INTO BINARY FORMAT AT ONCE
+colnames(COMSAdata)
+
+for(i in c(1:237,239:ncol(COMSAdata))){              # "id10023" does not work in this loop
+  COMSAdata[i][COMSAdata[i] == "NA"] <- "."
+  COMSAdata[i][COMSAdata[i] == "DK"] <- "."
+  COMSAdata[i][COMSAdata[i] == "dk"] <- "."
+  COMSAdata[i][COMSAdata[i] == "Doesn't_know"] <- "."
+  COMSAdata[i][COMSAdata[i] == "ref"] <- "."
+  COMSAdata[i][COMSAdata[i] == ""] <- "."
+  COMSAdata[i][is.na(COMSAdata[i])] <- "."
+  COMSAdata[i][COMSAdata[i] == "yes"] <- "Y"
+  COMSAdata[i][COMSAdata[i] == "YES"] <- "Y"
+  COMSAdata[i][COMSAdata[i] == "no"] <- "N"
+  COMSAdata[i][COMSAdata[i] == "NO"] <- "N"
+}
+names(COMSAdata)[names(COMSAdata) == 'comsa_id'] <- 'ID'
+
+################################## KEEP ONLY COLUMNS NEEDED TO RUN ALGORITHMS
+records <- read.csv(file.path(file,"Data/who151_va_output.csv"))
+
+sample_test <- odk2openVA_v151(records)
+colnames(sample_test)
+
+test <- COMSAdata
+names(test) <- sub("id10", "i", names(test))
+COMSAonly <- setdiff(colnames(test), colnames(sample_test))
+sampleonly <- setdiff(colnames(sample_test),colnames(test))
+sampleonly <- sub("i", "id10", sampleonly)
+sampleonly <- sub("o", "", sampleonly)
+
+for(j in 1:ncol(COMSAdata)){
+  if(names(COMSAdata[j]) %in% sampleonly){
+    print(colnames(COMSAdata)[j])
+    store <- paste0(colnames(COMSAdata)[j],"o", sep="")
+    print(store)
+    names(COMSAdata)[names(COMSAdata) == colnames(COMSAdata)[j]] <- store
+    }
+}
+
+names(COMSAdata) <- sub("id10", "i", names(COMSAdata))
+
+######## ADD AGE GROUPS
+table(COMSAdata$ageatdeath, exclude=NULL)
+COMSAdata$ageatdeath <- as.numeric(as.character(COMSAdata$ageatdeath))
+COMSAdata$group <- NULL
+COMSAdata$group[COMSAdata$ageatdeath < 28] <- "nn"
+COMSAdata$group[COMSAdata$ageatdeath >= 28 & COMSAdata$ageatdeath < 60*30.4] <- "ch1_59"
+COMSAdata$group[COMSAdata$ageatdeath >= 60*30.4 & COMSAdata$ageatdeath < 15*365.25] <- "ch5_14"
+COMSAdata$group[COMSAdata$ageatdeath >= 15*365.25 & COMSAdata$ageatdeath < 50*365.25] <- "ad15_49"
+COMSAdata$group[COMSAdata$ageatdeath >= 50*365.25] <- "ad50"
+
+table(COMSAdata$group, exclude=NULL)
+table(is.na(COMSAdata$ageatdeath))
+
+IV5data.neonatal <- subset(COMSAdata, group=="nn")
+dim(IV5data.neonatal)
+IV5data.ch1_59 <- subset(COMSAdata, group=="ch1_59")
+dim(IV5data.ch1_59)
+IV5data.ch5_14 <- subset(COMSAdata, group=="ch5_14")
+dim(IV5data.ch5_14)
+IV5data.ad15_49 <- subset(COMSAdata, group=="ad15_49")
+dim(IV5data.ad15_49)
+IV5data.ad50 <- subset(COMSAdata, group=="ad50")
+dim(IV5data.ad50)
+
+names.use <- names(COMSAdata)[(names(COMSAdata) %in% colnames(sample_test))]
+
+IV5data.neonatal.subset <- IV5data.neonatal[, c(names.use)]
+IV5data.ch1_59.subset <- IV5data.ch1_59[, c(names.use)]
+IV5data.ch5_14.subset <- IV5data.ch5_14[, c(names.use)]
+IV5data.ad15_49.subset <- IV5data.ad15_49[, c(names.use)]
+IV5data.ad50.subset <- IV5data.ad50[, c(names.use)]
+
+COMSAonly <- setdiff(colnames(IV5data.neonatal.subset), colnames(sample_test)) 
+sampleonly <- setdiff(colnames(sample_test),colnames(IV5data.neonatal.subset)) 
+
+length(COMSAonly)
+length(sampleonly)
+
+IV5neonate <- setcolorder(IV5data.neonatal.subset, names(sample_test))
+IV5data.ch1_59 <- setcolorder(IV5data.ch1_59.subset, names(sample_test))
+IV5data.ch5_14 <- setcolorder(IV5data.ch5_14.subset, names(sample_test))
+IV5data.ad15_49 <- setcolorder(IV5data.ad15_49.subset, names(sample_test))
+IV5data.ad50 <- setcolorder(IV5data.ad50.subset, names(sample_test))
+
+# CHECK THAT ALL VARIABLES ARE BINARY 
+colnames(IV5neonate)
+dim(IV5neonate)
+for(i in 1:ncol(IV5neonate)){
+  print(colnames(IV5neonate[i]))
+  print(table(IV5neonate[i]))
+  }
+
+################################## Run models for COMSA
+
+set.seed(123)
+InterVA5.neonate <- InterVA5(IV5neonate, HIV = "h", Malaria = "h", write=FALSE,
+                             directory = tempdir(), filename = "VA5_result", output = "extended", append = FALSE)
+set.seed(123)
+InterVA5.ch1_59 <- InterVA5(IV5data.ch1_59, HIV = "h", Malaria = "h", write=FALSE,
+                            directory = tempdir(), filename = "VA5_result", output = "extended", append = FALSE)
+set.seed(123)
+InterVA5.ch5_14 <- InterVA5(IV5data.ch5_14, HIV = "h", Malaria = "h", write=FALSE,
+                            directory = tempdir(), filename = "VA5_result", output = "extended", append = FALSE)
+set.seed(123)
+InterVA5.ad15_49 <- InterVA5(IV5data.ad15_49, HIV = "h", Malaria = "h", write=FALSE,
+                             directory = tempdir(), filename = "VA5_result", output = "extended", append = FALSE)
+set.seed(123)
+InterVA5.ad50 <- InterVA5(IV5data.ad50, HIV = "h", Malaria = "h", write=FALSE,
+                          directory = tempdir(), filename = "VA5_result", output = "extended", append = FALSE)
+
+
+
+set.seed(123)
+codeVAInsilico.neonate <- codeVA(IV5neonate, data.type = "WHO2016", model = "InSilicoVA",
+                                 Nsim=10000, version = "5.0", HIV = "h", Malaria = "h")
+set.seed(123)
+codeVAInsilico.ch1_59 <- codeVA(IV5data.ch1_59, data.type = "WHO2016", model = "InSilicoVA",
+                                Nsim=10000, version = "5.0", HIV = "h", Malaria = "h")
+set.seed(123)
+codeVAInsilico.ch5_14 <- codeVA(IV5data.ch5_14, data.type = "WHO2016", model = "InSilicoVA",
+                                Nsim=10000, version = "5.0", HIV = "h", Malaria = "h")
+set.seed(123)
+codeVAInsilico.ad15_49 <- codeVA(IV5data.ad15_49, data.type = "WHO2016", model = "InSilicoVA",
+                                 Nsim=10000, version = "5.0", HIV = "h", Malaria = "h")
+set.seed(123)
+codeVAInsilico.ad50 <- codeVA(IV5data.ad50, data.type = "WHO2016", model = "InSilicoVA",
+                              Nsim=10000, version = "5.0", HIV = "h", Malaria = "h")
+
+stop <- Sys.time()
+save.image(file=file.path(file,"/Data/openVA_comsa.Rdata"))
